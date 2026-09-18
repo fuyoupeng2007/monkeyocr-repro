@@ -142,9 +142,9 @@ bash /root/autodl-tmp/launch.sh scripts/pipeline_tail.sh pipeline_tail_nohup.log
 远端还有但**未同步到本地**的：MinerU 的 81 页预测与 raw 输出、`error_atlas_15` 中 7 例的证据文件、
 `mineru093_env` 环境本身（可脚本重建）。
 
-## 5. 待用户确认
+## 5. 未决事项（详见实验报告第十节）
 
-- **实例已下线**：请在 AutoDL 控制台确认状态；若要续跑，请把**新的 SSH 端口**给我。
-- 是否需要补 **CDM** 公式指标？（两基线目前都只有 Edit_dist）
-- 汇报材料除了 HTML 幻灯片与原生 `.pptx`，是否还需要 PDF？
+- **实例已下线**：续跑需在 AutoDL 控制台确认状态，并注意重启后 SSH 端口会变。
+- **CDM 公式指标未启用**：依赖未安装；两个基线口径一致，故公式对比仍以 Edit_dist 为准。
+- **MinerU 剩余 39 页未跑**：补齐后可完成论文所声称的双基线对比。
 
