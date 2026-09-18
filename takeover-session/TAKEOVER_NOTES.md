@@ -134,8 +134,8 @@ bash /root/autodl-tmp/launch.sh scripts/pipeline_tail.sh pipeline_tail_nohup.log
 - MonkeyOCR 120 页预测 Markdown + `run_log.jsonl`（含逐页耗时）
 - OmniDocBench 官方评分 JSON 20 个（含逐页 edit 文件）
 - 消融 50 例 ×3 档的裁剪图与模型响应（150 份）
-- 全部脚本（环境重建、跑批、适配、评测、对比、出报告、幻灯片）
-- 正式报告、HTML 幻灯片、讲解稿
+- 全部脚本（环境重建、跑批、适配、评测、对比、出报告）
+- 正式技术报告与论文中文全译
 
 ### 本地与远端的差异（诚实说明）
 
