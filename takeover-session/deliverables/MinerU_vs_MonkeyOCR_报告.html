@@ -5,17 +5,16 @@
  body { max-width:1000px; margin:0 auto; padding:40px 28px 80px; color:#1a1a1a; background:#fff;
         font-family:"Microsoft YaHei","PingFang SC","Noto Sans CJK SC","WenQuanYi Zen Hei",system-ui,sans-serif;
         line-height:1.75; font-size:16px; }
- h1 { font-size:30px; border-bottom:4px solid #1668dc; padding-bottom:12px; }
- h2 { font-size:23px; margin-top:38px; border-bottom:1px solid #e3e6ea; padding-bottom:8px; }
+ h1 { font-size:30px; margin-bottom:18px; }
+ h2 { font-size:23px; margin-top:38px; border-bottom:1px solid #d0d0d0; padding-bottom:8px; }
  h3 { font-size:19px; margin-top:26px; }
  table { width:100%; border-collapse:collapse; margin:14px 0; font-size:15px; }
  th,td { border:1px solid #d9dee4; padding:8px 10px; text-align:left; vertical-align:top; }
- th { background:#f7f9fb; }
- code { background:#f3f5f7; padding:1px 5px; border-radius:4px; font-size:.92em; }
- blockquote { margin:14px 0; padding:10px 16px; background:#fff7e6; border-left:4px solid #faad14; }
+ th { background:#f7f7f7; }
+ code { background:#f3f3f3; padding:1px 5px; border-radius:4px; font-size:.92em; }
+ blockquote { margin:14px 0; padding:10px 16px; background:#fafafa; border-left:3px solid #c8c8c8; }
  ul { padding-left:24px; }
  hr { border:0; border-top:1px solid #e3e6ea; margin:30px 0; }
- strong { color:#a8071a; }
  @media print { body { max-width:none; padding:0; font-size:12pt; } h2 { page-break-after:avoid; } }
 </style></head><body>
 <h1>MonkeyOCR 原版复现与 MinerU 0.9.3 基线对比</h1>
@@ -29,10 +28,8 @@
 <tr><td>指标</td><td><code>Edit_dist</code>（文本块/公式/表格/阅读顺序）、<code>TEDS</code>、<code>TEDS_structure_only</code></td></tr>
 <tr><td>硬件</td><td>AutoDL 单卡 RTX 4090 D 24GB，容器 192 vCPU，宿主负载 12–49（共享机器）</td></tr>
 <tr><td>复现对象</td><td>MonkeyOCR 原版 commit <code>b5e94d3aed972e2e07e7d5c654a0dc588419f4b9</code>（2025-06-13），原版 3B 权重</td></tr>
-<tr><td>对比基线</td><td>MinerU <code>magic-pdf==0.9.3</code></td></tr>
 </tbody></table>
-
-<hr>
+<p>| 对比基线 | MinerU <code>magic-pdf==0.9.3</code> | ---</p>
 
 <h2>摘要</h2>
 
@@ -66,21 +63,19 @@
 <h2>2. 完成度总览（先读）</h2>
 
 <table><thead><tr><th>工作项</th><th>状态</th><th>覆盖</th><th>说明</th></tr></thead><tbody>
-<tr><td>MonkeyOCR 环境与权重</td><td>✅ 完成</td><td>—</td><td>官方 3B 权重，LMDeploy 后端</td></tr>
-<tr><td>MonkeyOCR 20 页试跑</td><td>✅ 完成</td><td>20/20</td><td>pilot 集</td></tr>
-<tr><td>MonkeyOCR 120 页正式跑批</td><td>✅ 完成</td><td>120/120</td><td>成功 112，异常 8（按空预测计为 miss）</td></tr>
-<tr><td>MonkeyOCR 官方评测</td><td>✅ 完成</td><td>118/120</td><td>官方评测器重算</td></tr>
-<tr><td>MinerU 隔离环境重建</td><td>✅ 完成</td><td>—</td><td>10 个阻断问题全部解决（见第 4 节）</td></tr>
-<tr><td>MinerU 单页冒烟验证</td><td>✅ 通过</td><td>1 页</td><td>产出 Markdown + HTML 表格 + LaTeX 公式 + 全套中间件</td></tr>
-<tr><td><strong>MinerU 120 页跑批</strong></td><td>⏸️ <strong>中断</strong></td><td><strong>81/120</strong></td><td>0 失败；剩余 39 页未处理</td></tr>
-<tr><td><strong>MinerU 官方评测</strong></td><td>⚠️ <strong>不完整</strong></td><td><strong>21/120</strong></td><td>中间态结果，已标注，不用于结论</td></tr>
-<tr><td>双基线对比表</td><td>⚠️ 部分</td><td>—</td><td>MonkeyOCR 列完整，MinerU 列标注覆盖页数</td></tr>
-<tr><td>裁剪消融（MonkeyOCR）</td><td>✅ 完成</td><td>50 例 × 3 档</td><td>150 次识别全部留存</td></tr>
-<tr><td>错误图谱</td><td>✅ 完成</td><td>8 例</td><td>每例附错误类型证据</td></tr>
-<tr><td>报告 / 幻灯片 / 讲解稿</td><td>✅ 完成</td><td>—</td><td>本文件；幻灯片与讲解稿为个人答辩材料，未随仓库发布</td></tr>
+<tr><td>MonkeyOCR 环境与权重</td><td>完成</td><td>—</td><td>官方 3B 权重，LMDeploy 后端</td></tr>
+<tr><td>MonkeyOCR 20 页试跑</td><td>完成</td><td>20/20</td><td>pilot 集</td></tr>
+<tr><td>MonkeyOCR 120 页正式跑批</td><td>完成</td><td>120/120</td><td>成功 112，异常 8（按空预测计为 miss）</td></tr>
+<tr><td>MonkeyOCR 官方评测</td><td>完成</td><td>118/120</td><td>官方评测器重算</td></tr>
+<tr><td>MinerU 隔离环境重建</td><td>完成</td><td>—</td><td>10 个阻断问题全部解决（见第 4 节）</td></tr>
+<tr><td>MinerU 单页冒烟验证</td><td>通过</td><td>1 页</td><td>产出 Markdown + HTML 表格 + LaTeX 公式 + 全套中间件</td></tr>
+<tr><td><strong>MinerU 120 页跑批</strong></td><td><strong>中断</strong></td><td><strong>81/120</strong></td><td>0 失败；剩余 39 页未处理</td></tr>
+<tr><td><strong>MinerU 官方评测</strong></td><td><strong>不完整</strong></td><td><strong>21/120</strong></td><td>中间态结果，已标注，不用于结论</td></tr>
+<tr><td>双基线对比表</td><td>部分</td><td>—</td><td>MonkeyOCR 列完整，MinerU 列标注覆盖页数</td></tr>
+<tr><td>裁剪消融（MonkeyOCR）</td><td>完成</td><td>50 例 × 3 档</td><td>150 次识别全部留存</td></tr>
+<tr><td>错误图谱</td><td>完成</td><td>8 例</td><td>每例附错误类型证据</td></tr>
 </tbody></table>
-
-<h3>2.1 未完成部分的性质（重要）</h3>
+<p>| 报告 / 幻灯片 / 讲解稿 | 完成 | — | 本文件；幻灯片与讲解稿为个人答辩材料，未随仓库发布 | ### 2.1 未完成部分的性质（重要）</p>
 
 <p><strong>MinerU 的 39 页未处理，原因是计算资源与实例中断，不是方法或代码失败。</strong></p>
 
@@ -158,10 +153,8 @@
 <tr><td>7</td><td><code>torchtext</code> 报 <code>undefined symbol: parseSchemaOrName</code></td><td>该库 0.18.0 后停维护，无构建兼容 torch 2.5</td><td>C++ 扩展降级为可选（推理只需纯 Python 的 <code>torchtext.data.metrics</code>）</td></tr>
 <tr><td>8</td><td><code>detectron2</code> 缺失，导入期即崩</td><td>magic_pdf <code>model_init.py</code> 顶层无条件导入 layoutlmv3 预测器</td><td>复用 ABI 匹配的 detectron2 0.6（GitHub 不可达，无法现编）</td></tr>
 <tr><td>9</td><td><code>CustomMBartDecoder does not support SDPA</code></td><td>transformers ≥4.48 自动启用 SDPA，unimernet 自定义解码器未实现</td><td><code>__init__</code> 中钉 <code>attn_implementation=&#x27;eager&#x27;</code></td></tr>
-<tr><td>10</td><td><strong><code>got multiple values for keyword argument &#x27;return_dict&#x27;</code></strong>（最终阻塞）</td><td>transformers 4.50 的 <code>generate()</code> <strong>不接受</strong> <code>return_dict</code>，该参数落入 <code>model_kwargs</code> 后被采样循环<strong>再次</strong>传给模型</td><td>在 LM 的 <code>generate</code>/<code>forward</code> 入口剥离（<code>sitecustomize.py</code> 运行时守卫）</td></tr>
 </tbody></table>
-
-<blockquote><strong>额外坑</strong>：<code>trust_remote_code</code> 每次导入都会把模型快照中的代码<strong>重新拷贝</strong>到 HF modules 缓存，</blockquote>
+<p>| 10 | <strong><code>got multiple values for keyword argument &#x27;return_dict&#x27;</code></strong>（最终阻塞） | transformers 4.50 的 <code>generate()</code> <strong>不接受</strong> <code>return_dict</code>，该参数落入 <code>model_kwargs</code> 后被采样循环<strong>再次</strong>传给模型 | 在 LM 的 <code>generate</code>/<code>forward</code> 入口剥离（<code>sitecustomize.py</code> 运行时守卫） | &gt; <strong>额外坑</strong>：<code>trust_remote_code</code> 每次导入都会把模型快照中的代码<strong>重新拷贝</strong>到 HF modules 缓存，</p>
 <blockquote>只改缓存无效——补丁必须落在<strong>快照源文件</strong>上。这一点曾让补丁&quot;看起来没生效&quot;，多耗了数轮。</blockquote>
 
 <h3>4.4 冒烟验证结果</h3>
@@ -172,10 +165,8 @@
 <tr><td>Markdown</td><td>3873 字符，含 1 个 HTML 表格、LaTeX 公式</td></tr>
 <tr><td><code>*_content_list.json</code></td><td>结构化块列表</td></tr>
 <tr><td><code>*_layout.pdf</code> / <code>*_model.pdf</code> / <code>*_spans.pdf</code></td><td>版面可视化</td></tr>
-<tr><td><code>*_middle.json</code> / <code>*_model.json</code></td><td>中间结果</td></tr>
 </tbody></table>
-
-<p>格式适配器（<code>mineru_to_omnidocbench_md.py</code>）同步验证通过，可把 MinerU 输出转成官方评测器可读的 Mardown。</p>
+<p>| <code>*_middle.json</code> / <code>*_model.json</code> | 中间结果 | 格式适配器（<code>mineru_to_omnidocbench_md.py</code>）同步验证通过，可把 MinerU 输出转成官方评测器可读的 Mardown。</p>
 
 <h2>5. MinerU 120 页跑批（中断）</h2>
 
@@ -187,10 +178,8 @@
 <tr><td>并行度</td><td>3 路（分片 + 原子抢页锁，无重复处理）</td></tr>
 <tr><td>单页耗时</td><td>中位约 148 秒；最快 32 秒；最慢 767 秒（表格密集页）</td></tr>
 <tr><td>平均吞吐</td><td>约 0.6–1.1 页/分钟（宿主负载 12–49 波动）</td></tr>
-<tr><td>中断时状态</td><td>3 个 worker 存活、GPU 占用 12.5GB、无错误日志</td></tr>
 </tbody></table>
-
-<h3>5.2 中断原因与影响</h3>
+<p>| 中断时状态 | 3 个 worker 存活、GPU 占用 12.5GB、无错误日志 | ### 5.2 中断原因与影响</p>
 
 <ul>
 <li><strong>原因</strong>：AutoDL 实例下线（SSH 代理端口 29127 拒连；同一网关 ping 通、22 端口开，</li>
@@ -222,7 +211,7 @@
 <tr><td>阅读顺序 Edit_dist ↓</td><td>0.2363</td><td>0.2424</td><td>两模型接近</td></tr>
 </tbody></table>
 
-<blockquote>⚠️ <strong>使用限制</strong>：MinerU 列来自 <strong>21/120 页</strong>的中间态评测，页面级均值受难度分布影响极大，</blockquote>
+<blockquote><strong>使用限制</strong>：MinerU 列来自 <strong>21/120 页</strong>的中间态评测，页面级均值受难度分布影响极大，</blockquote>
 <blockquote>该列<strong>仅表示&quot;这 21 页上看到的情况&quot;</strong>，不得作为 MinerU 的整体能力结论，也不得用于对外汇报的对比。</blockquote>
 <blockquote>MonkeyOCR 列为完整结果（118/120 页，8 页因上游检测为空按 miss 计入）。</blockquote>
 
@@ -301,10 +290,8 @@
 
 <table><thead><tr><th>口径</th><th>数值</th><th>说明</th></tr></thead><tbody>
 <tr><td>官方提交口径（失败页计 miss）</td><td><strong>0.2022</strong></td><td>覆盖 118 页</td></tr>
-<tr><td>剔除整页无产出的页面</td><td><strong>0.1442</strong></td><td>差 <strong>+0.0580</strong></td></tr>
 </tbody></table>
-
-<p><strong>读法</strong>：整页失败单独贡献了约 <strong>0.058</strong> 的差距，比任何&quot;识别质量&quot;差异都大，</p>
+<p>| 剔除整页无产出的页面 | <strong>0.1442</strong> | 差 <strong>+0.0580</strong> | <strong>读法</strong>：整页失败单独贡献了约 <strong>0.058</strong> 的差距，比任何&quot;识别质量&quot;差异都大，</p>
 <p>且属于<strong>检测环节缺兜底</strong>（检测结果为空时未降级处理）——修复成本远低于提升模型能力。</p>
 <p>这是本次复现中最有实际价值的发现。</p>
 
@@ -315,10 +302,8 @@
 <table><thead><tr><th>档位</th><th>平均区域编辑距离</th><th>改善</th><th>持平</th><th>退化</th></tr></thead><tbody>
 <tr><td>原框</td><td>0.6064</td><td>—</td><td>—</td><td>—</td></tr>
 <tr><td>扩 2%</td><td>0.5813</td><td>23</td><td>18</td><td>9</td></tr>
-<tr><td>扩 5%</td><td><strong>0.5741</strong></td><td>33</td><td>10</td><td>7</td></tr>
 </tbody></table>
-
-<p><strong>结论</strong>：扩框 5% 使平均区域编辑距离由 0.6064 降至 0.5741</p>
+<p>| 扩 5% | <strong>0.5741</strong> | 33 | 10 | 7 | <strong>结论</strong>：扩框 5% 使平均区域编辑距离由 0.6064 降至 0.5741</p>
 <p>（相对改善 5.3%），33 例改善、7 例退化。</p>
 <p>说明<strong>相当一部分错误来自裁剪过紧</strong>（切边、切到相邻栏），而非识别模型本身；</p>
 <p>但退化案例说明扩框并非普适收益，需按版式自适应（例如表格与紧邻栏之间）。</p>
@@ -371,10 +356,8 @@
 <tr><td>3</td><td>3 处代码级补丁（torchtext 扩展可选、eager 注意力、<code>return_dict</code> 剥离）</td><td>消除依赖不兼容</td><td><strong>不改变推理算法</strong>；原件与改后文件均留存</td></tr>
 <tr><td>4</td><td>无 CDM 指标</td><td>依赖未安装</td><td>两基线一致，对比仍公平；公式仅以 Edit_dist 比较</td></tr>
 <tr><td>5</td><td>宿主为共享机器（负载 12–49）</td><td>平台限制</td><td>耗时只作量级参考，不作性能结论</td></tr>
-<tr><td>6</td><td>MinerU 评测不完整（21/120 页）</td><td>实例中断</td><td><strong>已在报告中逐处标注</strong></td></tr>
 </tbody></table>
-
-<h2>8. 工程踩坑记录（复现者会踩到）</h2>
+<p>| 6 | MinerU 评测不完整（21/120 页） | 实例中断 | <strong>已在报告中逐处标注</strong> | ## 8. 工程踩坑记录（复现者会踩到）</p>
 
 <p>1. <strong>官方评测器按&quot;预测目录名&quot;命名结果文件</strong> → 两个基线若都叫 <code>predictions</code> 会<strong>互相覆盖评分</strong>。</p>
 <p>   已改为独立命名目录 + 独立 config；被污染文件隔离留证（<code>outputs/_quarantine/</code>）。</p>
@@ -398,10 +381,8 @@
 <tr><td>评测</td><td><code>eval_monkeyocr_120.yaml</code>、<code>eval_mineru_120.yaml</code>、<code>reeval_both.sh</code></td><td><code>remote/</code></td></tr>
 <tr><td>对比与出报告</td><td><code>build_comparison.py</code>、<code>build_deliverables.py</code>、<code>local_build.py</code></td><td><code>remote/</code>、根目录</td></tr>
 <tr><td>实验数据</td><td>MonkeyOCR 120 页预测、官方评分 JSON 20 个、消融 150 份样本与响应</td><td><code>sync/</code></td></tr>
-<tr><td>接管笔记</td><td>根因、踩坑、续跑步骤</td><td><code>TAKEOVER_NOTES.md</code></td></tr>
 </tbody></table>
-
-<h2>10. 计费与收尾</h2>
+<p>| 接管笔记 | 根因、踩坑、续跑步骤 | <code>TAKEOVER_NOTES.md</code> | ## 10. 计费与收尾</p>
 
 <p>AutoDL 实例<strong>按量计费，自开机即计费</strong>。本次因实例中断，MinerU 跑批停在 81/120 页。</p>
 
@@ -423,28 +404,22 @@
 <tr><td>unimernet</td><td>—</td><td>0.2.1</td><td>—</td></tr>
 <tr><td>doclayout_yolo</td><td>0.0.2b1</td><td>0.0.2b1</td><td>0.0.2b1</td></tr>
 <tr><td>albumentations</td><td>2.0.8</td><td>1.4.24</td><td>2.0.8</td></tr>
-<tr><td>lmdeploy</td><td>0.8.0</td><td>—</td><td>—</td></tr>
 </tbody></table>
-
-<h2>附录 B. 未完成部分的数据缺口（如实列出）</h2>
+<p>| lmdeploy | 0.8.0 | — | — | ## 附录 B. 未完成部分的数据缺口（如实列出）</p>
 
 <table><thead><tr><th>缺失项</th><th>原因</th><th>可否本地补算</th></tr></thead><tbody>
-<tr><td>MinerU 39 页预测</td><td>实例中断，产物随之丢失</td><td>❌ 需重跑</td></tr>
-<tr><td>MinerU 全量官方评测</td><td>依赖上项</td><td>❌ 需重跑</td></tr>
-<tr><td>MinerU 逐页耗时/状态日志</td><td>随实例丢失（中断前 81 页均无失败）</td><td>❌ 需重跑</td></tr>
-<tr><td><code>error_atlas_15</code> 中 7 例的证据文件</td><td>未同步到本地</td><td>❌ 需实例恢复后取回</td></tr>
-<tr><td>CDM 公式指标</td><td>依赖未安装</td><td>⚠️ 可安装后重算</td></tr>
+<tr><td>MinerU 39 页预测</td><td>实例中断，产物随之丢失</td><td>需重跑</td></tr>
+<tr><td>MinerU 全量官方评测</td><td>依赖上项</td><td>需重跑</td></tr>
+<tr><td>MinerU 逐页耗时/状态日志</td><td>随实例丢失（中断前 81 页均无失败）</td><td>需重跑</td></tr>
+<tr><td><code>error_atlas_15</code> 中 7 例的证据文件</td><td>未同步到本地</td><td>需实例恢复后取回</td></tr>
 </tbody></table>
-
-<h2>附录 C. 数值一致性说明</h2>
+<p>| CDM 公式指标 | 依赖未安装 | 可安装后重算 | ## 附录 C. 数值一致性说明</p>
 
 <p>本地存在两套逐页评分文件，<strong>数值不一致</strong>，原因是产生时间与覆盖页数不同：</p>
 
 <table><thead><tr><th>文件前缀</th><th>文本块 Edit_dist</th><th>覆盖页数</th><th>产生场景</th></tr></thead><tbody>
 <tr><td><code>predictions_quick_match_*</code></td><td>0.1960</td><td>118</td><td>预测文件尚未写全时的评测</td></tr>
 <tr><td><code>end2end_quick_match_*</code></td><td>0.9615</td><td>18</td><td>早期 demo 口径的评测</td></tr>
-<tr><td><code>monkeyocr_formal_120_quick_match_*</code></td><td><strong>0.2022</strong></td><td>118</td><td><strong>重算，本报告采用的权威值</strong></td></tr>
 </tbody></table>
-
-<p>本报告一律采用 <code>*_formal_120_quick_match_*</code>；其余两套仅作留证，不参与结论。</p>
+<p>| <code>monkeyocr_formal_120_quick_match_*</code> | <strong>0.2022</strong> | 118 | <strong>重算，本报告采用的权威值</strong> | 本报告一律采用 <code>*_formal_120_quick_match_*</code>；其余两套仅作留证，不参与结论。</p>
 </body></html>

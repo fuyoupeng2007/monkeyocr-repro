@@ -16,11 +16,9 @@ from docx import Document
 from docx.enum.table import WD_TABLE_ALIGNMENT
 from docx.enum.text import WD_ALIGN_PARAGRAPH
 from docx.oxml.ns import qn
-from docx.shared import Cm, Pt, RGBColor
+from docx.shared import Cm, Pt
 
 CJK = "微软雅黑"
-ACCENT = RGBColor(0x16, 0x68, 0xDC)
-MUTED = RGBColor(0x5B, 0x64, 0x72)
 
 
 def set_run(run, size=10.5, bold=False, italic=False, color=None, mono=False):
@@ -65,8 +63,15 @@ def heading(doc, text, level):
     pf.space_after = Pt(6)
     pf.line_spacing = 1.3
     p.style = doc.styles["Heading %d" % min(level, 4)]
-    set_run(p.add_run(text), size=sizes.get(level, 11.5), bold=True,
-            color=ACCENT if level <= 2 else None)
+    # all-black headings; the only decoration is a thin grey rule under level-2 heads
+    set_run(p.add_run(text), size=sizes.get(level, 11.5), bold=True)
+    if level == 2:
+        pPr = p._element.get_or_add_pPr()
+        bdr = pPr.makeelement(qn("w:pBdr"), {})
+        bdr.append(bdr.makeelement(qn("w:bottom"), {
+            qn("w:val"): "single", qn("w:sz"): "4", qn("w:space"): "2",
+            qn("w:color"): "BFBFBF"}))
+        pPr.append(bdr)
     return p
 
 
@@ -90,11 +95,12 @@ def quote(doc, text):
     pf.space_before = Pt(6)
     pf.space_after = Pt(8)
     pf.line_spacing = 1.45
-    add_inline(p, text, size=9.5, color=MUTED)
+    # 说明性引用：缩进 + 灰色细线，正文仍为黑字
+    add_inline(p, text, size=9.5)
     pPr = p._element.get_or_add_pPr()
     bdr = pPr.makeelement(qn("w:pBdr"), {})
-    left = bdr.makeelement(qn("w:left"), {qn("w:val"): "single", qn("w:sz"): "18",
-                                            qn("w:space"): "6", qn("w:color"): "FAAD14"})
+    left = bdr.makeelement(qn("w:left"), {qn("w:val"): "single", qn("w:sz"): "6",
+                                            qn("w:space"): "8", qn("w:color"): "BFBFBF"})
     bdr.append(left)
     pPr.append(bdr)
     return p
@@ -187,7 +193,7 @@ def convert(md_path: Path, out_path: Path) -> None:
             pPr = p._element.get_or_add_pPr()
             bdr = pPr.makeelement(qn("w:pBdr"), {})
             bdr.append(bdr.makeelement(qn("w:bottom"), {
-                qn("w:val"): "single", qn("w:sz"): "6", qn("w:space"): "1", qn("w:color"): "E3E6EA"}))
+                qn("w:val"): "single", qn("w:sz"): "6", qn("w:space"): "1", qn("w:color"): "BFBFBF"}))
             pPr.append(bdr)
             p.paragraph_format.space_after = Pt(4)
             i += 1

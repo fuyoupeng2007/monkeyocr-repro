@@ -155,9 +155,7 @@ def report_md() -> str:
 | 指标 | `Edit_dist`（文本块/公式/表格/阅读顺序）、`TEDS`、`TEDS_structure_only` |
 | 硬件 | AutoDL 单卡 RTX 4090 D 24GB，容器 192 vCPU，宿主负载 12–49（共享机器） |
 | 复现对象 | MonkeyOCR 原版 commit `b5e94d3aed972e2e07e7d5c654a0dc588419f4b9`（2025-06-13），原版 3B 权重 |
-| 对比基线 | MinerU `magic-pdf==0.9.3` |
-
----
+| 对比基线 | MinerU `magic-pdf==0.9.3` | ---
 
 ## 摘要
 
@@ -192,20 +190,18 @@ def report_md() -> str:
 
 | 工作项 | 状态 | 覆盖 | 说明 |
 |---|---|---|---|
-| MonkeyOCR 环境与权重 | ✅ 完成 | — | 官方 3B 权重，LMDeploy 后端 |
-| MonkeyOCR 20 页试跑 | ✅ 完成 | 20/20 | pilot 集 |
-| MonkeyOCR 120 页正式跑批 | ✅ 完成 | 120/120 | 成功 {st['ok']}，异常 {st['err']}（按空预测计为 miss） |
-| MonkeyOCR 官方评测 | ✅ 完成 | 118/120 | 官方评测器重算 |
-| MinerU 隔离环境重建 | ✅ 完成 | — | 10 个阻断问题全部解决（见第 4 节） |
-| MinerU 单页冒烟验证 | ✅ 通过 | 1 页 | 产出 Markdown + HTML 表格 + LaTeX 公式 + 全套中间件 |
-| **MinerU 120 页跑批** | ⏸️ **中断** | **{MINERU_DONE}/{TOTAL}** | 0 失败；剩余 {MINERU_UNFINISHED} 页未处理 |
-| **MinerU 官方评测** | ⚠️ **不完整** | **21/{TOTAL}** | 中间态结果，已标注，不用于结论 |
-| 双基线对比表 | ⚠️ 部分 | — | MonkeyOCR 列完整，MinerU 列标注覆盖页数 |
-| 裁剪消融（MonkeyOCR） | ✅ 完成 | 50 例 × 3 档 | 150 次识别全部留存 |
-| 错误图谱 | ✅ 完成 | {len(atlas)} 例 | 每例附错误类型证据 |
-| 报告 / 幻灯片 / 讲解稿 | ✅ 完成 | — | 本文件；幻灯片与讲解稿为个人答辩材料，未随仓库发布 |
-
-### 2.1 未完成部分的性质（重要）
+| MonkeyOCR 环境与权重 | 完成 | — | 官方 3B 权重，LMDeploy 后端 |
+| MonkeyOCR 20 页试跑 | 完成 | 20/20 | pilot 集 |
+| MonkeyOCR 120 页正式跑批 | 完成 | 120/120 | 成功 {st['ok']}，异常 {st['err']}（按空预测计为 miss） |
+| MonkeyOCR 官方评测 | 完成 | 118/120 | 官方评测器重算 |
+| MinerU 隔离环境重建 | 完成 | — | 10 个阻断问题全部解决（见第 4 节） |
+| MinerU 单页冒烟验证 | 通过 | 1 页 | 产出 Markdown + HTML 表格 + LaTeX 公式 + 全套中间件 |
+| **MinerU 120 页跑批** | **中断** | **{MINERU_DONE}/{TOTAL}** | 0 失败；剩余 {MINERU_UNFINISHED} 页未处理 |
+| **MinerU 官方评测** | **不完整** | **21/{TOTAL}** | 中间态结果，已标注，不用于结论 |
+| 双基线对比表 | 部分 | — | MonkeyOCR 列完整，MinerU 列标注覆盖页数 |
+| 裁剪消融（MonkeyOCR） | 完成 | 50 例 × 3 档 | 150 次识别全部留存 |
+| 错误图谱 | 完成 | {len(atlas)} 例 | 每例附错误类型证据 |
+| 报告 / 幻灯片 / 讲解稿 | 完成 | — | 本文件；幻灯片与讲解稿为个人答辩材料，未随仓库发布 | ### 2.1 未完成部分的性质（重要）
 
 **MinerU 的 {MINERU_UNFINISHED} 页未处理，原因是计算资源与实例中断，不是方法或代码失败。**
 
@@ -282,9 +278,7 @@ __editable__.magic_pdf-1.1.0.finder.__path_hook__    <- MonkeyOCR 的 magic_pdf 
 | 7 | `torchtext` 报 `undefined symbol: parseSchemaOrName` | 该库 0.18.0 后停维护，无构建兼容 torch 2.5 | C++ 扩展降级为可选（推理只需纯 Python 的 `torchtext.data.metrics`） |
 | 8 | `detectron2` 缺失，导入期即崩 | magic_pdf `model_init.py` 顶层无条件导入 layoutlmv3 预测器 | 复用 ABI 匹配的 detectron2 0.6（GitHub 不可达，无法现编） |
 | 9 | `CustomMBartDecoder does not support SDPA` | transformers ≥4.48 自动启用 SDPA，unimernet 自定义解码器未实现 | `__init__` 中钉 `attn_implementation='eager'` |
-| 10 | **`got multiple values for keyword argument 'return_dict'`**（最终阻塞） | transformers 4.50 的 `generate()` **不接受** `return_dict`，该参数落入 `model_kwargs` 后被采样循环**再次**传给模型 | 在 LM 的 `generate`/`forward` 入口剥离（`sitecustomize.py` 运行时守卫） |
-
-> **额外坑**：`trust_remote_code` 每次导入都会把模型快照中的代码**重新拷贝**到 HF modules 缓存，
+| 10 | **`got multiple values for keyword argument 'return_dict'`**（最终阻塞） | transformers 4.50 的 `generate()` **不接受** `return_dict`，该参数落入 `model_kwargs` 后被采样循环**再次**传给模型 | 在 LM 的 `generate`/`forward` 入口剥离（`sitecustomize.py` 运行时守卫） | > **额外坑**：`trust_remote_code` 每次导入都会把模型快照中的代码**重新拷贝**到 HF modules 缓存，
 > 只改缓存无效——补丁必须落在**快照源文件**上。这一点曾让补丁"看起来没生效"，多耗了数轮。
 
 ### 4.4 冒烟验证结果
@@ -296,9 +290,7 @@ __editable__.magic_pdf-1.1.0.finder.__path_hook__    <- MonkeyOCR 的 magic_pdf 
 | Markdown | 3873 字符，含 1 个 HTML 表格、LaTeX 公式 |
 | `*_content_list.json` | 结构化块列表 |
 | `*_layout.pdf` / `*_model.pdf` / `*_spans.pdf` | 版面可视化 |
-| `*_middle.json` / `*_model.json` | 中间结果 |
-
-格式适配器（`mineru_to_omnidocbench_md.py`）同步验证通过，可把 MinerU 输出转成官方评测器可读的 Mardown。
+| `*_middle.json` / `*_model.json` | 中间结果 | 格式适配器（`mineru_to_omnidocbench_md.py`）同步验证通过，可把 MinerU 输出转成官方评测器可读的 Mardown。
 
 ## 5. MinerU 120 页跑批（中断）
 
@@ -311,9 +303,7 @@ __editable__.magic_pdf-1.1.0.finder.__path_hook__    <- MonkeyOCR 的 magic_pdf 
 | 并行度 | 3 路（分片 + 原子抢页锁，无重复处理） |
 | 单页耗时 | 中位约 148 秒；最快 32 秒；最慢 767 秒（表格密集页） |
 | 平均吞吐 | 约 0.6–1.1 页/分钟（宿主负载 12–49 波动） |
-| 中断时状态 | 3 个 worker 存活、GPU 占用 12.5GB、无错误日志 |
-
-### 5.2 中断原因与影响
+| 中断时状态 | 3 个 worker 存活、GPU 占用 12.5GB、无错误日志 | ### 5.2 中断原因与影响
 
 - **原因**：AutoDL 实例下线（SSH 代理端口 29127 拒连；同一网关 ping 通、22 端口开，
   说明是实例侧停止而非网络故障）。进程被强制终止，**未留下可续跑的检查点**。
@@ -334,7 +324,7 @@ __editable__.magic_pdf-1.1.0.finder.__path_hook__    <- MonkeyOCR 的 magic_pdf 
 
 {headline_table(cmp)}
 
-> ⚠️ **使用限制**：MinerU 列来自 **21/{TOTAL} 页**的中间态评测，页面级均值受难度分布影响极大，
+> **使用限制**：MinerU 列来自 **21/{TOTAL} 页**的中间态评测，页面级均值受难度分布影响极大，
 > 该列**仅表示"这 21 页上看到的情况"**，不得作为 MinerU 的整体能力结论，也不得用于对外汇报的对比。
 > MonkeyOCR 列为完整结果（118/120 页，8 页因上游检测为空按 miss 计入）。
 
@@ -362,9 +352,7 @@ MonkeyOCR 的 **{st['err']} 个失败页，100% 集中在 `note` 类（单栏）
 | 口径 | 数值 | 说明 |
 |---|---|---|
 | 官方提交口径（失败页计 miss） | **0.2022** | 覆盖 118 页 |
-| 剔除整页无产出的页面 | **0.1442** | 差 **+0.0580** |
-
-**读法**：整页失败单独贡献了约 **0.058** 的差距，比任何"识别质量"差异都大，
+| 剔除整页无产出的页面 | **0.1442** | 差 **+0.0580** | **读法**：整页失败单独贡献了约 **0.058** 的差距，比任何"识别质量"差异都大，
 且属于**检测环节缺兜底**（检测结果为空时未降级处理）——修复成本远低于提升模型能力。
 这是本次复现中最有实际价值的发现。
 
@@ -376,9 +364,7 @@ MonkeyOCR 的 **{st['err']} 个失败页，100% 集中在 `note` 类（单栏）
 |---|---|---|---|---|
 | 原框 | {f4(med.get('original'))} | — | — | — |
 | 扩 2% | {f4(med.get('expand_2pct'))} | {t2.get('improved','—')} | {t2.get('unchanged','—')} | {t2.get('degraded','—')} |
-| 扩 5% | **{f4(med.get('expand_5pct'))}** | {t5.get('improved','—')} | {t5.get('unchanged','—')} | {t5.get('degraded','—')} |
-
-**结论**：扩框 5% 使平均区域编辑距离由 {f4(med.get('original'))} 降至 {f4(med.get('expand_5pct'))}
+| 扩 5% | **{f4(med.get('expand_5pct'))}** | {t5.get('improved','—')} | {t5.get('unchanged','—')} | {t5.get('degraded','—')} | **结论**：扩框 5% 使平均区域编辑距离由 {f4(med.get('original'))} 降至 {f4(med.get('expand_5pct'))}
 （相对改善 {pct(imp * 100)}），{t5.get('improved','—')} 例改善、{t5.get('degraded','—')} 例退化。
 说明**相当一部分错误来自裁剪过紧**（切边、切到相邻栏），而非识别模型本身；
 但退化案例说明扩框并非普适收益，需按版式自适应（例如表格与紧邻栏之间）。
@@ -418,9 +404,7 @@ MonkeyOCR 的 **{st['err']} 个失败页，100% 集中在 `note` 类（单栏）
 | 3 | 3 处代码级补丁（torchtext 扩展可选、eager 注意力、`return_dict` 剥离） | 消除依赖不兼容 | **不改变推理算法**；原件与改后文件均留存 |
 | 4 | 无 CDM 指标 | 依赖未安装 | 两基线一致，对比仍公平；公式仅以 Edit_dist 比较 |
 | 5 | 宿主为共享机器（负载 12–49） | 平台限制 | 耗时只作量级参考，不作性能结论 |
-| 6 | MinerU 评测不完整（21/{TOTAL} 页） | 实例中断 | **已在报告中逐处标注** |
-
-## 8. 工程踩坑记录（复现者会踩到）
+| 6 | MinerU 评测不完整（21/{TOTAL} 页） | 实例中断 | **已在报告中逐处标注** | ## 8. 工程踩坑记录（复现者会踩到）
 
 1. **官方评测器按"预测目录名"命名结果文件** → 两个基线若都叫 `predictions` 会**互相覆盖评分**。
    已改为独立命名目录 + 独立 config；被污染文件隔离留证（`outputs/_quarantine/`）。
@@ -445,9 +429,7 @@ MonkeyOCR 的 **{st['err']} 个失败页，100% 集中在 `note` 类（单栏）
 | 评测 | `eval_monkeyocr_120.yaml`、`eval_mineru_120.yaml`、`reeval_both.sh` | `remote/` |
 | 对比与出报告 | `build_comparison.py`、`build_deliverables.py`、`local_build.py` | `remote/`、根目录 |
 | 实验数据 | MonkeyOCR 120 页预测、官方评分 JSON 20 个、消融 150 份样本与响应 | `sync/` |
-| 接管笔记 | 根因、踩坑、续跑步骤 | `TAKEOVER_NOTES.md` |
-
-## 10. 计费与收尾
+| 接管笔记 | 根因、踩坑、续跑步骤 | `TAKEOVER_NOTES.md` | ## 10. 计费与收尾
 
 AutoDL 实例**按量计费，自开机即计费**。本次因实例中断，MinerU 跑批停在 {MINERU_DONE}/{TOTAL} 页。
 
@@ -470,19 +452,15 @@ AutoDL 实例**按量计费，自开机即计费**。本次因实例中断，Min
 | unimernet | — | 0.2.1 | — |
 | doclayout_yolo | 0.0.2b1 | 0.0.2b1 | 0.0.2b1 |
 | albumentations | 2.0.8 | 1.4.24 | 2.0.8 |
-| lmdeploy | 0.8.0 | — | — |
-
-## 附录 B. 未完成部分的数据缺口（如实列出）
+| lmdeploy | 0.8.0 | — | — | ## 附录 B. 未完成部分的数据缺口（如实列出）
 
 | 缺失项 | 原因 | 可否本地补算 |
 |---|---|---|
-| MinerU {MINERU_UNFINISHED} 页预测 | 实例中断，产物随之丢失 | ❌ 需重跑 |
-| MinerU 全量官方评测 | 依赖上项 | ❌ 需重跑 |
-| MinerU 逐页耗时/状态日志 | 随实例丢失（中断前 {MINERU_DONE} 页均无失败） | ❌ 需重跑 |
-| `error_atlas_15` 中 7 例的证据文件 | 未同步到本地 | ❌ 需实例恢复后取回 |
-| CDM 公式指标 | 依赖未安装 | ⚠️ 可安装后重算 |
-
-## 附录 C. 数值一致性说明
+| MinerU {MINERU_UNFINISHED} 页预测 | 实例中断，产物随之丢失 | 需重跑 |
+| MinerU 全量官方评测 | 依赖上项 | 需重跑 |
+| MinerU 逐页耗时/状态日志 | 随实例丢失（中断前 {MINERU_DONE} 页均无失败） | 需重跑 |
+| `error_atlas_15` 中 7 例的证据文件 | 未同步到本地 | 需实例恢复后取回 |
+| CDM 公式指标 | 依赖未安装 | 可安装后重算 | ## 附录 C. 数值一致性说明
 
 本地存在两套逐页评分文件，**数值不一致**，原因是产生时间与覆盖页数不同：
 
@@ -490,9 +468,7 @@ AutoDL 实例**按量计费，自开机即计费**。本次因实例中断，Min
 |---|---|---|---|
 | `predictions_quick_match_*` | 0.1960 | 118 | 预测文件尚未写全时的评测 |
 | `end2end_quick_match_*` | 0.9615 | 18 | 早期 demo 口径的评测 |
-| `monkeyocr_formal_120_quick_match_*` | **0.2022** | 118 | **重算，本报告采用的权威值** |
-
-本报告一律采用 `*_formal_120_quick_match_*`；其余两套仅作留证，不参与结论。
+| `monkeyocr_formal_120_quick_match_*` | **0.2022** | 118 | **重算，本报告采用的权威值** | 本报告一律采用 `*_formal_120_quick_match_*`；其余两套仅作留证，不参与结论。
 """
 
 
@@ -579,17 +555,16 @@ def report_html(md: str) -> str:
  body {{ max-width:1000px; margin:0 auto; padding:40px 28px 80px; color:#1a1a1a; background:#fff;
         font-family:"Microsoft YaHei","PingFang SC","Noto Sans CJK SC","WenQuanYi Zen Hei",system-ui,sans-serif;
         line-height:1.75; font-size:16px; }}
- h1 {{ font-size:30px; border-bottom:4px solid #1668dc; padding-bottom:12px; }}
- h2 {{ font-size:23px; margin-top:38px; border-bottom:1px solid #e3e6ea; padding-bottom:8px; }}
+ h1 {{ font-size:30px; margin-bottom:18px; }}
+ h2 {{ font-size:23px; margin-top:38px; border-bottom:1px solid #d0d0d0; padding-bottom:8px; }}
  h3 {{ font-size:19px; margin-top:26px; }}
  table {{ width:100%; border-collapse:collapse; margin:14px 0; font-size:15px; }}
  th,td {{ border:1px solid #d9dee4; padding:8px 10px; text-align:left; vertical-align:top; }}
- th {{ background:#f7f9fb; }}
- code {{ background:#f3f5f7; padding:1px 5px; border-radius:4px; font-size:.92em; }}
- blockquote {{ margin:14px 0; padding:10px 16px; background:#fff7e6; border-left:4px solid #faad14; }}
+ th {{ background:#f7f7f7; }}
+ code {{ background:#f3f3f3; padding:1px 5px; border-radius:4px; font-size:.92em; }}
+ blockquote {{ margin:14px 0; padding:10px 16px; background:#fafafa; border-left:3px solid #c8c8c8; }}
  ul {{ padding-left:24px; }}
  hr {{ border:0; border-top:1px solid #e3e6ea; margin:30px 0; }}
- strong {{ color:#a8071a; }}
  @media print {{ body {{ max-width:none; padding:0; font-size:12pt; }} h2 {{ page-break-after:avoid; }} }}
 </style></head><body>
 {body}
