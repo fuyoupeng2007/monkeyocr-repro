@@ -22,17 +22,30 @@
 takeover-session/
 ├── 阶段性总结.md                            本阶段完整交代（建议先读）
 ├── TAKEOVER_NOTES.md                        根因、踩坑、续跑步骤
-├── local_build.py / build_docx.py / build_final_report.py   交付物生成器（本地可跑）
+├── build_*.py / check_*.py / local_build.py 交付物生成与校验脚本（本地可跑，不依赖服务器）
 ├── security_scan.py / stage_publish.py      发布前安全扫描与打包
-├── deliverables/
-│   ├── 给导师的汇报_*.docx                  正式汇报（含可直接发送的邮件正文）
-│   ├── 给你讲明白_*.docx                    通俗讲解版
-│   ├── MinerU_vs_MonkeyOCR_报告.md/.html    完整技术报告
-│   ├── 汇报材料.html                        9 页幻灯片（可打印 PDF）
-│   └── 讲解稿.md                            逐页讲解词
+├── deliverables/                            全部交付物（见下表）
 ├── remote/                                  服务器上执行的全部脚本
 └── sync/                                    实验数据（预测、官方评分、消融样本）
 ```
+
+### 交付物清单（`takeover-session/deliverables/`）
+
+| 文件 | 说明 |
+|---|---|
+| `MonkeyOCR论文_中文全译.md` / `.docx` | 论文全文中文翻译（含缩写术语表、核心数字速查、阅读注意事项） |
+| `MinerU_vs_MonkeyOCR_报告.md` / `.html` | 完整技术报告（10 章 + 3 附录，含环境修复全过程与偏差声明） |
+| `给导师的汇报_MonkeyOCR论文复现_v2.docx` | 正式汇报，含工作分工说明（论文复现由本人主导，环境构建由 AI 编程代理完成） |
+| `给刘禹良老师的邮件.md` / `.docx` | 给论文通讯作者的科研申请邮件，含发送前核对清单 |
+| `给你讲明白_这个实验到底做了什么.docx` | 通俗讲解版（把整个实验讲给非本方向读者） |
+| `汇报材料.html` | 9 页幻灯片，浏览器直接演示、可打印 PDF |
+| `讲解稿.md` | 逐页讲解词 |
+| `compare/comparison_table.md` | 双基线指标对比表 |
+
+> 交付物中的 `.docx` 均由仓库内脚本生成（`build_docx.py`、`build_final_report.py`、
+> `build_advisor_final.py`、`build_paper_docx.py`、`build_email_docx.py`），
+> 数据从实验产物程序化读取，因此改数据后重跑脚本即可同步更新，不会出现文档与数据不一致。
+
 
 ---
 
