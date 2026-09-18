@@ -9,43 +9,50 @@
 
 ---
 
+## 仓库范围
+
+**本仓库只包含复现实验本身**：代码、脚本、配置、实验数据与实验报告。申请邮件、汇报 PPT、
+答辩讲稿等个人材料不在此仓库内。
+
 ## 目录结构
 
 | 目录 | 内容 | 来源 |
 |---|---|---|
 | `chatgpt-run/` | 早期搭建阶段的调研文档、部署包、MonkeyOCR 源码快照、第一批实验证据 | 前序执行者 |
-| `takeover-session/` | 接管后完成的环境修复、跑批与评测脚本、最终报告与交付物、本阶段全部实验数据 | 本阶段 |
+| `takeover-session/` | 接管后完成的环境修复、跑批与评测脚本、实验报告、本阶段全部实验数据 | 本阶段 |
 
 `takeover-session/` 关键位置：
 
 ```
 takeover-session/
-├── 阶段性总结.md                            本阶段完整交代（建议先读）
-├── TAKEOVER_NOTES.md                        根因、踩坑、续跑步骤
-├── build_*.py / check_*.py / local_build.py 交付物生成与校验脚本（本地可跑，不依赖服务器）
-├── security_scan.py / stage_publish.py      发布前安全扫描与打包
-├── deliverables/                            全部交付物（见下表）
+├── deliverables/                            实验报告与对比数据（见下表）
 ├── remote/                                  服务器上执行的全部脚本
-└── sync/                                    实验数据（预测、官方评分、消融样本）
+│   ├── rebuild_mineru_env_v3.sh             隔离环境重建
+│   ├── place_pins.sh / fix_leaf_and_smoke.sh 依赖钉版本与补齐
+│   ├── patch_*.py|sh / guard_v2.sh          三处兼容性补丁及其前置排查
+│   ├── run_batch_sharded.py                 分片跑批（原子抢页锁 + 断点续跑）
+│   ├── mineru_to_omnidocbench_md.py         结果格式适配
+│   └── reeval_both.sh / pipeline_tail.sh    双基线评测与一键收尾
+├── sync/                                    实验数据
+│   ├── outputs/monkeyocr_formal_120/        120 页预测结果与逐页运行日志
+│   ├── outputs/crop_ablation_50/            裁剪消融的 150 份样本与模型响应
+│   └── OmniDocBench/result/                 官方评分文件（总体指标 + 逐页明细）
+├── build_final_report.py                    实验报告生成器（数据程序化读取）
+├── extract_paper.py                         论文文本抽取（论文原文不随仓库分发）
+└── security_scan.py                         发布前凭据扫描
 ```
 
-### 交付物清单（`takeover-session/deliverables/`）
+### 实验报告清单（`takeover-session/deliverables/`）
 
 | 文件 | 说明 |
 |---|---|
+| `MinerU_vs_MonkeyOCR_报告.md` / `.html` | 完整技术报告（10 章 + 3 附录，含环境修复全过程、结果、失败归因与偏差声明） |
 | `MonkeyOCR论文_中文全译.md` / `.docx` | 论文全文中文翻译（含缩写术语表、核心数字速查、阅读注意事项） |
-| `MinerU_vs_MonkeyOCR_报告.md` / `.html` | 完整技术报告（10 章 + 3 附录，含环境修复全过程与偏差声明） |
-| `给导师的汇报_MonkeyOCR论文复现_v2.docx` | 正式汇报，含工作分工说明（论文复现由本人主导，环境构建由 AI 编程代理完成） |
-| `给刘禹良老师的邮件.md` / `.docx` | 给论文通讯作者的科研申请邮件，含发送前核对清单 |
-| `给你讲明白_这个实验到底做了什么.docx` | 通俗讲解版（把整个实验讲给非本方向读者） |
-| `汇报材料.html` | 9 页幻灯片，浏览器直接演示、可打印 PDF |
-| `讲解稿.md` | 逐页讲解词 |
-| `compare/comparison_table.md` | 双基线指标对比表 |
+| `compare/comparison_table.md` | 双基线指标对比表（含覆盖页数标注） |
+| `compare/comparison.json` | 对比数据的机器可读版本 |
 
-> 交付物中的 `.docx` 均由仓库内脚本生成（`build_docx.py`、`build_final_report.py`、
-> `build_advisor_final.py`、`build_paper_docx.py`、`build_email_docx.py`），
-> 数据从实验产物程序化读取，因此改数据后重跑脚本即可同步更新，不会出现文档与数据不一致。
-
+> 报告中的全部数字由 `build_final_report.py` 从实验产物程序化读取，
+> 因此修改数据后重新运行脚本即可同步，不会出现文档与数据不一致。
 
 ---
 

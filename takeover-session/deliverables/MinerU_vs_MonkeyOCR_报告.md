@@ -58,7 +58,7 @@
 | 双基线对比表 | ⚠️ 部分 | — | MonkeyOCR 列完整，MinerU 列标注覆盖页数 |
 | 裁剪消融（MonkeyOCR） | ✅ 完成 | 50 例 × 3 档 | 150 次识别全部留存 |
 | 错误图谱 | ✅ 完成 | 8 例 | 每例附错误类型证据 |
-| 报告 / 幻灯片 / 讲解稿 | ✅ 完成 | — | 本文件 + HTML 幻灯片 + 讲解稿 |
+| 报告 / 幻灯片 / 讲解稿 | ✅ 完成 | — | 本文件；幻灯片与讲解稿为个人答辩材料，未随仓库发布 |
 
 ### 2.1 未完成部分的性质（重要）
 
@@ -362,7 +362,7 @@ MonkeyOCR 的 **8 个失败页，100% 集中在 `note` 类（单栏）**，错�
 | 类别 | 内容 | 位置 |
 |---|---|---|
 | 正式报告 | 本文件（Markdown + HTML） | `deliverables/` |
-| 汇报材料 | HTML 幻灯片（9 页，可打印 PDF）+ 讲解稿 | `deliverables/` |
+| 汇报材料 | 幻灯片与讲解稿等个人答辩材料，不随本仓库发布 | 本地留存 |
 | 环境重建脚本 | `rebuild_mineru_env_v3.sh`、`place_pins.sh`、`fix_leaf_and_smoke.sh` | `remote/` |
 | 冒烟与跑批 | `smoke_v3.sh`、`run_batch_sharded.py`、`launch_mineru_workers.py`、`pipeline_tail.sh` | `remote/` |
 | 格式适配 | `mineru_to_omnidocbench_md.py` | `remote/` |
