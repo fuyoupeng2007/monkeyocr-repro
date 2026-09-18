@@ -1,0 +1,11 @@
+A. amount of nitro oxides removed by the test: m$^{-2}$h;
+
+f. flow rate converted into that at the standard pressure (1.013 kPa), L min$^{-1}$;
+
+$[NO]_{0}$: inlet concentration of nitrogen monoxide
+
+$[NO]$: outlet concentration of nitrogen monoxide
+
+$[NO]_{2}$: inlet concentration of nitrogen dioxide,
+
+$[NO]_{2}$: outlet concentration of nitrogen dioxide,

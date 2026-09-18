@@ -1,0 +1,47 @@
+{
+  "source": "predictions_quick_match_table_result.json",
+  "kind": "table",
+  "img_id": "jiaocaineedrop_38247658.pdf_0.jpg",
+  "reason": "表格结构或表格内容错误：按较低 TEDS 或较高编辑距离抽取。",
+  "evidence": {
+    "gt_idx": [
+      0
+    ],
+    "gt": "<table>\n<thead>\n<tr>\n <th>得分</th>\n <th></th>\n</tr>\n</thead>\n<tbody>\n<tr>\n <td>阅卷人</td>\n <td></td>\n</tr>\n</tbody>\n</table>",
+    "pred_idx": [
+      ""
+    ],
+    "pred": "",
+    "gt_position": [
+      10
+    ],
+    "pred_position": "",
+    "norm_gt": "<html><body><table border=\"1\" ><tr><td>得分</td><td></td></tr><tr><td>阅卷人</td><td></td></tr></table></body></html>",
+    "norm_pred": "",
+    "gt_category_type": "table",
+    "pred_category_type": "",
+    "gt_attribute": [
+      {
+        "table_layout": "horizontal",
+        "with_span": false,
+        "line": "full_line",
+        "language": "table_simplified_chinese",
+        "include_equation": false,
+        "include_photo": false,
+        "include_background": false,
+        "with_structured_text": false
+      }
+    ],
+    "edit": 1,
+    "img_id": "jiaocaineedrop_38247658.pdf_0.jpg",
+    "metric": {
+      "TEDS": 0.0,
+      "TEDS_structure_only": 0.0,
+      "Edit_dist": 1.0
+    },
+    "image_name": "jiaocaineedrop_38247658.pdf_0.jpg",
+    "upper_len": 112,
+    "Edit_num": 112
+  },
+  "severity": 1.0
+}

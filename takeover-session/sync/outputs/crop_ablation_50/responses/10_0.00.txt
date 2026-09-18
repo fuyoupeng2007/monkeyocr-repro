@@ -1,0 +1,3 @@
+$\mathbf{F}_{\mathrm{bed}}(t)+\mathbf{K}_{1} \cdot \mathbf{F}_{\mathrm{e}}_{0}=\frac{\mathbf{u}_{0}}{\bar{u}_{0}}$
+
+The function $f(\mathbf{R}-\mathbf{r})$ remains constant (Eq.(11)), while the scalar parameter are slightly modified

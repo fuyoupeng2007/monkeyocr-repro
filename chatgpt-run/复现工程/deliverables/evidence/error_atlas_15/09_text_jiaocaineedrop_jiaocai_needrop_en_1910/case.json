@@ -1,0 +1,36 @@
+{
+  "source": "predictions_quick_match_text_block_result.json",
+  "kind": "text",
+  "img_id": "jiaocaineedrop_jiaocai_needrop_en_1910.jpg",
+  "reason": "文字识别或文本合并错误：按官方文本编辑距离从高到低抽取。",
+  "evidence": {
+    "gt_idx": [
+      ""
+    ],
+    "gt": "",
+    "pred_idx": [
+      2
+    ],
+    "pred": "<html>\n</html>",
+    "edit": 1,
+    "gt_position": [
+      ""
+    ],
+    "pred_position": 279,
+    "norm_gt": "",
+    "norm_pred": "htmlhtml",
+    "gt_category_type": "",
+    "pred_category_type": "text_block",
+    "gt_attribute": [
+      {}
+    ],
+    "img_id": "jiaocaineedrop_jiaocai_needrop_en_1910.jpg",
+    "image_name": "jiaocaineedrop_jiaocai_needrop_en_1910.jpg",
+    "upper_len": 8,
+    "metric": {
+      "Edit_dist": 1.0
+    },
+    "Edit_num": 8
+  },
+  "severity": 1.0
+}

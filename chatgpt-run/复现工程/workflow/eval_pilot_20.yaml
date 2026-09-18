@@ -1,0 +1,17 @@
+end2end_eval:
+  metrics:
+    text_block:
+      metric: [Edit_dist]
+    display_formula:
+      metric: [Edit_dist, CDM]
+    table:
+      metric: [TEDS, Edit_dist]
+    reading_order:
+      metric: [Edit_dist]
+  dataset:
+    dataset_name: end2end_dataset
+    ground_truth:
+      data_path: /root/autodl-tmp/monkeyocr-repro/data/omnidocbench_v1_0/subsets/pilot_20.json
+    prediction:
+      data_path: /root/autodl-tmp/monkeyocr-repro/outputs/monkeyocr_pilot_20/predictions
+    match_method: quick_match

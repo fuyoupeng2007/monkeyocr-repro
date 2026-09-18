@@ -1,0 +1,9 @@
+m$^{-2}$h;
+
+$f$: flow rate converted into that at the stand 1.013 kPa), L min$^{-1}$;
+
+$[NO]_0$: inlet concentration of nitrogen monox
+
+$[NO]$: outlet concentration of nitrogen monox
+
+$[NO_2]_0$: inlet concentration of nitrogen dioxide

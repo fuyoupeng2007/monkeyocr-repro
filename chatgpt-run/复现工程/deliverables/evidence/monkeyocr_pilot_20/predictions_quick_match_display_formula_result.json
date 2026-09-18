@@ -1,0 +1,3853 @@
+[
+    {
+        "gt_idx": [
+            0
+        ],
+        "gt": "$$\n\\begin{array}{l}\n5.076 \\ \\mathrm{m}^{2}=( \\qquad\\qquad) \\mathrm{d m}^{2}~~~~~~~~~~2.5L=\\left (  \\right ) mL\\\\\n5 \\mathrm{m}^{3}24\\mathrm{dm}^{3}=(\\qquad\\qquad)\\mathrm{dm}^{3}~~~~~~~0.15m^{3}=( \\qquad\\qquad) \\mathrm{dm}^{3}=( \\qquad\\qquad)\\mathrm{cm}^{3}\\\\\n1.05~{\\mathrm{L}}\\!=\\!(\\phantom{-}\\!\\!\\!\\!\\!\\phantom{\\frac{1}{\\mathrm{d}\\mathrm{m}^{+}}})\\mathrm{d}\\mathrm{m}^{3}=\\left(\\right)mL\n\\end{array}\n$$",
+        "pred_idx": [
+            4
+        ],
+        "pred": "\\[6.4\\\\mathrm{m}^{3}\\]",
+        "edit": 1,
+        "gt_position": [
+            9
+        ],
+        "pred_position": 760,
+        "norm_gt": "$$\n{l}\n5.076\\{m}^{2}=(){dm}^{2}~~~~~~~~~~2.5l=\\left(\\right)ml\\\\\n5{m}^{3}24{dm}^{3}=(){dm}^{3}~~~~~~~0.15m^{3}=(){dm}^{3}=(){cm}^{3}\\\\\n1.05~{{l}}\\!=\\!(\\phantom{-}\\!\\!\\!\\!\\!\\phantom{\\frac{1}{{d}{m}^{+}}}){d}{m}^{3}=\\left(\\right)ml\n\n$$",
+        "norm_pred": "6.4\\{m}^{3}",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_inline",
+        "gt_attribute": [
+            {
+                "formula_type": "print"
+            }
+        ],
+        "img_id": "jiaocaineedrop_jiaocai_needrop_en_2211.jpg",
+        "image_name": "jiaocaineedrop_jiaocai_needrop_en_2211.jpg",
+        "upper_len": 232,
+        "metric": {
+            "Edit_dist": 0.9525862068965517
+        },
+        "Edit_num": 221
+    },
+    {
+        "gt_idx": [
+            0
+        ],
+        "gt": "$$\n\\Lambda_{\\mathrm{r}} ( \\mathrm{r} ) \\quad=\\quad\\lambda_{\\mathrm{b e d}} ( \\mathrm{r} )+\\mathrm{K}_{1} \\; \\; \\mathrm{P e}_{0} \\; \\; \\frac{\\mathrm{u}_{\\mathrm{c}}} {\\bar{\\mathrm{u}}_{0}} \\; \\; \\mathrm{f} ( \\mathrm{R}-\\mathrm{r} ) \\; \\lambda_{\\mathrm{f}}\n$$",
+        "pred_idx": [
+            0
+        ],
+        "pred": "\\[\\begin{array}{rlr}{\\Lambda_{\\mathrm{r}}(\\mathbf{r})}&{{}=}&{\\lambda_{\\mathrm{bed}}(\\mathbf{r})+\\mathbf{K}_{1}\\,\\,\\mathrm{Pe}_{0}\\,\\,\\frac{\\mathbf{u}_{\\mathrm{c}}}{\\overline{{\\mathbf{u}}}_{0}}\\,\\,f(\\mathbf{R}-\\mathbf{r})\\,\\lambda_{\\mathrm{f}}}\\end{array}\\]",
+        "edit": 0.2413793103448276,
+        "gt_position": [
+            1
+        ],
+        "pred_position": 0,
+        "norm_gt": "$$\n\\lambda_{{r}}({r})=\\lambda_{{bed}}({r})+{k}_{1}\\;\\;{pe}_{0}\\;\\;\\frac{{u}_{{c}}}{\\bar{{u}}_{0}}\\;\\;{f}({r}-{r})\\;\\lambda_{{f}}\n$$",
+        "norm_pred": "{rlr}{\\lambda_{{r}}({r})}&{{}=}&{\\lambda_{{bed}}({r})+{k}_{1}\\,\\,{pe}_{0}\\,\\,\\frac{{u}_{{c}}}{\\overline{{{u}}}_{0}}\\,\\,f({r}-{r})\\,\\lambda_{{f}}}",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {
+                "formula_type": "print"
+            }
+        ],
+        "img_id": "docstructbench_llm-raw-scihub-o.O-ceat.200407001.pdf_3.jpg",
+        "image_name": "docstructbench_llm-raw-scihub-o.O-ceat.200407001.pdf_3.jpg",
+        "upper_len": 145,
+        "metric": {
+            "Edit_dist": 0.2413793103448276
+        },
+        "Edit_num": 35
+    },
+    {
+        "gt_idx": [
+            1
+        ],
+        "gt": "$$\n\\mathrm{K}_{1}=\\frac{1} {8}\n$$",
+        "pred_idx": [
+            1
+        ],
+        "pred": "\\[\\mathbf{K}_{1}=\\frac{1}{8}\\]",
+        "edit": 0.24,
+        "gt_position": [
+            4
+        ],
+        "pred_position": 560,
+        "norm_gt": "$$\n{k}_{1}=\\frac{1}{8}\n$$",
+        "norm_pred": "{k}_{1}=\\frac{1}{8}",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {
+                "formula_type": "print"
+            }
+        ],
+        "img_id": "docstructbench_llm-raw-scihub-o.O-ceat.200407001.pdf_3.jpg",
+        "image_name": "docstructbench_llm-raw-scihub-o.O-ceat.200407001.pdf_3.jpg",
+        "upper_len": 25,
+        "metric": {
+            "Edit_dist": 0.24
+        },
+        "Edit_num": 6
+    },
+    {
+        "gt_idx": [
+            2
+        ],
+        "gt": "$$\n\\mathrm{K}_{2} ~=~ 0. 4 4 ~+~ 4 ~ \\mathrm{e x p} \\biggl(-\\frac{\\mathrm{R e}_{0}} {7 0} \\biggr)\n$$",
+        "pred_idx": [
+            2
+        ],
+        "pred": "\\[\\mathrm{K_{2}~=~0.44~+~4~exp\\!\\left(-\\frac{Re_{0}}{70}\\right)}\\]",
+        "edit": 0.3125,
+        "gt_position": [
+            6
+        ],
+        "pred_position": 611,
+        "norm_gt": "$$\n{k}_{2}~=~0.44~+~4~{exp}\\biggl(-\\frac{{re}_{0}}{70}\\biggr)\n$$",
+        "norm_pred": "{k_{2}~=~0.44~+~4~exp\\!\\left(-\\frac{re_{0}}{70}\\right)}",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {
+                "formula_type": "print"
+            }
+        ],
+        "img_id": "docstructbench_llm-raw-scihub-o.O-ceat.200407001.pdf_3.jpg",
+        "image_name": "docstructbench_llm-raw-scihub-o.O-ceat.200407001.pdf_3.jpg",
+        "upper_len": 64,
+        "metric": {
+            "Edit_dist": 0.3125
+        },
+        "Edit_num": 20
+    },
+    {
+        "gt_idx": [
+            3
+        ],
+        "gt": "$$\n\\bar{\\psi} \\frac{\\partial\\mathrm{Y}} {\\partial\\mathrm{t}}=\\mathrm{D}_{\\mathrm{a x}} \\, \\frac{\\partial^{2} \\mathrm{Y}} {\\partial\\mathrm{z}^{2}}-\\bar{\\mathrm{u}}_{0} \\, \\frac{\\partial\\mathrm{Y}} {\\partial\\mathrm{z}}-[ 1-\\bar{\\psi} ] \\frac{\\partial\\mathrm{X}} {\\partial\\mathrm{t}} \\frac{\\mathrm{P}_{\\mathrm{p}}} {\\mathrm{p}}\n$$",
+        "pred_idx": [
+            7
+        ],
+        "pred": "\\[\\bar{\\psi}\\frac{\\partial\\mathbf{Y}}{\\partial\\mathbf{t}}=\\mathbf{D_{ax}}\\frac{\\partial^{2}\\mathbf{Y}}{\\partialz^{2}}-\\bar{\\mathbf{u}}_{0}\\frac{\\partial\\mathbf{Y}}{\\partial\\mathbf{z}}-[1-\\bar{\\psi}]\\frac{\\partial\\mathbf{X}\\rho_{\\mathrm{p}}}{\\partial\\mathbf{t}}\\frac{}{\\rho_{\\mathrm{f}}}\\]",
+        "edit": 0.15492957746478872,
+        "gt_position": [
+            16
+        ],
+        "pred_position": 2286,
+        "norm_gt": "$$\n\\bar{\\psi}\\frac{\\partial{y}}{\\partial{t}}={d}_{{ax}}\\,\\frac{\\partial^{2}{y}}{\\partial{z}^{2}}-\\bar{{u}}_{0}\\,\\frac{\\partial{y}}{\\partial{z}}-[1-\\bar{\\psi}]\\frac{\\partial{x}}{\\partial{t}}\\frac{{p}_{{p}}}{{p}}\n$$",
+        "norm_pred": "\\bar{\\psi}\\frac{\\partial{y}}{\\partial{t}}={d_{ax}}\\frac{\\partial^{2}{y}}{\\partialz^{2}}-\\bar{{u}}_{0}\\frac{\\partial{y}}{\\partial{z}}-[1-\\bar{\\psi}]\\frac{\\partial{x}\\rho_{{p}}}{\\partial{t}}\\frac{}{\\rho_{{f}}}",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {
+                "formula_type": "print"
+            }
+        ],
+        "img_id": "docstructbench_llm-raw-scihub-o.O-ceat.200407001.pdf_3.jpg",
+        "image_name": "docstructbench_llm-raw-scihub-o.O-ceat.200407001.pdf_3.jpg",
+        "upper_len": 213,
+        "metric": {
+            "Edit_dist": 0.15492957746478872
+        },
+        "Edit_num": 33
+    },
+    {
+        "gt_idx": [
+            4
+        ],
+        "gt": "$$\n\\frac{\\mathrm{C}} {\\mathrm{C}_{\\mathrm{i n}}}=\\frac{1} {2} \\mathrm{e r f c} \\left( \\sqrt{\\xi}-\\sqrt{\\tau} \\right)\n$$",
+        "pred_idx": [
+            11
+        ],
+        "pred": "\\[\\frac{\\mathrm{C}}{\\mathrm{C_{in}}}\\!=\\!\\frac{1}{2}\\mathrm{erfc}\\Big(\\sqrt{\\overline{{\\xi}}}-\\sqrt{\\overline{{\\tau}}}\\Big)\\]",
+        "edit": 0.45,
+        "gt_position": [
+            23
+        ],
+        "pred_position": 4696,
+        "norm_gt": "$$\n\\frac{{c}}{{c}_{{in}}}=\\frac{1}{2}{erfc}\\left(\\sqrt{\\xi}-\\sqrt{\\tau}\\right)\n$$",
+        "norm_pred": "\\frac{{c}}{{c_{in}}}\\!=\\!\\frac{1}{2}{erfc}\\big(\\sqrt{\\overline{{\\xi}}}-\\sqrt{\\overline{{\\tau}}}\\big)",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {
+                "formula_type": "print"
+            }
+        ],
+        "img_id": "docstructbench_llm-raw-scihub-o.O-ceat.200407001.pdf_3.jpg",
+        "image_name": "docstructbench_llm-raw-scihub-o.O-ceat.200407001.pdf_3.jpg",
+        "upper_len": 100,
+        "metric": {
+            "Edit_dist": 0.45
+        },
+        "Edit_num": 45
+    },
+    {
+        "gt_idx": [
+            5
+        ],
+        "gt": "$$\n\\xi=6 \\frac{\\beta_{\\mathrm{f}}} {\\mathrm{d_{p}}} \\frac{\\mathrm{z}} {\\mathrm{u}} \\frac{1-\\psi} {\\psi}\n$$",
+        "pred_idx": [
+            12
+        ],
+        "pred": "\\[\\xi=6\\frac{\\beta_{\\mathrm{~f~}}}{\\mathrm{~d~p~u~}}\\frac{z}{\\psi}\\frac{1-\\psi}{}\\]",
+        "edit": 0.3333333333333333,
+        "gt_position": [
+            26
+        ],
+        "pred_position": 4892,
+        "norm_gt": "$$\n\\xi=6\\frac{\\beta_{{f}}}{{d_{p}}}\\frac{{z}}{{u}}\\frac{1-\\psi}{\\psi}\n$$",
+        "norm_pred": "\\xi=6\\frac{\\beta_{{~f~}}}{{~d~p~u~}}\\frac{z}{\\psi}\\frac{1-\\psi}{}",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {
+                "formula_type": "print"
+            }
+        ],
+        "img_id": "docstructbench_llm-raw-scihub-o.O-ceat.200407001.pdf_3.jpg",
+        "image_name": "docstructbench_llm-raw-scihub-o.O-ceat.200407001.pdf_3.jpg",
+        "upper_len": 72,
+        "metric": {
+            "Edit_dist": 0.3333333333333333
+        },
+        "Edit_num": 24
+    },
+    {
+        "gt_idx": [
+            6
+        ],
+        "gt": "$$\n\\tau=6 \\frac{\\beta_{\\mathrm{f}}} {\\mathrm{d_{p} K}} \\left( \\mathrm{t}-\\frac{\\mathrm{z}} {\\mathrm{u}} \\right)\n$$",
+        "pred_idx": [
+            13
+        ],
+        "pred": "\\[\\tau=6\\frac{\\upbeta_{\\mathrm{f}}}{\\mathrm{d_{p}K}}\\left(\\mathrm{t}-\\frac{z}{\\mathrm{u}}\\right)\\]",
+        "edit": 0.1388888888888889,
+        "gt_position": [
+            29
+        ],
+        "pred_position": 5030,
+        "norm_gt": "$$\n\\tau=6\\frac{\\beta_{{f}}}{{d_{p}k}}\\left({t}-\\frac{{z}}{{u}}\\right)\n$$",
+        "norm_pred": "\\tau=6\\frac{\\upbeta_{{f}}}{{d_{p}k}}\\left({t}-\\frac{z}{{u}}\\right)",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {
+                "formula_type": "print"
+            }
+        ],
+        "img_id": "docstructbench_llm-raw-scihub-o.O-ceat.200407001.pdf_3.jpg",
+        "image_name": "docstructbench_llm-raw-scihub-o.O-ceat.200407001.pdf_3.jpg",
+        "upper_len": 72,
+        "metric": {
+            "Edit_dist": 0.1388888888888889
+        },
+        "Edit_num": 10
+    },
+    {
+        "gt_idx": [
+            0
+        ],
+        "gt": "$$\nk=5 0. 1 ~ \\mathrm{L} ~ \\mathrm{m o l}^{-1} ~ \\mathrm{h}^{-1}\n$$",
+        "pred_idx": [
+            1
+        ],
+        "pred": "$k=50.1\\ \\mathrm{L}\\ \\mathrm{mol}^{-1}\\ \\mathrm{h}^{-1}$",
+        "edit": 0.19444444444444445,
+        "gt_position": [
+            1
+        ],
+        "pred_position": 0,
+        "norm_gt": "$$\nk=50.1~{l}~{mol}^{-1}~{h}^{-1}\n$$",
+        "norm_pred": "$k=50.1\\{l}\\{mol}^{-1}\\{h}^{-1}$",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {
+                "formula_type": "print"
+            }
+        ],
+        "img_id": "yanbaopptmerge_3aa9b6677e17fd012b0a7a230b9f18db.pdf_1327.jpg",
+        "image_name": "yanbaopptmerge_3aa9b6677e17fd012b0a7a230b9f18db.pdf_1327.jpg",
+        "upper_len": 36,
+        "metric": {
+            "Edit_dist": 0.19444444444444445
+        },
+        "Edit_num": 7
+    },
+    {
+        "gt_idx": [
+            1
+        ],
+        "gt": "$$\n8. 3 \\, \\times\\, 1 0^{7} \\, \\mathrm{s}\n$$",
+        "pred_idx": [
+            2
+        ],
+        "pred": "\\[8.3\\times10^{7}\\\\mathrm{s}\\]",
+        "edit": 0.36666666666666664,
+        "gt_position": [
+            4
+        ],
+        "pred_position": 74,
+        "norm_gt": "$$\n8.3\\,\\times\\,10^{7}\\,{s}\n$$",
+        "norm_pred": "8.3\\times10^{7}\\{s}",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_inline",
+        "gt_attribute": [
+            {
+                "formula_type": "print"
+            }
+        ],
+        "img_id": "yanbaopptmerge_3aa9b6677e17fd012b0a7a230b9f18db.pdf_1327.jpg",
+        "image_name": "yanbaopptmerge_3aa9b6677e17fd012b0a7a230b9f18db.pdf_1327.jpg",
+        "upper_len": 30,
+        "metric": {
+            "Edit_dist": 0.36666666666666664
+        },
+        "Edit_num": 11
+    },
+    {
+        "gt_idx": [
+            2
+        ],
+        "gt": "$$\n3. 9 \\times1 0^{1 5} \\ \\mathrm{s}^{-1}\n$$",
+        "pred_idx": [
+            10
+        ],
+        "pred": "\\[3.9\\times10^{15}\\,\\text{s}^{-1}\\]",
+        "edit": 0.22580645161290322,
+        "gt_position": [
+            18
+        ],
+        "pred_position": 1386,
+        "norm_gt": "$$\n3.9\\times10^{15}\\{s}^{-1}\n$$",
+        "norm_pred": "3.9\\times10^{15}\\,{s}^{-1}",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_inline",
+        "gt_attribute": [
+            {
+                "formula_type": "print"
+            }
+        ],
+        "img_id": "yanbaopptmerge_3aa9b6677e17fd012b0a7a230b9f18db.pdf_1327.jpg",
+        "image_name": "yanbaopptmerge_3aa9b6677e17fd012b0a7a230b9f18db.pdf_1327.jpg",
+        "upper_len": 31,
+        "metric": {
+            "Edit_dist": 0.22580645161290322
+        },
+        "Edit_num": 7
+    },
+    {
+        "gt_idx": [
+            3
+        ],
+        "gt": "$$\nE_{\\mathrm{a}}=1 0 8 \\mathrm{~ k J}\n$$",
+        "pred_idx": [
+            12
+        ],
+        "pred": "\\[E_{\\mathrm{a}}=108\\\\mathrm{kJ}\\]",
+        "edit": 0.36363636363636365,
+        "gt_position": [
+            22
+        ],
+        "pred_position": 1467,
+        "norm_gt": "$$\ne_{{a}}=108{~kj}\n$$",
+        "norm_pred": "e_{{a}}=108\\{kj}",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_inline",
+        "gt_attribute": [
+            {
+                "formula_type": "print"
+            }
+        ],
+        "img_id": "yanbaopptmerge_3aa9b6677e17fd012b0a7a230b9f18db.pdf_1327.jpg",
+        "image_name": "yanbaopptmerge_3aa9b6677e17fd012b0a7a230b9f18db.pdf_1327.jpg",
+        "upper_len": 22,
+        "metric": {
+            "Edit_dist": 0.36363636363636365
+        },
+        "Edit_num": 8
+    },
+    {
+        "gt_idx": [
+            4
+        ],
+        "gt": "$$\\begin{array}{l}\nA=2. 0 \\, \\times\\, 1 0^{8} \\, \\mathrm{s}^{-1}\\\\\nk=3. 2 \\, \\times\\, 1 0^{-1 0} \\; \\mathrm{s}^{-1}\n\\end{array}\n$$",
+        "pred_idx": [
+            14,
+            15
+        ],
+        "pred": "\\[A=2.0\\times10^{8}\\\\mathrm{s}^{-1}\\]\\[k=3.2\\times10^{-10}\\\\mathrm{s}^{-1}\\]",
+        "edit": 0.2987012987012987,
+        "gt_position": [
+            23
+        ],
+        "pred_position": 1502,
+        "norm_gt": "$${l}\na=2.0\\,\\times\\,10^{8}\\,{s}^{-1}\\\\\nk=3.2\\,\\times\\,10^{-10}\\;{s}^{-1}\n\n$$",
+        "norm_pred": "a=2.0\\times10^{8}\\{s}^{-1}k=3.2\\times10^{-10}\\{s}^{-1}",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_inline",
+        "gt_attribute": [
+            {
+                "formula_type": "print"
+            }
+        ],
+        "img_id": "yanbaopptmerge_3aa9b6677e17fd012b0a7a230b9f18db.pdf_1327.jpg",
+        "image_name": "yanbaopptmerge_3aa9b6677e17fd012b0a7a230b9f18db.pdf_1327.jpg",
+        "upper_len": 77,
+        "metric": {
+            "Edit_dist": 0.2987012987012987
+        },
+        "Edit_num": 23
+    },
+    {
+        "gt_idx": [
+            5
+        ],
+        "gt": "$$\n\\mathrm{R a t e}=k [ A ] [ B ]^{2} ; \\, \\mathrm{R a t e}=k [ A ]^{3}\n$$",
+        "pred_idx": [
+            18,
+            19,
+            20,
+            21
+        ],
+        "pred": "\\[BC\\]\\[BC\\]\\[k[A][B]^2\\]\\[k[A]^3\\]",
+        "edit": 0.6428571428571429,
+        "gt_position": [
+            28
+        ],
+        "pred_position": 1883,
+        "norm_gt": "$$\n{rate}=k[a][b]^{2};\\,{rate}=k[a]^{3}\n$$",
+        "norm_pred": "bcbck[a][b]^2k[a]^3",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_inline",
+        "gt_attribute": [
+            {
+                "formula_type": "print"
+            }
+        ],
+        "img_id": "yanbaopptmerge_3aa9b6677e17fd012b0a7a230b9f18db.pdf_1327.jpg",
+        "image_name": "yanbaopptmerge_3aa9b6677e17fd012b0a7a230b9f18db.pdf_1327.jpg",
+        "upper_len": 42,
+        "metric": {
+            "Edit_dist": 0.6428571428571429
+        },
+        "Edit_num": 27
+    },
+    {
+        "gt_idx": [
+            0
+        ],
+        "gt": "$$\n{\\hat{b}}={\\frac{\\sum_{i=1}^{n} \\bigl( x_{i}-{\\overline{{{x}}}} \\bigr) \\bigl( y_{i}-{\\overline{{{y}}}} \\bigr)} {\\sum_{i=1}^{n} \\bigl( x_{i}-{\\overline{{{x}}}} \\bigr)^{2}}}={\\frac{\\sum_{i=1}^{n} x_{i} y_{i}-n {\\overline{{{x}}}} {\\overline{{{y}}}}} {\\sum_{i=1}^{n} x_{i}^{2}-n {\\overline{{{x}}}}^{2}}} \\;, \\; \\; a={\\overline{{{y}}}}-{\\hat{b}} {\\overline{{{x}}}} \\;.\n$$",
+        "pred_idx": [
+            12,
+            13
+        ],
+        "pred": "\\[\\hat{b}=\\frac{\\sum_{i=1}^{n}(x_{i}-\\overline{x})(y_{i}-\\overline{y})}{\\sum_{i=1}^{n}(x_{i}-\\overline{x})^{2}}=\\frac{\\sum_{i=1}^{n}x_{i}y_{i}-n\\overline{x}\\overline{y}}{\\sum_{i=1}^{n}x_{i}^{2}-n\\overline{x}^{2}}\\]\\[a=\\overline{y}-\\hat{b}\\overline{x}\\]",
+        "edit": 0.2947976878612717,
+        "gt_position": [
+            7
+        ],
+        "pred_position": 833,
+        "norm_gt": "$$\n{\\hat{b}}={\\frac{\\sum_{i=1}^{n}\\bigl(x_{i}-{\\overline{{{x}}}}\\bigr)\\bigl(y_{i}-{\\overline{{{y}}}}\\bigr)}{\\sum_{i=1}^{n}\\bigl(x_{i}-{\\overline{{{x}}}}\\bigr)^{2}}}={\\frac{\\sum_{i=1}^{n}x_{i}y_{i}-n{\\overline{{{x}}}}{\\overline{{{y}}}}}{\\sum_{i=1}^{n}x_{i}^{2}-n{\\overline{{{x}}}}^{2}}}\\;,\\;\\;a={\\overline{{{y}}}}-{\\hat{b}}{\\overline{{{x}}}}\\;.\n$$",
+        "norm_pred": "\\hat{b}=\\frac{\\sum_{i=1}^{n}(x_{i}-\\overline{x})(y_{i}-\\overline{y})}{\\sum_{i=1}^{n}(x_{i}-\\overline{x})^{2}}=\\frac{\\sum_{i=1}^{n}x_{i}y_{i}-n\\overline{x}\\overline{y}}{\\sum_{i=1}^{n}x_{i}^{2}-n\\overline{x}^{2}}a=\\overline{y}-\\hat{b}\\overline{x}",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_inline",
+        "gt_attribute": [
+            {
+                "formula_type": "print"
+            }
+        ],
+        "img_id": "jiaocaineedrop_jiaocai_needrop_en_1910.jpg",
+        "image_name": "jiaocaineedrop_jiaocai_needrop_en_1910.jpg",
+        "upper_len": 346,
+        "metric": {
+            "Edit_dist": 0.2947976878612717
+        },
+        "Edit_num": 102
+    },
+    {
+        "gt_idx": [
+            1
+        ],
+        "gt": "$$\n{\\hat{b}}={\\frac{\\sum_{i=1}^{6} x_{i} y_{i}-6 {\\overline{{{x y}}}}} {\\sum_{i=1}^{6} x_{i}^{2}-6 {\\overline{{{x}}}}^{2}}}={\\frac{1 6 0 6-6 \\times3. 5 \\times8 0} {9 1-6 \\times3. 5^{2}}} \\approx-4 ~, ~ ~ a={\\overline{{{y}}}}-{\\hat{b}} {\\overline{{{x}}}}=8 0+4 \\times3. 5=9 4 。\n$$",
+        "pred_idx": [
+            21,
+            22
+        ],
+        "pred": "\\[\\hat{b}=\\frac{\\sum_{i=1}^{6}x_{i}y_{i}-6\\overline{x}\\overline{y}}{\\sum_{i=1}^{6}x_{i}^{2}-6\\overline{x}^{2}}=\\frac{1606-6\\times3.5\\times80}{91-6\\times3.5^{2}}\\approx-4\\]\\[a=\\overline{y}-\\hat{b}\\overline{x}=80+4\\times3.5=94\\]",
+        "edit": 0.204,
+        "gt_position": [
+            15
+        ],
+        "pred_position": 1394,
+        "norm_gt": "$$\n{\\hat{b}}={\\frac{\\sum_{i=1}^{6}x_{i}y_{i}-6{\\overline{{{xy}}}}}{\\sum_{i=1}^{6}x_{i}^{2}-6{\\overline{{{x}}}}^{2}}}={\\frac{1606-6\\times3.5\\times80}{91-6\\times3.5^{2}}}\\approx-4~,~~a={\\overline{{{y}}}}-{\\hat{b}}{\\overline{{{x}}}}=80+4\\times3.5=94。\n$$",
+        "norm_pred": "\\hat{b}=\\frac{\\sum_{i=1}^{6}x_{i}y_{i}-6\\overline{x}\\overline{y}}{\\sum_{i=1}^{6}x_{i}^{2}-6\\overline{x}^{2}}=\\frac{1606-6\\times3.5\\times80}{91-6\\times3.5^{2}}\\approx-4a=\\overline{y}-\\hat{b}\\overline{x}=80+4\\times3.5=94",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_inline",
+        "gt_attribute": [
+            {
+                "formula_type": "print"
+            }
+        ],
+        "img_id": "jiaocaineedrop_jiaocai_needrop_en_1910.jpg",
+        "image_name": "jiaocaineedrop_jiaocai_needrop_en_1910.jpg",
+        "upper_len": 250,
+        "metric": {
+            "Edit_dist": 0.204
+        },
+        "Edit_num": 51
+    },
+    {
+        "gt_idx": [
+            0
+        ],
+        "gt": "$$\n原式={\\frac{1} {2}} \\int_{0}^{\\frac{1} {2}} {\\frac{1} {2 t^{2}-2 t-4}} \\ \\mathrm{d} t={\\frac{1} {1 2}} \\int_{0}^{\\frac{1} {2}} \\left( {\\frac{1} {t-2}}-{\\frac{1} {t+1}} \\right) \\mathrm{d} t=-{\\frac{\\operatorname{l n} 2} {1 2}}\n$$",
+        "pred_idx": [
+            3
+        ],
+        "pred": "\\[原式=\\frac{1}{2}\\int_{0}^{\\frac{1}{2}}\\frac{1}{2t^{2}-2t-4}\\mathrm{~d}t=\\frac{1}{12}\\int_{0}^{\\frac{1}{2}}\\left(\\frac{1}{t-2}-\\frac{1}{t+1}\\right)\\mathrm{~d}t=-\\frac{\\ln2}{12}\\]",
+        "edit": 0.12994350282485875,
+        "gt_position": [
+            14
+        ],
+        "pred_position": 619,
+        "norm_gt": "$$\n原式={\\frac{1}{2}}\\int_{0}^{\\frac{1}{2}}{\\frac{1}{2t^{2}-2t-4}}\\{d}t={\\frac{1}{12}}\\int_{0}^{\\frac{1}{2}}\\left({\\frac{1}{t-2}}-{\\frac{1}{t+1}}\\right){d}t=-{\\frac{{ln}2}{12}}\n$$",
+        "norm_pred": "原式=\\frac{1}{2}\\int_{0}^{\\frac{1}{2}}\\frac{1}{2t^{2}-2t-4}{~d}t=\\frac{1}{12}\\int_{0}^{\\frac{1}{2}}\\left(\\frac{1}{t-2}-\\frac{1}{t+1}\\right){~d}t=-\\frac{\\ln2}{12}",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {
+                "formula_type": "print"
+            }
+        ],
+        "img_id": "jiaocai_71434495.pdf_0.jpg",
+        "image_name": "jiaocai_71434495.pdf_0.jpg",
+        "upper_len": 177,
+        "metric": {
+            "Edit_dist": 0.12994350282485875
+        },
+        "Edit_num": 23
+    },
+    {
+        "gt_idx": [
+            1
+        ],
+        "gt": "$$\n原式=2 \\iint_{D_{1}} \\operatorname{s i n} x^{2} \\ \\mathrm{d} x \\ \\mathrm{d} y=2 \\int_{0}^{\\sqrt{\\pi}} \\operatorname{s i n} x^{2} \\ \\mathrm{d} x \\int_{0}^{x} \\ \\mathrm{d} y=2 \\int_{0}^{\\sqrt{\\pi}} x \\operatorname{s i n} x^{2} \\ \\mathrm{d} x=2\n$$",
+        "pred_idx": [
+            7
+        ],
+        "pred": "\\[原式=2\\iint_{D_{1}}\\sinx^{2}\\,\\mathrm{d}x\\,\\mathrm{d}y=2\\int_{0}^{\\sqrt{\\pi}}\\sinx^{2}\\,\\mathrm{d}x\\int_{0}^{x}\\,\\mathrm{d}y=2\\int_{0}^{\\sqrt{\\pi}}x\\sinx^{2}\\,\\mathrm{d}x=2\\]",
+        "edit": 0.1223021582733813,
+        "gt_position": [
+            18
+        ],
+        "pred_position": 1069,
+        "norm_gt": "$$\n原式=2\\iint_{d_{1}}{sin}x^{2}\\{d}x\\{d}y=2\\int_{0}^{\\sqrt{\\pi}}{sin}x^{2}\\{d}x\\int_{0}^{x}\\{d}y=2\\int_{0}^{\\sqrt{\\pi}}x{sin}x^{2}\\{d}x=2\n$$",
+        "norm_pred": "原式=2\\iint_{d_{1}}\\sinx^{2}\\,{d}x\\,{d}y=2\\int_{0}^{\\sqrt{\\pi}}\\sinx^{2}\\,{d}x\\int_{0}^{x}\\,{d}y=2\\int_{0}^{\\sqrt{\\pi}}x\\sinx^{2}\\,{d}x=2",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {
+                "formula_type": "print"
+            }
+        ],
+        "img_id": "jiaocai_71434495.pdf_0.jpg",
+        "image_name": "jiaocai_71434495.pdf_0.jpg",
+        "upper_len": 139,
+        "metric": {
+            "Edit_dist": 0.1223021582733813
+        },
+        "Edit_num": 17
+    },
+    {
+        "gt_idx": [
+            2
+        ],
+        "gt": "$$\n\\sum_{n=1}^{\\infty} \\frac{(-1 )^{n-1}} {n ( 2 n+1 )}=\\sum_{n=1}^{\\infty} \\frac{(-1 )^{n-1}} {n}+2 \\sum_{n=1}^{\\infty} \\frac{(-1 )^{n}} {2 n+1}.\n$$",
+        "pred_idx": [
+            9
+        ],
+        "pred": "\\[\\sum_{n=1}^{\\infty}{\\frac{(-1)^{n-1}}{n(2n+1)}}=\\sum_{n=1}^{\\infty}{\\frac{(-1)^{n-1}}{n}}+2\\sum_{n=1}^{\\infty}{\\frac{(-1)^{n}}{2n+1}}.\\]",
+        "edit": 0.08955223880597014,
+        "gt_position": [
+            22
+        ],
+        "pred_position": 1335,
+        "norm_gt": "$$\n\\sum_{n=1}^{\\infty}\\frac{(-1)^{n-1}}{n(2n+1)}=\\sum_{n=1}^{\\infty}\\frac{(-1)^{n-1}}{n}+2\\sum_{n=1}^{\\infty}\\frac{(-1)^{n}}{2n+1}.\n$$",
+        "norm_pred": "\\sum_{n=1}^{\\infty}{\\frac{(-1)^{n-1}}{n(2n+1)}}=\\sum_{n=1}^{\\infty}{\\frac{(-1)^{n-1}}{n}}+2\\sum_{n=1}^{\\infty}{\\frac{(-1)^{n}}{2n+1}}",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {
+                "formula_type": "print"
+            }
+        ],
+        "img_id": "jiaocai_71434495.pdf_0.jpg",
+        "image_name": "jiaocai_71434495.pdf_0.jpg",
+        "upper_len": 134,
+        "metric": {
+            "Edit_dist": 0.08955223880597014
+        },
+        "Edit_num": 12
+    },
+    {
+        "gt_idx": [
+            3
+        ],
+        "gt": "$$\n\\operatorname{l n} ( 1+x )=\\sum_{n=1}^{\\infty} \\frac{(-1 )^{n-1}} {n} x^{n}, x \\in(-1, 1 ]\n$$",
+        "pred_idx": [
+            10
+        ],
+        "pred": "\\[\\ln(1+x)=\\sum_{n=1}^{\\infty}{\\frac{(-1)^{n-1}}{n}}x^{n},x\\in(-1,1].\\]",
+        "edit": 0.14084507042253522,
+        "gt_position": [
+            24
+        ],
+        "pred_position": 1583,
+        "norm_gt": "$$\n{ln}(1+x)=\\sum_{n=1}^{\\infty}\\frac{(-1)^{n-1}}{n}x^{n},x\\in(-1,1]\n$$",
+        "norm_pred": "\\ln(1+x)=\\sum_{n=1}^{\\infty}{\\frac{(-1)^{n-1}}{n}}x^{n},x\\in(-1,1]",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {
+                "formula_type": "print"
+            }
+        ],
+        "img_id": "jiaocai_71434495.pdf_0.jpg",
+        "image_name": "jiaocai_71434495.pdf_0.jpg",
+        "upper_len": 71,
+        "metric": {
+            "Edit_dist": 0.14084507042253522
+        },
+        "Edit_num": 10
+    },
+    {
+        "gt_idx": [
+            4
+        ],
+        "gt": "$$\nf ( x )=\\sum_{n=1}^{\\infty} \\frac{(-1 )^{n}} {2 n+1} x^{2 n+1}, x \\in[-1, 1 ].\n$$",
+        "pred_idx": [
+            11
+        ],
+        "pred": "\\[f(x)=\\sum_{n=1}^{\\infty}{\\frac{(-1)^{n}}{2n+1}}x^{2n+1},x\\in[-1,1].\\]",
+        "edit": 0.1267605633802817,
+        "gt_position": [
+            26
+        ],
+        "pred_position": 1715,
+        "norm_gt": "$$\nf(x)=\\sum_{n=1}^{\\infty}\\frac{(-1)^{n}}{2n+1}x^{2n+1},x\\in[-1,1].\n$$",
+        "norm_pred": "f(x)=\\sum_{n=1}^{\\infty}{\\frac{(-1)^{n}}{2n+1}}x^{2n+1},x\\in[-1,1]",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {
+                "formula_type": "print"
+            }
+        ],
+        "img_id": "jiaocai_71434495.pdf_0.jpg",
+        "image_name": "jiaocai_71434495.pdf_0.jpg",
+        "upper_len": 71,
+        "metric": {
+            "Edit_dist": 0.1267605633802817
+        },
+        "Edit_num": 9
+    },
+    {
+        "gt_idx": [
+            5
+        ],
+        "gt": "$$\nf^{\\prime} ( x )=\\sum_{n=1}^{\\infty} (-1 )^{n} x^{2 n}=-\\frac{x^{2}} {1+x^{2}}=\\frac{1} {1+x^{2}}-1, x \\in(-1, 1 ).\n$$",
+        "pred_idx": [
+            12
+        ],
+        "pred": "\\[f^{\\prime}(x)=\\sum_{n=1}^{\\infty}(-1)^{n}x^{2n}=-{\\frac{x^{2}}{1+x^{2}}}={\\frac{1}{1+x^{2}}}-1,x\\in(-1,1).\\]",
+        "edit": 0.10185185185185185,
+        "gt_position": [
+            28
+        ],
+        "pred_position": 1858,
+        "norm_gt": "$$\nf^{\\prime}(x)=\\sum_{n=1}^{\\infty}(-1)^{n}x^{2n}=-\\frac{x^{2}}{1+x^{2}}=\\frac{1}{1+x^{2}}-1,x\\in(-1,1).\n$$",
+        "norm_pred": "f^{\\prime}(x)=\\sum_{n=1}^{\\infty}(-1)^{n}x^{2n}=-{\\frac{x^{2}}{1+x^{2}}}={\\frac{1}{1+x^{2}}}-1,x\\in(-1,1)",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {
+                "formula_type": "print"
+            }
+        ],
+        "img_id": "jiaocai_71434495.pdf_0.jpg",
+        "image_name": "jiaocai_71434495.pdf_0.jpg",
+        "upper_len": 108,
+        "metric": {
+            "Edit_dist": 0.10185185185185185
+        },
+        "Edit_num": 11
+    },
+    {
+        "gt_idx": [
+            6
+        ],
+        "gt": "$$\n\\sum_{n=1}^{\\infty} {\\frac{(-1 )^{n-1}} {n ( 2 n+1 )}}=\\operatorname{l n} 2+2 f ( 1 )=\\operatorname{l n} 2+2 \\left( {\\frac{\\pi} {4}}-1 \\right)=\\operatorname{l n} 2+{\\frac{\\pi} {2}}-2\n$$",
+        "pred_idx": [
+            14
+        ],
+        "pred": "\\[\\sum_{n=1}^{\\infty}{\\frac{(-1)^{n-1}}{n(2n+1)}}=\\ln2+2f(1)=\\ln2+2\\left({\\frac{\\pi}{4}}-1\\right)=\\ln2+{\\frac{\\pi}{2}}-2\\]",
+        "edit": 0.09448818897637795,
+        "gt_position": [
+            30
+        ],
+        "pred_position": 2083,
+        "norm_gt": "$$\n\\sum_{n=1}^{\\infty}{\\frac{(-1)^{n-1}}{n(2n+1)}}={ln}2+2f(1)={ln}2+2\\left({\\frac{\\pi}{4}}-1\\right)={ln}2+{\\frac{\\pi}{2}}-2\n$$",
+        "norm_pred": "\\sum_{n=1}^{\\infty}{\\frac{(-1)^{n-1}}{n(2n+1)}}=\\ln2+2f(1)=\\ln2+2\\left({\\frac{\\pi}{4}}-1\\right)=\\ln2+{\\frac{\\pi}{2}}-2",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {
+                "formula_type": "print"
+            }
+        ],
+        "img_id": "jiaocai_71434495.pdf_0.jpg",
+        "image_name": "jiaocai_71434495.pdf_0.jpg",
+        "upper_len": 127,
+        "metric": {
+            "Edit_dist": 0.09448818897637795
+        },
+        "Edit_num": 12
+    },
+    {
+        "gt_idx": [
+            7
+        ],
+        "gt": "$$\n3 x^{2}-6 x y-3 x^{2} y^{\\prime}-3 y^{2} y^{\\prime}+2 x-y^{\\prime}=0.\n$$",
+        "pred_idx": [
+            27
+        ],
+        "pred": "\\[3x^{2}-6xy-3x^{2}y^{\\prime}-3y^{2}y^{\\prime}+2x-y^{\\prime}=0.\\]",
+        "edit": 0.1044776119402985,
+        "gt_position": [
+            34
+        ],
+        "pred_position": 2636,
+        "norm_gt": "$$\n3x^{2}-6xy-3x^{2}y^{\\prime}-3y^{2}y^{\\prime}+2x-y^{\\prime}=0.\n$$",
+        "norm_pred": "3x^{2}-6xy-3x^{2}y^{\\prime}-3y^{2}y^{\\prime}+2x-y^{\\prime}=0",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {
+                "formula_type": "print"
+            }
+        ],
+        "img_id": "jiaocai_71434495.pdf_0.jpg",
+        "image_name": "jiaocai_71434495.pdf_0.jpg",
+        "upper_len": 67,
+        "metric": {
+            "Edit_dist": 0.1044776119402985
+        },
+        "Edit_num": 7
+    },
+    {
+        "gt_idx": [
+            8
+        ],
+        "gt": "$$\n6 x-6 y-1 2 x y^{\\prime}-3 x^{2} y^{\\prime\\prime}-6 y \\left( y^{\\prime} \\right)^{2}-3 y^{2} y^{\\prime\\prime}+2-y^{\\prime\\prime}=0.\n$$",
+        "pred_idx": [
+            31
+        ],
+        "pred": "\\[6x-6y-12xy^{\\prime}-3x^{2}y^{\\prime\\prime}-6y\\left(y^{\\prime}\\right)^{2}-3y^{2}y^{\\prime\\prime}+2-y^{\\prime\\prime}=0.\\]",
+        "edit": 0.056910569105691054,
+        "gt_position": [
+            36
+        ],
+        "pred_position": 2801,
+        "norm_gt": "$$\n6x-6y-12xy^{\\prime}-3x^{2}y^{\\prime\\prime}-6y\\left(y^{\\prime}\\right)^{2}-3y^{2}y^{\\prime\\prime}+2-y^{\\prime\\prime}=0.\n$$",
+        "norm_pred": "6x-6y-12xy^{\\prime}-3x^{2}y^{\\prime\\prime}-6y\\left(y^{\\prime}\\right)^{2}-3y^{2}y^{\\prime\\prime}+2-y^{\\prime\\prime}=0",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {
+                "formula_type": "print"
+            }
+        ],
+        "img_id": "jiaocai_71434495.pdf_0.jpg",
+        "image_name": "jiaocai_71434495.pdf_0.jpg",
+        "upper_len": 123,
+        "metric": {
+            "Edit_dist": 0.056910569105691054
+        },
+        "Edit_num": 7
+    },
+    {
+        "gt_idx": [
+            9
+        ],
+        "gt": "$$\nf ( y ) \\geqslant f ( x )+f^{\\prime} ( x ) ( y-x ),\n$$",
+        "pred_idx": [
+            40
+        ],
+        "pred": "\\[f(y)\\geqslantf(x)+f^{\\prime}(x)(y-x),\\]",
+        "edit": 0.13953488372093023,
+        "gt_position": [
+            41
+        ],
+        "pred_position": 3167,
+        "norm_gt": "$$\nf(y)\\geqslantf(x)+f^{\\prime}(x)(y-x),\n$$",
+        "norm_pred": "f(y)\\geqslantf(x)+f^{\\prime}(x)(y-x),",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {
+                "formula_type": "print"
+            }
+        ],
+        "img_id": "jiaocai_71434495.pdf_0.jpg",
+        "image_name": "jiaocai_71434495.pdf_0.jpg",
+        "upper_len": 43,
+        "metric": {
+            "Edit_dist": 0.13953488372093023
+        },
+        "Edit_num": 6
+    },
+    {
+        "gt_idx": [
+            10
+        ],
+        "gt": "$$\nx_{n}=\\mathrm{e}-\\sum_{k=n+1}^{\\infty} {\\frac{1} {k!}} \\stackrel{\\mathrm{d e f}} {=} \\mathrm{e}-r_{n}, \\operatorname* {l i m}_{n \\to\\infty} r_{n}=0.\n$$",
+        "pred_idx": [
+            44
+        ],
+        "pred": "\\[x_{n}=\\mathrm{e}-\\sum_{k=n+1}^{\\infty}{\\frac{1}{k!}}\\stackrel{\\mathrm{def}}{=}\\mathrm{e}-r_{n},\\operatorname*{lim}_{n\\to\\infty}r_{n}=0.\\]",
+        "edit": 0.06542056074766354,
+        "gt_position": [
+            46
+        ],
+        "pred_position": 3490,
+        "norm_gt": "$$\nx_{n}={e}-\\sum_{k=n+1}^{\\infty}{\\frac{1}{k!}}\\stackrel{{def}}{=}{e}-r_{n},*{lim}_{n\\to\\infty}r_{n}=0.\n$$",
+        "norm_pred": "x_{n}={e}-\\sum_{k=n+1}^{\\infty}{\\frac{1}{k!}}\\stackrel{{def}}{=}{e}-r_{n},*{lim}_{n\\to\\infty}r_{n}=0",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {
+                "formula_type": "print"
+            }
+        ],
+        "img_id": "jiaocai_71434495.pdf_0.jpg",
+        "image_name": "jiaocai_71434495.pdf_0.jpg",
+        "upper_len": 107,
+        "metric": {
+            "Edit_dist": 0.06542056074766354
+        },
+        "Edit_num": 7
+    },
+    {
+        "gt_idx": [
+            11
+        ],
+        "gt": "$$\n\\root n \\of{\\mathrm{e}}-1=\\frac{1} {n}+\\frac{1} {2 n^{2}}+o \\left( \\frac{1} {n^{2}} \\right),\n$$",
+        "pred_idx": [
+            45
+        ],
+        "pred": "\\[{\\sqrt[[objectObject]]{e}}-1={\\frac{1}{n}}+{\\frac{1}{2n^{2}}}+o\\left({\\frac{1}{n^{2}}}\\right),\\]",
+        "edit": 0.2978723404255319,
+        "gt_position": [
+            48
+        ],
+        "pred_position": 3716,
+        "norm_gt": "$$\n\\rootn\\of{{e}}-1=\\frac{1}{n}+\\frac{1}{2n^{2}}+o\\left(\\frac{1}{n^{2}}\\right),\n$$",
+        "norm_pred": "{\\sqrt[[objectobject]]{e}}-1={\\frac{1}{n}}+{\\frac{1}{2n^{2}}}+o\\left({\\frac{1}{n^{2}}}\\right),",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {
+                "formula_type": "print"
+            }
+        ],
+        "img_id": "jiaocai_71434495.pdf_0.jpg",
+        "image_name": "jiaocai_71434495.pdf_0.jpg",
+        "upper_len": 94,
+        "metric": {
+            "Edit_dist": 0.2978723404255319
+        },
+        "Edit_num": 28
+    },
+    {
+        "gt_idx": [
+            12
+        ],
+        "gt": "$$\n原式=\\operatorname* {l i m}_{n \\to\\infty} n \\left( \\operatorname{l n} x_{n}-1-{\\frac{1} {2 n}} \\right)=\\operatorname* {l i m}_{n \\to\\infty} n \\left( \\operatorname{l n} {\\frac{\\mathrm{e}-r_{n}} {\\mathrm{e}}}-{\\frac{1} {2 n}} \\right)=-{\\frac{1} {2}}\n$$",
+        "pred_idx": [
+            46
+        ],
+        "pred": "\\[原式=\\lim_{n\\to\\infty}n\\left(\\lnx_n-1-\\frac{1}{2n}\\right)=\\lim_{n\\to\\infty}n\\left(\\ln\\frac{\\mathrm{e}-r_n}{\\mathrm{e}}-\\frac{1}{2n}\\right)=-\\frac{1}{2}\\]",
+        "edit": 0.1761006289308176,
+        "gt_position": [
+            50
+        ],
+        "pred_position": 3879,
+        "norm_gt": "$$\n原式=*{lim}_{n\\to\\infty}n\\left({ln}x_{n}-1-{\\frac{1}{2n}}\\right)=*{lim}_{n\\to\\infty}n\\left({ln}{\\frac{{e}-r_{n}}{{e}}}-{\\frac{1}{2n}}\\right)=-{\\frac{1}{2}}\n$$",
+        "norm_pred": "原式=\\lim_{n\\to\\infty}n\\left(\\lnx_n-1-\\frac{1}{2n}\\right)=\\lim_{n\\to\\infty}n\\left(\\ln\\frac{{e}-r_n}{{e}}-\\frac{1}{2n}\\right)=-\\frac{1}{2}",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {
+                "formula_type": "print"
+            }
+        ],
+        "img_id": "jiaocai_71434495.pdf_0.jpg",
+        "image_name": "jiaocai_71434495.pdf_0.jpg",
+        "upper_len": 159,
+        "metric": {
+            "Edit_dist": 0.1761006289308176
+        },
+        "Edit_num": 28
+    },
+    {
+        "gt_idx": [
+            0
+        ],
+        "gt": "$$\n\\mathrm{Hazard~Quotient}=\\frac{\\mathrm{Exposure~ Dose}} {RfD}\n$$",
+        "pred_idx": [
+            0
+        ],
+        "pred": "\\[\\mathrm{Hazard~Quotient}=\\frac{\\mathrm{Exposure~Dose}}{RfD}\\]",
+        "edit": 0.11764705882352941,
+        "gt_position": [
+            7
+        ],
+        "pred_position": 2814,
+        "norm_gt": "$$\n{hazard~quotient}=\\frac{{exposure~dose}}{rfd}\n$$",
+        "norm_pred": "{hazard~quotient}=\\frac{{exposure~dose}}{rfd}",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {
+                "formula_type": "print"
+            }
+        ],
+        "img_id": "docstructbench_llm-raw-scihub-o.O-s00128-008-9367-z.pdf_4.jpg",
+        "image_name": "docstructbench_llm-raw-scihub-o.O-s00128-008-9367-z.pdf_4.jpg",
+        "upper_len": 51,
+        "metric": {
+            "Edit_dist": 0.11764705882352941
+        },
+        "Edit_num": 6
+    },
+    {
+        "gt_idx": [
+            1
+        ],
+        "gt": "$$\n\\mathrm{Exposure ~ Dose}=\\frac{Ci \\times\\mathrm{D} v \\times\\mathrm{E} d} {Bw \\times At}\n$$",
+        "pred_idx": [
+            1
+        ],
+        "pred": "\\[\\mathrm{Exposure~Dose}=\\frac{Ci\\timesDv\\timesEd}{Bw\\timesAt}\\]",
+        "edit": 0.15873015873015872,
+        "gt_position": [
+            9
+        ],
+        "pred_position": 2925,
+        "norm_gt": "$$\n{exposure~dose}=\\frac{ci\\times{d}v\\times{e}d}{bw\\timesat}\n$$",
+        "norm_pred": "{exposure~dose}=\\frac{ci\\timesdv\\timesed}{bw\\timesat}",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {
+                "formula_type": "print"
+            }
+        ],
+        "img_id": "docstructbench_llm-raw-scihub-o.O-s00128-008-9367-z.pdf_4.jpg",
+        "image_name": "docstructbench_llm-raw-scihub-o.O-s00128-008-9367-z.pdf_4.jpg",
+        "upper_len": 63,
+        "metric": {
+            "Edit_dist": 0.15873015873015872
+        },
+        "Edit_num": 10
+    },
+    {
+        "gt_idx": [
+            2
+        ],
+        "gt": "$$\n\\mathrm{Hazard ~ Index}=\\sum_{n=1}^{n=k} \\mathrm{Hazard ~ Quotient}\n$$",
+        "pred_idx": [
+            2
+        ],
+        "pred": "\\[{\\mathrm{Hazard~Index}}=\\sum_{n=1}^{n=k}{\\mathrm{Hazard~Quotient}}\\]",
+        "edit": 0.14814814814814814,
+        "gt_position": [
+            11
+        ],
+        "pred_position": 3029,
+        "norm_gt": "$$\n{hazard~index}=\\sum_{n=1}^{n=k}{hazard~quotient}\n$$",
+        "norm_pred": "{{hazard~index}}=\\sum_{n=1}^{n=k}{{hazard~quotient}}",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {
+                "formula_type": "print"
+            }
+        ],
+        "img_id": "docstructbench_llm-raw-scihub-o.O-s00128-008-9367-z.pdf_4.jpg",
+        "image_name": "docstructbench_llm-raw-scihub-o.O-s00128-008-9367-z.pdf_4.jpg",
+        "upper_len": 54,
+        "metric": {
+            "Edit_dist": 0.14814814814814814
+        },
+        "Edit_num": 8
+    },
+    {
+        "gt_idx": [
+            3
+        ],
+        "gt": "$$\n\\alpha=\\mathrm{t r} ( \\mathbf{A} )=\\lambda_{1}+\\lambda_{2}\n$$",
+        "pred_idx": [
+            2
+        ],
+        "pred": "\\[\\begin{array}{r}{\\frac{d\\mathbf{u}}{dt}=\\mathbf{P}^{-1}\\mathbf{A}\\mathbf{P}\\mathbf{u}}\\\\{\\alpha=\\operatorname{tr}(\\mathbf{A})=\\lambda_{1}+\\lambda_{2}}\\\\{\\beta=|\\mathbf{A}|=\\lambda_{1}\\lambda_{2}}\\end{array}\\]",
+        "edit": 0.6666666666666666,
+        "gt_position": [
+            10
+        ],
+        "pred_position": 821,
+        "norm_gt": "$$\n\\alpha={tr}({a})=\\lambda_{1}+\\lambda_{2}\n$$",
+        "norm_pred": "{r}{\\frac{d{u}}{dt}={p}^{-1}{a}{p}{u}}\\\\{\\alpha={tr}({a})=\\lambda_{1}+\\lambda_{2}}\\\\{\\beta=|{a}|=\\lambda_{1}\\lambda_{2}}",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {
+                "formula_type": "print"
+            }
+        ],
+        "img_id": "yanbaopptmerge_yanbaoPPT_2460.jpg",
+        "image_name": "yanbaopptmerge_yanbaoPPT_2460.jpg",
+        "upper_len": 120,
+        "metric": {
+            "Edit_dist": 0.6666666666666666
+        },
+        "Edit_num": 80
+    },
+    {
+        "gt_idx": [
+            0,
+            1
+        ],
+        "gt": "$$\n\\alpha< 0, \\lambda< 0\n$$$$\n\\alpha> 0, \\lambda> 0\n$$",
+        "pred_idx": [
+            1
+        ],
+        "pred": "\\[\\begin{array}{rl}&{\\mathbf{P}\\boldsymbol{\\xi}\\boldsymbol{\\xi}\\left(\\begin{array}{cc}{1}&{2}\\end{array}\\right)\\quad\\mathbf{P}^{-1}\\mathbf{A}\\mathbf{P}=\\left(\\begin{array}{cc}{\\lambda}&\\\\&{\\lambda}\\end{array}\\right)}\\\\&{\\left\\{\\begin{array}{ll}{\\frac{du}{dt}=\\lambdau}\\\\{\\frac{dv}{dt}=\\lambdav}\\end{array}\\right.\\quad\\left\\{\\begin{array}{ll}{u=u_{0}e^{\\lambdat}}\\\\{v=v_{0}e^{\\lambdat}}\\end{array}\\right.\\quad\\begin{array}{ll}{u=\\frac{u_{0}}{\\nu}}\\\\{\\nu=\\nu_{0}}\\end{array}}\\\\&{\\bullet\\quad\\alpha<0,\\lambda<0}\\\\&{\\bullet\\quad\\alpha>0,\\lambda>0}\\end{array}\\]",
+        "edit": 0.8978978978978979,
+        "gt_position": [
+            6,
+            7
+        ],
+        "pred_position": 41,
+        "norm_gt": "$$\n\\alpha<0,\\lambda<0\n$$$$\n\\alpha>0,\\lambda>0\n$$",
+        "norm_pred": "{rl}&{{p}{\\xi}{\\xi}\\left({cc}{1}&{2}\\right){p}^{-1}{a}{p}=\\left({cc}{\\lambda}&\\\\&{\\lambda}\\right)}\\\\&{\\left\\{{ll}{\\frac{du}{dt}=\\lambdau}\\\\{\\frac{dv}{dt}=\\lambdav}\\right.\\left\\{{ll}{u=u_{0}e^{\\lambdat}}\\\\{v=v_{0}e^{\\lambdat}}\\right.{ll}{u=\\frac{u_{0}}{\\nu}}\\\\{\\nu=\\nu_{0}}}\\\\&{\\bullet\\alpha<0,\\lambda<0}\\\\&{\\bullet\\alpha>0,\\lambda>0}",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {
+                "formula_type": "print"
+            },
+            {
+                "formula_type": "print"
+            }
+        ],
+        "img_id": "yanbaopptmerge_yanbaoPPT_2460.jpg",
+        "image_name": "yanbaopptmerge_yanbaoPPT_2460.jpg",
+        "upper_len": 333,
+        "metric": {
+            "Edit_dist": 0.8978978978978979
+        },
+        "Edit_num": 299
+    },
+    {
+        "gt_idx": [
+            4
+        ],
+        "gt": "$$\n\\beta=\\mid\\mathbf{A} \\mid=\\lambda_{1} \\lambda_{2}\n$$",
+        "pred_idx": [
+            0
+        ],
+        "pred": "\\[\\Delta=0\\]",
+        "edit": 1,
+        "gt_position": [
+            11
+        ],
+        "pred_position": 14,
+        "norm_gt": "$$\n\\beta=\\mid{a}\\mid=\\lambda_{1}\\lambda_{2}\n$$",
+        "norm_pred": "\\delta=0",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_inline",
+        "gt_attribute": [
+            {
+                "formula_type": "print"
+            }
+        ],
+        "img_id": "yanbaopptmerge_yanbaoPPT_2460.jpg",
+        "image_name": "yanbaopptmerge_yanbaoPPT_2460.jpg",
+        "upper_len": 46,
+        "metric": {
+            "Edit_dist": 0.9130434782608695
+        },
+        "Edit_num": 42
+    },
+    {
+        "gt_idx": [
+            2
+        ],
+        "gt": "$$\n\\frac{d {\\bf u}} {d t}={\\bf P}^{-1} {\\bf A P} {\\bf u}\n$$",
+        "pred_idx": [
+            ""
+        ],
+        "pred": "",
+        "edit": 1,
+        "gt_position": [
+            9
+        ],
+        "pred_position": "",
+        "norm_gt": "$$\n\\frac{d{\\bfu}}{dt}={\\bfp}^{-1}{\\bfap}{\\bfu}\n$$",
+        "norm_pred": "",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "",
+        "gt_attribute": [
+            {
+                "formula_type": "print"
+            }
+        ],
+        "img_id": "yanbaopptmerge_yanbaoPPT_2460.jpg",
+        "image_name": "yanbaopptmerge_yanbaoPPT_2460.jpg",
+        "upper_len": 49,
+        "metric": {
+            "Edit_dist": 1.0
+        },
+        "Edit_num": 49
+    },
+    {
+        "gt_idx": [
+            0
+        ],
+        "gt": "$$\n- 1 7 x^{6}\n$$",
+        "pred_idx": [
+            0
+        ],
+        "pred": "\\[-17x^{6}\\]",
+        "edit": 0.42857142857142855,
+        "gt_position": [
+            2
+        ],
+        "pred_position": 4,
+        "norm_gt": "$$\n-17x^{6}\n$$",
+        "norm_pred": "-17x^{6}",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_inline",
+        "gt_attribute": [
+            {
+                "formula_type": "print"
+            }
+        ],
+        "img_id": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "image_name": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "upper_len": 14,
+        "metric": {
+            "Edit_dist": 0.42857142857142855
+        },
+        "Edit_num": 6
+    },
+    {
+        "gt_idx": [
+            1
+        ],
+        "gt": "$$\n1 1 y^{2}+4 y+1 1\n$$",
+        "pred_idx": [
+            38
+        ],
+        "pred": "\\[11y^{2}+4y+11\\]",
+        "edit": 0.3157894736842105,
+        "gt_position": [
+            4
+        ],
+        "pred_position": 856,
+        "norm_gt": "$$\n11y^{2}+4y+11\n$$",
+        "norm_pred": "11y^{2}+4y+11",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_inline",
+        "gt_attribute": [
+            {
+                "formula_type": "print"
+            }
+        ],
+        "img_id": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "image_name": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "upper_len": 19,
+        "metric": {
+            "Edit_dist": 0.3157894736842105
+        },
+        "Edit_num": 6
+    },
+    {
+        "gt_idx": [
+            2
+        ],
+        "gt": "$$\n- 3 x^{2}+1 7 x-1\n$$",
+        "pred_idx": [
+            76
+        ],
+        "pred": "\\[-3x^{2}+17x-1\\]",
+        "edit": 0.3157894736842105,
+        "gt_position": [
+            6
+        ],
+        "pred_position": 1676,
+        "norm_gt": "$$\n-3x^{2}+17x-1\n$$",
+        "norm_pred": "-3x^{2}+17x-1",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_inline",
+        "gt_attribute": [
+            {
+                "formula_type": "print"
+            }
+        ],
+        "img_id": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "image_name": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "upper_len": 19,
+        "metric": {
+            "Edit_dist": 0.3157894736842105
+        },
+        "Edit_num": 6
+    },
+    {
+        "gt_idx": [
+            3
+        ],
+        "gt": "$$\n1 1 x^{2}-5 x+5\n$$",
+        "pred_idx": [
+            1
+        ],
+        "pred": "\\[11x^{2}-5x+5\\]",
+        "edit": 0.3333333333333333,
+        "gt_position": [
+            8
+        ],
+        "pred_position": 20,
+        "norm_gt": "$$\n11x^{2}-5x+5\n$$",
+        "norm_pred": "11x^{2}-5x+5",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_inline",
+        "gt_attribute": [
+            {
+                "formula_type": "print"
+            }
+        ],
+        "img_id": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "image_name": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "upper_len": 18,
+        "metric": {
+            "Edit_dist": 0.3333333333333333
+        },
+        "Edit_num": 6
+    },
+    {
+        "gt_idx": [
+            4
+        ],
+        "gt": "$$\n6 a^{2}-4 a-1\n$$",
+        "pred_idx": [
+            39
+        ],
+        "pred": "\\[6a^{2}-4a-1\\]",
+        "edit": 0.35294117647058826,
+        "gt_position": [
+            10
+        ],
+        "pred_position": 877,
+        "norm_gt": "$$\n6a^{2}-4a-1\n$$",
+        "norm_pred": "6a^{2}-4a-1",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_inline",
+        "gt_attribute": [
+            {
+                "formula_type": "print"
+            }
+        ],
+        "img_id": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "image_name": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "upper_len": 17,
+        "metric": {
+            "Edit_dist": 0.35294117647058826
+        },
+        "Edit_num": 6
+    },
+    {
+        "gt_idx": [
+            5
+        ],
+        "gt": "$$\n2 m^{2}-7 m+4\n$$",
+        "pred_idx": [
+            77
+        ],
+        "pred": "\\[2m^{2}-7m+4\\]",
+        "edit": 0.35294117647058826,
+        "gt_position": [
+            12
+        ],
+        "pred_position": 1697,
+        "norm_gt": "$$\n2m^{2}-7m+4\n$$",
+        "norm_pred": "2m^{2}-7m+4",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_inline",
+        "gt_attribute": [
+            {
+                "formula_type": "print"
+            }
+        ],
+        "img_id": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "image_name": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "upper_len": 17,
+        "metric": {
+            "Edit_dist": 0.35294117647058826
+        },
+        "Edit_num": 6
+    },
+    {
+        "gt_idx": [
+            6
+        ],
+        "gt": "$$\n1 2 s^{2}-1 4 s+9\n$$",
+        "pred_idx": [
+            40
+        ],
+        "pred": "\\[12s^{2}-14s+9\\]",
+        "edit": 0.3157894736842105,
+        "gt_position": [
+            15
+        ],
+        "pred_position": 896,
+        "norm_gt": "$$\n12s^{2}-14s+9\n$$",
+        "norm_pred": "12s^{2}-14s+9",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_inline",
+        "gt_attribute": [
+            {
+                "formula_type": "print"
+            }
+        ],
+        "img_id": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "image_name": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "upper_len": 19,
+        "metric": {
+            "Edit_dist": 0.3157894736842105
+        },
+        "Edit_num": 6
+    },
+    {
+        "gt_idx": [
+            7
+        ],
+        "gt": "$$\n3 x^{2}-x+4\n$$",
+        "pred_idx": [
+            78
+        ],
+        "pred": "\\[3x^{2}-x+4\\]",
+        "edit": 0.375,
+        "gt_position": [
+            17
+        ],
+        "pred_position": 1716,
+        "norm_gt": "$$\n3x^{2}-x+4\n$$",
+        "norm_pred": "3x^{2}-x+4",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_inline",
+        "gt_attribute": [
+            {
+                "formula_type": "print"
+            }
+        ],
+        "img_id": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "image_name": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "upper_len": 16,
+        "metric": {
+            "Edit_dist": 0.375
+        },
+        "Edit_num": 6
+    },
+    {
+        "gt_idx": [
+            8
+        ],
+        "gt": "$$\nw^{2}+3 w+4\n$$",
+        "pred_idx": [
+            3
+        ],
+        "pred": "\\[w^{2}+3w+4\\]",
+        "edit": 0.375,
+        "gt_position": [
+            19
+        ],
+        "pred_position": 52,
+        "norm_gt": "$$\nw^{2}+3w+4\n$$",
+        "norm_pred": "w^{2}+3w+4",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_inline",
+        "gt_attribute": [
+            {
+                "formula_type": "print"
+            }
+        ],
+        "img_id": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "image_name": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "upper_len": 16,
+        "metric": {
+            "Edit_dist": 0.375
+        },
+        "Edit_num": 6
+    },
+    {
+        "gt_idx": [
+            9
+        ],
+        "gt": "$$\n2 p^{3}+p^{2}+9 p+1 0\n$$",
+        "pred_idx": [
+            41
+        ],
+        "pred": "\\[2p^{3}+p^{2}+9p+10\\]",
+        "edit": 0.25,
+        "gt_position": [
+            21
+        ],
+        "pred_position": 917,
+        "norm_gt": "$$\n2p^{3}+p^{2}+9p+10\n$$",
+        "norm_pred": "2p^{3}+p^{2}+9p+10",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_inline",
+        "gt_attribute": [
+            {
+                "formula_type": "print"
+            }
+        ],
+        "img_id": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "image_name": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "upper_len": 24,
+        "metric": {
+            "Edit_dist": 0.25
+        },
+        "Edit_num": 6
+    },
+    {
+        "gt_idx": [
+            10
+        ],
+        "gt": "$$\n8 a^{3}+a^{2}-2 a+1 2\n$$",
+        "pred_idx": [
+            79
+        ],
+        "pred": "\\[8a^{3}+a^{2}-2a+12\\]",
+        "edit": 0.25,
+        "gt_position": [
+            23
+        ],
+        "pred_position": 1734,
+        "norm_gt": "$$\n8a^{3}+a^{2}-2a+12\n$$",
+        "norm_pred": "8a^{3}+a^{2}-2a+12",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_inline",
+        "gt_attribute": [
+            {
+                "formula_type": "print"
+            }
+        ],
+        "img_id": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "image_name": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "upper_len": 24,
+        "metric": {
+            "Edit_dist": 0.25
+        },
+        "Edit_num": 6
+    },
+    {
+        "gt_idx": [
+            11
+        ],
+        "gt": "$$\n1 0 x^{2}-7 x y+6 y^{2}\n$$",
+        "pred_idx": [
+            80
+        ],
+        "pred": "\\[10x^{2}-7xy+6y^{2}\\]",
+        "edit": 0.25,
+        "gt_position": [
+            27
+        ],
+        "pred_position": 1760,
+        "norm_gt": "$$\n10x^{2}-7xy+6y^{2}\n$$",
+        "norm_pred": "10x^{2}-7xy+6y^{2}",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_inline",
+        "gt_attribute": [
+            {
+                "formula_type": "print"
+            }
+        ],
+        "img_id": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "image_name": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "upper_len": 24,
+        "metric": {
+            "Edit_dist": 0.25
+        },
+        "Edit_num": 6
+    },
+    {
+        "gt_idx": [
+            12
+        ],
+        "gt": "$$\n1 0 m^{2}+3 m n-8 n^{2}\n$$",
+        "pred_idx": [
+            5
+        ],
+        "pred": "\\[10m^{2}+3mn-8n^{2}\\]",
+        "edit": 0.25,
+        "gt_position": [
+            29
+        ],
+        "pred_position": 84,
+        "norm_gt": "$$\n10m^{2}+3mn-8n^{2}\n$$",
+        "norm_pred": "10m^{2}+3mn-8n^{2}",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_inline",
+        "gt_attribute": [
+            {
+                "formula_type": "print"
+            }
+        ],
+        "img_id": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "image_name": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "upper_len": 24,
+        "metric": {
+            "Edit_dist": 0.25
+        },
+        "Edit_num": 6
+    },
+    {
+        "gt_idx": [
+            13
+        ],
+        "gt": "$$\n- 3 a b+3 b^{2}\n$$",
+        "pred_idx": [
+            43
+        ],
+        "pred": "\\[-3ab+3b^{2}\\]",
+        "edit": 0.35294117647058826,
+        "gt_position": [
+            31
+        ],
+        "pred_position": 957,
+        "norm_gt": "$$\n-3ab+3b^{2}\n$$",
+        "norm_pred": "-3ab+3b^{2}",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_inline",
+        "gt_attribute": [
+            {
+                "formula_type": "print"
+            }
+        ],
+        "img_id": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "image_name": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "upper_len": 17,
+        "metric": {
+            "Edit_dist": 0.35294117647058826
+        },
+        "Edit_num": 6
+    },
+    {
+        "gt_idx": [
+            14
+        ],
+        "gt": "$$\n4 u v+2 v^{2}\n$$",
+        "pred_idx": [
+            81
+        ],
+        "pred": "\\[4uv+2v^{2}\\]",
+        "edit": 0.375,
+        "gt_position": [
+            33
+        ],
+        "pred_position": 1786,
+        "norm_gt": "$$\n4uv+2v^{2}\n$$",
+        "norm_pred": "4uv+2v^{2}",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_inline",
+        "gt_attribute": [
+            {
+                "formula_type": "print"
+            }
+        ],
+        "img_id": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "image_name": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "upper_len": 16,
+        "metric": {
+            "Edit_dist": 0.375
+        },
+        "Edit_num": 6
+    },
+    {
+        "gt_idx": [
+            15
+        ],
+        "gt": "$$\np^{3}-6 p^{2} q+p q^{2}+4 q^{3}\n$$",
+        "pred_idx": [
+            6
+        ],
+        "pred": "\\[p^{3}-6p^{2}q+pq^{2}+4q^{3}\\]",
+        "edit": 0.18181818181818182,
+        "gt_position": [
+            35
+        ],
+        "pred_position": 110,
+        "norm_gt": "$$\np^{3}-6p^{2}q+pq^{2}+4q^{3}\n$$",
+        "norm_pred": "p^{3}-6p^{2}q+pq^{2}+4q^{3}",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_inline",
+        "gt_attribute": [
+            {
+                "formula_type": "print"
+            }
+        ],
+        "img_id": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "image_name": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "upper_len": 33,
+        "metric": {
+            "Edit_dist": 0.18181818181818182
+        },
+        "Edit_num": 6
+    },
+    {
+        "gt_idx": [
+            16
+        ],
+        "gt": "$$\nx^{3}+2 x^{2} y-5 x y^{2}+y^{3}\n$$",
+        "pred_idx": [
+            44
+        ],
+        "pred": "\\[x^{3}+2x^{2}y-5xy^{2}+y^{3}\\]",
+        "edit": 0.18181818181818182,
+        "gt_position": [
+            37
+        ],
+        "pred_position": 976,
+        "norm_gt": "$$\nx^{3}+2x^{2}y-5xy^{2}+y^{3}\n$$",
+        "norm_pred": "x^{3}+2x^{2}y-5xy^{2}+y^{3}",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_inline",
+        "gt_attribute": [
+            {
+                "formula_type": "print"
+            }
+        ],
+        "img_id": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "image_name": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "upper_len": 33,
+        "metric": {
+            "Edit_dist": 0.18181818181818182
+        },
+        "Edit_num": 6
+    },
+    {
+        "gt_idx": [
+            17
+        ],
+        "gt": "$$\nx^{6}\n$$",
+        "pred_idx": [
+            48
+        ],
+        "pred": "\\[x^{6}\\]",
+        "edit": 0.5454545454545454,
+        "gt_position": [
+            53
+        ],
+        "pred_position": 1079,
+        "norm_gt": "$$\nx^{6}\n$$",
+        "norm_pred": "x^{6}",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_inline",
+        "gt_attribute": [
+            {
+                "formula_type": "print"
+            }
+        ],
+        "img_id": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "image_name": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "upper_len": 11,
+        "metric": {
+            "Edit_dist": 0.5454545454545454
+        },
+        "Edit_num": 6
+    },
+    {
+        "gt_idx": [
+            18
+        ],
+        "gt": "$$\nq^{4 2}\n$$",
+        "pred_idx": [
+            86
+        ],
+        "pred": "\\[q^{42}\\]",
+        "edit": 0.5,
+        "gt_position": [
+            55
+        ],
+        "pred_position": 1947,
+        "norm_gt": "$$\nq^{42}\n$$",
+        "norm_pred": "q^{42}",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_inline",
+        "gt_attribute": [
+            {
+                "formula_type": "print"
+            }
+        ],
+        "img_id": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "image_name": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "upper_len": 12,
+        "metric": {
+            "Edit_dist": 0.5
+        },
+        "Edit_num": 6
+    },
+    {
+        "gt_idx": [
+            19
+        ],
+        "gt": "$$\ny^{9}\n$$",
+        "pred_idx": [
+            87
+        ],
+        "pred": "\\[y^{9}\\]",
+        "edit": 0.5454545454545454,
+        "gt_position": [
+            59
+        ],
+        "pred_position": 1962,
+        "norm_gt": "$$\ny^{9}\n$$",
+        "norm_pred": "y^{9}",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_inline",
+        "gt_attribute": [
+            {
+                "formula_type": "print"
+            }
+        ],
+        "img_id": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "image_name": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "upper_len": 11,
+        "metric": {
+            "Edit_dist": 0.5454545454545454
+        },
+        "Edit_num": 6
+    },
+    {
+        "gt_idx": [
+            20
+        ],
+        "gt": "$$\nc^{1 8}\n$$",
+        "pred_idx": [
+            12
+        ],
+        "pred": "\\[c^{18}\\]",
+        "edit": 0.5,
+        "gt_position": [
+            61
+        ],
+        "pred_position": 315,
+        "norm_gt": "$$\nc^{18}\n$$",
+        "norm_pred": "c^{18}",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_inline",
+        "gt_attribute": [
+            {
+                "formula_type": "print"
+            }
+        ],
+        "img_id": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "image_name": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "upper_len": 12,
+        "metric": {
+            "Edit_dist": 0.5
+        },
+        "Edit_num": 6
+    },
+    {
+        "gt_idx": [
+            21
+        ],
+        "gt": "$$\nn^{y+2}\n$$",
+        "pred_idx": [
+            51
+        ],
+        "pred": "\\[n^{y+2}\\]",
+        "edit": 0.46153846153846156,
+        "gt_position": [
+            63
+        ],
+        "pred_position": 1124,
+        "norm_gt": "$$\nn^{y+2}\n$$",
+        "norm_pred": "n^{y+2}",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_inline",
+        "gt_attribute": [
+            {
+                "formula_type": "print"
+            }
+        ],
+        "img_id": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "image_name": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "upper_len": 13,
+        "metric": {
+            "Edit_dist": 0.46153846153846156
+        },
+        "Edit_num": 6
+    },
+    {
+        "gt_idx": [
+            22
+        ],
+        "gt": "$$\nx^{p+q}\n$$",
+        "pred_idx": [
+            88
+        ],
+        "pred": "\\[x^{p+q}\\]",
+        "edit": 0.46153846153846156,
+        "gt_position": [
+            65
+        ],
+        "pred_position": 1976,
+        "norm_gt": "$$\nx^{p+q}\n$$",
+        "norm_pred": "x^{p+q}",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_inline",
+        "gt_attribute": [
+            {
+                "formula_type": "print"
+            }
+        ],
+        "img_id": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "image_name": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "upper_len": 13,
+        "metric": {
+            "Edit_dist": 0.46153846153846156
+        },
+        "Edit_num": 6
+    },
+    {
+        "gt_idx": [
+            23
+        ],
+        "gt": "$$\n- 1 8 y^{1 1}\n$$",
+        "pred_idx": [
+            19
+        ],
+        "pred": "\\[-18y^{11}\\]",
+        "edit": 0.4,
+        "gt_position": [
+            76
+        ],
+        "pred_position": 447,
+        "norm_gt": "$$\n-18y^{11}\n$$",
+        "norm_pred": "-18y^{11}",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_inline",
+        "gt_attribute": [
+            {
+                "formula_type": "print"
+            }
+        ],
+        "img_id": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "image_name": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "upper_len": 15,
+        "metric": {
+            "Edit_dist": 0.4
+        },
+        "Edit_num": 6
+    },
+    {
+        "gt_idx": [
+            24
+        ],
+        "gt": "$$\n7 2 u^{7}\n$$",
+        "pred_idx": [
+            58
+        ],
+        "pred": "\\[72u^{7}\\]",
+        "edit": 0.46153846153846156,
+        "gt_position": [
+            78
+        ],
+        "pred_position": 1258,
+        "norm_gt": "$$\n72u^{7}\n$$",
+        "norm_pred": "72u^{7}",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_inline",
+        "gt_attribute": [
+            {
+                "formula_type": "print"
+            }
+        ],
+        "img_id": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "image_name": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "upper_len": 13,
+        "metric": {
+            "Edit_dist": 0.46153846153846156
+        },
+        "Edit_num": 6
+    },
+    {
+        "gt_idx": [
+            25
+        ],
+        "gt": "$$\n4 f^{1 1}\n$$",
+        "pred_idx": [
+            95
+        ],
+        "pred": "\\[4f^{11}\\]",
+        "edit": 0.46153846153846156,
+        "gt_position": [
+            80
+        ],
+        "pred_position": 2120,
+        "norm_gt": "$$\n4f^{11}\n$$",
+        "norm_pred": "4f^{11}",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_inline",
+        "gt_attribute": [
+            {
+                "formula_type": "print"
+            }
+        ],
+        "img_id": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "image_name": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "upper_len": 13,
+        "metric": {
+            "Edit_dist": 0.46153846153846156
+        },
+        "Edit_num": 6
+    },
+    {
+        "gt_idx": [
+            26
+        ],
+        "gt": "$$\n3 6 a^{5} b^{7}\n$$",
+        "pred_idx": [
+            20
+        ],
+        "pred": "\\[36a^{5}b^{7}\\]",
+        "edit": 0.3333333333333333,
+        "gt_position": [
+            82
+        ],
+        "pred_position": 465,
+        "norm_gt": "$$\n36a^{5}b^{7}\n$$",
+        "norm_pred": "36a^{5}b^{7}",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_inline",
+        "gt_attribute": [
+            {
+                "formula_type": "print"
+            }
+        ],
+        "img_id": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "image_name": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "upper_len": 18,
+        "metric": {
+            "Edit_dist": 0.3333333333333333
+        },
+        "Edit_num": 6
+    },
+    {
+        "gt_idx": [
+            27
+        ],
+        "gt": "$$\n8 r^{2} \\, s^{5}\n$$",
+        "pred_idx": [
+            59
+        ],
+        "pred": "\\[8r^{2}s^{5}\\]",
+        "edit": 0.42105263157894735,
+        "gt_position": [
+            84
+        ],
+        "pred_position": 1274,
+        "norm_gt": "$$\n8r^{2}\\,s^{5}\n$$",
+        "norm_pred": "8r^{2}s^{5}",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_inline",
+        "gt_attribute": [
+            {
+                "formula_type": "print"
+            }
+        ],
+        "img_id": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "image_name": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "upper_len": 19,
+        "metric": {
+            "Edit_dist": 0.42105263157894735
+        },
+        "Edit_num": 8
+    },
+    {
+        "gt_idx": [
+            28
+        ],
+        "gt": "$$\n\\frac{1} {2} x^{3} y^{3}\n$$",
+        "pred_idx": [
+            96
+        ],
+        "pred": "\\[\\frac{1}{2}x^{3}y^{3}\\]",
+        "edit": 0.2222222222222222,
+        "gt_position": [
+            86
+        ],
+        "pred_position": 2136,
+        "norm_gt": "$$\n\\frac{1}{2}x^{3}y^{3}\n$$",
+        "norm_pred": "\\frac{1}{2}x^{3}y^{3}",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_inline",
+        "gt_attribute": [
+            {
+                "formula_type": "print"
+            }
+        ],
+        "img_id": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "image_name": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "upper_len": 27,
+        "metric": {
+            "Edit_dist": 0.2222222222222222
+        },
+        "Edit_num": 6
+    },
+    {
+        "gt_idx": [
+            29
+        ],
+        "gt": "$$\nx^{1 4}\n$$",
+        "pred_idx": [
+            21
+        ],
+        "pred": "\\[x^{14}\\]",
+        "edit": 0.5,
+        "gt_position": [
+            88
+        ],
+        "pred_position": 486,
+        "norm_gt": "$$\nx^{14}\n$$",
+        "norm_pred": "x^{14}",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_inline",
+        "gt_attribute": [
+            {
+                "formula_type": "print"
+            }
+        ],
+        "img_id": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "image_name": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "upper_len": 12,
+        "metric": {
+            "Edit_dist": 0.5
+        },
+        "Edit_num": 6
+    },
+    {
+        "gt_idx": [
+            30
+        ],
+        "gt": "$$\na^{3 6}\n$$",
+        "pred_idx": [
+            60
+        ],
+        "pred": "\\[a^{36}\\]",
+        "edit": 0.5,
+        "gt_position": [
+            90
+        ],
+        "pred_position": 1294,
+        "norm_gt": "$$\na^{36}\n$$",
+        "norm_pred": "a^{36}",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_inline",
+        "gt_attribute": [
+            {
+                "formula_type": "print"
+            }
+        ],
+        "img_id": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "image_name": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "upper_len": 12,
+        "metric": {
+            "Edit_dist": 0.5
+        },
+        "Edit_num": 6
+    },
+    {
+        "gt_idx": [
+            31
+        ],
+        "gt": "$$\n8 m^{1 8}\n$$",
+        "pred_idx": [
+            97
+        ],
+        "pred": "\\[8m^{18}\\]",
+        "edit": 0.46153846153846156,
+        "gt_position": [
+            92
+        ],
+        "pred_position": 2166,
+        "norm_gt": "$$\n8m^{18}\n$$",
+        "norm_pred": "8m^{18}",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_inline",
+        "gt_attribute": [
+            {
+                "formula_type": "print"
+            }
+        ],
+        "img_id": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "image_name": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "upper_len": 13,
+        "metric": {
+            "Edit_dist": 0.46153846153846156
+        },
+        "Edit_num": 6
+    },
+    {
+        "gt_idx": [
+            32
+        ],
+        "gt": "$$\n1 0 0 0 x^{6} y^{3}\n$$",
+        "pred_idx": [
+            22
+        ],
+        "pred": "\\[1000x^{6}y^{3}\\]",
+        "edit": 0.3,
+        "gt_position": [
+            94
+        ],
+        "pred_position": 501,
+        "norm_gt": "$$\n1000x^{6}y^{3}\n$$",
+        "norm_pred": "1000x^{6}y^{3}",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_inline",
+        "gt_attribute": [
+            {
+                "formula_type": "print"
+            }
+        ],
+        "img_id": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "image_name": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "upper_len": 20,
+        "metric": {
+            "Edit_dist": 0.3
+        },
+        "Edit_num": 6
+    },
+    {
+        "gt_idx": [
+            33
+        ],
+        "gt": "$$\n1 6 a^{1 2} b^{8}\n$$",
+        "pred_idx": [
+            61
+        ],
+        "pred": "\\[16a^{12}b^{8}\\]",
+        "edit": 0.3157894736842105,
+        "gt_position": [
+            96
+        ],
+        "pred_position": 1309,
+        "norm_gt": "$$\n16a^{12}b^{8}\n$$",
+        "norm_pred": "16a^{12}b^{8}",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_inline",
+        "gt_attribute": [
+            {
+                "formula_type": "print"
+            }
+        ],
+        "img_id": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "image_name": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "upper_len": 19,
+        "metric": {
+            "Edit_dist": 0.3157894736842105
+        },
+        "Edit_num": 6
+    },
+    {
+        "gt_idx": [
+            34
+        ],
+        "gt": "$$\n\\frac{8} {2 7} x^{6} y^{3}\n$$",
+        "pred_idx": [
+            98
+        ],
+        "pred": "\\[\\frac{8}{27}x^{6}y^{3}\\]",
+        "edit": 0.21428571428571427,
+        "gt_position": [
+            98
+        ],
+        "pred_position": 2182,
+        "norm_gt": "$$\n\\frac{8}{27}x^{6}y^{3}\n$$",
+        "norm_pred": "\\frac{8}{27}x^{6}y^{3}",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_inline",
+        "gt_attribute": [
+            {
+                "formula_type": "print"
+            }
+        ],
+        "img_id": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "image_name": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "upper_len": 28,
+        "metric": {
+            "Edit_dist": 0.21428571428571427
+        },
+        "Edit_num": 6
+    },
+    {
+        "gt_idx": [
+            35
+        ],
+        "gt": "$$\n1 0 2 4 a^{1 0}\n$$",
+        "pred_idx": [
+            23
+        ],
+        "pred": "\\[1024a^{10}\\]",
+        "edit": 0.375,
+        "gt_position": [
+            100
+        ],
+        "pred_position": 524,
+        "norm_gt": "$$\n1024a^{10}\n$$",
+        "norm_pred": "1024a^{10}",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_inline",
+        "gt_attribute": [
+            {
+                "formula_type": "print"
+            }
+        ],
+        "img_id": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "image_name": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "upper_len": 16,
+        "metric": {
+            "Edit_dist": 0.375
+        },
+        "Edit_num": 6
+    },
+    {
+        "gt_idx": [
+            36
+        ],
+        "gt": "$$\n2 5 0 0 0 p^{2 4}\n$$",
+        "pred_idx": [
+            62
+        ],
+        "pred": "\\[25000p^{24}\\]",
+        "edit": 0.35294117647058826,
+        "gt_position": [
+            102
+        ],
+        "pred_position": 1331,
+        "norm_gt": "$$\n25000p^{24}\n$$",
+        "norm_pred": "25000p^{24}",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_inline",
+        "gt_attribute": [
+            {
+                "formula_type": "print"
+            }
+        ],
+        "img_id": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "image_name": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "upper_len": 17,
+        "metric": {
+            "Edit_dist": 0.35294117647058826
+        },
+        "Edit_num": 6
+    },
+    {
+        "gt_idx": [
+            37
+        ],
+        "gt": "$$\nx^{1 8} y^{1 8}\n$$",
+        "pred_idx": [
+            99
+        ],
+        "pred": "\\[x^{18}y^{18}\\]",
+        "edit": 0.3333333333333333,
+        "gt_position": [
+            104
+        ],
+        "pred_position": 2213,
+        "norm_gt": "$$\nx^{18}y^{18}\n$$",
+        "norm_pred": "x^{18}y^{18}",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_inline",
+        "gt_attribute": [
+            {
+                "formula_type": "print"
+            }
+        ],
+        "img_id": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "image_name": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "upper_len": 18,
+        "metric": {
+            "Edit_dist": 0.3333333333333333
+        },
+        "Edit_num": 6
+    },
+    {
+        "gt_idx": [
+            38
+        ],
+        "gt": "$$\n1 4 4 m^{8} \\, n^{2 2}\n$$",
+        "pred_idx": [
+            24
+        ],
+        "pred": "\\[144m^{8}n^{22}\\]",
+        "edit": 0.36363636363636365,
+        "gt_position": [
+            106
+        ],
+        "pred_position": 543,
+        "norm_gt": "$$\n144m^{8}\\,n^{22}\n$$",
+        "norm_pred": "144m^{8}n^{22}",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_inline",
+        "gt_attribute": [
+            {
+                "formula_type": "print"
+            }
+        ],
+        "img_id": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "image_name": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "upper_len": 22,
+        "metric": {
+            "Edit_dist": 0.36363636363636365
+        },
+        "Edit_num": 8
+    },
+    {
+        "gt_idx": [
+            39
+        ],
+        "gt": "$$\nq^{2}+5 q\n$$",
+        "pred_idx": [
+            26
+        ],
+        "pred": "\\[q^{2}+5q\\]",
+        "edit": 0.42857142857142855,
+        "gt_position": [
+            116
+        ],
+        "pred_position": 606,
+        "norm_gt": "$$\nq^{2}+5q\n$$",
+        "norm_pred": "q^{2}+5q",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_inline",
+        "gt_attribute": [
+            {
+                "formula_type": "print"
+            }
+        ],
+        "img_id": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "image_name": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "upper_len": 14,
+        "metric": {
+            "Edit_dist": 0.42857142857142855
+        },
+        "Edit_num": 6
+    },
+    {
+        "gt_idx": [
+            40
+        ],
+        "gt": "$$\n- b^{2}-9 b\n$$",
+        "pred_idx": [
+            64
+        ],
+        "pred": "\\[-b^{2}-9b\\]",
+        "edit": 0.4,
+        "gt_position": [
+            118
+        ],
+        "pred_position": 1406,
+        "norm_gt": "$$\n-b^{2}-9b\n$$",
+        "norm_pred": "-b^{2}-9b",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_inline",
+        "gt_attribute": [
+            {
+                "formula_type": "print"
+            }
+        ],
+        "img_id": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "image_name": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "upper_len": 15,
+        "metric": {
+            "Edit_dist": 0.4
+        },
+        "Edit_num": 6
+    },
+    {
+        "gt_idx": [
+            41
+        ],
+        "gt": "$$\n- x^{2}+1 0 x\n$$",
+        "pred_idx": [
+            103
+        ],
+        "pred": "\\[-x^{2}+10x\\]",
+        "edit": 0.375,
+        "gt_position": [
+            120
+        ],
+        "pred_position": 2278,
+        "norm_gt": "$$\n-x^{2}+10x\n$$",
+        "norm_pred": "-x^{2}+10x",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_inline",
+        "gt_attribute": [
+            {
+                "formula_type": "print"
+            }
+        ],
+        "img_id": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "image_name": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "upper_len": 16,
+        "metric": {
+            "Edit_dist": 0.375
+        },
+        "Edit_num": 6
+    },
+    {
+        "gt_idx": [
+            42
+        ],
+        "gt": "$$\n2 4 r^{2}+6 r s\n$$",
+        "pred_idx": [
+            27
+        ],
+        "pred": "\\[24r^{2}+6rs\\]",
+        "edit": 0.35294117647058826,
+        "gt_position": [
+            122
+        ],
+        "pred_position": 623,
+        "norm_gt": "$$\n24r^{2}+6rs\n$$",
+        "norm_pred": "24r^{2}+6rs",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_inline",
+        "gt_attribute": [
+            {
+                "formula_type": "print"
+            }
+        ],
+        "img_id": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "image_name": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "upper_len": 17,
+        "metric": {
+            "Edit_dist": 0.35294117647058826
+        },
+        "Edit_num": 6
+    },
+    {
+        "gt_idx": [
+            43
+        ],
+        "gt": "$$\n1 2 x^{2}-1 2 0 x\n$$",
+        "pred_idx": [
+            65
+        ],
+        "pred": "\\[12x^{2}-120x\\]",
+        "edit": 0.3333333333333333,
+        "gt_position": [
+            124
+        ],
+        "pred_position": 1424,
+        "norm_gt": "$$\n12x^{2}-120x\n$$",
+        "norm_pred": "12x^{2}-120x",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_inline",
+        "gt_attribute": [
+            {
+                "formula_type": "print"
+            }
+        ],
+        "img_id": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "image_name": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "upper_len": 18,
+        "metric": {
+            "Edit_dist": 0.3333333333333333
+        },
+        "Edit_num": 6
+    },
+    {
+        "gt_idx": [
+            44
+        ],
+        "gt": "$$\n- 2 7 a^{2}-4 5 a\n$$",
+        "pred_idx": [
+            104
+        ],
+        "pred": "\\[-27a^{2}-45a\\]",
+        "edit": 0.3333333333333333,
+        "gt_position": [
+            126
+        ],
+        "pred_position": 2297,
+        "norm_gt": "$$\n-27a^{2}-45a\n$$",
+        "norm_pred": "-27a^{2}-45a",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_inline",
+        "gt_attribute": [
+            {
+                "formula_type": "print"
+            }
+        ],
+        "img_id": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "image_name": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "upper_len": 18,
+        "metric": {
+            "Edit_dist": 0.3333333333333333
+        },
+        "Edit_num": 6
+    },
+    {
+        "gt_idx": [
+            45
+        ],
+        "gt": "$$\n3 p^{2}+3 0 p+7 5\n$$",
+        "pred_idx": [
+            28
+        ],
+        "pred": "\\[3p^{2}+30p+75\\]",
+        "edit": 0.3157894736842105,
+        "gt_position": [
+            128
+        ],
+        "pred_position": 643,
+        "norm_gt": "$$\n3p^{2}+30p+75\n$$",
+        "norm_pred": "3p^{2}+30p+75",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_inline",
+        "gt_attribute": [
+            {
+                "formula_type": "print"
+            }
+        ],
+        "img_id": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "image_name": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "upper_len": 19,
+        "metric": {
+            "Edit_dist": 0.3157894736842105
+        },
+        "Edit_num": 6
+    },
+    {
+        "gt_idx": [
+            46
+        ],
+        "gt": "$$\n- 8 x^{3}-1 6 x^{2}+1 2 0 x\n$$",
+        "pred_idx": [
+            66
+        ],
+        "pred": "\\[-8x^{3}-16x^{2}+120x\\]",
+        "edit": 0.23076923076923078,
+        "gt_position": [
+            130
+        ],
+        "pred_position": 1445,
+        "norm_gt": "$$\n-8x^{3}-16x^{2}+120x\n$$",
+        "norm_pred": "-8x^{3}-16x^{2}+120x",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_inline",
+        "gt_attribute": [
+            {
+                "formula_type": "print"
+            }
+        ],
+        "img_id": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "image_name": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "upper_len": 26,
+        "metric": {
+            "Edit_dist": 0.23076923076923078
+        },
+        "Edit_num": 6
+    },
+    {
+        "gt_idx": [
+            47
+        ],
+        "gt": "$$\n5 q^{6}-1 0 q^{4}+3 0 q^{3}\n$$",
+        "pred_idx": [
+            105
+        ],
+        "pred": "\\[5q^{6}-10q^{4}+30q^{3}\\]",
+        "edit": 0.21428571428571427,
+        "gt_position": [
+            132
+        ],
+        "pred_position": 2318,
+        "norm_gt": "$$\n5q^{6}-10q^{4}+30q^{3}\n$$",
+        "norm_pred": "5q^{6}-10q^{4}+30q^{3}",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_inline",
+        "gt_attribute": [
+            {
+                "formula_type": "print"
+            }
+        ],
+        "img_id": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "image_name": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "upper_len": 28,
+        "metric": {
+            "Edit_dist": 0.21428571428571427
+        },
+        "Edit_num": 6
+    },
+    {
+        "gt_idx": [
+            48
+        ],
+        "gt": "$$\n- 8 y^{3}-1 6 y^{2}+1 2 0 y\n$$",
+        "pred_idx": [
+            29
+        ],
+        "pred": "\\[-8y^{3}-16y^{2}+120y\\]",
+        "edit": 0.23076923076923078,
+        "gt_position": [
+            134
+        ],
+        "pred_position": 665,
+        "norm_gt": "$$\n-8y^{3}-16y^{2}+120y\n$$",
+        "norm_pred": "-8y^{3}-16y^{2}+120y",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_inline",
+        "gt_attribute": [
+            {
+                "formula_type": "print"
+            }
+        ],
+        "img_id": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "image_name": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "upper_len": 26,
+        "metric": {
+            "Edit_dist": 0.23076923076923078
+        },
+        "Edit_num": 6
+    },
+    {
+        "gt_idx": [
+            49
+        ],
+        "gt": "$$\n5 q^{5}-1 0 q^{4}+3 0 q^{3}\n$$",
+        "pred_idx": [
+            67
+        ],
+        "pred": "\\[5q^{5}-10q^{4}+30q^{3}\\]",
+        "edit": 0.21428571428571427,
+        "gt_position": [
+            136
+        ],
+        "pred_position": 1474,
+        "norm_gt": "$$\n5q^{5}-10q^{4}+30q^{3}\n$$",
+        "norm_pred": "5q^{5}-10q^{4}+30q^{3}",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_inline",
+        "gt_attribute": [
+            {
+                "formula_type": "print"
+            }
+        ],
+        "img_id": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "image_name": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "upper_len": 28,
+        "metric": {
+            "Edit_dist": 0.21428571428571427
+        },
+        "Edit_num": 6
+    },
+    {
+        "gt_idx": [
+            50
+        ],
+        "gt": "$$\n- 1 2 z^{4}-4 8 z^{3}+4 z^{2}\n$$",
+        "pred_idx": [
+            106
+        ],
+        "pred": "\\[-12z^{4}-48z^{3}+4z^{2}\\]",
+        "edit": 0.20689655172413793,
+        "gt_position": [
+            138
+        ],
+        "pred_position": 2349,
+        "norm_gt": "$$\n-12z^{4}-48z^{3}+4z^{2}\n$$",
+        "norm_pred": "-12z^{4}-48z^{3}+4z^{2}",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_inline",
+        "gt_attribute": [
+            {
+                "formula_type": "print"
+            }
+        ],
+        "img_id": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "image_name": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "upper_len": 29,
+        "metric": {
+            "Edit_dist": 0.20689655172413793
+        },
+        "Edit_num": 6
+    },
+    {
+        "gt_idx": [
+            51
+        ],
+        "gt": "$$\n2 m^{2}-9 m\n$$",
+        "pred_idx": [
+            30
+        ],
+        "pred": "\\[2m^{2}-9m\\]",
+        "edit": 0.4,
+        "gt_position": [
+            140
+        ],
+        "pred_position": 694,
+        "norm_gt": "$$\n2m^{2}-9m\n$$",
+        "norm_pred": "2m^{2}-9m",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_inline",
+        "gt_attribute": [
+            {
+                "formula_type": "print"
+            }
+        ],
+        "img_id": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "image_name": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "upper_len": 15,
+        "metric": {
+            "Edit_dist": 0.4
+        },
+        "Edit_num": 6
+    },
+    {
+        "gt_idx": [
+            52
+        ],
+        "gt": "$$\nu^{2}+5 u\n$$",
+        "pred_idx": [
+            32
+        ],
+        "pred": "\\[u^{2}+5u\\]",
+        "edit": 0.42857142857142855,
+        "gt_position": [
+            147
+        ],
+        "pred_position": 728,
+        "norm_gt": "$$\nu^{2}+5u\n$$",
+        "norm_pred": "u^{2}+5u",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_inline",
+        "gt_attribute": [
+            {
+                "formula_type": "print"
+            }
+        ],
+        "img_id": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "image_name": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "upper_len": 14,
+        "metric": {
+            "Edit_dist": 0.42857142857142855
+        },
+        "Edit_num": 6
+    },
+    {
+        "gt_idx": [
+            53
+        ],
+        "gt": "$$\nn^{3}-3 n^{2}\n$$",
+        "pred_idx": [
+            70
+        ],
+        "pred": "\\[n^{3}-3n^{2}\\]",
+        "edit": 0.3333333333333333,
+        "gt_position": [
+            149
+        ],
+        "pred_position": 1534,
+        "norm_gt": "$$\nn^{3}-3n^{2}\n$$",
+        "norm_pred": "n^{3}-3n^{2}",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_inline",
+        "gt_attribute": [
+            {
+                "formula_type": "print"
+            }
+        ],
+        "img_id": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "image_name": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "upper_len": 18,
+        "metric": {
+            "Edit_dist": 0.3333333333333333
+        },
+        "Edit_num": 6
+    },
+    {
+        "gt_idx": [
+            54
+        ],
+        "gt": "$$\n2 4 x^{2}+6 x y\n$$",
+        "pred_idx": [
+            109
+        ],
+        "pred": "\\[24x^{2}+6xy\\]",
+        "edit": 0.35294117647058826,
+        "gt_position": [
+            151
+        ],
+        "pred_position": 2410,
+        "norm_gt": "$$\n24x^{2}+6xy\n$$",
+        "norm_pred": "24x^{2}+6xy",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_inline",
+        "gt_attribute": [
+            {
+                "formula_type": "print"
+            }
+        ],
+        "img_id": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "image_name": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "upper_len": 17,
+        "metric": {
+            "Edit_dist": 0.35294117647058826
+        },
+        "Edit_num": 6
+    },
+    {
+        "gt_idx": [
+            55
+        ],
+        "gt": "$$\n5 5 p^{2}-2 5 p q\n$$",
+        "pred_idx": [
+            33
+        ],
+        "pred": "\\[55p^{2}-25pq\\]",
+        "edit": 0.3333333333333333,
+        "gt_position": [
+            153
+        ],
+        "pred_position": 745,
+        "norm_gt": "$$\n55p^{2}-25pq\n$$",
+        "norm_pred": "55p^{2}-25pq",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_inline",
+        "gt_attribute": [
+            {
+                "formula_type": "print"
+            }
+        ],
+        "img_id": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "image_name": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "upper_len": 18,
+        "metric": {
+            "Edit_dist": 0.3333333333333333
+        },
+        "Edit_num": 6
+    },
+    {
+        "gt_idx": [
+            56
+        ],
+        "gt": "$$\n3 v^{2}+3 0 v+7 5\n$$",
+        "pred_idx": [
+            71
+        ],
+        "pred": "\\[3v^{2}+30v+75\\]",
+        "edit": 0.3157894736842105,
+        "gt_position": [
+            155
+        ],
+        "pred_position": 1555,
+        "norm_gt": "$$\n3v^{2}+30v+75\n$$",
+        "norm_pred": "3v^{2}+30v+75",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_inline",
+        "gt_attribute": [
+            {
+                "formula_type": "print"
+            }
+        ],
+        "img_id": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "image_name": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "upper_len": 19,
+        "metric": {
+            "Edit_dist": 0.3157894736842105
+        },
+        "Edit_num": 6
+    },
+    {
+        "gt_idx": [
+            57
+        ],
+        "gt": "$$\n8n^{3}-8n^2+2n\n$$",
+        "pred_idx": [
+            110
+        ],
+        "pred": "\\[8n^{3}-8n^{2}+2n\\]",
+        "edit": 0.4,
+        "gt_position": [
+            157
+        ],
+        "pred_position": 2430,
+        "norm_gt": "$$\n8n^{3}-8n^2+2n\n$$",
+        "norm_pred": "8n^{3}-8n^{2}+2n",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_inline",
+        "gt_attribute": [
+            {
+                "formula_type": "print"
+            }
+        ],
+        "img_id": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "image_name": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "upper_len": 20,
+        "metric": {
+            "Edit_dist": 0.4
+        },
+        "Edit_num": 8
+    },
+    {
+        "gt_idx": [
+            58
+        ],
+        "gt": "$$\n- 8 y^{3}-1 6 y^{2}+1 2 0 y\n$$",
+        "pred_idx": [
+            34
+        ],
+        "pred": "\\[-8y^{3}-16y^{2}+120y\\]",
+        "edit": 0.23076923076923078,
+        "gt_position": [
+            159
+        ],
+        "pred_position": 766,
+        "norm_gt": "$$\n-8y^{3}-16y^{2}+120y\n$$",
+        "norm_pred": "-8y^{3}-16y^{2}+120y",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_inline",
+        "gt_attribute": [
+            {
+                "formula_type": "print"
+            }
+        ],
+        "img_id": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "image_name": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "upper_len": 26,
+        "metric": {
+            "Edit_dist": 0.23076923076923078
+        },
+        "Edit_num": 6
+    },
+    {
+        "gt_idx": [
+            59
+        ],
+        "gt": "$$\n5 q^{5}-1 0 q^{4}+3 0 q^{3}\n$$",
+        "pred_idx": [
+            72
+        ],
+        "pred": "\\[5q^{5}-10q^{4}+30q^{3}\\]",
+        "edit": 0.21428571428571427,
+        "gt_position": [
+            161
+        ],
+        "pred_position": 1577,
+        "norm_gt": "$$\n5q^{5}-10q^{4}+30q^{3}\n$$",
+        "norm_pred": "5q^{5}-10q^{4}+30q^{3}",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_inline",
+        "gt_attribute": [
+            {
+                "formula_type": "print"
+            }
+        ],
+        "img_id": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "image_name": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "upper_len": 28,
+        "metric": {
+            "Edit_dist": 0.21428571428571427
+        },
+        "Edit_num": 6
+    },
+    {
+        "gt_idx": [
+            60
+        ],
+        "gt": "$$\n-12z^4-48z^3+4z^2\n$$",
+        "pred_idx": [
+            111
+        ],
+        "pred": "\\[-12z^{4}-48z^{3}+4z^{2}\\]",
+        "edit": 0.4782608695652174,
+        "gt_position": [
+            163
+        ],
+        "pred_position": 2455,
+        "norm_gt": "$$\n-12z^4-48z^3+4z^2\n$$",
+        "norm_pred": "-12z^{4}-48z^{3}+4z^{2}",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_inline",
+        "gt_attribute": [
+            {
+                "formula_type": "print"
+            }
+        ],
+        "img_id": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "image_name": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "upper_len": 23,
+        "metric": {
+            "Edit_dist": 0.4782608695652174
+        },
+        "Edit_num": 11
+    },
+    {
+        "gt_idx": [
+            61
+        ],
+        "gt": "$$\n1 8 y^{2}-9 y\n$$",
+        "pred_idx": [
+            35
+        ],
+        "pred": "\\[18y^{2}-9y\\]",
+        "edit": 0.375,
+        "gt_position": [
+            165
+        ],
+        "pred_position": 795,
+        "norm_gt": "$$\n18y^{2}-9y\n$$",
+        "norm_pred": "18y^{2}-9y",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_inline",
+        "gt_attribute": [
+            {
+                "formula_type": "print"
+            }
+        ],
+        "img_id": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "image_name": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "upper_len": 16,
+        "metric": {
+            "Edit_dist": 0.375
+        },
+        "Edit_num": 6
+    },
+    {
+        "gt_idx": [
+            62
+        ],
+        "gt": "$$\nw^{2}+1 2 w+3 5\n$$",
+        "pred_idx": [
+            73
+        ],
+        "pred": "\\[w^{2}+12w+35\\]",
+        "edit": 0.3333333333333333,
+        "gt_position": [
+            167
+        ],
+        "pred_position": 1608,
+        "norm_gt": "$$\nw^{2}+12w+35\n$$",
+        "norm_pred": "w^{2}+12w+35",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_inline",
+        "gt_attribute": [
+            {
+                "formula_type": "print"
+            }
+        ],
+        "img_id": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "image_name": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "upper_len": 18,
+        "metric": {
+            "Edit_dist": 0.3333333333333333
+        },
+        "Edit_num": 6
+    },
+    {
+        "gt_idx": [
+            63
+        ],
+        "gt": "$$\np^{2}+7 p-4 4\n$$",
+        "pred_idx": [
+            112
+        ],
+        "pred": "\\[p^{2}+7p-44\\]",
+        "edit": 0.35294117647058826,
+        "gt_position": [
+            169
+        ],
+        "pred_position": 2487,
+        "norm_gt": "$$\np^{2}+7p-44\n$$",
+        "norm_pred": "p^{2}+7p-44",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_inline",
+        "gt_attribute": [
+            {
+                "formula_type": "print"
+            }
+        ],
+        "img_id": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "image_name": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "upper_len": 17,
+        "metric": {
+            "Edit_dist": 0.35294117647058826
+        },
+        "Edit_num": 6
+    },
+    {
+        "gt_idx": [
+            64
+        ],
+        "gt": "$$\nx^{2}+1 1 x+2 4\n$$",
+        "pred_idx": [
+            36
+        ],
+        "pred": "\\[x^{2}+11x+24\\]",
+        "edit": 0.3333333333333333,
+        "gt_position": [
+            171
+        ],
+        "pred_position": 814,
+        "norm_gt": "$$\nx^{2}+11x+24\n$$",
+        "norm_pred": "x^{2}+11x+24",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_inline",
+        "gt_attribute": [
+            {
+                "formula_type": "print"
+            }
+        ],
+        "img_id": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "image_name": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "upper_len": 18,
+        "metric": {
+            "Edit_dist": 0.3333333333333333
+        },
+        "Edit_num": 6
+    },
+    {
+        "gt_idx": [
+            65
+        ],
+        "gt": "$$\ny^{2}-8 y+1 2\n$$",
+        "pred_idx": [
+            74
+        ],
+        "pred": "\\[y^{2}-8y+12\\]",
+        "edit": 0.35294117647058826,
+        "gt_position": [
+            173
+        ],
+        "pred_position": 1629,
+        "norm_gt": "$$\ny^{2}-8y+12\n$$",
+        "norm_pred": "y^{2}-8y+12",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_inline",
+        "gt_attribute": [
+            {
+                "formula_type": "print"
+            }
+        ],
+        "img_id": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "image_name": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "upper_len": 17,
+        "metric": {
+            "Edit_dist": 0.35294117647058826
+        },
+        "Edit_num": 6
+    },
+    {
+        "gt_idx": [
+            66
+        ],
+        "gt": "$$\nw^{2}+3 w-2 8\n$$",
+        "pred_idx": [
+            113
+        ],
+        "pred": "\\[w^{2}+3w-28\\]",
+        "edit": 0.35294117647058826,
+        "gt_position": [
+            175
+        ],
+        "pred_position": 2507,
+        "norm_gt": "$$\nw^{2}+3w-28\n$$",
+        "norm_pred": "w^{2}+3w-28",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_inline",
+        "gt_attribute": [
+            {
+                "formula_type": "print"
+            }
+        ],
+        "img_id": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "image_name": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "upper_len": 17,
+        "metric": {
+            "Edit_dist": 0.35294117647058826
+        },
+        "Edit_num": 6
+    },
+    {
+        "gt_idx": [
+            67
+        ],
+        "gt": "$$\np^{2}+7 p-6 0\n$$",
+        "pred_idx": [
+            37
+        ],
+        "pred": "\\[p^{2}+7p-60\\]",
+        "edit": 0.35294117647058826,
+        "gt_position": [
+            177
+        ],
+        "pred_position": 835,
+        "norm_gt": "$$\np^{2}+7p-60\n$$",
+        "norm_pred": "p^{2}+7p-60",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_inline",
+        "gt_attribute": [
+            {
+                "formula_type": "print"
+            }
+        ],
+        "img_id": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "image_name": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "upper_len": 17,
+        "metric": {
+            "Edit_dist": 0.35294117647058826
+        },
+        "Edit_num": 6
+    },
+    {
+        "gt_idx": [
+            68
+        ],
+        "gt": "$$\n6 p^{2}+1 1 p+5\n$$",
+        "pred_idx": [
+            75
+        ],
+        "pred": "\\[6p^{2}+11p+5\\]",
+        "edit": 0.3333333333333333,
+        "gt_position": [
+            179
+        ],
+        "pred_position": 1649,
+        "norm_gt": "$$\n6p^{2}+11p+5\n$$",
+        "norm_pred": "6p^{2}+11p+5",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_inline",
+        "gt_attribute": [
+            {
+                "formula_type": "print"
+            }
+        ],
+        "img_id": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "image_name": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "upper_len": 18,
+        "metric": {
+            "Edit_dist": 0.3333333333333333
+        },
+        "Edit_num": 6
+    },
+    {
+        "gt_idx": [
+            69
+        ],
+        "gt": "$$\n2 0 t^{2}-8 8 t-9\n$$",
+        "pred_idx": [
+            114
+        ],
+        "pred": "\\[20t^{2}-88t-9\\]",
+        "edit": 0.3157894736842105,
+        "gt_position": [
+            181
+        ],
+        "pred_position": 2527,
+        "norm_gt": "$$\n20t^{2}-88t-9\n$$",
+        "norm_pred": "20t^{2}-88t-9",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_inline",
+        "gt_attribute": [
+            {
+                "formula_type": "print"
+            }
+        ],
+        "img_id": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "image_name": "yanbaopptmerge_abef2a4978ae4d13e931f0392502bd40.pdf_1287.jpg",
+        "upper_len": 19,
+        "metric": {
+            "Edit_dist": 0.3157894736842105
+        },
+        "Edit_num": 6
+    },
+    {
+        "gt_idx": [
+            0
+        ],
+        "gt": "$$\n1-\\frac9{10}=  \\frac{4}{3}\\!+\\!\\frac{2}{3}\\!= \\frac{1}{5}\\!-\\!\\frac{1}{6}\\!= \\frac{6}{7}-\\frac{1}{2}+\\frac{1}{7}=\n$$",
+        "pred_idx": [
+            12,
+            13,
+            14,
+            15
+        ],
+        "pred": "\\[\\frac{9}{10}\\]\\[\\frac{4}{3}+\\frac{2}{3}\\]\\[\\frac{1}{5}-\\frac{1}{6}\\]\\[\\frac{6}{7}-\\frac{1}{2}+\\frac{1}{7}\\]",
+        "edit": 0.22608695652173913,
+        "gt_position": [
+            46
+        ],
+        "pred_position": 1456,
+        "norm_gt": "$$\n1-\\frac9{10}=\\frac{4}{3}\\!+\\!\\frac{2}{3}\\!=\\frac{1}{5}\\!-\\!\\frac{1}{6}\\!=\\frac{6}{7}-\\frac{1}{2}+\\frac{1}{7}=\n$$",
+        "norm_pred": "\\frac{9}{10}\\frac{4}{3}+\\frac{2}{3}\\frac{1}{5}-\\frac{1}{6}\\frac{6}{7}-\\frac{1}{2}+\\frac{1}{7}",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_inline",
+        "gt_attribute": [
+            {
+                "formula_type": "print"
+            }
+        ],
+        "img_id": "jiaocaineedrop_jiaocai_needrop_en_999.jpg",
+        "image_name": "jiaocaineedrop_jiaocai_needrop_en_999.jpg",
+        "upper_len": 115,
+        "metric": {
+            "Edit_dist": 0.22608695652173913
+        },
+        "Edit_num": 26
+    },
+    {
+        "gt_idx": [
+            1
+        ],
+        "gt": "$$\n\\frac{1}{5}\\!+\\!\\frac{3}{5}\\!=\\frac{11}{12}\\!-\\!\\frac{1}{3}\\!=\\frac{7}{9}\\!-\\!\\frac{2}{9}\\!=1-\\frac{2}{19}-\\frac{17}{19}=\n$$",
+        "pred_idx": [
+            16,
+            17,
+            18,
+            19
+        ],
+        "pred": "\\[\\frac{1}{5}+\\frac{3}{5}\\]\\[\\frac{11}{12}-\\frac{1}{3}\\]\\[\\frac{7}{9}-\\frac{2}{9}\\]\\[\\frac{2}{19}-\\frac{17}{19}\\]",
+        "edit": 0.23622047244094488,
+        "gt_position": [
+            47
+        ],
+        "pred_position": 1565,
+        "norm_gt": "$$\n\\frac{1}{5}\\!+\\!\\frac{3}{5}\\!=\\frac{11}{12}\\!-\\!\\frac{1}{3}\\!=\\frac{7}{9}\\!-\\!\\frac{2}{9}\\!=1-\\frac{2}{19}-\\frac{17}{19}=\n$$",
+        "norm_pred": "\\frac{1}{5}+\\frac{3}{5}\\frac{11}{12}-\\frac{1}{3}\\frac{7}{9}-\\frac{2}{9}\\frac{2}{19}-\\frac{17}{19}",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_inline",
+        "gt_attribute": [
+            {
+                "formula_type": "print"
+            }
+        ],
+        "img_id": "jiaocaineedrop_jiaocai_needrop_en_999.jpg",
+        "image_name": "jiaocaineedrop_jiaocai_needrop_en_999.jpg",
+        "upper_len": 127,
+        "metric": {
+            "Edit_dist": 0.23622047244094488
+        },
+        "Edit_num": 30
+    },
+    {
+        "gt_idx": [
+            0
+        ],
+        "gt": "$$\nK ( x_{\\mathrm{i}}, x_{\\mathrm{j}} )=\\operatorname{e x p} (-\\frac{\\left\\| x_{\\mathrm{i}}-x_{\\mathrm{j}} \\right\\|^{2}} {c} )\n$$",
+        "pred_idx": [
+            1
+        ],
+        "pred": "\\[K(x_{\\mathrm{i}},x_{\\mathrm{j}})=\\exp(-\\frac{\\|x_{\\mathrm{i}}-x_{\\mathrm{j}}\\|^{2}}{c})\\]",
+        "edit": 0.24675324675324675,
+        "gt_position": [
+            9
+        ],
+        "pred_position": 2839,
+        "norm_gt": "$$\nk(x_{{i}},x_{{j}})={exp}(-\\frac{\\left\\|x_{{i}}-x_{{j}}\\right\\|^{2}}{c})\n$$",
+        "norm_pred": "k(x_{{i}},x_{{j}})=\\exp(-\\frac{\\|x_{{i}}-x_{{j}}\\|^{2}}{c})",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {
+                "formula_type": "print"
+            }
+        ],
+        "img_id": "docstructbench_llm-raw-scihub-o.O-ceat.200600410.pdf_5.jpg",
+        "image_name": "docstructbench_llm-raw-scihub-o.O-ceat.200600410.pdf_5.jpg",
+        "upper_len": 77,
+        "metric": {
+            "Edit_dist": 0.24675324675324675
+        },
+        "Edit_num": 19
+    },
+    {
+        "gt_idx": [
+            0
+        ],
+        "gt": "$$\n\\therefore2022\\div4=505\\cdots\\cdots2,\n$$",
+        "pred_idx": [
+            22
+        ],
+        "pred": "\\[\\therefore2022\\div4=505\\cdots2,\\]",
+        "edit": 0.27906976744186046,
+        "gt_position": [
+            8
+        ],
+        "pred_position": 748,
+        "norm_gt": "$$\n\\therefore2022\\div4=505\\cdots\\cdots2,\n$$",
+        "norm_pred": "\\therefore2022\\div4=505\\cdots2,",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {
+                "formula_type": "print"
+            }
+        ],
+        "img_id": "jiaocaineedrop_42351289.pdf_1.jpg",
+        "image_name": "jiaocaineedrop_42351289.pdf_1.jpg",
+        "upper_len": 43,
+        "metric": {
+            "Edit_dist": 0.27906976744186046
+        },
+        "Edit_num": 12
+    },
+    {
+        "gt_idx": [
+            1
+        ],
+        "gt": "$$\n\\therefore M=2200\\times40\\times10^{-3}=88(m g/100m L)\n$$",
+        "pred_idx": [
+            50
+        ],
+        "pred": "$$\n\\therefore M = 2 2 0 0 \\times 4 0 \\times 1 0 ^ { - 3 } = 8 8 ( m g / 1 0 0 m L )\n$$",
+        "edit": 0.0,
+        "gt_position": [
+            22
+        ],
+        "pred_position": 1475,
+        "norm_gt": "$$\n\\thereforem=2200\\times40\\times10^{-3}=88(mg/100ml)\n$$",
+        "norm_pred": "$$\n\\thereforem=2200\\times40\\times10^{-3}=88(mg/100ml)\n$$",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {
+                "formula_type": "print"
+            }
+        ],
+        "img_id": "jiaocaineedrop_42351289.pdf_1.jpg",
+        "image_name": "jiaocaineedrop_42351289.pdf_1.jpg",
+        "upper_len": 56,
+        "metric": {
+            "Edit_dist": 0.0
+        },
+        "Edit_num": 0
+    },
+    {
+        "gt_idx": [
+            0
+        ],
+        "gt": "$$\n\\iint_{\\Sigma}Pdydz+Qdzdx=\\iint_{\\Sigma}\\left(\\frac{x}{z}P+\\frac{y}{z}Q\\right)dxdy\n$$",
+        "pred_idx": [
+            24
+        ],
+        "pred": "\\[\\iint_{\\Sigma}Pdydz+Qdzdx=\\iint_{\\Sigma}\\left({\\frac{x}{z}}P+{\\frac{y}{z}}Q\\right)dxdy\\]",
+        "edit": 0.11363636363636363,
+        "gt_position": [
+            22
+        ],
+        "pred_position": 1267,
+        "norm_gt": "$$\n\\iint_{\\sigma}pdydz+qdzdx=\\iint_{\\sigma}\\left(\\frac{x}{z}p+\\frac{y}{z}q\\right)dxdy\n$$",
+        "norm_pred": "\\iint_{\\sigma}pdydz+qdzdx=\\iint_{\\sigma}\\left({\\frac{x}{z}}p+{\\frac{y}{z}}q\\right)dxdy",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {
+                "formula_type": "print"
+            }
+        ],
+        "img_id": "jiaocaineedrop_20608808.pdf_0.jpg",
+        "image_name": "jiaocaineedrop_20608808.pdf_0.jpg",
+        "upper_len": 88,
+        "metric": {
+            "Edit_dist": 0.11363636363636363
+        },
+        "Edit_num": 10
+    },
+    {
+        "gt_idx": [
+            1
+        ],
+        "gt": "$$\n=\\ln2+\\sum_{n=1}^{\\infty}(-1)^{n-1}{\\frac{\\left({\\frac{1}{2}}x\\right)^{n}}{n}}\n$$",
+        "pred_idx": [
+            33
+        ],
+        "pred": "\\[=\\ln2+\\sum_{n=1}^{\\infty}(-1)^{n-1}\\frac{(\\frac{1}{2}x)^{n}}{n}\\]",
+        "edit": 0.25,
+        "gt_position": [
+            28
+        ],
+        "pred_position": 1691,
+        "norm_gt": "$$\n=\\ln2+\\sum_{n=1}^{\\infty}(-1)^{n-1}{\\frac{\\left({\\frac{1}{2}}x\\right)^{n}}{n}}\n$$",
+        "norm_pred": "=\\ln2+\\sum_{n=1}^{\\infty}(-1)^{n-1}\\frac{(\\frac{1}{2}x)^{n}}{n}",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {
+                "formula_type": "print"
+            }
+        ],
+        "img_id": "jiaocaineedrop_20608808.pdf_0.jpg",
+        "image_name": "jiaocaineedrop_20608808.pdf_0.jpg",
+        "upper_len": 84,
+        "metric": {
+            "Edit_dist": 0.25
+        },
+        "Edit_num": 21
+    },
+    {
+        "gt_idx": [
+            2
+        ],
+        "gt": "$$\n\\begin{aligned}[\\ln(2+x)]'=\\frac{1}{2+x}=\\frac{1}{2\\left(1+\\frac{x}{2}\\right)}=\\frac{1}{2}\\sum_{n=0}^{\\infty}(-1)^n\\left(\\frac{x}{2}\\right)^n\\end{aligned}\n$$",
+        "pred_idx": [
+            32
+        ],
+        "pred": "\\[\\ln(2+x)=\\ln2\\left(1+\\frac{1}{2}x\\right)=\\ln2+\\ln\\left(1+\\frac{1}{2}x\\right)\\]",
+        "edit": 0.5378787878787878,
+        "gt_position": [
+            31
+        ],
+        "pred_position": 1609,
+        "norm_gt": "$$\n[\\ln(2+x)]'=\\frac{1}{2+x}=\\frac{1}{2\\left(1+\\frac{x}{2}\\right)}=\\frac{1}{2}\\sum_{n=0}^{\\infty}(-1)^n\\left(\\frac{x}{2}\\right)^n\n$$",
+        "norm_pred": "\\ln(2+x)=\\ln2\\left(1+\\frac{1}{2}x\\right)=\\ln2+\\ln\\left(1+\\frac{1}{2}x\\right)",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_inline",
+        "gt_attribute": [
+            {
+                "formula_type": "print"
+            }
+        ],
+        "img_id": "jiaocaineedrop_20608808.pdf_0.jpg",
+        "image_name": "jiaocaineedrop_20608808.pdf_0.jpg",
+        "upper_len": 132,
+        "metric": {
+            "Edit_dist": 0.5378787878787878
+        },
+        "Edit_num": 71
+    },
+    {
+        "gt_idx": [
+            3
+        ],
+        "gt": "$$\n\\ln(2+x)=\\sum_{n=0}^{\\infty}(-1)^{n}\\frac{\\left(\\frac{1}{2}x\\right)^{n+1}}{n+1}+C=\\sum_{n=1}^{\\infty}(-1)^{n-1}\\frac{\\left(\\frac{1}{2}x\\right)^{n}}{n}+C\n$$",
+        "pred_idx": [
+            38
+        ],
+        "pred": "\\[\\sum_{n=1}^{\\infty}n\\cdot\\left(-\\frac{1}{2n\\cdot2^{2n}}\\right)=-\\sum_{n=1}^{\\infty}\\frac{1}{2^{2n+1}}=-\\frac{\\left(\\frac{1}{2}\\right)^{3}}{1-\\frac{1}{4}}=-\\frac{1}{6}\\]",
+        "edit": 0.5120481927710844,
+        "gt_position": [
+            32
+        ],
+        "pred_position": 2030,
+        "norm_gt": "$$\n\\ln(2+x)=\\sum_{n=0}^{\\infty}(-1)^{n}\\frac{\\left(\\frac{1}{2}x\\right)^{n+1}}{n+1}+c=\\sum_{n=1}^{\\infty}(-1)^{n-1}\\frac{\\left(\\frac{1}{2}x\\right)^{n}}{n}+c\n$$",
+        "norm_pred": "\\sum_{n=1}^{\\infty}n\\cdot\\left(-\\frac{1}{2n\\cdot2^{2n}}\\right)=-\\sum_{n=1}^{\\infty}\\frac{1}{2^{2n+1}}=-\\frac{\\left(\\frac{1}{2}\\right)^{3}}{1-\\frac{1}{4}}=-\\frac{1}{6}",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_inline",
+        "gt_attribute": [
+            {
+                "formula_type": "print"
+            }
+        ],
+        "img_id": "jiaocaineedrop_20608808.pdf_0.jpg",
+        "image_name": "jiaocaineedrop_20608808.pdf_0.jpg",
+        "upper_len": 166,
+        "metric": {
+            "Edit_dist": 0.5120481927710844
+        },
+        "Edit_num": 85
+    },
+    {
+        "gt_idx": [
+            4
+        ],
+        "gt": "$$\nS(0)=C=\\ln(2+0)=\\ln2\n$$",
+        "pred_idx": [
+            45,
+            46
+        ],
+        "pred": "\\[f'(0)=m\\]\\[f'(0)=m\\]",
+        "edit": 0.6923076923076923,
+        "gt_position": [
+            33
+        ],
+        "pred_position": 3327,
+        "norm_gt": "$$\ns(0)=c=\\ln(2+0)=\\ln2\n$$",
+        "norm_pred": "f'(0)=mf'(0)=m",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_inline",
+        "gt_attribute": [
+            {
+                "formula_type": "print"
+            }
+        ],
+        "img_id": "jiaocaineedrop_20608808.pdf_0.jpg",
+        "image_name": "jiaocaineedrop_20608808.pdf_0.jpg",
+        "upper_len": 26,
+        "metric": {
+            "Edit_dist": 0.6923076923076923
+        },
+        "Edit_num": 18
+    },
+    {
+        "gt_idx": [
+            0
+        ],
+        "gt": "$$\n\\frac{3} {8} \\quad\\frac{4} {9} \\quad0. 6 2 5 \\quad0. 5 \\quad0. 3 7 \\quad\\frac{9} {1 0}\n$$",
+        "pred_idx": [
+            7
+        ],
+        "pred": "$\\frac{3}{8}$ $\\frac{4}{9}$ 0.625 0.5 0.37 $\\frac{9}{10}$",
+        "edit": 0.15384615384615385,
+        "gt_position": [
+            18
+        ],
+        "pred_position": 669,
+        "norm_gt": "$$\n\\frac{3}{8}\\frac{4}{9}0.6250.50.37\\frac{9}{10}\n$$",
+        "norm_pred": "$\\frac{3}{8}$$\\frac{4}{9}$0.6250.50.37$\\frac{9}{10}$",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {
+                "formula_type": "print"
+            }
+        ],
+        "img_id": "jiaocaineedrop_jiaocai_needrop_en_1349.jpg",
+        "image_name": "jiaocaineedrop_jiaocai_needrop_en_1349.jpg",
+        "upper_len": 52,
+        "metric": {
+            "Edit_dist": 0.15384615384615385
+        },
+        "Edit_num": 8
+    },
+    {
+        "gt_idx": [
+            0
+        ],
+        "gt": "$$\ns^{2}=\\frac{9. 7 3 7 5} {2 0-1}=0. 5 1 2 5\n$$",
+        "pred_idx": [
+            1
+        ],
+        "pred": "\\[s^{2}=\\frac{9.7375}{20-1}=0.5125\\]",
+        "edit": 0.15789473684210525,
+        "gt_position": [
+            4
+        ],
+        "pred_position": 1266,
+        "norm_gt": "$$\ns^{2}=\\frac{9.7375}{20-1}=0.5125\n$$",
+        "norm_pred": "s^{2}=\\frac{9.7375}{20-1}=0.5125",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {
+                "formula_type": "print"
+            }
+        ],
+        "img_id": "yanbaopptmerge_d4fc7cba428625974e93183edfccea73.pdf_89.jpg",
+        "image_name": "yanbaopptmerge_d4fc7cba428625974e93183edfccea73.pdf_89.jpg",
+        "upper_len": 38,
+        "metric": {
+            "Edit_dist": 0.15789473684210525
+        },
+        "Edit_num": 6
+    },
+    {
+        "gt_idx": [
+            0
+        ],
+        "gt": "$$\n\\therefore\\left[(2b)2+\\left(\\frac{3\\sqrt2}b\\right)^2\\right]+\\left[(2b-b)2+\\left(\\frac{6\\sqrt2}b-\\frac{3\\sqrt2}b\\right)^2\\right]=b^2+\\left(\\frac{6\\sqrt2}b\\right)^2\n$$",
+        "pred_idx": [
+            0
+        ],
+        "pred": "\\[\\begin{array}{rl}&{\\therefore\\left[(2b)2+\\left(\\frac{3\\sqrt{2}}{b}\\right)^{2}\\right]+\\left[(2b-b)2+\\left(\\frac{6\\sqrt{2}}{b}-\\frac{3\\sqrt{2}}{b}\\right)^{2}\\right]=b^{2}+\\left(\\frac{6\\sqrt{2}}{b}\\right)^{2},}\\\\&{\\thereforeb=\\sqrt{3},}\\\\&{\\thereforeB(\\sqrt{3},2\\sqrt{6}),D(2\\sqrt{3},\\sqrt{6}),}\\end{array}\\]",
+        "edit": 0.41935483870967744,
+        "gt_position": [
+            1
+        ],
+        "pred_position": 0,
+        "norm_gt": "$$\n\\therefore\\left[(2b)2+\\left(\\frac{3\\sqrt2}b\\right)^2\\right]+\\left[(2b-b)2+\\left(\\frac{6\\sqrt2}b-\\frac{3\\sqrt2}b\\right)^2\\right]=b^2+\\left(\\frac{6\\sqrt2}b\\right)^2\n$$",
+        "norm_pred": "{rl}&{\\therefore\\left[(2b)2+\\left(\\frac{3\\sqrt{2}}{b}\\right)^{2}\\right]+\\left[(2b-b)2+\\left(\\frac{6\\sqrt{2}}{b}-\\frac{3\\sqrt{2}}{b}\\right)^{2}\\right]=b^{2}+\\left(\\frac{6\\sqrt{2}}{b}\\right)^{2},}\\\\&{\\thereforeb=\\sqrt{3},}\\\\&{\\thereforeb(\\sqrt{3},2\\sqrt{6}),d(2\\sqrt{3},\\sqrt{6}),}",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {
+                "formula_type": "print"
+            }
+        ],
+        "img_id": "jiaocaineedrop_33137159.pdf_3.jpg",
+        "image_name": "jiaocaineedrop_33137159.pdf_3.jpg",
+        "upper_len": 279,
+        "metric": {
+            "Edit_dist": 0.41935483870967744
+        },
+        "Edit_num": 117
+    },
+    {
+        "gt_idx": [
+            1
+        ],
+        "gt": "$$\n\\therefore b=\\sqrt{3},\n$$",
+        "pred_idx": [
+            8
+        ],
+        "pred": "\\[2\\sqrt{2}x-3\\sqrt{6}=0\\]",
+        "edit": 0.6666666666666666,
+        "gt_position": [
+            2
+        ],
+        "pred_position": 566,
+        "norm_gt": "$$\n\\thereforeb=\\sqrt{3},\n$$",
+        "norm_pred": "2\\sqrt{2}x-3\\sqrt{6}=0",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_inline",
+        "gt_attribute": [
+            {
+                "formula_type": "print"
+            }
+        ],
+        "img_id": "jiaocaineedrop_33137159.pdf_3.jpg",
+        "image_name": "jiaocaineedrop_33137159.pdf_3.jpg",
+        "upper_len": 27,
+        "metric": {
+            "Edit_dist": 0.6666666666666666
+        },
+        "Edit_num": 18
+    },
+    {
+        "gt_idx": [
+            2
+        ],
+        "gt": "$$\n\\therefore B(\\sqrt{3},2\\sqrt{6}),D(2\\sqrt{3},\\sqrt{6}),\n$$",
+        "pred_idx": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+        ],
+        "pred": "\\[\\therefore\\]\\[OB\\]\\[y=2\\sqrt{2}x\\]\\[\\therefore\\]\\[DF\\]\\[y=2\\sqrt{2}x-3\\sqrt{6}\\]",
+        "edit": 0.5396825396825397,
+        "gt_position": [
+            3
+        ],
+        "pred_position": 457,
+        "norm_gt": "$$\n\\thereforeb(\\sqrt{3},2\\sqrt{6}),d(2\\sqrt{3},\\sqrt{6}),\n$$",
+        "norm_pred": "\\thereforeoby=2\\sqrt{2}x\\thereforedfy=2\\sqrt{2}x-3\\sqrt{6}",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_inline",
+        "gt_attribute": [
+            {
+                "formula_type": "print"
+            }
+        ],
+        "img_id": "jiaocaineedrop_33137159.pdf_3.jpg",
+        "image_name": "jiaocaineedrop_33137159.pdf_3.jpg",
+        "upper_len": 60,
+        "metric": {
+            "Edit_dist": 0.5166666666666667
+        },
+        "Edit_num": 31
+    },
+    {
+        "gt_idx": [
+            4
+        ],
+        "gt": "$$\n\\therefore F\\left(\\frac{3\\sqrt{3}}2,0\\right),\n$$",
+        "pred_idx": [
+            10
+        ],
+        "pred": "\\[\\frac{1}{2},\\left(\\frac{3\\sqrt{3}}{2},0\\right).\\]",
+        "edit": 0.4,
+        "gt_position": [
+            6
+        ],
+        "pred_position": 904,
+        "norm_gt": "$$\n\\thereforef\\left(\\frac{3\\sqrt{3}}2,0\\right),\n$$",
+        "norm_pred": "\\frac{1}{2},\\left(\\frac{3\\sqrt{3}}{2},0\\right)",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_inline",
+        "gt_attribute": [
+            {
+                "formula_type": "print"
+            }
+        ],
+        "img_id": "jiaocaineedrop_33137159.pdf_3.jpg",
+        "image_name": "jiaocaineedrop_33137159.pdf_3.jpg",
+        "upper_len": 50,
+        "metric": {
+            "Edit_dist": 0.4
+        },
+        "Edit_num": 20
+    },
+    {
+        "gt_idx": [
+            3,
+            5,
+            6,
+            7
+        ],
+        "gt": "$$\n\\therefore x=\\frac{3\\sqrt{3}}{2},\n$$$$\n\\because OE=\\sqrt{3},OF=\\frac{3\\sqrt{3}}2,\n$$$$\n\\therefore EF=OF-OE=\\frac{\\sqrt{3}}{2},\n$$$$\n\\therefore\\frac{EF}{OE}=\\frac12,\n$$",
+        "pred_idx": [
+            9
+        ],
+        "pred": "\\[\\thereforex=\\frac{3\\sqrt{3}}{2},\\thereforeF\\left(\\frac{3\\sqrt{3}}{2},0\\right),\\thereforeOE=\\sqrt{3},OF=\\frac{3\\sqrt{3}}{2},\\thereforeEF=OF-OE=\\frac{\\sqrt{3}}{2},\\therefore\\frac{EF}{OE}=\\frac{1}{2},\\]",
+        "edit": 0.3756345177664975,
+        "gt_position": [
+            5,
+            7,
+            8,
+            9
+        ],
+        "pred_position": 595,
+        "norm_gt": "$$\n\\thereforex=\\frac{3\\sqrt{3}}{2},\n$$$$\n\\becauseoe=\\sqrt{3},of=\\frac{3\\sqrt{3}}2,\n$$$$\n\\thereforeef=of-oe=\\frac{\\sqrt{3}}{2},\n$$$$\n\\therefore\\frac{ef}{oe}=\\frac12,\n$$",
+        "norm_pred": "\\thereforex=\\frac{3\\sqrt{3}}{2},\\thereforef\\left(\\frac{3\\sqrt{3}}{2},0\\right),\\thereforeoe=\\sqrt{3},of=\\frac{3\\sqrt{3}}{2},\\thereforeef=of-oe=\\frac{\\sqrt{3}}{2},\\therefore\\frac{ef}{oe}=\\frac{1}{2},",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {
+                "formula_type": "print"
+            },
+            {
+                "formula_type": "print"
+            },
+            {
+                "formula_type": "print"
+            },
+            {
+                "formula_type": "print"
+            }
+        ],
+        "img_id": "jiaocaineedrop_33137159.pdf_3.jpg",
+        "image_name": "jiaocaineedrop_33137159.pdf_3.jpg",
+        "upper_len": 197,
+        "metric": {
+            "Edit_dist": 0.3756345177664975
+        },
+        "Edit_num": 74
+    }
+]

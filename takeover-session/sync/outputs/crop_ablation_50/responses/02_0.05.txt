@@ -1,0 +1,1 @@
+or as figures or resistor colour code in the form Digit1 (being the number of zeros) on the component. So often have the value marked in microhenries in this 3.3 $\mu$H and 333 is 33 mH (33,000 $\mu$H): Capacitors n

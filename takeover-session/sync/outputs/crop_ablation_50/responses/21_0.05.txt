@@ -1,0 +1,9 @@
+\begin{tabular}{lrrr}
+Sector & Eastern Aleutian district & Central Aleutian district & Western Aleutian district & BSAI \\
+\hline
+TAC & 7,900 & 7,000 & 9,000 & 16,390 \\
+CDQ & 845 & 749 & 963 & 1,537 \\
+ICA & 200 & 75 & 10 & 5,000 \\
+Central Alaskan
+& & & & \\
+\end{tabular}

@@ -1,0 +1,522 @@
+# ASSESSING THE TREATMENT EFFECT  
+
+# HETEROGENEITY WITH A LATENT VARIABLE  
+
+Yunjian Yin$^{1,2}$, Lan Liu$^{2,*}$, and Zhi Geng$^{1}$ $^{1}$School of Mathematical Sciences, Peking University, Beijing 100871, China
+
+$^{2}$School of Statistics, University of Minnesota, Minneapolis, Minnesota 55455, USA  
+
+# Appendix A Proof of Formulas  
+
+Proof of Formulas (F1) and (F2)  
+
+$$
+\begin{array} { r l } & { \mathrm { T B R } _ { c } ( x ) = P ( Y _ { 1 } - Y _ { 0 } > c | X = x ) } \\ { = } & { P \big ( ( \alpha _ { 1 , 0 } - \alpha _ { 0 , 0 } ) + ( \alpha _ { 1 , 1 } - \alpha _ { 0 , 1 } ) ^ { T } x + ( \alpha _ { 1 , 2 } - \alpha _ { 0 , 2 } ) U + ( \alpha _ { 1 , 3 } - \alpha _ { 0 , 3 } ) ^ { T } x U + ( \epsilon _ { 1 } - \epsilon _ { 0 } ) > c \big ) } \\ { = } & { P \Big ( \frac { \epsilon _ { 0 } - \epsilon _ { 1 } } { \sqrt { \sigma _ { 0 } ^ { 2 } + \sigma _ { 1 } ^ { 2 } } } < \frac { ( \alpha _ { 1 , 0 } - \alpha _ { 0 , 0 } ) + ( \alpha _ { 1 , 1 } - \alpha _ { 0 , 1 } ) ^ { T } x + ( \alpha _ { 1 , 2 } - \alpha _ { 0 , 2 } ) U + ( \alpha _ { 1 , 3 } - \alpha _ { 0 , 3 } ) ^ { T } x U - c } { \sqrt { \sigma _ { 0 } ^ { 2 } + \sigma _ { 1 } ^ { 2 } } } \Big ) } \\ { = } & { \int \Phi \Big ( \frac { ( \alpha _ { 1 , 0 } - \alpha _ { 0 , 0 } ) + ( \alpha _ { 1 , 1 } - \alpha _ { 0 , 1 } ) ^ { T } x + ( \alpha _ { 1 , 2 } - \alpha _ { 0 , 2 } ) u + ( \alpha _ { 1 , 3 } - \alpha _ { 0 , 3 } ) ^ { T } x u - c } { \sqrt { \sigma _ { 0 } ^ { 2 } + \sigma _ { 1 } ^ { 2 } } } \Big ) f _ { U } ( u ) d u } \\ { = } & { \int \Phi \Big ( \big ( w _ { 1 } + w _ { 2 } u \big ) / w _ { 3 } \Big ) f _ { U } ( u ) d u } \\ { = } & { \int \int _ { - \infty } ^ { ( w _ { 1 } + w _ { 2 } u ) / w _ { 3 } } \frac { 1 } { \sqrt { 2 \pi } } \exp \big ( - s ^ { 2 } / 2 \big ) f _ { U } ( u ) d s d u } \\ { = } & { \int \int _ { - \infty } ^ { 0 } \frac { 1 } { 2 \pi } \exp \Big [ - \frac { 1 } { 2 w _ { 3 } ^ { 2 } } \Big \{ ( w _ { 2 } ^ { 2 } + w _ { 3 } ^ { 2 } ) \big ( u + \frac { w _ { 2 } ( w _ { 3 } s + w _ { 1 } ) } { w _ { 2 } ^ { 2 } + w _ { 3 } ^ { 2 } } \big ) ^ { 2 } + \frac { w _ { 3 } ^ { 2 } ( w _ { 3 } s + w _ { 1 } ) ^ { 2 } } { w _ { 2 } ^ { 2 } + w _ { 3 } ^ { 2 } } \Big \} \Big ] d s d u } \\ { = } & { \int _ { - \infty } ^ { 0 } \frac { 1 } { \sqrt { 2 \pi } } \sqrt { \frac { w _ { 3 } ^ { 2 } } { w _ { 2 } ^ { 2 } + w _ { 3 } ^ { 2 } } } \exp \Big \{ - \frac { ( w _ { 3 } s + w _ { 1 } ) ^ { 2 } } { 2 ( w _ { 2 } ^ { 2 } + w _ { 3 } ^ { 2 } ) } \Big \} d s } \\ { = } & { \Phi \Big ( \frac { w _ { 1 } } { \sqrt { w _ { 2 } ^ { 2 } + w _ { 3 } ^ { 2 } } } \Big ) , } \end{array}
+$$  
+
+where $f_U(\cdot)$ is the density functions of $U$, $w_1 = (\alpha_{1,0} - \alpha_{0,0}) + (\alpha_{1,1} - \alpha_{0,1})^T x - c$, $w_2 = (\alpha_{1,2} - \alpha_{0,2}) + (\alpha_{1,3} - \alpha_{0,3})^T x$, $w_3 = \sqrt{\sigma_0^2 + \sigma_1^2}$. Similarly, we can derive the form for $\text{THR}_c(x)$.  
+
+Proof of Formulas (F3) and (F4)  
+
+Let $K(\alpha_t,x,u)=\alpha_{t,0}+\alpha_{t,1}^Tx+\alpha_{t,2}u+\alpha_{t,3}^Txu$, we have  
+
+$$
+\begin{array} { r l } & { \mathrm { T B R } ( x ) = \int \left\{ 1 - \Phi \big ( K ( \alpha _ { 0 } , x , u ) \big ) \right\} \Phi \big ( K ( \alpha _ { 1 } , x , u ) \big ) f _ { U } ( u ) d u } \\ { = } & { \int \Big \{ \int _ { K ( \alpha _ { 0 } , x , u ) } ^ { \infty } \frac { 1 } { \sqrt { 2 \pi } } \exp ( - s _ { 0 } ^ { 2 } / 2 ) d s _ { 0 } \Big \} \Big \{ \int _ { - \infty } ^ { K ( \alpha _ { 1 } , x , u ) } \frac { 1 } { \sqrt { 2 \pi } } \exp ( - s _ { 1 } ^ { 2 } / 2 ) d s _ { 1 } \Big \} f _ { U } ( u ) d u } \\ { = } & { \int \int _ { - \infty } ^ { 0 } \int _ { 0 } ^ { \infty } \frac { 1 } { ( 2 \pi ) ^ { 3 / 2 } } \exp \Big \{ - \frac { ( s _ { 0 } + K ( \alpha _ { 0 } , x , u ) ) ^ { 2 } + ( s _ { 1 } + K ( \alpha _ { 1 } , x , u ) ) ^ { 2 } + u ^ { 2 } } { 2 } \Big \} d s _ { 0 } d s _ { 1 } d u . } \end{array}
+$$  
+
+Let $K_{1}(\alpha_{t},x)=\alpha_{t,0}+\alpha_{t,1}^{T}x$, $K_{2}(\alpha_{t},x)=\alpha_{t,2}+\alpha_{t,3}^{T}x$, thus $K(\alpha_{t},x,u)=K_{1}(\alpha_{t},x)+uK_{2}(\alpha_{t},x)$.  
+
+Then  
+
+$$
+\begin{array} { r l } & { \quad \{ s _ { 0 } + K ( \alpha _ { 0 } , x , u ) \} ^ { 2 } + \{ s _ { 1 } + K ( \alpha _ { 1 } , x , u ) \} ^ { 2 } + u ^ { 2 } } \\ { = } & { \{ 1 + K _ { 2 } ( \alpha _ { 0 } , x ) ^ { 2 } + K _ { 2 } ( \alpha _ { 1 } , x ) ^ { 2 } \} u ^ { 2 } + 2 \big \{ ( s _ { 0 } + K _ { 1 } ( \alpha _ { 0 } , x ) ) K _ { 2 } ( \alpha _ { 0 } , x ) + ( s _ { 1 } + K _ { 1 } ( \alpha _ { 1 } , x ) ) K _ { 2 } ( \alpha _ { 1 } , x ) \big \} u } \\ & { + \{ s _ { 0 } + K _ { 1 } ( \alpha _ { 0 } , x ) \} ^ { 2 } + \{ s _ { 1 } + K _ { 1 } ( \alpha _ { 1 } , x ) \} ^ { 2 } } \\ { = } & { \{ 1 + K _ { 2 } ( \alpha _ { 0 } , x ) ^ { 2 } + K _ { 2 } ( \alpha _ { 1 } , x ) ^ { 2 } \} \big \{ u + \frac { ( s _ { 0 } + K _ { 1 } ( \alpha _ { 0 } , x ) ) K _ { 2 } ( \alpha _ { 0 } , x ) + ( s _ { 1 } + K _ { 1 } ( \alpha _ { 1 } , x ) ) K _ { 2 } ( \alpha _ { 1 } , x ) } { 1 + K _ { 2 } ( \alpha _ { 0 } , x ) ^ { 2 } + K _ { 2 } ( \alpha _ { 1 } , x ) ^ { 2 } } \big \} ^ { 2 } } \\ & { + \frac { 1 } { 1 + K _ { 2 } ( \alpha _ { 0 } , x ) ^ { 2 } + K _ { 2 } ( \alpha _ { 1 } , x ) ^ { 2 } } \Big [ \{ s _ { 0 } + K _ { 1 } ( \alpha _ { 0 } , x ) \} ^ { 2 } \{ 1 + K _ { 2 } ( \alpha _ { 1 } , x ) ^ { 2 } \} } \\ & { \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad + \{ s _ { 1 } + K _ { 1 } ( \alpha _ { 1 } , x ) \} ^ { 2 } \{ 1 + K _ { 2 } ( \alpha _ { 0 } , x ) ^ { 2 } \} } \\ & { \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad - 2 \{ s _ { 0 } + K _ { 1 } ( \alpha _ { 0 } , x ) \} K _ { 2 } ( \alpha _ { 0 } , x ) \{ s _ { 1 } + K _ { 1 } ( \alpha _ { 1 } , x ) \} K _ { 2 } ( \alpha _ { 1 } , x ) \Big ] . } \end{array}
+$$  
+
+So  
+
+$$
+\mathrm { T B R } ( x ) = \int _ { 0 } ^ { \infty } \int _ { - \infty } ^ { 0 } \frac { 1 } { ( 2 \pi ) S } \exp \Big ( - \frac { F } { 2 } \Big ) d s _ { 0 } d s _ { 1 } ,
+$$  
+
+where $S^{2}=1+K_{2}(\alpha_{0},x)^{2}+K_{2}(\alpha_{1},x)^{2}$,  
+
+$$
+\begin{array} { r c l } { \displaystyle F } & { = } & { \displaystyle \Big [ \big \{ s _ { 0 } + K _ { 1 } ( \alpha _ { 0 } , x ) \big \} ^ { 2 } \big \{ 1 + K _ { 2 } ( \alpha _ { 1 } , x ) ^ { 2 } \big \} + \big \{ s _ { 1 } + K _ { 1 } ( \alpha _ { 1 } , x ) \big \} ^ { 2 } \big \{ 1 + K _ { 2 } ( \alpha _ { 0 } , x ) ^ { 2 } \big \} } \\ & & { - 2 \big \{ s _ { 0 } + K _ { 1 } ( \alpha _ { 0 } , x ) \big \} K _ { 2 } ( \alpha _ { 0 } , x ) \big \{ s _ { 1 } + K _ { 1 } ( \alpha _ { 1 } , x ) \big \} K _ { 2 } ( \alpha _ { 1 } , x ) \Big ] / S ^ { 2 } } \\ & { = } & { \displaystyle \Big \{ ( s _ { 0 } , s _ { 1 } ) - \mu \Big \} \Sigma ^ { - 1 } \Big \{ ( s _ { 0 } , s _ { 1 } ) - \mu \Big \} ^ { T } , } \end{array}
+$$  
+
+$$
+\mu = ( - K _ { 1 } ( \alpha _ { 0 } , x ) , ~ ~ - K _ { 1 } ( \alpha _ { 1 } , x ) ) ,
+$$  
+
+$$
+\Sigma = \left( \begin{array} { c c } { { 1 + K _ { 2 } ( \alpha _ { 0 } , x ) ^ { 2 } } } & { { K _ { 2 } ( \alpha _ { 0 } , x ) K _ { 2 } ( \alpha _ { 1 } , x ) } } \\ { { K _ { 2 } ( \alpha _ { 0 } , x ) K _ { 2 } ( \alpha _ { 1 } , x ) } } & { { 1 + K _ { 2 } ( \alpha _ { 1 } , x ) ^ { 2 } } } \end{array} \right) .
+$$  
+
+Thus, TBR$(x)=\Phi_{2}((0,\infty),(-\infty,0);\mu,\Sigma)$, where $\Phi_{2}(A_{0},A_{1};\mu,\Sigma)$ is the distribution function of bivariate normal vector with mean $\mu$, covariance matrix $\Sigma$ and integral region $A_{0}\times A_{1}$. Similarly, we can derive the form for THR$(x)$.  
+
+Relationship of $ATE(x)$, $TBR_{c}(x)$ and $THR_{c}(x)$  
+
+Note for any random variable $Z$, we have  
+
+$$
+E ( Z ) = \int _ { 0 } ^ { \infty } \{ 1 - F _ { Z } ( z ) \} d z - \int _ { - \infty } ^ { 0 } F _ { Z } ( z ) d z ,
+$$  
+
+where $F_{Z}$ is the cumulative distribution function of $Z$. Thus,  
+
+$$
+\begin{array} { r c l } { \mathrm { A T E } ( x ) } & { = } & { E ( Y _ { 1 } - Y _ { 0 } | X = x ) } \\ & { = } & { \displaystyle \int _ { 0 } ^ { \infty } \{ 1 - F _ { Y _ { 1 } - Y _ { 0 } | x } ( c ) \} d c - \int _ { - \infty } ^ { 0 } F _ { Y _ { 1 } - Y _ { 0 } | x } ( c ) d c } \\ & { = } & { \displaystyle \int _ { 0 } ^ { \infty } \mathrm { T B R } _ { c } ( x ) d c - \int _ { - \infty } ^ { 0 } \{ 1 - \mathrm { T B R } _ { c } ( x ) \} d c } \\ & { = } & { \displaystyle \int _ { 0 } ^ { \infty } \mathrm { T B R } _ { c } ( x ) d c - \int _ { - \infty } ^ { 0 } \mathrm { T H R } _ { - c } ( x ) d c } \\ & { = } & { \displaystyle \int _ { 0 } ^ { \infty } \{ \mathrm { T B R } _ { c } ( x ) - \mathrm { T H R } _ { c } ( x ) \} d c , } \end{array}
+$$  
+
+where the penultimate step holds since $Y_1 - Y_0$ is continuous.  
+
+# Appendix B Proof of Theorem 1  
+
+Instead of proving Theorem 1 directly, we first provide sufficient and necessary identification conditions of $(g_t(X); h_t(X))$ in the general models (3) and (4).  
+
+Theorem B.1. Under Assumption 2,  
+
+(i) When the outcome is continuous, if the following model (A2.2) holds for t=0,1,  
+
+$$
+\left\{ \begin{array} { l l } { Y _ { t } = g _ { t } ( X ) + U h _ { t } ( X ) + \epsilon _ { t } , } \\ { \epsilon _ { t } \perp ( X , U ) , \epsilon _ { t } \sim N ( 0 , \sigma _ { t } ^ { 2 } ) , U \sim N ( 0 , 1 ) , \ h _ { t } ( 0 ) > 0 , } \end{array} \right.
+$$  
+
+then the following Condition A is the sufficient and necessary condition to identify $(g_0(X), h_0(X), \sigma_0^2, g_1(X), h_1(X), \sigma_1^2)$  
+
+Condition A. $h_{t}(X)$ belongs to the family $\mathcal{S}(X)$ for $t=0,1$, where  
+
+$$
+\mathcal { S } ( X ) = \left\{ h ( X ) : h ( X ) { \mathrm { ~ c a n ~ b e ~ i d e n t i f i e d ~ i f ~ } } h ( X ) h ^ { \prime } ( X ) { \mathrm { ~ i s ~ k n o w n . } } \right\}
+$$  
+
+(ii) When the outcome is continuous, if the following model (A2.3) holds for t=0,1,  
+
+$$
+\left\{ \begin{array} { l l } { Y _ { t } ^ { * } = g _ { t } ( X ) + U h _ { t } ( X ) + \epsilon _ { t } , } \\ { Y _ { t } = I ( Y _ { t } ^ { * } > 0 ) , } \\ { \epsilon _ { t } \perp ( X , U ) , \epsilon _ { t } \sim N ( 0 , \sigma ^ { 2 } ) , U \sim N ( 0 , 1 ) , \ h _ { t } ( 0 ) > 0 , } \end{array} \right.
+$$  
+
+then the following Condition B is the sufficient and necessary condition to identify $(g_0(X), h_0(X), g_1(X), h_1(X))$.  
+
+Condition B. $(g_t(X),h_t(X))$ belongs to the family $(\mathcal{S}_1(X),\mathcal{S}_2(X))$ for $t=0,1$,  
+
+where  
+
+$$
+\begin{array} { r l } & { \big ( \mathcal { S } _ { 1 } ( X ) , \mathcal { S } _ { 2 } ( X ) \big ) } \\ { = } & { \Big \{ \big ( g ( X ; \alpha _ { 1 } ) , h ( X ; \alpha _ { 2 } ) \big ) \big | ( \alpha _ { 1 } , \alpha _ { 2 } ) \in \mathcal { A } , \forall ( \alpha _ { 1 } , \alpha _ { 2 } ) \neq ( \beta _ { 1 } , \beta _ { 2 } ) \in \mathcal { A } , \frac { g ( X ; \alpha _ { 1 } ) } { \sqrt { 1 + h ^ { 2 } ( X ; \alpha _ { 2 } ) } } \neq \frac { g ( X ; \beta _ { 1 } ) } { \sqrt { 1 + h ^ { 2 } ( X ; \beta _ { 2 } ) } } \Big \} . } \end{array}
+$$  
+
+# Proof.  
+
+(i) Since $E[Y|X,T=t]=E[Y_t|X]=g_t(X)$, we can identify $g_t(X)$ and we have  
+
+$$
+\big ( Y - g _ { t } ( X ) \big ) | \big ( X , T = t \big ) \sim N ( 0 , h _ { t } ^ { 2 } ( X ) + \sigma _ { t } ^ { 2 } ) .
+$$  
+
+Thus $A_{t}(X)=h_{t}^{2}(X)+\sigma_{t}^{2}$ can also be identified, so is $A_{t}^{\prime}(X)=h_{t}(X)h_{t}^{\prime}(X)$.  
+
+Next we show that Condition A is sufficient and necessary to identify $h_t(x), t=0,1$. It is easy to see that if $h_t(X)$ belongs to $\mathcal{S}(X)$, then $h_t(X)$ is also identified. On the other hand, if $h_t(X)$ does not belong to $\mathcal{S}(X)$, then $h_t(X)$ can not be decided uniquely from $h_t(X)h'_t(X)$. Besides, knowing $h_t(X)h'_t(X)$ is equivalent to knowing $h^2_t(X)$ up to a constant, i.e., $h^2_t(X_1) - h^2_t(X_2)$ for all $X_1, X_2$. Note that $\left(Y - g_t(X)\right)|(X, T = t) \sim N(0, h^2_t(X) + \sigma^2_t)$, the distribution of $Y - g_t(X)$ condition on $(X, T = t)$ is determined by the variance, so all the information we have about $h_t(X)$ is $h^2_t(X) + \sigma^2_t$, which is the same as knowing $h^2_t(X_1) - h^2_t(X_2)$ for all $X_1, X_2$. Thus, we can not identify $h_t(X)$. So the sufficient and necessary condition is that $h_t(X) \in \mathcal{S}(X)$ for $t = 0, 1$.  
+
+(ii) Since $P(Y=1|X,U,T=t)=\Phi\big(g_t(X)+Uh_t(X)\big)$, we have  
+
+$$
+P ( Y = 1 | X , T = t ) = \Phi \Big ( \frac { g _ { t } ( X ) } { \sqrt { 1 + h _ { t } ^ { 2 } ( X ) } } \Big ) ,
+$$  
+
+It is easy to see that $(g_0(X), h_0(X), g_1(X), h_1(X))$ can be identified if and only if the  
+
+Condition B holds.  
+
+The identification of heterogeneous treatment effects given in Theorem 1 follows from the following corollaries.  
+
+Corollary 1. When $h(X)=h(X;\eta)=\eta_0+\eta_1^T X$, where $\eta=(\eta_0,\eta_1^T)^T$, $\eta_1=(\eta_{1,1},\cdots,\eta_{1,p})^T$ and $\eta_0>0$, we have $h(X)\in\mathcal{S}$.  
+
+Proof. Since $h(X)h'(X) = (\eta_0 + \eta_1^T X)\eta_1 = \eta_0\eta_1 + \eta_1\eta_1^T X$, we can identify $(\eta_0\eta_1, \eta_1\eta_1^T)$ if $h(X)h'(X)$ is known. Besides, $h(0) = \eta_0 > 0$, so the sign of every component of $\eta_1$ can be determined since we know $\eta_0\eta_1$. Then $\eta_1$ can be identified since we know the diagonal elements of $\eta_1\eta_1^T$. Then $\eta_0$ can also be identified from $\eta_0\eta_1$. Thus $(\eta_0, \eta_1)$ is identifiable, so is $h(X)$. This completes the proof of the part (i) in Theorem 1. $\square$  
+
+We impose the following regularity condition on $\mathcal{X}$ which is the domain of $X$.  
+
+Condition C. There exists linear independent $(\tau_1,\cdots,\tau_p)\subset\mathcal{X}$, where $\mathcal{X}$ is the domain of $X$, s.t. $P(Y=1|X=\tau_i)=0,i=1,\ldots,p$.  
+
+Corollary 2. When $g(X)=g(X;\alpha)=\alpha_0+\alpha_1^T X$, $h(X)=h(X;\alpha)=\alpha_2+\alpha_3^T X$ with $(\alpha_0,\alpha_1)\neq 0, \alpha_2>0, \alpha_3\neq 0$, where $\alpha=(\alpha_0,\alpha_1^T,\alpha_2,\alpha_3^T)^T$, $\alpha_1=(\alpha_{1,1},\cdots,\alpha_{1,p})^T$, $\alpha_3=(\alpha_{3,1},\cdots,\alpha_{3,p})^T$, if the Condition C holds, we have $\{g(X),h(X)\}\in\{\mathcal{S}_1(X),\mathcal{S}_2(X)\}$.  
+
+Proof. It is enough to show that if $\alpha=(\alpha_0,\alpha_1^T,\alpha_2,\alpha_3^T)^T$, $\beta=(\beta_0,\beta_1^T,\beta_2,\beta_3^T)^T$ satisfy:  
+
+$$
+\frac { \alpha _ { 0 } + \alpha _ { 1 } ^ { T } X } { \sqrt { 1 + ( \alpha _ { 2 } + \alpha _ { 3 } ^ { T } X ) ^ { 2 } } } = \frac { \beta _ { 0 } + \beta _ { 1 } ^ { T } X } { \sqrt { 1 + ( \beta _ { 2 } + \beta _ { 3 } ^ { T } X ) ^ { 2 } } } , \; \forall X \in \mathcal { X } ,
+$$  
+
+then $\alpha=\beta$. To keep the same signs on both sides, the following two subsets of a hyperplane $(H_0,H_1)$ must be the same,  
+
+$$
+H _ { 0 } = \{ X \subset \mathcal { X } | \alpha _ { 0 } + \alpha _ { 1 } ^ { T } X = 0 \} , \ H _ { 1 } = \{ X \subset \mathcal { X } | \beta _ { 0 } + \beta _ { 1 } ^ { T } X = 0 \} ,
+$$  
+
+since there exists linear independent $(\tau_1,\cdots,\tau_p)\subset\mathcal{X}$ such that $P(Y=1|X=\tau_i)=0.5,i=1,\ldots,p$, thus, the following two hyperplane $(\tilde{H}_0,\tilde{H}_1)$ must be the same,  
+
+$$
+\widetilde { H } _ { 0 } = \{ X \subset \mathbb { R } ^ { p } | \alpha _ { 0 } + \alpha _ { 1 } ^ { T } X = 0 \} , \; \widetilde { H } _ { 1 } = \{ X \subset \mathbb { R } ^ { p } | \beta _ { 0 } + \beta _ { 1 } ^ { T } X = 0 \} ,
+$$  
+
+which means $(\alpha_0, \alpha_1^T) = k(\beta_0, \beta_1^T)$, and $k \geq 0$ since the signs on the two sides of equations (A2.4) must be the same. And $(\alpha_0, \alpha_1) \neq 0$ exclude the case $k = 0$. Thus from equation (A2.4) we have  
+
+$$
+k ^ { 2 } = \frac { 1 + ( \alpha _ { 2 } + \alpha _ { 3 } ^ { T } X ) ^ { 2 } } { 1 + ( \beta _ { 2 } + \beta _ { 3 } ^ { T } X ) ^ { 2 } } .
+$$  
+
+By arranging the equation above we have  
+
+$$
+X ^ { T } ( \alpha _ { 3 } \alpha _ { 3 } ^ { T } - k ^ { 2 } \beta _ { 3 } \beta _ { 3 } ^ { T } ) X + 2 ( \alpha _ { 2 } \alpha _ { 3 } ^ { T } - k ^ { 2 } \beta _ { 2 } \beta _ { 3 } ^ { T } ) X + 1 + \alpha _ { 2 } ^ { 2 } - k - k \beta _ { 2 } ^ { 2 } = 0 .
+$$  
+
+So  
+
+$$
+\alpha _ { 3 } \alpha _ { 3 } ^ { T } - k ^ { 2 } \beta _ { 3 } \beta _ { 3 } ^ { T } = 0 ,
+$$  
+
+$$
+\alpha _ { 2 } \alpha _ { 3 } ^ { T } - k ^ { 2 } \beta _ { 2 } \beta _ { 3 } ^ { T } = 0 ,
+$$  
+
+$$
+1 + \alpha _ { 2 } ^ { 2 } - k ^ { 2 } - k ^ { 2 } \beta _ { 2 } ^ { 2 } = 0 .
+$$  
+
+With a little abuse of notation, we use 0 to denote not only the number 0 but also the matrix and vector of 0 in (A2.5a) and (A2.5b) respectively. Take the $(i,i)$ element of (A2.5a) and the i-th component of (A2.5b), with a little arrangement we have  
+
+$$
+\alpha _ { 3 i } ^ { 2 } = k ^ { 2 } \beta _ { 3 i } ^ { 2 } ,
+$$  
+
+$$
+\alpha _ { 2 } \alpha _ { 3 i } = k ^ { 2 } \beta _ { 2 } \beta _ { 3 i } ,
+$$  
+
+$$
+\alpha _ { 2 } ^ { 2 } = k ^ { 2 } + k ^ { 2 } \beta _ { 2 } ^ { 2 } - 1 .
+$$  
+
+Note (A2.5d) · (A2.5f) − (A2.5e)$^{2}$ = $k^{2}\beta_{3i}^{2}(k^{2}-1)=0$, since $k>0$ we have $k=1$. And since $\alpha_{2},\beta_{2}\geq0$, from (A2.5c) we have $\alpha_{2}=\beta_{2}$, then from (A2.5b) we have $\alpha_{3}=\beta_{3}$. Thus, $\alpha=\beta$. This completes the proof of part (ii) in Theorem 1. □  
+
+# Appendix C Non-identification without interaction term
+
+between $X$ and $U$  
+
+Theorem C.1. Under the same assumptions as in Theorem B.1, (i) If there is no interaction term between $X$ and $U$ in model (A2.2), i.e., $h_t(X)=h_t$ is a constant, the $(\text{TBR}_c(x),\text{THR}_c(x))$ can not be identified for any $c\neq\pm E[Y_1-Y_0]$.
+
+(ii) If there is no interaction term between $X$ and $U$ in model (A2.3), i.e., $h_t(X)=h_t$ is a constant, the $(\text{TBR}(x),\text{THR}(x))$ can not be identified for any $(g_0(x),g_1(x))\neq(0,0)$.  
+
+# Proof.  
+
+(i) We have  
+
+$$
+Y \Big | \Big ( X , T = t \Big ) \sim N \big ( g _ { t } ( X ) , \ h _ { t } ^ { 2 } + \sigma _ { t } ^ { 2 } \big ) .
+$$  
+
+Since $P(Y,X,T)=P(Y|X,T)P(X,T)$ and $P(X,T)$ is not related to the parameters in the model, we can only identify $g_t(X)$ and $h_t^2+\sigma_t^2$ for $t=0,1$. Since $h_t^2$ is a constant, we can no longer separate $h_t$ and $\sigma_t^2$ from $(h_t^2+\sigma_t^2)$ without further assumptions, i.e., $(h_t,\sigma_t^2)$ can not be identified. Additionally, we have  
+
+$$
+( Y _ { 0 } , Y _ { 1 } ) { \Big | } X = x \sim N ( \mu ( x ) , \Sigma ( x ) ) ,
+$$  
+
+where  
+
+$$
+\mu ( x ) = ( g _ { 0 } ( x ) , g _ { 1 } ( x ) ) , \; \Sigma ( x ) = \left( \begin{array} { c c } { { h _ { 0 } ^ { 2 } + \sigma _ { 0 } ^ { 2 } } } & { { h _ { 0 } h _ { 1 } } } \\ { { } } & { { } } \\ { { h _ { 0 } h _ { 1 } } } & { { h _ { 1 } ^ { 2 } + \sigma _ { 1 } ^ { 2 } } } \end{array} \right) .
+$$  
+
+Thus,  
+
+$$
+( Y _ { 1 } - Y _ { 0 } ) | X = x \sim N \Big ( g _ { 1 } ( x ) - g _ { 0 } ( x ) , \; \; ( h _ { 0 } ^ { 2 } + \sigma _ { 0 } ^ { 2 } ) + ( h _ { 1 } ^ { 2 } + \sigma _ { 1 } ^ { 2 } ) - 2 h _ { 0 } h _ { 1 } \Big ) .
+$$  
+
+Since $h_{t}^{2}+\sigma_{t}^{2}$ can be identified while $(h_{t}^{2},\sigma_{t}^{2})$ can not, the joint distribution of $(Y_{0},Y_{1})$ given $X=x$ can not be identified, so is the distribution of $Y_{1}-Y_{0}$ given $X=x$.  
+
+Since $\mathrm{TBR}_{c}(x)=P(Y_{1}-Y_{0}>c|X=x)$ and $Y_{1}-Y_{0}$ given $X=x$ is normally distributed with mean identified and variance unidentified, so $\mathrm{TBR}_{c}(x)$ is unidentified if $c\neq E[Y_{1}-Y_{0}]$. Similarly, $\mathrm{THR}_{c}(x)$ is unidentified if $c\neq-E[Y_{1}-Y_{0}]$.  
+
+(ii) Since  
+
+$$
+P ( Y = 1 | X , T = t ) = \Phi \Bigl ( \frac { g _ { t } ( X ) } { \sqrt { 1 + h _ { t } ^ { 2 } } } \Bigr ) ,
+$$  
+
+we can only identify $g_{t}(X)/\sqrt{1+h_{t}^{2}}$ in the model with the numerator and denominator unseparate, which means $(g_t(X), h_t^2)$ can not be identified. Additionally, we have  
+
+$$
+\begin{array} { r c l } { \mathrm { T B R } ( x ) } & { = } & { P ( Y _ { 0 } = 0 , Y _ { 1 } = 1 | X = x ) } \\ & { = } & { \displaystyle \int _ { - \infty } ^ { 0 } \! \! \! \int _ { 0 } ^ { \infty } \frac { 1 } { 2 \pi | \Sigma _ { b } | ^ { 1 / 2 } } \exp \Big \{ - \frac { 1 } { 2 } \big ( ( s _ { 0 } , s _ { 1 } ) - \mu _ { b } \big ) \Sigma _ { b } ^ { - 1 } \big ( ( s _ { 0 } , s _ { 1 } ) - \mu _ { b } \big ) \Big \} d s _ { 0 } d s _ { 1 } , } \end{array}
+$$  
+
+where  
+
+$$
+\mu _ { b } = ( - g _ { 0 } ( x ) , - g _ { 1 } ( x ) ) , \quad \Sigma _ { b } = \left( \begin{array} { c c } { { 1 + h _ { 0 } ^ { 2 } } } & { { h _ { 0 } h _ { 1 } } } \\ { { } } & { { } } \\ { { h _ { 0 } h _ { 1 } } } & { { 1 + h _ { 1 } ^ { 2 } } } \end{array} \right) .
+$$  
+
+Let $(t_0 = s_0/\sqrt{1+h_0^2}$, $t_1 = s_1/\sqrt{1+h_1^2})$, we have  
+
+$$
+\begin{array} { r c l } { \mathrm { T B R } ( x ) } & { = } & { P ( Y _ { 0 } = 0 , Y _ { 1 } = 1 | X = x ) } \\ & { = } & { \displaystyle \int _ { - \infty } ^ { 0 } \int _ { 0 } ^ { \infty } \frac { 1 } { 2 \pi | \widetilde { \Sigma } _ { b } | ^ { 1 / 2 } } \exp \Big \{ - \frac { 1 } { 2 } \big ( ( t _ { 0 } , t _ { 1 } ) - \widetilde { \mu } _ { b } \big ) \widetilde { \Sigma } _ { b } ^ { - 1 } \big ( ( t _ { 0 } , t _ { 1 } ) - \widetilde { \mu } _ { b } \big ) \Big \} d t _ { 0 } d t _ { 1 } , } \end{array}
+$$  
+
+where  
+
+$$
+\begin{array} { r } { \widetilde { \mu } _ { b } = \big ( - g _ { 0 } ( x ) / \sqrt { 1 + h _ { 0 } ^ { 2 } } , - g _ { 1 } ( x ) / \sqrt { 1 + h _ { 1 } ^ { 2 } } \big ) , \quad \widetilde { \Sigma } _ { b } = \left( \begin{array} { c c } { 1 } & { \frac { h _ { 0 } h _ { 1 } } { \sqrt { 1 + h _ { 0 } ^ { 2 } } \sqrt { 1 + h _ { 1 } ^ { 2 } } } } \\ { \frac { h _ { 0 } h _ { 1 } } { \sqrt { 1 + h _ { 0 } ^ { 2 } } \sqrt { 1 + h _ { 1 } ^ { 2 } } } } & { 1 } \end{array} \right) . } \end{array}
+$$  
+
+So $\widetilde{\mu}_{b}$ is identified while $\widetilde{\Sigma}_{b}$ not. Thus, we can easily conclude that TBR$(x)$ can not be identified when $(g_{0}(x),g_{1}(x))\neq(0,0)$, so is THR$(x)$ and the joint distribution of $(Y_{0},Y_{1})$ given $X=x$. $\square$  
+
+# Appendix D Proof of Theorem 2  
+
+Proof. The estimator $\widehat{\theta}=(\widehat{\alpha}_{0,0},\widehat{\alpha}_{0,1}^{T},\widehat{\alpha}_{0,2},\widehat{\alpha}_{0,3}^{T},\widehat{\sigma}_{0}^{2},\widehat{\alpha}_{1,0},\widehat{\alpha}_{1,1}^{T},\widehat{\alpha}_{1,2},\widehat{\alpha}_{1,3}^{T},\widehat{\sigma}_{1}^{2})^{T}$ maximize the following likelihood  
+
+$$
+\begin{array} { r l } & { \ell = \log L ( Y | X ) } \\ { = } & { \sum _ { i = 1 } ^ { n } \sum _ { t = 0 , 1 } \frac { 1 } { 2 } \Big [ I ( T _ { i } = t ) \Big \{ - \log ( 2 \pi ) - \log \big ( ( \alpha _ { t , 2 } + \alpha _ { t , 3 } ^ { T } X _ { i } ) ^ { 2 } + \sigma _ { t } ^ { 2 } \big ) - \frac { ( Y _ { i } - \alpha _ { t , 0 } - \alpha _ { t , 1 } ^ { T } X _ { i } ) ^ { 2 } } { ( \alpha _ { t , 2 } + \alpha _ { t , 3 } ^ { T } X _ { i } ) ^ { 2 } + \sigma _ { t } ^ { 2 } } \Big \} \Big ] . } \end{array}
+$$  
+
+According to the M-estimator property, we have  
+
+$$
+{ \sqrt { n } } ( { \widehat { \theta } } - \theta ) \ { \overset { d } { \longrightarrow } } \ N { \Big ( } 0 , { \big [ } P _ { 0 } { \big \{ } { \frac { \partial ^ { 2 } \psi } { \partial \theta \partial \theta ^ { T } } } { \big \} } { \big ] } ^ { - 1 } P _ { 0 } { \big \{ } { \frac { \partial \psi } { \partial \theta } } { \frac { \partial \psi } { \partial \theta ^ { T } } } { \big \} } { \big [ } P _ { 0 } { \big \{ } { \frac { \partial ^ { 2 } \psi } { \partial \theta \partial \theta ^ { T } } } { \big \} } { \big ] } ^ { - 1 } { \Big ) } ,
+$$  
+
+where $P_{0}$ is the true mean and  
+
+$$
+\begin{array} { r l } & { \quad \psi ( T , X , Y ; \theta ) } \\ { = } & { \sum _ { t = 0 , 1 } \frac { 1 } { 2 } \Big [ I ( T = t ) \Big \{ - \log ( 2 \pi ) - \log \big ( ( \alpha _ { t , 2 } + \alpha _ { t , 3 } ^ { T } X ) ^ { 2 } + \sigma _ { t } ^ { 2 } \big ) - \frac { ( Y - \alpha _ { t , 0 } - \alpha _ { t , 1 } ^ { T } X ) ^ { 2 } } { ( \alpha _ { t , 2 } + \alpha _ { t , 3 } ^ { T } X ) ^ { 2 } + \sigma _ { t } ^ { 2 } } \Big \} \Big ] . } \end{array}
+$$  
+
+Let  
+
+$$
+m _ { B } ( X ; \theta ) = \Phi \Big ( \frac { ( \alpha _ { 1 , 0 } - \alpha _ { 0 , 0 } ) + ( \alpha _ { 1 , 1 } - \alpha _ { 0 , 1 } ) ^ { T } X - c } { \sqrt { ( ( \alpha _ { 1 , 2 } - \alpha _ { 0 , 2 } ) + ( \alpha _ { 1 , 3 } - \alpha _ { 0 , 3 } ) ^ { T } X ) ^ { 2 } + ( \sigma _ { 0 } ^ { 2 } + \sigma _ { 1 } ^ { 2 } ) } } \Big ) ,
+$$  
+
+and  
+
+$$
+m _ { H } ( X ; \theta ) = \Phi \Big ( \frac { ( \alpha _ { 0 , 0 } - \alpha _ { 1 , 0 } ) + ( \alpha _ { 0 , 1 } - \alpha _ { 1 , 1 } ) ^ { T } X - c } { \sqrt { ( ( \alpha _ { 0 , 2 } - \alpha _ { 1 , 2 } ) + ( \alpha _ { 0 , 3 } - \alpha _ { 1 , 3 } ) ^ { T } X ) ^ { 2 } + ( \sigma _ { 0 } ^ { 2 } + \sigma _ { 1 } ^ { 2 } ) } } \Big ) ,
+$$  
+
+thus, $\widehat{\mathrm{TBR}}_{c}(x)-\mathrm{TBR}_{c}(x)=m_{B}(x;\widehat{\theta})-m_{B}(x;\theta)$ and $\widehat{\mathrm{THR}}_{c}(x)-\mathrm{THR}_{c}(x)=m_{H}(x;\widehat{\theta})-m_{H}(x;\theta)$.  
+
+By the Delta-Method, we have  
+
+$$
+\begin{array} { r l } & { \sqrt { n } \big ( \widehat { \mathrm { T B R } } ( x ) - \mathrm { T B R } ( x ) \big ) \xrightarrow { d } N ( 0 , \sigma _ { c B } ^ { 2 } ( x ; \theta ) ) , } \\ & { \sqrt { n } \big ( \widehat { \mathrm { T H R } } ( x ) - \mathrm { T H R } ( x ) \big ) \xrightarrow { d } N ( 0 , \sigma _ { c H } ^ { 2 } ( x ; \theta ) ) , } \end{array}
+$$  
+
+where  
+
+$$
+\sigma _ { c B } ^ { 2 } ( x ; \theta ) = \frac { \partial } { \partial \theta ^ { T } } m _ { B } ( x ; \theta ) \Big [ P _ { 0 } \big \{ \frac { \partial ^ { 2 } \psi } { \partial \theta \partial \theta ^ { T } } \big \} \Big ] ^ { - 1 } P _ { 0 } \big \{ \frac { \partial \psi } { \partial \theta } \frac { \partial \psi } { \partial \theta ^ { T } } \big \} \Big [ P _ { 0 } \big \{ \frac { \partial ^ { 2 } \psi } { \partial \theta \partial \theta ^ { T } } \big \} \Big ] ^ { - 1 } \frac { \partial } { \partial \theta } m _ { B } ( x ; \theta ) ,
+$$  
+
+and  
+
+$$
+\sigma _ { c H } ^ { 2 } ( x ; \theta ) = \frac { \partial } { \partial \theta ^ { T } } m _ { H } ( x ; \theta ) \Big [ P _ { 0 } \big \{ \frac { \partial ^ { 2 } \psi } { \partial \theta \partial \theta ^ { T } } \big \} \Big ] ^ { - 1 } P _ { 0 } \big \{ \frac { \partial \psi } { \partial \theta } \frac { \partial \psi } { \partial \theta ^ { T } } \big \} \Big [ P _ { 0 } \big \{ \frac { \partial ^ { 2 } \psi } { \partial \theta \partial \theta ^ { T } } \big \} \Big ] ^ { - 1 } \frac { \partial } { \partial \theta } m _ { H } ( x ; \theta ) .
+$$  
+
+# Appendix E Proof of Theorem 3  
+
+Proof. The estimator $\widehat{\theta} = (\widehat{\alpha}_{0,0}, \widehat{\alpha}_{0,1}^T, \widehat{\alpha}_{0,2}, \widehat{\alpha}_{0,3}^T, \widehat{\alpha}_{1,0}, \widehat{\alpha}_{1,1}^T, \widehat{\alpha}_{1,2}, \widehat{\alpha}_{1,3}^T)^T$ maximize the following likelihood  
+
+$$
+\ell = \log L ( Y | X ) = \sum _ { i = 1 } ^ { n } \sum _ { t = 0 , 1 } \left[ I ( T _ { i } = t ) \Bigl \{ Y _ { i } \log \bigl ( G ( X _ { i } ; \theta _ { t } ) \bigr ) + ( 1 - Y _ { i } ) \log \bigl ( 1 - G ( X _ { i } ; \theta _ { t } ) \bigr ) \Bigr \} \right] ,
+$$  
+
+where  
+
+$$
+G ( X ; \theta _ { t } ) = \Phi \Big ( \frac { \alpha _ { t , 0 } + \alpha _ { t , 1 } ^ { T } X } { \sqrt { 1 + ( \alpha _ { t , 2 } + \alpha _ { t , 3 } ^ { T } X ) ^ { 2 } } } \Big ) .
+$$  
+
+According to the M-estimator property, we have  
+
+$$
+{ \widehat { \theta } } - \theta = - \left[ P _ { 0 } \bigl \{ { \frac { \partial ^ { 2 } } { \partial \theta \partial \theta ^ { T } } } \psi ( T , X , Y ; \theta ) \bigr \} \right] ^ { - 1 } { \frac { 1 } { n } } \sum _ { i = 1 } ^ { n } { \frac { \partial } { \partial \theta } } \psi ( T _ { i } , X _ { i } , Y _ { i } ; \theta ) + o _ { p } ( 1 / { \sqrt { n } } ) ,
+$$  
+
+where  
+
+$$
+\psi ( T , X , Y ; \theta ) = \sum _ { t = 0 , 1 } \left[ I ( T = t ) \Bigl \{ Y \log \bigl ( G ( X ; \theta _ { t } ) \bigr ) + ( 1 - Y ) \log \bigl ( 1 - G ( X ; \theta _ { t } ) \bigr ) \Bigr \} \right] .
+$$  
+
+Let $m_{B}(X;\theta)=\Phi_{b}(\mu(x;\theta),\Sigma(x;\theta))$, and $m_{H}(X;\theta)=\Phi_{h}(\mu(x;\theta),\Sigma(x;\theta))$, we have $\widehat{\mathrm{TBR}}(x)-\mathrm{TBR}(x)=m_{B}(x;\widehat{\theta})-m_{B}(x;\theta)$ and $\widehat{\mathrm{THR}}(x)-\mathrm{THR}(x)=m_{H}(x;\widehat{\theta})-m_{H}(x;\theta)$.  
+
+By the Delta-Method, we have  
+
+$$
+\begin{array} { r l } & { \sqrt { n } \big ( \widehat { \mathrm { T B R } } ( x ) - \mathrm { T B R } ( x ) \big ) \xrightarrow { d } N ( 0 , \sigma _ { b B } ^ { 2 } ( x ; \theta ) ) , } \\ & { \sqrt { n } \big ( \widehat { \mathrm { T H R } } ( x ) - \mathrm { T H R } ( x ) \big ) \xrightarrow { d } N ( 0 , \sigma _ { b H } ^ { 2 } ( x ; \theta ) ) , } \end{array}
+$$  
+
+where  
+
+$$
+\sigma _ { b B } ^ { 2 } ( x ; \theta ) = \frac { \partial } { \partial \theta ^ { T } } m _ { B } ( x ; \theta ) \Big [ P _ { 0 } \big \{ \frac { \partial ^ { 2 } \psi } { \partial \theta \partial \theta ^ { T } } \big \} \Big ] ^ { - 1 } P _ { 0 } \big \{ \frac { \partial \psi } { \partial \theta } \, \frac { \partial \psi } { \partial \theta ^ { T } } \big \} \Big [ P _ { 0 } \big \{ \frac { \partial ^ { 2 } \psi } { \partial \theta \partial \theta ^ { T } } \big \} \Big ] ^ { - 1 } \frac { \partial } { \partial \theta } m _ { B } ( x ; \theta ) ,
+$$  
+
+and  
+
+$$
+\sigma _ { b H } ^ { 2 } ( x ; \theta ) = \frac { \partial } { \partial \theta ^ { T } } m _ { H } ( x ; \theta ) \Big [ P _ { 0 } \big \{ \frac { \partial ^ { 2 } \psi } { \partial \theta \partial \theta ^ { T } } \big \} \Big ] ^ { - 1 } P _ { 0 } \big \{ \frac { \partial \psi } { \partial \theta } \frac { \partial \psi } { \partial \theta ^ { T } } \big \} \Big [ P _ { 0 } \big \{ \frac { \partial ^ { 2 } \psi } { \partial \theta \partial \theta ^ { T } } \big \} \Big ] ^ { - 1 } \frac { \partial } { \partial \theta } m _ { H } ( x ; \theta ) .
+$$  
+
+# Appendix F Estimates of Parameters and Their Asymp  
+
+# totic Properties in Models (3) and (4)  
+
+The corresponding formulas of (F1), (F2), (F3) and (F4) for the general models are:  
+
+$$
+\left\{ \begin{array} { r l } { \mathrm { T B R } _ { c } ( x ) } & { = \Phi \Big ( \frac { \big ( g _ { 1 } ( x ) - g _ { 0 } ( x ) \big ) - c } { \sqrt { \big ( h _ { 1 } ( x ) - h _ { 0 } ( x ) \big ) ^ { 2 } + \sigma _ { 0 } ^ { 2 } + \sigma _ { 1 } ^ { 2 } } } \Big ) , } \\ { \mathrm { T H R } _ { c } ( x ) } & { = \Phi \Big ( \frac { \big ( g _ { 0 } ( x ) - g _ { 1 } ( x ) \big ) - c } { \sqrt { \big ( h _ { 0 } ( x ) - h _ { 1 } ( x ) \big ) ^ { 2 } + \sigma _ { 0 } ^ { 2 } + \sigma _ { 1 } ^ { 2 } } } \Big ) , } \end{array} \right.
+$$  
+
+and  
+
+$$
+\left\{ \begin{array} { r l } { \mathrm { T B R } ( x ) } & { = \Phi _ { b } \left( \widetilde { \mu } ( x ) , \widetilde { \Sigma } ( x ) \right) , } \\ { \mathrm { T H R } ( x ) } & { = \Phi _ { h } \left( \widetilde { \mu } ( x ) , \widetilde { \Sigma } ( x ) \right) , } \end{array} \right.
+$$  
+
+where  
+
+$$
+\begin{array} { r l } & { \widetilde { \mu } ( x ) = - \big ( g _ { 0 } ( x ) , ~ g _ { 1 } ( x ) \big ) , } \\ & { \widetilde { \Sigma } ( x ) = \left( \begin{array} { c c } { 1 + h _ { 0 } ^ { 2 } ( x ) } & { h _ { 0 } ( x ) h _ { 1 } ( x ) } \\ { h _ { 0 } ( x ) h _ { 1 } ( x ) } & { 1 + h _ { 1 } ^ { 2 } ( x ) } \end{array} \right) . } \end{array}
+$$  
+
+In estimation, we first model $g_t(X)$ and $h_t(X)$ as $g_t(X;\alpha_{t,1})$ and $h_t(X;\alpha_{t,2})$. Also let $\psi(T,X,Y;\theta)$ denote the log-density function, where $\theta=(\alpha_{0,1},\alpha_{0,2},\sigma_0^2,\alpha_{1,1},\alpha_{1,2},\sigma_1^2)^T$ in the continuous case and $\theta=(\alpha_{0,1},\alpha_{0,2},\alpha_{1,1},\alpha_{1,2})^T$ in the binary case. The estimation for $\theta$ can be obtained by maximizing $P_n[\psi(T,X,Y;\theta)]$, denote as $\widehat{\theta}$. Then TBR$(x)$, THR$(x)$, TBR$_c(x)$ and THR$_c(x)$ can be estimated by:  
+
+$$
+\left\{ \begin{array} { r l } { \widehat { \mathrm { T B R } _ { c } } ( x ) } & { = \Phi \Big ( \frac { \big ( g _ { 1 } ( X ; \widehat { \alpha } _ { 1 , 1 } ) - g _ { 0 } ( X ; \widehat { \alpha } _ { 0 , 1 } ) \big ) - c } { \sqrt { \big ( h _ { 1 } ( X ; \widehat { \alpha } _ { 1 , 2 } ) - h _ { 0 } ( X ; \widehat { \alpha } _ { 0 , 2 } ) \big ) ^ { 2 } + \widehat { \sigma } _ { 0 } ^ { 2 } + \widehat { \sigma } _ { 1 } ^ { 2 } } } \Big ) , } \\ { \widehat { \mathrm { T H R } _ { c } } ( x ) } & { = \Phi \Big ( \frac { \big ( g _ { 1 } ( X ; \widehat { \alpha } _ { 0 , 1 } ) - g _ { 0 } ( X ; \widehat { \alpha } _ { 1 , 1 } ) \big ) - c } { \sqrt { \big ( h _ { 1 } ( X ; \widehat { \alpha } _ { 0 , 2 } ) - h _ { 0 } ( X ; \widehat { \alpha } _ { 1 , 2 } ) \big ) ^ { 2 } + \widehat { \sigma } _ { 0 } ^ { 2 } + \widehat { \sigma } _ { 1 } ^ { 2 } } } \Big ) , } \\ { \widehat { \mathrm { T B R } } ( x ) } & { = \Phi _ { b } \big ( \widetilde { \mu } ( X ; \widehat { \theta } ) , \widetilde { \Sigma } ( X ; \widehat { \theta } ) \big ) , } \\ { \widehat { \mathrm { T H R } } ( x ) } & { = \Phi _ { h } \big ( \widetilde { \mu } ( X ; \widehat { \theta } ) , \widetilde { \Sigma } ( X ; \widehat { \theta } ) \big ) , } \end{array} \right.
+$$  
+
+where  
+
+$$
+\widetilde { \mu } ( X ; \widehat { \theta } ) = \big ( - g _ { 0 } ( X ; \widehat { \alpha } _ { 0 , 1 } ) , \; - g _ { 1 } ( X ; \widehat { \alpha } _ { 1 , 1 } ) \big ) ,
+$$  
+
+$$
+\widetilde { \Sigma } ( X ; \widehat { \theta } ) = \left( \begin{array} { c c } { 1 + h _ { 0 } ^ { 2 } ( X ; \widehat { \alpha } _ { 0 , 2 } ) } & { h _ { 0 } ( X ; \widehat { \alpha } _ { 0 , 2 } ) h _ { 1 } ( X ; \widehat { \alpha } _ { 1 , 2 } ) } \\ { h _ { 0 } ( X ; \widehat { \alpha } _ { 0 , 2 } ) h _ { 1 } ( X ; \widehat { \alpha } _ { 1 , 2 } ) } & { 1 + h _ { 1 } ^ { 2 } ( X ; \widehat { \alpha } _ { 1 , 2 } ) } \end{array} \right) .
+$$  
+
+We estimate the variances of $\widehat{\mathrm{TBR}}_{c}(x)$, $\widehat{\mathrm{THR}}_{c}(x)$, $\widehat{\mathrm{TBR}}(x)$ and $\widehat{\mathrm{THR}}(x)$ by the plug-in estimator respectively.  
+
+# Appendix G Identification When $U$ Depends on $X$  
+
+Theorem G.1. Under the Assumption 2:  
+
+(i) When the outcome is continuous, if the following model (A7.6) holds for t=0,1  
+
+$$
+\left\{ \begin{array} { l l } { Y _ { t } = g _ { t } ( X ) + h _ { t } ( X ) U + \epsilon _ { t } , ~ \epsilon _ { t } \sim N ( \mu _ { t } , \sigma _ { t } ^ { 2 } ) , ~ \epsilon _ { t } \perp ( X , U , \epsilon _ { u } ) , } \\ { U = W ( X ) + \epsilon _ { u } , ~ \epsilon _ { u } \sim N ( \mu _ { u } , \sigma ^ { 2 } ) , ~ \epsilon _ { u } \perp X } \end{array} \right.
+$$  
+
+then the Condition A in the Appendix B is sufficient to identify the joint distribution of  
+
+$(Y_0,Y_1)$ given $X$.  
+
+(ii) When the outcome is binary, if the following model (A7.7) holds for t=0,1  
+
+$$
+\left\{ \begin{array} { l l } { Y _ { t } ^ { * } = g _ { t } ( X ) + h _ { t } ( X ) U + \epsilon _ { t } , \epsilon _ { t } \sim N ( \mu _ { t } , \sigma _ { t } ^ { 2 } ) , \epsilon _ { t } \perp ( X , U , \epsilon _ { u } ) , } \\ { Y _ { t } = I ( Y _ { t } ^ { * } > 0 ) , } \\ { U = W ( X ) + \epsilon _ { u } , \epsilon _ { u } \sim N ( \mu _ { u } , \sigma ^ { 2 } ) , ~ \epsilon _ { u } \perp X , } \end{array} \right.
+$$  
+
+then the following Condition $D$ is sufficient to identify the joint distribution of $(Y_0,Y_1)$ given $X$.  
+
+Condition D. $(g_t(X) + W(X)h_t(X), h_t(X))$ belongs to the family $(\mathcal{S}_1(X), \mathcal{S}_2(X))$ for $t = 0, 1$, where  
+
+$$
+\begin{array} { r l } & { ( \mathcal { S } _ { 1 } ( X ) , \mathcal { S } _ { 2 } ( X ) ) = \Big \{ ( S _ { 1 } ( X ; \beta _ { 1 } ) , S _ { 2 } ( X ; \beta _ { 2 } ) ) \big | ( \beta _ { 1 } , \beta _ { 2 } ) \in \mathcal { A } , } \\ & { \quad \forall ( \beta _ { 1 } ^ { ( 1 ) } , \beta _ { 2 } ^ { ( 1 ) } ) \neq ( \beta _ { 1 } ^ { ( 2 ) } , \beta _ { 2 } ^ { ( 2 ) } ) \in \mathcal { A } , \frac { S _ { 1 } ( X ; \beta _ { 1 } ^ { ( 1 ) } ) } { \sqrt { 1 + S _ { 2 } ^ { 2 } ( X ; \beta _ { 2 } ^ { ( 1 ) } ) } } \neq \frac { S _ { 1 } ( X ; \beta _ { 1 } ^ { ( 2 ) } ) } { \sqrt { 1 + S _ { 2 } ^ { 2 } ( X ; \beta _ { 2 } ^ { ( 2 ) } ) } } \Big \} . } \end{array}
+$$  
+
+# Proof.  
+
+(i) Without loss of generality, we assume $\sigma^{2}=1$ since otherwise it can be absorbed into $h_{t}(X)$, $\mu_{u}=0$ since otherwise it can be absorbed into $W(X)$ and assume $\mu_{t}=0$ since otherwise it can be absorbed into $g_{t}(X)$. Also, we assume $h_{t}(0)>0$ since otherwise we use $U^{*}=-U$ to replace $U$. By a little arrangement, we have  
+
+$$
+Y _ { t } = \left( g _ { t } ( X ) + h _ { t } ( X ) W ( X ) \right) + h _ { t } ( X ) \epsilon _ { u } + \epsilon _ { t } .
+$$  
+
+Thus,  
+
+$$
+Y \Big | \Big ( X , T = t \Big ) \sim N \big ( g _ { t } ( X ) + h _ { t } ( X ) W ( X ) , ~ h _ { t } ^ { 2 } ( X ) + \sigma _ { t } ^ { 2 } \big ) .
+$$  
+
+Then $(g_t(X)+h_t(X)W(X))$ and $(h_t^2(X)+\sigma_t^2)$ can both be identified, so is $h_t(X)h_t'(X)$.
+
+Since $h_t(X)$ belongs to $\mathcal{S}(X)$, we can also identify $h_t(X)$ and $\sigma_t^2$.  
+
+Note that  
+
+$$
+\begin{array} { r } { P ( Y _ { 0 } , Y _ { 1 } | X = x ) = P \Big ( \big ( g _ { 0 } ( x ) + h _ { 0 } ( x ) W ( x ) \big ) + h _ { 0 } ( x ) \epsilon _ { u } + \epsilon _ { 0 } , \; \big ( g _ { 1 } ( X ) + h _ { 1 } ( X ) W ( X ) \big ) + h _ { 1 } ( X ) \epsilon _ { u } + \epsilon _ { 1 } \Big ) . } \end{array}
+$$  
+
+Thus, we can identify the joint distribution of $(Y_0,Y_1)$ given $X$.  
+
+(ii) Without loss of generality, we can assume that $\epsilon_u$ follows a standard normal distribution.
+
+Also, we assume $\mu_t = 0$ since otherwise it can be absorbed into $g_t(X)$, $\sigma_t^2 = 1$ since otherwise we can use $\widetilde{Y}_t^* = Y_t^*/\sigma_t$ to replace $Y_t^*$ and $h_t(0) > 0$ since otherwise we can use $U^* = -U$ to replace $U$. By a little arrangement, we have  
+
+$$
+\begin{array} { r l } & { P ( Y = 1 | X , T = t ) = P ( Y _ { t } = 1 | X ) } \\ { = } & { P \big ( g _ { t } ( X ) + h _ { t } ( X ) W ( X ) + h _ { t } ( X ) \epsilon _ { u } + \epsilon _ { t } > 0 | X \big ) } \\ { = } & { \int \int \frac { 1 } { 2 \pi } \exp \big ( - \frac { s _ { u } ^ { 2 } + s _ { t } ^ { 2 } } { 2 } \big ) I \big ( g _ { t } ( X ) + h _ { t } ( X ) W ( X ) + h _ { t } ( X ) s _ { u } + s _ { t } > 0 \big ) d s _ { t } d s _ { u } } \\ { = } & { \int \int _ { - \infty } ^ { g _ { t } ( X ) + h _ { t } ( X ) W ( X ) + h _ { t } ( X ) s _ { u } } \frac { 1 } { 2 \pi } \exp \big ( - \frac { s _ { u } ^ { 2 } + s _ { t } ^ { 2 } } { 2 } \big ) d s _ { t } d s _ { u } } \\ { = } & { \int \int _ { - \infty } ^ { 0 } \frac { 1 } { 2 \pi } \exp ( - \frac { s _ { u } ^ { 2 } + \big ( g _ { t } ( X ) + h _ { t } ( X ) W ( X ) + h _ { t } ( X ) s _ { u } + s _ { t } \big ) ^ { 2 } } { 2 } ) d s _ { t } d s _ { u } } \\ { = } & { \int _ { - \infty } ^ { 0 } \int \frac { 1 } { 2 \pi } \exp \Big ( - \frac { 1 } { 2 } \big ( ( 1 + h _ { t } ^ { 2 } ( X ) ) ( s _ { u } + \frac { h _ { t } ( X ) ( g _ { t } ( X ) + h _ { t } ( X ) W ( X ) + s _ { t } ) } { 1 + h _ { t } ^ { 2 } ( X ) } \big ) ^ { 2 } } \\ & { + \frac { \big ( g _ { t } ( X ) + h _ { t } ( X ) W ( X ) + s _ { t } \big ) ^ { 2 } } { 1 + h _ { t } ^ { 2 } ( X ) } \Big ) d s _ { u } d s _ { t } } \\ { = } & { \int _ { - \infty } ^ { 0 } \frac { 1 } { \sqrt { 2 \pi } \sqrt { 1 + h _ { t } ^ { 2 } ( X ) } } \exp \Big ( - \frac { 1 } { 2 } \frac { \big ( s _ { t } + g _ { t } ( X ) + h _ { t } ( X ) W ( X ) \big ) ^ { 2 } } { 1 + h _ { t } ^ { 2 } ( X ) } \Big ) d s _ { t } } \\ { = } & { \Phi \Big ( \frac { g _ { t } ( X ) + h _ { t } ( X ) W ( X ) } { \sqrt { 1 + h _ { t } ^ { 2 } ( X ) } } \Big ) . } \end{array}
+$$  
+
+Thus, if the Condition D is satisfied, we can identify $(g_t(X) + W(X)h_t(X), h_t(X))$. Let $K_t(x, \epsilon_u) = g_t(x) + h_t(x)W(x) + h_t(x)\epsilon_u$, we have  
+
+$$
+\begin{array} { r l } & { \mathrm { T B R } ( x ) = \big \{ 1 - \Phi \big ( K _ { 0 } ( x , s ) \big ) \big \} \Phi \big ( K _ { 1 } ( x , s ) \big ) f _ { \epsilon _ { u } } ( s ) d s } \\ { = } & { \int \Big \{ \int _ { K _ { 0 } ( x , s ) } ^ { \infty } \frac { 1 } { \sqrt { 2 \pi } } \exp ( - s _ { 0 } ^ { 2 } / 2 ) d s _ { 0 } \Big \} \Big \{ \int _ { - \infty } ^ { K _ { 1 } ( x , s ) } \frac { 1 } { \sqrt { 2 \pi } } \exp ( - s _ { 1 } ^ { 2 } / 2 ) d s _ { 1 } \Big \} f _ { \epsilon _ { u } } ( s ) d s } \\ { = } & { \int \int _ { - \infty } ^ { 0 } \int _ { 0 } ^ { \infty } \frac { 1 } { ( 2 \pi ) ^ { 3 / 2 } } \exp \Big \{ - \frac { ( s _ { 0 } + K _ { 0 } ( x , s ) ) ^ { 2 } + ( s _ { 1 } + K _ { 1 } ( x , s ) ) ^ { 2 } + s ^ { 2 } } { 2 } \Big \} d s _ { 0 } d s _ { 1 } d s . } \end{array}
+$$  
+
+Let $K_{t,1}(x)=g_t(x)+h_t(x)W(x)$, thus $K_t(x,s)=K_{t,1}(x)+sh_t(x)$. Then the term in  
+
+$\exp \left(-\frac{1}{2}(\cdot)\right)$ can be arranged as  
+
+$$
+\begin{array} { r l } & { \quad \{ s _ { 0 } + K _ { 0 } ( x , s ) \} ^ { 2 } + \{ s _ { 1 } + K _ { 1 } ( x , s ) \} ^ { 2 } + s ^ { 2 } } \\ { = } & { \{ 1 + h _ { 0 } ^ { 2 } ( x ) + h _ { 1 } ^ { 2 } ( x ) \} s ^ { 2 } + 2 \{ ( s _ { 0 } + K _ { 0 , 1 } ( x ) ) h _ { 0 } ( x ) + ( s _ { 1 } + K _ { 1 , 1 } ( x ) ) h _ { 1 } ( x ) \} s } \\ & { + \{ s _ { 0 } + K _ { 0 , 1 } ( x ) \} ^ { 2 } + \{ s _ { 1 } + K _ { 1 , 1 } ( x ) \} ^ { 2 } } \\ { = } & { \{ 1 + h _ { 0 } ^ { 2 } ( x ) + h _ { 1 } ^ { 2 } ( x ) \} \big \{ s + \frac { ( s _ { 0 } + K _ { 0 , 1 } ( x ) ) h _ { 0 } ( x ) + ( s _ { 1 } + K _ { 1 , 1 } ( x ) ) h _ { 1 } ( x ) } { 1 + h _ { 0 } ^ { 2 } ( x ) + h _ { 1 } ^ { 2 } ( x ) } \big \} ^ { 2 } } \\ & { + \frac { 1 } { 1 + h _ { 0 } ^ { 2 } ( x ) + h _ { 1 } ^ { 2 } ( x ) } \Big [ \{ s _ { 0 } + K _ { 0 , 1 } ( x ) \} ^ { 2 } \{ 1 + h _ { 1 } ^ { 2 } ( x ) \} + \{ s _ { 1 } + K _ { 1 , 1 } ( x ) \} ^ { 2 } \{ 1 + h _ { 0 } ^ { 2 } ( x ) \} } \\ & { \qquad \qquad - 2 \{ s _ { 0 } + K _ { 0 , 1 } ( x ) \} h _ { 0 } ( x ) \{ s _ { 1 } + K _ { 1 , 1 } ( x ) \} h _ { 1 } ( x ) \Big ] . } \end{array}
+$$  
+
+So  
+
+$$
+\mathrm { T B R } ( x ) = \int _ { 0 } ^ { \infty } \int _ { - \infty } ^ { 0 } \frac { 1 } { ( 2 \pi ) S } \exp \Big ( - \frac { F } { 2 } \Big ) d s _ { 0 } d s _ { 1 } ,
+$$  
+
+where  
+
+$$
+S ^ { 2 } = 1 + h _ { 0 } ^ { 2 } ( x ) + h _ { 1 } ^ { 2 } ( x ) ,
+$$  
+
+$$
+\begin{array} { r c l } { \displaystyle F } & { = } & { \Big [ \big \{ s _ { 0 } + K _ { 0 , 1 } ( x ) \big \} ^ { 2 } \big \{ 1 + h _ { 1 } ^ { 2 } ( x ) \big \} + \big \{ s _ { 1 } + K _ { 1 , 1 } ( x ) \big \} ^ { 2 } \big \{ 1 + h _ { 0 } ^ { 2 } ( x ) \big \} } \\ & & { - 2 \big \{ s _ { 0 } + K _ { 0 , 1 } ( x ) \big \} h _ { 0 } ( x ) \big \{ s _ { 1 } + K _ { 1 , 1 } ( x ) \big \} h _ { 1 } ( x ) \Big ] / S ^ { 2 } } \\ & { = } & { \Big \{ ( s _ { 0 } , s _ { 1 } ) - \mu \Big \} \Sigma ^ { - 1 } \Big \{ ( s _ { 0 } , s _ { 1 } ) - \mu \Big \} ^ { T } , } \end{array}
+$$  
+
+$$
+\begin{array} { r l } & { \mu = ( - K _ { 0 , 1 } ( x ) , \quad - K _ { 1 , 1 } ( x ) ) , } \\ & { \Sigma = \left( \begin{array} { c c } { 1 + h _ { 0 } ^ { 2 } ( x ) } & { h _ { 0 } ( x ) h _ { 1 } ( x ) } \\ { h _ { 0 } ( x ) h _ { 1 } ( x ) } & { 1 + h _ { 1 } ^ { 2 } ( x ) } \end{array} \right) . } \end{array}
+$$  
+
+Thus, TBR(x) = Φ_2((0,∞),(-∞,0);μ,Σ), where Φ_2(A_0,A_1;μ,Σ) is the distribution function of bivariate normal vector with mean μ, covariance matrix Σ and integral region A_0 × A_1. Similarly, we can derive the form for THR(x). Thus, we can identify the TBR(x) and THR(x), so the joint distribution of (Y_0,Y_1) given X are identifiable. □  
+
+# Appendix H Additional Tables  
+
+Table 1: The true value, bias, average estimated standard error (ASE), empirical standard error (ESE) and 95% confidence interval (CI) coverage in continuous case. Every table cell contains two elements, which corresponds to the population $TBR_{c}$ (first row in each cell) and $THR_{c}$ (second row in each cell) ($c=0.5$) respectively.  
+
+<html>
+<table><thead><tr><th>Distribution of $U$</th><th>true value</th><th>bias</th><th>ASE</th><th>ESE</th><th>95% CI coverage</th></tr></thead><tbody><tr><td rowspan="2">Normal</td><td>$0.501$</td><td>$-0.001$</td><td>$0.017$</td><td>$0.017$</td><td>$0.945$</td></tr><tr><td>$0.397$</td><td>$-0.001$</td><td>$0.016$</td><td>$0.016$</td><td>$0.949$</td></tr><tr><td rowspan="2">t(3)</td><td>$0.500$</td><td>$-0.001$</td><td>$0.017$</td><td>$0.017$</td><td>$0.951$</td></tr><tr><td>$0.396$</td><td>$0.002$</td><td>$0.016$</td><td>$0.016$</td><td>$0.948$</td></tr><tr><td rowspan="2">t(10)</td><td>$0.499$</td><td>$< 0.001$</td><td>$0.017$</td><td>$0.017$</td><td>$0.953$</td></tr><tr><td>$0.395$</td><td>$0.002$</td><td>$0.016$</td><td>$0.016$</td><td>$0.939$</td></tr><tr><td rowspan="2">$\chi^2(3)$</td><td>$0.501$</td><td>$-0.001$</td><td>$0.017$</td><td>$0.016$</td><td>$0.955$</td></tr><tr><td>$0.397$</td><td>$< 0.001$</td><td>$0.016$</td><td>$0.016$</td><td>$0.954$</td></tr><tr><td rowspan="2">$\chi^2(10)$</td><td>$0.502$</td><td>$-0.002$</td><td>$0.017$</td><td>$0.017$</td><td>$0.952$</td></tr><tr><td>$0.397$</td><td>$< 0.001$</td><td>$0.016$</td><td>$0.016$</td><td>$0.956$</td></tr><tr><td rowspan="2">P(3)</td><td>$0.502$</td><td>$-0.002$</td><td>$0.017$</td><td>$0.017$</td><td>$0.951$</td></tr><tr><td>$0.398$</td><td>$-0.002$</td><td>$0.016$</td><td>$0.016$</td><td>$0.943$</td></tr><tr><td rowspan="2">P(10)</td><td>$0.503$</td><td>$-3\text{e-03}$</td><td>$0.017$</td><td>$0.017$</td><td>$0.933$</td></tr><tr><td>$0.397$</td><td>$-7\text{e-04}$</td><td>$0.016$</td><td>$0.016$</td><td>$0.942$</td></tr><tr><td rowspan="2">B(0.5)</td><td>$0.501$</td><td>$-8\text{e-04}$</td><td>$0.017$</td><td>$0.017$</td><td>$0.949$</td></tr><tr><td>$0.395$</td><td>$6\text{e-04}$</td><td>$0.016$</td><td>$0.016$</td><td>$0.953$</td></tr></tbody></table>
+</html>  
+
+Table 2: Estimates, estimated standard deviation (SD) and $p$-value of parameters of the Mind Study   
+
+
+<html>
+<table> <thead>  <tr><th></th><th colspan="3" style="text-align: center;">$t=0$</th><th colspan="3" style="text-align: center;">$t=1$</th>  </tr>  <tr><th></th><th>Estimate</th><th>SD</th><th>$p$-value</th><th>Estimate</th><th>SD</th><th>$p$-value</th>  </tr> </thead> <tbody>  <tr><td>Gender</td><td>$-0.656$</td><td>$0.275$</td><td>$0.017$</td><td>$-0.248$</td><td>$0.321$</td><td>$0.439$</td>  </tr>  <tr><td>CVD</td><td>$0.581$</td><td>$0.353$</td><td>$0.100$</td><td>$0.100$</td><td>$0.395$</td><td>$0.801$</td>  </tr>  <tr><td>Age</td><td>$1.075$</td><td>$0.202$</td><td>$< 0.001$</td><td>$0.500$</td><td>$0.231$</td><td>$0.030$</td>  </tr>  <tr><td>DSST</td><td>$-0.483$</td><td>$0.190$</td><td>$0.011$</td><td>$-0.652$</td><td>$0.231$</td><td>$0.005$</td>  </tr>  <tr><td>Race</td><td>$0.619$</td><td>$0.309$</td><td>$0.045$</td><td>$0.355$</td><td>$0.383$</td><td>$0.354$</td>  </tr>  <tr><td>$U$</td><td>$1.768$</td><td>$0.791$</td><td>$0.025$</td><td>$0.148$</td><td>$0.374$</td><td>$0.693$</td>  </tr>  <tr><td>$UGender$</td><td>$-1.916$</td><td>$0.480$</td><td>$< 0.001$</td><td>$-1.742$</td><td>$0.414$</td><td>$< 0.001$</td>  </tr>  <tr><td>$UCVD$</td><td>$-0.321$</td><td>$0.398$</td><td>$0.420$</td><td>$-1.669$</td><td>$0.506$</td><td>$0.001$</td>  </tr>  <tr><td>$UAge$</td><td>$1.280$</td><td>$0.513$</td><td>$0.013$</td><td>$2.090$</td><td>$0.435$</td><td>$< 0.001$</td>  </tr>  <tr><td>$UDSST$</td><td>$-1.166$</td><td>$0.313$</td><td>$< 0.001$</td><td>$-1.157$</td><td>$0.339$</td><td>$0.001$</td>  </tr>  <tr><td>$URace$</td><td>$1.729$</td><td>$0.390$</td><td>$< 0.001$</td><td>$2.239$</td><td>$0.479$</td><td>$< 0.001$</td>  </tr>  <tr><td>$\sigma_t^2$</td><td>$1.080$</td><td>$0.277$</td><td>$< 0.001$</td><td>$1.992$</td><td>$0.491$</td><td>$< 0.001$</td>  </tr> </tbody></table>
+</html>  

@@ -1,0 +1,962 @@
+[
+    {
+        "gt_idx": [
+            0
+        ],
+        "gt": "<table>\n<thead>\n<tr>\n <th>题号</th>\n <th>一</th>\n <th>二</th>\n <th>三</th>\n <th>四</th>\n <th>五</th>\n <th>六</th>\n <th>附加题</th>\n <th>总分</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n <td>得分</td>\n <td></td>\n <td></td>\n <td></td>\n <td></td>\n <td></td>\n <td></td>\n <td></td>\n <td></td>\n</tr>\n</tbody>\n</table>",
+        "norm_gt": "<html><body><table border=\"1\" ><tr><td>题号</td><td>一</td><td>二</td><td>三</td><td>四</td><td>五</td><td>六</td><td>附加题</td><td>总分</td></tr><tr><td>得分</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></table></body></html>",
+        "gt_category_type": "table",
+        "gt_position": [
+            4
+        ],
+        "gt_attribute": [
+            {
+                "table_layout": "horizontal",
+                "with_span": false,
+                "line": "full_line",
+                "language": "table_simplified_chinese",
+                "include_equation": false,
+                "include_photo": false,
+                "include_background": false,
+                "with_structured_text": false
+            }
+        ],
+        "pred_idx": [
+            0
+        ],
+        "pred": "<table><thead><tr><th>题号</th><th>一</th><th>二</th><th>三</th><th>四</th><th>五</th><th>六</th><th>附加题</th><th>总分</th></tr></thead><tbody><tr><td>得分</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></tbody></table>",
+        "norm_pred": "<html><body><table border=\"1\" ><tr><td>题号</td><td>一</td><td>二</td><td>三</td><td>四</td><td>五</td><td>六</td><td>附加题</td><td>总分</td></tr><tr><td>得分</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></table></body></html>",
+        "pred_category_type": "",
+        "pred_position": "",
+        "edit": 0.15789473684210525,
+        "img_id": "jiaocaineedrop_jiaocai_needrop_en_2211.jpg",
+        "metric": {
+            "TEDS": 1.0,
+            "TEDS_structure_only": 1.0,
+            "Edit_dist": 0.0
+        },
+        "image_name": "jiaocaineedrop_jiaocai_needrop_en_2211.jpg",
+        "upper_len": 248,
+        "Edit_num": 0
+    },
+    {
+        "gt_idx": [
+            0
+        ],
+        "gt": "<table>\n<thead>\n<tr>\n <th>t &gt; 0</th>\n <th>0 &le; r &le; R</th>\n <th>z = 0</th>\n <th></th>\n <th>\\( Y = Y_{\\text{in}} \\) 或 \\( u_{0}(Y_{\\text{in}} - Y) = -D_{\\text{ax}} \\frac{\\partial Y}{\\partial z} \\)</th>\n <th>T = $T_{\\text{in}}$</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n <td></td>\n <td></td>\n <td>z = L</td>\n <td>\\( \\frac{\\partial Y}{\\partial z} = 0 \\)</td>\n <td>\\( \\frac{\\partial Y}{\\partial z} = 0 \\)</td>\n <td>\\( \\frac{\\partial Y}{\\partial z} = 0 \\)</td>\n</tr>\n<tr>\n <td>t &gt; 0</td>\n <td>0 &le; z &le; L</td>\n <td>r = 0</td>\n <td>\\( \\frac{\\partial Y}{\\partial r} = 0 \\)</td>\n <td>\\( \\frac{\\partial Y}{\\partial r} = 0 \\)</td>\n <td>\\( \\frac{\\partial Y}{\\partial r} = 0 \\)</td>\n</tr>\n<tr>\n <td></td>\n <td></td>\n <td>r = R</td>\n <td>\\( \\frac{\\partial Y}{\\partial r} = 0 \\)</td>\n <td>\\( \\frac{\\partial Y}{\\partial r} = 0 \\)</td>\n <td>T = Y = T_{w}</td>\n</tr>\n<tr>\n <td>t = 0</td>\n <td>0 &le; r &le; R</td>\n <td>0 &le; z &le; L</td>\n <td>X(r, z) = X_{0}</td>\n <td>Y(r, z) = Y_{0}</td>\n <td>T(r, z) = T_{0}</td>\n</tr>\n</tbody>\n</table>",
+        "norm_gt": "<html><body><table border=\"1\" ><tr><td>t > 0</td><td>0 ≤ r ≤ R</td><td>z = 0</td><td></td><td>\\( Y = Y_{\\text{in}} \\) 或 \\( u_{0}(Y_{\\text{in}} - Y) = -D_{\\text{ax}} \\frac{\\partial Y}{\\partial z} \\)</td><td>T = $T_{\\text{in}}$</td></tr><tr><td></td><td></td><td>z = L</td><td>\\( \\frac{\\partial Y}{\\partial z} = 0 \\)</td><td>\\( \\frac{\\partial Y}{\\partial z} = 0 \\)</td><td>\\( \\frac{\\partial Y}{\\partial z} = 0 \\)</td></tr><tr><td>t > 0</td><td>0 ≤ z ≤ L</td><td>r = 0</td><td>\\( \\frac{\\partial Y}{\\partial r} = 0 \\)</td><td>\\( \\frac{\\partial Y}{\\partial r} = 0 \\)</td><td>\\( \\frac{\\partial Y}{\\partial r} = 0 \\)</td></tr><tr><td></td><td></td><td>r = R</td><td>\\( \\frac{\\partial Y}{\\partial r} = 0 \\)</td><td>\\( \\frac{\\partial Y}{\\partial r} = 0 \\)</td><td>T = Y = T_{w}</td></tr><tr><td>t = 0</td><td>0 ≤ r ≤ R</td><td>0 ≤ z ≤ L</td><td>X(r, z) = X_{0}</td><td>Y(r, z) = Y_{0}</td><td>T(r, z) = T_{0}</td></tr></table></body></html>",
+        "gt_category_type": "table",
+        "gt_position": [
+            33
+        ],
+        "gt_attribute": [
+            {
+                "table_layout": "horizontal",
+                "with_span": false,
+                "line": "less_line",
+                "language": "table_en",
+                "include_equation": true,
+                "include_photo": false,
+                "include_background": false,
+                "with_structured_text": false
+            }
+        ],
+        "pred_idx": [
+            0
+        ],
+        "pred": "<table><thead><tr><th rowspan=\"2\">t&gt;0</th><th rowspan=\"2\">0≤r≤R</th><th rowspan=\"2\">z=0</th><th colspan=\"1\" rowspan=\"2\">$\\begin{matrix} \\mathbf{Y}=\\mathbf{Y}_{\\mathrm{in}}&\\text{or}\\\\ \\mathbf{u}_0(\\mathbf{Y}_{\\mathrm{in}}-\\mathbf{Y})=-\\mathbf{D_{ax}}\\frac{\\partial\\mathbf{Y}}{\\partial\\mathbf{u}}& \\end{matrix}$</th><th rowspan=\"2\">T=T<sub>in</sub></th></tr><tr></tr><tr><th></th><th></th><th>z=L</th><th>$\\begin{matrix} \\frac{\\partial \\mathbf{X}}{\\partial z}=0\\\\ \\frac{\\partial \\mathbf{Y}}{\\partial z}=0\\\\ \\frac{\\partial T}{\\partial z}=0& \\end{matrix}$</th><th></th></tr></thead><tbody><tr><td>t&gt;0</td><td>0≤z≤L</td><td>r=0</td><td>$\\begin{matrix} \\frac{\\partial \\mathbf{X}}{\\partial r}=0\\\\ \\frac{\\partial \\mathbf{Y}}{\\partial r}=0\\\\ \\frac{\\partial T}{\\partial r}=0& \\end{matrix}$</td><td>$\\frac{\\partial T}{\\partial r}$=0</td></tr><tr><td></td><td></td><td>r=R</td><td>$\\begin{matrix} \\frac{\\partial \\mathbf{X}}{\\partial r}=0\\\\ \\frac{\\partial \\mathbf{Y}}{\\partial r}=0\\\\ \\mathbf{T}=$T<sub>w</sub>& \\end{matrix}$</td><td></td></tr><tr><td>t=0</td><td>0≤r≤R</td><td>0≤z≤L</td><td>$\\begin{matrix} \\mathbf{X}(\\mathbf{r},z)&=\\mathbf{X}_0\\\\ \\mathbf{Y}(\\mathbf{r},z)&=\\mathbf{Y}_0\\\\ \\mathbf{T}(\\mathbf{r},z)&=\\mathbf{T}_0& \\end{matrix}$</td><td></td></tr></tbody></table>",
+        "norm_pred": "<html><body><table border=\"1\" ><tr><td rowspan=\"2\">t>0</td><td rowspan=\"2\">0≤r≤R</td><td rowspan=\"2\">z=0</td><td colspan=\"1\" rowspan=\"2\">$\\begin{matrix} \\mathbf{Y}=\\mathbf{Y}_{\\mathrm{in}}&\\text{or}\\\\ \\mathbf{u}_0(\\mathbf{Y}_{\\mathrm{in}}-\\mathbf{Y})=-\\mathbf{D_{ax}}\\frac{\\partial\\mathbf{Y}}{\\partial\\mathbf{u}}& \\end{matrix}$</td><td rowspan=\"2\">T=Tin</td></tr><tr></tr><tr><td></td><td></td><td>z=L</td><td>$\\begin{matrix} \\frac{\\partial \\mathbf{X}}{\\partial z}=0\\\\ \\frac{\\partial \\mathbf{Y}}{\\partial z}=0\\\\ \\frac{\\partial T}{\\partial z}=0& \\end{matrix}$</td><td></td></tr><tr><td>t>0</td><td>0≤z≤L</td><td>r=0</td><td>$\\begin{matrix} \\frac{\\partial \\mathbf{X}}{\\partial r}=0\\\\ \\frac{\\partial \\mathbf{Y}}{\\partial r}=0\\\\ \\frac{\\partial T}{\\partial r}=0& \\end{matrix}$</td><td>$\\frac{\\partial T}{\\partial r}$=0</td></tr><tr><td></td><td></td><td>r=R</td><td>$\\begin{matrix} \\frac{\\partial \\mathbf{X}}{\\partial r}=0\\\\ \\frac{\\partial \\mathbf{Y}}{\\partial r}=0\\\\ \\mathbf{T}=$Tw& \\end{matrix}$</td><td></td></tr><tr><td>t=0</td><td>0≤r≤R</td><td>0≤z≤L</td><td>$\\begin{matrix} \\mathbf{X}(\\mathbf{r},z)&=\\mathbf{X}_0\\\\ \\mathbf{Y}(\\mathbf{r},z)&=\\mathbf{Y}_0\\\\ \\mathbf{T}(\\mathbf{r},z)&=\\mathbf{T}_0& \\end{matrix}$</td><td></td></tr></table></body></html>",
+        "pred_category_type": "",
+        "pred_position": "",
+        "edit": 0.5892997639653816,
+        "img_id": "docstructbench_llm-raw-scihub-o.O-ceat.200407001.pdf_3.jpg",
+        "metric": {
+            "TEDS": 0.40768656267367154,
+            "TEDS_structure_only": 0.6857142857142857,
+            "Edit_dist": 0.5083932853717026
+        },
+        "image_name": "docstructbench_llm-raw-scihub-o.O-ceat.200407001.pdf_3.jpg",
+        "upper_len": 1251,
+        "Edit_num": 636
+    },
+    {
+        "gt_idx": [
+            0
+        ],
+        "gt": "<table>\n<thead>\n<tr>\n <th>$[A]_{0} \\, (\\text{M})$</th>\n <th>$k \\times 10^{3} \\, (\\text{s}^{−1})$</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n <td>4.88</td>\n <td>2.45</td>\n</tr>\n<tr>\n <td>3.52</td>\n <td>2.51</td>\n</tr>\n<tr>\n <td>2.29</td>\n <td>2.53</td>\n</tr>\n<tr>\n <td>1.81</td>\n <td>2.58</td>\n</tr>\n<tr>\n <td>5.33</td>\n <td>2.36</td>\n</tr>\n<tr>\n <td>4.05</td>\n <td>2.47</td>\n</tr>\n<tr>\n <td>2.95</td>\n <td>2.48</td>\n</tr>\n<tr>\n <td>1.72</td>\n <td>2.43</td>\n</tr>\n</tbody>\n</table>",
+        "norm_gt": "<html><body><table border=\"1\" ><tr><td>$[A]_{0} \\, (\\text{M})$</td><td>$k \\times 10^{3} \\, (\\text{s}^{−1})$</td></tr><tr><td>4.88</td><td>2.45</td></tr><tr><td>3.52</td><td>2.51</td></tr><tr><td>2.29</td><td>2.53</td></tr><tr><td>1.81</td><td>2.58</td></tr><tr><td>5.33</td><td>2.36</td></tr><tr><td>4.05</td><td>2.47</td></tr><tr><td>2.95</td><td>2.48</td></tr><tr><td>1.72</td><td>2.43</td></tr></table></body></html>",
+        "gt_category_type": "table",
+        "gt_position": [
+            12
+        ],
+        "gt_attribute": [
+            {
+                "table_layout": "horizontal",
+                "with_span": false,
+                "line": "full_line",
+                "language": "table_en",
+                "include_equation": true,
+                "include_photo": false,
+                "include_background": true,
+                "with_structured_text": false
+            }
+        ],
+        "pred_idx": [
+            0
+        ],
+        "pred": "<table><thead><tr><th>$[A]_0$ (M)</th><th>$k \\times 10^3$ (s$^{-1}$)</th></tr></thead><tbody><tr><td>4.88</td><td>2.45</td></tr><tr><td>3.52</td><td>2.51</td></tr><tr><td>2.29</td><td>2.53</td></tr><tr><td>1.81</td><td>2.58</td></tr><tr><td>5.33</td><td>2.36</td></tr><tr><td>4.05</td><td>2.47</td></tr><tr><td>2.95</td><td>2.48</td></tr><tr><td>1.72</td><td>2.43</td></tr></tbody></table>",
+        "norm_pred": "<html><body><table border=\"1\" ><tr><td>$[A]_0$ (M)</td><td>$k \\times 10^3$ (s$^{-1}$)</td></tr><tr><td>4.88</td><td>2.45</td></tr><tr><td>3.52</td><td>2.51</td></tr><tr><td>2.29</td><td>2.53</td></tr><tr><td>1.81</td><td>2.58</td></tr><tr><td>5.33</td><td>2.36</td></tr><tr><td>4.05</td><td>2.47</td></tr><tr><td>2.95</td><td>2.48</td></tr><tr><td>1.72</td><td>2.43</td></tr></table></body></html>",
+        "pred_category_type": "",
+        "pred_position": "",
+        "edit": 0.1851063829787234,
+        "img_id": "yanbaopptmerge_3aa9b6677e17fd012b0a7a230b9f18db.pdf_1327.jpg",
+        "metric": {
+            "TEDS": 0.9636339237788514,
+            "TEDS_structure_only": 1.0,
+            "Edit_dist": 0.06682577565632458
+        },
+        "image_name": "yanbaopptmerge_3aa9b6677e17fd012b0a7a230b9f18db.pdf_1327.jpg",
+        "upper_len": 419,
+        "Edit_num": 28
+    },
+    {
+        "gt_idx": [
+            0
+        ],
+        "gt": "<table>\n<thead>\n<tr>\n <th>序号</th>\n <th>品种名称</th>\n <th>审定编号</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n <td>1</td>\n <td>油优64</td>\n <td>GS01015-1990</td>\n</tr>\n<tr>\n <td>2</td>\n <td>金珠一号</td>\n <td>GS01008-1994</td>\n</tr>\n<tr>\n <td>3</td>\n <td>优优128</td>\n <td>国审稻990007</td>\n</tr>\n<tr>\n <td>4</td>\n <td>特优70</td>\n <td>国审稻2001011</td>\n</tr>\n<tr>\n <td>5</td>\n <td>优优122</td>\n <td>国审稻2001022</td>\n</tr>\n<tr>\n <td>6</td>\n <td>培杂茂三</td>\n <td>国审稻2001024</td>\n</tr>\n</tbody>\n</table>",
+        "norm_gt": "<html><body><table border=\"1\" ><tr><td>序号</td><td>品种名称</td><td>审定编号</td></tr><tr><td>1</td><td>油优64</td><td>GS01015-1990</td></tr><tr><td>2</td><td>金珠一号</td><td>GS01008-1994</td></tr><tr><td>3</td><td>优优128</td><td>国审稻990007</td></tr><tr><td>4</td><td>特优70</td><td>国审稻2001011</td></tr><tr><td>5</td><td>优优122</td><td>国审稻2001022</td></tr><tr><td>6</td><td>培杂茂三</td><td>国审稻2001024</td></tr></table></body></html>",
+        "gt_category_type": "table",
+        "gt_position": [
+            23
+        ],
+        "gt_attribute": [
+            {
+                "table_layout": "horizontal",
+                "with_span": false,
+                "line": "full_line",
+                "language": "table_simplified_chinese",
+                "include_equation": false,
+                "include_photo": false,
+                "include_background": false,
+                "with_structured_text": false
+            }
+        ],
+        "pred_idx": [
+            0
+        ],
+        "pred": "<table>  <tr>    <td>序号</td>    <td>品种名称</td>    <td>审定编号</td>  </tr>  <tr>    <td>1</td>    <td>油优64</td>    <td>GS01015-1990</td>  </tr>  <tr>    <td>2</td>    <td>金珠一号</td>    <td>GS01008-1994</td>  </tr>  <tr>    <td>3</td>    <td>优优128</td>    <td>国审稻990007</td>  </tr>  <tr>    <td>4</td>    <td>特优70</td>    <td>国审稻2001011</td>  </tr>  <tr>    <td>5</td>    <td>佳优122</td>    <td>国审稻2001022</td>  </tr>  <tr>    <td>6</td>    <td>培杂茂三</td>    <td>国审稻2001024</td>  </tr>  <tr>  </tr></table>",
+        "norm_pred": "<html><body><table border=\"1\" > <tr> <td>序号</td> <td>品种名称</td> <td>审定编号</td> </tr> <tr> <td>1</td> <td>油优64</td> <td>GS01015-1990</td> </tr> <tr> <td>2</td> <td>金珠一号</td> <td>GS01008-1994</td> </tr> <tr> <td>3</td> <td>优优128</td> <td>国审稻990007</td> </tr> <tr> <td>4</td> <td>特优70</td> <td>国审稻2001011</td> </tr> <tr> <td>5</td> <td>佳优122</td> <td>国审稻2001022</td> </tr> <tr> <td>6</td> <td>培杂茂三</td> <td>国审稻2001024</td> </tr> <tr> </tr></table></body></html>",
+        "pred_category_type": "",
+        "pred_position": "",
+        "edit": 0.2655935613682093,
+        "img_id": "newspaper_01f020903d7bc4b3fc69f500f41eb77e_1.jpg",
+        "metric": {
+            "TEDS": 0.9586206896551724,
+            "TEDS_structure_only": 0.9655172413793104,
+            "Edit_dist": 0.10307017543859649
+        },
+        "image_name": "newspaper_01f020903d7bc4b3fc69f500f41eb77e_1.jpg",
+        "upper_len": 456,
+        "Edit_num": 47
+    },
+    {
+        "gt_idx": [
+            1
+        ],
+        "gt": "<table>\n<thead>\n<tr>\n <th>序号</th>\n <th>品种名称</th>\n <th>审定编号</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n <td>1</td>\n <td>中原单32</td>\n <td>国审玉980005</td>\n</tr>\n<tr>\n <td>2</td>\n <td>屯玉2号</td>\n <td>国审玉990004</td>\n</tr>\n<tr>\n <td>3</td>\n <td>豫玉23号（原名安玉5号）</td>\n <td>国审玉20000011</td>\n</tr>\n<tr>\n <td>4</td>\n <td>郑单19号</td>\n <td>国审玉2003007</td>\n</tr>\n<tr>\n <td>5</td>\n <td>辽单38</td>\n <td>国审玉2003018</td>\n</tr>\n<tr>\n <td>6</td>\n <td>中单9409</td>\n <td>国审玉2003022</td>\n</tr>\n<tr>\n <td>7</td>\n <td>吉星油199</td>\n <td>国审玉2003023</td>\n</tr>\n<tr>\n <td>8</td>\n <td>吉油1号</td>\n <td>国审玉2003024</td>\n</tr>\n<tr>\n <td>9</td>\n <td>吉甜6号</td>\n <td>国审玉2003026</td>\n</tr>\n<tr>\n <td>10</td>\n <td>苏玉糯4号</td>\n <td>国审玉2003037</td>\n</tr>\n<tr>\n <td>11</td>\n <td>津爆1号</td>\n <td>国审玉2003039</td>\n</tr>\n<tr>\n <td>12</td>\n <td>迪卡3号</td>\n <td>国审玉2003044</td>\n</tr>\n<tr>\n <td>13</td>\n <td>辽613</td>\n <td>国审玉2003045</td>\n</tr>\n<tr>\n <td>14</td>\n <td>京科23</td>\n <td>国审玉2003053</td>\n</tr>\n<tr>\n <td>15</td>\n <td>迪卡1号</td>\n <td>国审玉2003055</td>\n</tr>\n<tr>\n <td>16</td>\n <td>黔兴2号</td>\n <td>国审玉2003057</td>\n</tr>\n<tr>\n <td>17</td>\n <td>承玉11</td>\n <td>国审玉2003059</td>\n</tr>\n<tr>\n <td>18</td>\n <td>中单18</td>\n <td>国审玉2003060</td>\n</tr>\n<tr>\n <td>19</td>\n <td>濮单4号</td>\n <td>国审玉2003061</td>\n</tr>\n<tr>\n <td>20</td>\n <td>万粘1号</td>\n <td>国审玉2003068</td>\n</tr>\n<tr>\n <td>21</td>\n <td>秦农甜1号</td>\n <td>国审玉2003071</td>\n</tr>\n<tr>\n <td>22</td>\n <td>西星甜玉1号</td>\n <td>国审玉2003072</td>\n</tr>\n<tr>\n <td>23</td>\n <td>郑爆2号</td>\n <td>国审玉2003079</td>\n</tr>\n<tr>\n <td>24</td>\n <td>中农大236</td>\n <td>国审玉2006038</td>\n</tr>\n<tr>\n <td>25</td>\n <td>登海3686</td>\n <td>国审玉2006041</td>\n</tr>\n<tr>\n <td>26</td>\n <td>铁研124</td>\n <td>国审玉2009007</td>\n</tr>\n<tr>\n <td>27</td>\n <td>中农大4号</td>\n <td>国审玉2009008</td>\n</tr>\n</tbody>\n</table>",
+        "norm_gt": "<html><body><table border=\"1\" ><tr><td>序号</td><td>品种名称</td><td>审定编号</td></tr><tr><td>1</td><td>中原单32</td><td>国审玉980005</td></tr><tr><td>2</td><td>屯玉2号</td><td>国审玉990004</td></tr><tr><td>3</td><td>豫玉23号(原名安玉5号)</td><td>国审玉20000011</td></tr><tr><td>4</td><td>郑单19号</td><td>国审玉2003007</td></tr><tr><td>5</td><td>辽单38</td><td>国审玉2003018</td></tr><tr><td>6</td><td>中单9409</td><td>国审玉2003022</td></tr><tr><td>7</td><td>吉星油199</td><td>国审玉2003023</td></tr><tr><td>8</td><td>吉油1号</td><td>国审玉2003024</td></tr><tr><td>9</td><td>吉甜6号</td><td>国审玉2003026</td></tr><tr><td>10</td><td>苏玉糯4号</td><td>国审玉2003037</td></tr><tr><td>11</td><td>津爆1号</td><td>国审玉2003039</td></tr><tr><td>12</td><td>迪卡3号</td><td>国审玉2003044</td></tr><tr><td>13</td><td>辽613</td><td>国审玉2003045</td></tr><tr><td>14</td><td>京科23</td><td>国审玉2003053</td></tr><tr><td>15</td><td>迪卡1号</td><td>国审玉2003055</td></tr><tr><td>16</td><td>黔兴2号</td><td>国审玉2003057</td></tr><tr><td>17</td><td>承玉11</td><td>国审玉2003059</td></tr><tr><td>18</td><td>中单18</td><td>国审玉2003060</td></tr><tr><td>19</td><td>濮单4号</td><td>国审玉2003061</td></tr><tr><td>20</td><td>万粘1号</td><td>国审玉2003068</td></tr><tr><td>21</td><td>秦农甜1号</td><td>国审玉2003071</td></tr><tr><td>22</td><td>西星甜玉1号</td><td>国审玉2003072</td></tr><tr><td>23</td><td>郑爆2号</td><td>国审玉2003079</td></tr><tr><td>24</td><td>中农大236</td><td>国审玉2006038</td></tr><tr><td>25</td><td>登海3686</td><td>国审玉2006041</td></tr><tr><td>26</td><td>铁研124</td><td>国审玉2009007</td></tr><tr><td>27</td><td>中农大4号</td><td>国审玉2009008</td></tr></table></body></html>",
+        "gt_category_type": "table",
+        "gt_position": [
+            25
+        ],
+        "gt_attribute": [
+            {
+                "table_layout": "horizontal",
+                "with_span": false,
+                "line": "full_line",
+                "language": "table_simplified_chinese",
+                "include_equation": false,
+                "include_photo": false,
+                "include_background": false,
+                "with_structured_text": false
+            }
+        ],
+        "pred_idx": [
+            1
+        ],
+        "pred": "<table>  <tr>    <td>序号</td>    <td>品种名称</td>    <td>审定编号</td>  </tr>  <tr>    <td></td>    <td>中亩单32</td>    <td>国甲玉980005</td>  </tr>  <tr>    <td>1</td>    <td>屯玉2号</td>    <td>国甲玉990004</td>  </tr>  <tr>    <td>5</td>    <td>俊玉23号(原名安玉5号)</td>    <td>国甲玉20000011</td>  </tr>  <tr>    <td>4</td>    <td>郑单19号</td>    <td>国甲玉2003007</td>  </tr>  <tr>    <td>5</td>    <td>宜单38</td>    <td>国甲玉2003018</td>  </tr>  <tr>    <td>4</td>    <td>中单9409</td>    <td>国甲玉2003022</td>  </tr>  <tr>    <td>7</td>    <td>吉星油199</td>    <td>国甲玉2003023</td>  </tr>  <tr>    <td>8</td>    <td>吉油1号</td>    <td>国甲玉2003024</td>  </tr>  <tr>    <td>4</td>    <td>吉甜6号</td>    <td>国甲玉2003026</td>  </tr>  <tr>    <td>10</td>    <td>苏玉梅4号</td>    <td>国甲玉2003037</td>  </tr>  <tr>    <td>11</td>    <td>洋爆1号</td>    <td>国甲玉2003039</td>  </tr>  <tr>    <td>12</td>    <td>博玉3号</td>    <td>国甲玉2003044</td>  </tr>  <tr>    <td>13</td>    <td>又613</td>    <td>国甲玉2003045</td>  </tr>  <tr>    <td>14</td>    <td>京玉23</td>    <td>国甲玉2003053</td>  </tr>  <tr>    <td>15</td>    <td>迪卡1号</td>    <td>国甲玉2003055</td>  </tr>  <tr>    <td>14</td>    <td>野兴2号</td>    <td>国甲玉2003057</td>  </tr>  <tr>    <td>17</td>    <td>承玉11</td>    <td>国甲玉2003059</td>  </tr>  <tr>    <td>18</td>    <td>中单18</td>    <td>国甲玉2003060</td>  </tr>  <tr>    <td>19</td>    <td>霞单4号</td>    <td>国甲玉2003061</td>  </tr>  <tr>    <td>18</td>    <td>万精1号</td>    <td>国甲玉2003068</td>  </tr>  <tr>    <td>21</td>    <td>秦衣刷1号</td>    <td>国甲玉2003071</td>  </tr>  <tr>    <td>22</td>    <td>西星阳玉1号</td>    <td>国甲玉2003072</td>  </tr>  <tr>    <td>23</td>    <td>郑爆2号</td>    <td>国甲玉2003079</td>  </tr>  <tr>    <td>24</td>    <td>中农大238</td>    <td>国甲玉2006038</td>  </tr>  <tr>    <td>25</td>    <td>登海3686</td>    <td>国甲玉2006041</td>  </tr>  <tr>    <td>28</td>    <td>铁班124</td>    <td>国甲玉2009067</td>  </tr>  <tr>    <td>27</td>    <td>中农大4号</td>    <td>国甲玉2009068</td>  </tr>  <tr>  </tr></table>",
+        "norm_pred": "<html><body><table border=\"1\" > <tr> <td>序号</td> <td>品种名称</td> <td>审定编号</td> </tr> <tr> <td></td> <td>中亩单32</td> <td>国甲玉980005</td> </tr> <tr> <td>1</td> <td>屯玉2号</td> <td>国甲玉990004</td> </tr> <tr> <td>5</td> <td>俊玉23号(原名安玉5号)</td> <td>国甲玉20000011</td> </tr> <tr> <td>4</td> <td>郑单19号</td> <td>国甲玉2003007</td> </tr> <tr> <td>5</td> <td>宜单38</td> <td>国甲玉2003018</td> </tr> <tr> <td>4</td> <td>中单9409</td> <td>国甲玉2003022</td> </tr> <tr> <td>7</td> <td>吉星油199</td> <td>国甲玉2003023</td> </tr> <tr> <td>8</td> <td>吉油1号</td> <td>国甲玉2003024</td> </tr> <tr> <td>4</td> <td>吉甜6号</td> <td>国甲玉2003026</td> </tr> <tr> <td>10</td> <td>苏玉梅4号</td> <td>国甲玉2003037</td> </tr> <tr> <td>11</td> <td>洋爆1号</td> <td>国甲玉2003039</td> </tr> <tr> <td>12</td> <td>博玉3号</td> <td>国甲玉2003044</td> </tr> <tr> <td>13</td> <td>又613</td> <td>国甲玉2003045</td> </tr> <tr> <td>14</td> <td>京玉23</td> <td>国甲玉2003053</td> </tr> <tr> <td>15</td> <td>迪卡1号</td> <td>国甲玉2003055</td> </tr> <tr> <td>14</td> <td>野兴2号</td> <td>国甲玉2003057</td> </tr> <tr> <td>17</td> <td>承玉11</td> <td>国甲玉2003059</td> </tr> <tr> <td>18</td> <td>中单18</td> <td>国甲玉2003060</td> </tr> <tr> <td>19</td> <td>霞单4号</td> <td>国甲玉2003061</td> </tr> <tr> <td>18</td> <td>万精1号</td> <td>国甲玉2003068</td> </tr> <tr> <td>21</td> <td>秦衣刷1号</td> <td>国甲玉2003071</td> </tr> <tr> <td>22</td> <td>西星阳玉1号</td> <td>国甲玉2003072</td> </tr> <tr> <td>23</td> <td>郑爆2号</td> <td>国甲玉2003079</td> </tr> <tr> <td>24</td> <td>中农大238</td> <td>国甲玉2006038</td> </tr> <tr> <td>25</td> <td>登海3686</td> <td>国甲玉2006041</td> </tr> <tr> <td>28</td> <td>铁班124</td> <td>国甲玉2009067</td> </tr> <tr> <td>27</td> <td>中农大4号</td> <td>国甲玉2009068</td> </tr> <tr> </tr></table></body></html>",
+        "pred_category_type": "html_table",
+        "pred_position": 1979,
+        "edit": 0.23762886597938143,
+        "img_id": "newspaper_01f020903d7bc4b3fc69f500f41eb77e_1.jpg",
+        "metric": {
+            "TEDS": 0.8710319670496662,
+            "TEDS_structure_only": 0.9911504424778761,
+            "Edit_dist": 0.12350119904076738
+        },
+        "image_name": "newspaper_01f020903d7bc4b3fc69f500f41eb77e_1.jpg",
+        "upper_len": 1668,
+        "Edit_num": 206
+    },
+    {
+        "gt_idx": [
+            2
+        ],
+        "gt": "<table>\n<thead>\n<tr>\n <th>序号</th>\n <th>品种名称</th>\n <th>审定编号</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n <td>1</td>\n <td>置大70</td>\n <td>国审豆2003006</td>\n</tr>\n<tr>\n <td>2</td>\n <td>黑河23</td>\n <td>国审豆2003011</td>\n</tr>\n<tr>\n <td>3</td>\n <td>吉育65号</td>\n <td>国审豆2003012</td>\n</tr>\n<tr>\n <td>4</td>\n <td>鲁宁1号（济96-2343）</td>\n <td>国审豆2003015</td>\n</tr>\n<tr>\n <td>5</td>\n <td>沧豆5号</td>\n <td>国审豆2003020</td>\n</tr>\n<tr>\n <td>6</td>\n <td>九丰九号（原名：九三96-127）</td>\n <td>国审豆2003025</td>\n</tr>\n<tr>\n <td>7</td>\n <td>邯豆三号（原名：邯93-420）</td>\n <td>国审豆2003029</td>\n</tr>\n<tr>\n <td>8</td>\n <td>郑90007</td>\n <td>国审豆2003030</td>\n</tr>\n</tbody>\n</table>",
+        "norm_gt": "<html><body><table border=\"1\" ><tr><td>序号</td><td>品种名称</td><td>审定编号</td></tr><tr><td>1</td><td>置大70</td><td>国审豆2003006</td></tr><tr><td>2</td><td>黑河23</td><td>国审豆2003011</td></tr><tr><td>3</td><td>吉育65号</td><td>国审豆2003012</td></tr><tr><td>4</td><td>鲁宁1号(济96-2343)</td><td>国审豆2003015</td></tr><tr><td>5</td><td>沧豆5号</td><td>国审豆2003020</td></tr><tr><td>6</td><td>九丰九号(原名:九三96-127)</td><td>国审豆2003025</td></tr><tr><td>7</td><td>邯豆三号(原名:邯93-420)</td><td>国审豆2003029</td></tr><tr><td>8</td><td>郑90007</td><td>国审豆2003030</td></tr></table></body></html>",
+        "gt_category_type": "table",
+        "gt_position": [
+            27
+        ],
+        "gt_attribute": [
+            {
+                "table_layout": "horizontal",
+                "with_span": false,
+                "line": "full_line",
+                "language": "table_simplified_chinese",
+                "include_equation": false,
+                "include_photo": false,
+                "include_background": false,
+                "with_structured_text": false
+            }
+        ],
+        "pred_idx": [
+            2
+        ],
+        "pred": "<table>  <tr>    <td>序号</td>    <td>品种名称</td>    <td>审定编号</td>  </tr>  <tr>    <td>1</td>    <td>春大70</td>    <td>国审豆2003006</td>  </tr>  <tr>    <td>2</td>    <td>黑河23</td>    <td>国审豆2003011</td>  </tr>  <tr>    <td>3</td>    <td>古育65号</td>    <td>国审豆2003012</td>  </tr>  <tr>    <td>4</td>    <td>鲁宁1号(淮96-2343)</td>    <td>国审豆2003015</td>  </tr>  <tr>    <td>5</td>    <td>淮豆5号</td>    <td>国审豆2003020</td>  </tr>  <tr>    <td>6</td>    <td>九丰九号(原名:九三96-127)</td>    <td>国审豆2003025</td>  </tr>  <tr>    <td>7</td>    <td>博豆三号(原名:博93-420)</td>    <td>国审豆2003029</td>  </tr>  <tr>    <td>8</td>    <td>郑90007</td>    <td>国审豆2003030</td>  </tr>  <tr>  </tr></table>",
+        "norm_pred": "<html><body><table border=\"1\" > <tr> <td>序号</td> <td>品种名称</td> <td>审定编号</td> </tr> <tr> <td>1</td> <td>春大70</td> <td>国审豆2003006</td> </tr> <tr> <td>2</td> <td>黑河23</td> <td>国审豆2003011</td> </tr> <tr> <td>3</td> <td>古育65号</td> <td>国审豆2003012</td> </tr> <tr> <td>4</td> <td>鲁宁1号(淮96-2343)</td> <td>国审豆2003015</td> </tr> <tr> <td>5</td> <td>淮豆5号</td> <td>国审豆2003020</td> </tr> <tr> <td>6</td> <td>九丰九号(原名:九三96-127)</td> <td>国审豆2003025</td> </tr> <tr> <td>7</td> <td>博豆三号(原名:博93-420)</td> <td>国审豆2003029</td> </tr> <tr> <td>8</td> <td>郑90007</td> <td>国审豆2003030</td> </tr> <tr> </tr></table></body></html>",
+        "pred_category_type": "html_table",
+        "pred_position": 3952,
+        "edit": 0.2575301204819277,
+        "img_id": "newspaper_01f020903d7bc4b3fc69f500f41eb77e_1.jpg",
+        "metric": {
+            "TEDS": 0.9487451737451738,
+            "TEDS_structure_only": 0.972972972972973,
+            "Edit_dist": 0.10316139767054909
+        },
+        "image_name": "newspaper_01f020903d7bc4b3fc69f500f41eb77e_1.jpg",
+        "upper_len": 601,
+        "Edit_num": 62
+    },
+    {
+        "gt_idx": [
+            0
+        ],
+        "gt": "<table>\n<thead>\n<tr>\n <th>试销单价x(百元)</th>\n <th>1</th>\n <th>2</th>\n <th>3</th>\n <th>4</th>\n <th>5</th>\n <th>6</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n <td>产品销量y(件)</td>\n <td>91</td>\n <td>86</td>\n <td>p</td>\n <td>78</td>\n <td>73</td>\n <td>70</td>\n</tr>\n</tbody>\n</table>",
+        "norm_gt": "<html><body><table border=\"1\" ><tr><td>试销单价x(百元)</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td></tr><tr><td>产品销量y(件)</td><td>91</td><td>86</td><td>p</td><td>78</td><td>73</td><td>70</td></tr></table></body></html>",
+        "gt_category_type": "table",
+        "gt_position": [
+            2
+        ],
+        "gt_attribute": [
+            {
+                "table_layout": "horizontal",
+                "with_span": false,
+                "line": "full_line",
+                "language": "table_simplified_chinese",
+                "include_equation": false,
+                "include_photo": false,
+                "include_background": false,
+                "with_structured_text": false
+            }
+        ],
+        "pred_idx": [
+            0
+        ],
+        "pred": "<table>  <tr>    <td>试销单价x<br>(百元)</td>    <td>1</td>    <td>2</td>    <td>3</td>    <td>4</td>    <td>5</td>    <td>6</td>  </tr>  <tr>    <td>产品销量y<br>(件)</td>    <td>91</td>    <td>86</td>    <td>p</td>    <td>78</td>    <td>73</td>    <td>70</td>  </tr>  <tr>  </tr></table>",
+        "norm_pred": "<html><body><table border=\"1\" > <tr> <td>试销单价x<br/>(百元)</td> <td>1</td> <td>2</td> <td>3</td> <td>4</td> <td>5</td> <td>6</td> </tr> <tr> <td>产品销量y<br/>(件)</td> <td>91</td> <td>86</td> <td>p</td> <td>78</td> <td>73</td> <td>70</td> </tr> <tr> </tr></table></body></html>",
+        "pred_category_type": "",
+        "pred_position": "",
+        "edit": 0.381294964028777,
+        "img_id": "jiaocaineedrop_jiaocai_needrop_en_1910.jpg",
+        "metric": {
+            "TEDS": 0.9272727272727272,
+            "TEDS_structure_only": 0.9473684210526316,
+            "Edit_dist": 0.14444444444444443
+        },
+        "image_name": "jiaocaineedrop_jiaocai_needrop_en_1910.jpg",
+        "upper_len": 270,
+        "Edit_num": 39
+    },
+    {
+        "gt_idx": [
+            0
+        ],
+        "gt": "<table>\n<thead>\n<tr>\n <th>1 one</th>\n <th>5 five</th>\n <th>9 nine</th>\n <th>13 thirteen</th>\n <th>17 seventeen</th>\n <th>30 thirty</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n <td>2 two</td>\n <td>6 six</td>\n <td>10 ten</td>\n <td>14 fourteen</td>\n <td>18 eighteen</td>\n <td>40 forty</td>\n</tr>\n<tr>\n <td>3 three</td>\n <td>7 seven</td>\n <td>11 eleven</td>\n <td>15 fifteen</td>\n <td>19 nineteen</td>\n <td>50 fifty</td>\n</tr>\n<tr>\n <td>4 four</td>\n <td>8 eight</td>\n <td>12 twelve</td>\n <td>16 sixteen</td>\n <td>20 twenty</td>\n <td>60 sixty</td>\n</tr>\n</tbody>\n</table>",
+        "pred_idx": [
+            ""
+        ],
+        "pred": "",
+        "gt_position": [
+            15
+        ],
+        "pred_position": "",
+        "norm_gt": "<html><body><table border=\"1\" ><tr><td>1 one</td><td>5 five</td><td>9 nine</td><td>13 thirteen</td><td>17 seventeen</td><td>30 thirty</td></tr><tr><td>2 two</td><td>6 six</td><td>10 ten</td><td>14 fourteen</td><td>18 eighteen</td><td>40 forty</td></tr><tr><td>3 three</td><td>7 seven</td><td>11 eleven</td><td>15 fifteen</td><td>19 nineteen</td><td>50 fifty</td></tr><tr><td>4 four</td><td>8 eight</td><td>12 twelve</td><td>16 sixteen</td><td>20 twenty</td><td>60 sixty</td></tr></table></body></html>",
+        "norm_pred": "",
+        "gt_category_type": "table",
+        "pred_category_type": "",
+        "gt_attribute": [
+            {
+                "table_layout": "horizontal",
+                "with_span": false,
+                "line": "full_line",
+                "language": "table_en",
+                "include_equation": false,
+                "include_photo": false,
+                "include_background": false,
+                "with_structured_text": false
+            }
+        ],
+        "edit": 1,
+        "img_id": "notes_f7f010b78016aeebd76e56d9283eb67f_49.jpg",
+        "metric": {
+            "TEDS": 0.0,
+            "TEDS_structure_only": 0.0,
+            "Edit_dist": 1.0
+        },
+        "image_name": "notes_f7f010b78016aeebd76e56d9283eb67f_49.jpg",
+        "upper_len": 501,
+        "Edit_num": 501
+    },
+    {
+        "gt_idx": [
+            0
+        ],
+        "gt": "<table>\n<thead>\n<tr>\n <th>Colony</th>\n <th>Reasons Founded</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n <td>New York</td>\n <td></td>\n</tr>\n<tr>\n <td>New Jersey</td>\n <td></td>\n</tr>\n<tr>\n <td>Pennsylvania</td>\n <td></td>\n</tr>\n</tbody>\n</table>",
+        "norm_gt": "<html><body><table border=\"1\" ><tr><td>Colony</td><td>Reasons Founded</td></tr><tr><td>New York</td><td></td></tr><tr><td>New Jersey</td><td></td></tr><tr><td>Pennsylvania</td><td></td></tr></table></body></html>",
+        "gt_category_type": "table",
+        "gt_position": [
+            25
+        ],
+        "gt_attribute": [
+            {
+                "table_layout": "horizontal",
+                "with_span": false,
+                "line": "full_line",
+                "language": "table_en",
+                "include_equation": false,
+                "include_photo": false,
+                "include_background": false,
+                "with_structured_text": false
+            }
+        ],
+        "pred_idx": [
+            0
+        ],
+        "pred": "<table><thead><tr><td></td><td></td></tr></thead><tbody><tr><td>Colony</td><td>Reasons Founded</td></tr><tr><td>New York</td><td></td></tr><tr><td>New Jersey</td><td></td></tr><tr><td>Pennsylvania</td><td></td></tr><tr><td></td><td></td></tr></tbody></table>",
+        "norm_pred": "<html><body><table border=\"1\" ><tr><td></td><td></td></tr><tr><td>Colony</td><td>Reasons Founded</td></tr><tr><td>New York</td><td></td></tr><tr><td>New Jersey</td><td></td></tr><tr><td>Pennsylvania</td><td></td></tr><tr><td></td><td></td></tr></table></body></html>",
+        "pred_category_type": "",
+        "pred_position": "",
+        "edit": 0.43023255813953487,
+        "img_id": "jiaocaineedrop_chap02.pdf_16.jpg",
+        "metric": {
+            "TEDS": 0.6666666666666667,
+            "TEDS_structure_only": 0.6666666666666667,
+            "Edit_dist": 0.20300751879699247
+        },
+        "image_name": "jiaocaineedrop_chap02.pdf_16.jpg",
+        "upper_len": 266,
+        "Edit_num": 54
+    },
+    {
+        "gt_idx": [
+            0
+        ],
+        "gt": "<table>\n<thead>\n<tr>\n <th>得分</th>\n <th></th>\n</tr>\n</thead>\n<tbody>\n<tr>\n <td>阅卷人</td>\n <td></td>\n</tr>\n</tbody>\n</table>",
+        "norm_gt": "<html><body><table border=\"1\" ><tr><td>得分</td><td></td></tr><tr><td>阅卷人</td><td></td></tr></table></body></html>",
+        "gt_category_type": "table",
+        "gt_position": [
+            10
+        ],
+        "gt_attribute": [
+            {
+                "table_layout": "horizontal",
+                "with_span": false,
+                "line": "full_line",
+                "language": "table_simplified_chinese",
+                "include_equation": false,
+                "include_photo": false,
+                "include_background": false,
+                "with_structured_text": false
+            }
+        ],
+        "pred_idx": [
+            0
+        ],
+        "pred": "<table>  <tr>    <td>得分</td>    <td></td>  </tr>  <tr>    <td>阅卷人</td>    <td></td>  </tr>  <tr>  </tr></table>",
+        "norm_pred": "<html><body><table border=\"1\" > <tr> <td>得分</td> <td></td> </tr> <tr> <td>阅卷人</td> <td></td> </tr> <tr> </tr></table></body></html>",
+        "pred_category_type": "",
+        "pred_position": "",
+        "edit": 0.4793388429752066,
+        "img_id": "jiaocai_71434495.pdf_0.jpg",
+        "metric": {
+            "TEDS": 0.8571428571428572,
+            "TEDS_structure_only": 0.8571428571428572,
+            "Edit_dist": 0.1450381679389313
+        },
+        "image_name": "jiaocai_71434495.pdf_0.jpg",
+        "upper_len": 131,
+        "Edit_num": 19
+    },
+    {
+        "gt_idx": [
+            0
+        ],
+        "gt": "<table>\n<thead>\n<tr>\n <th rowspan=\"2\">Elements</th>\n <th rowspan=\"2\">RfD (mg/kg-day)</th>\n <th colspan=\"3\">Hazard quotient (HQ)</th>\n</tr>\n<tr>\n <th>Green tea</th>\n <th>Oolong tea</th>\n <th>Black tea</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n <td>As</td>\n <td>3 × 10<sup>-4</sup></td>\n <td>None</td>\n <td>2.1 × 10<sup>-3</sup></td>\n <td>3.0 × 10<sup>-3</sup></td>\n</tr>\n<tr>\n <td>Cr</td>\n <td>3 × 10<sup>-3</sup></td>\n <td>8.5 × 10<sup>-4</sup></td>\n <td>2.1 × 10<sup>-1</sup></td>\n <td>4.5 × 10<sup>-1</sup></td>\n</tr>\n<tr>\n <td>Cd</td>\n <td>1 × 10<sup>-3</sup></td>\n <td>None</td>\n <td>6.3 × 10<sup>-4</sup></td>\n <td>7.7 × 10<sup>-3</sup></td>\n</tr>\n<tr>\n <td>Pb</td>\n <td>1.43 × 10<sup>-3</sup></td>\n <td>4.2 × 10<sup>-4</sup></td>\n <td>3.5 × 10<sup>-2</sup></td>\n <td>2.1 × 10<sup>-1</sup></td>\n</tr>\n<tr>\n <td>Hazard Index (HI = $\\Sigma$HQ)</td>\n <td></td>\n <td>1.3 × 10<sup>-3</sup></td>\n <td>2.4 × 10<sup>-1</sup></td>\n <td>6.7 × 10<sup>-1</sup></td>\n</tr>\n</tbody>\n</table>",
+        "norm_gt": "<html><body><table border=\"1\" ><tr><td rowspan=\"2\">Elements</td><td rowspan=\"2\">RfD (mg/kg-day)</td><td colspan=\"3\">Hazard quotient (HQ)</td></tr><tr><td>Green tea</td><td>Oolong tea</td><td>Black tea</td></tr><tr><td>As</td><td>3 × 10-4</td><td>None</td><td>2.1 × 10-3</td><td>3.0 × 10-3</td></tr><tr><td>Cr</td><td>3 × 10-3</td><td>8.5 × 10-4</td><td>2.1 × 10-1</td><td>4.5 × 10-1</td></tr><tr><td>Cd</td><td>1 × 10-3</td><td>None</td><td>6.3 × 10-4</td><td>7.7 × 10-3</td></tr><tr><td>Pb</td><td>1.43 × 10-3</td><td>4.2 × 10-4</td><td>3.5 × 10-2</td><td>2.1 × 10-1</td></tr><tr><td>Hazard Index (HI = $\\Sigma$HQ)</td><td></td><td>1.3 × 10-3</td><td>2.4 × 10-1</td><td>6.7 × 10-1</td></tr></table></body></html>",
+        "gt_category_type": "table",
+        "gt_position": [
+            2
+        ],
+        "gt_attribute": [
+            {
+                "table_layout": "horizontal",
+                "with_span": true,
+                "line": "fewer_line",
+                "language": "table_en",
+                "include_equation": true,
+                "include_photo": false,
+                "include_background": false,
+                "with_structured_text": false
+            }
+        ],
+        "pred_idx": [
+            0
+        ],
+        "pred": "<table> <thead>  <tr><th rowspan=\"2\">Elements</th><th rowspan=\"2\">RfD (mg/kg-day)</th><th colspan=\"3\">Hazard quotient (HQ)</th>  </tr>  <tr><th>Green tea</th><th>Oolong tea</th><th>Black tea</th>  </tr> </thead> <tbody>  <tr><td>As</td><td>$3\\times 10^{-4}$</td><td>None</td><td>$2.1\\times 10^{-3}$</td><td>$3.0\\times 10^{-3}$</td>  </tr>  <tr><td>Cr</td><td>$3\\times 10^{-3}$</td><td>$8.5\\times 10^{-4}$</td><td>$2.1\\times 10^{-1}$</td><td>$4.5\\times 10^{-1}$</td>  </tr>  <tr><td>Cd</td><td>$1\\times 10^{-3}$</td><td>None</td><td>$6.3\\times 10^{-4}$</td><td>$7.7\\times 10^{-3}$</td>  </tr>  <tr><td>Pb</td><td>$1.43\\times 10^{-3}$</td><td>$4.2\\times 10^{-4}$</td><td>$3.5\\times 10^{-2}$</td><td>$2.1\\times 10^{-1}$</td>  </tr>  <tr><td colspan=\"1\" rowspan=\"1\">Hazard Index<br>(HI = $\\Sigma$HQ)</td><td></td><td>$1.3\\times 10^{-3}$</td><td>$2.4\\times 10^{-1}$</td><td>$6.7\\times 10^{-1}$</td>  </tr> </tbody></table>",
+        "norm_pred": "<html><body><table border=\"1\" > <tr><td rowspan=\"2\">Elements</td><td rowspan=\"2\">RfD (mg/kg-day)</td><td colspan=\"3\">Hazard quotient (HQ)</td> </tr> <tr><td>Green tea</td><td>Oolong tea</td><td>Black tea</td> </tr> <tr><td>As</td><td>$3\\times 10^{-4}$</td><td>None</td><td>$2.1\\times 10^{-3}$</td><td>$3.0\\times 10^{-3}$</td> </tr> <tr><td>Cr</td><td>$3\\times 10^{-3}$</td><td>$8.5\\times 10^{-4}$</td><td>$2.1\\times 10^{-1}$</td><td>$4.5\\times 10^{-1}$</td> </tr> <tr><td>Cd</td><td>$1\\times 10^{-3}$</td><td>None</td><td>$6.3\\times 10^{-4}$</td><td>$7.7\\times 10^{-3}$</td> </tr> <tr><td>Pb</td><td>$1.43\\times 10^{-3}$</td><td>$4.2\\times 10^{-4}$</td><td>$3.5\\times 10^{-2}$</td><td>$2.1\\times 10^{-1}$</td> </tr> <tr><td colspan=\"1\" rowspan=\"1\">Hazard Index<br/>(HI = $\\Sigma$HQ)</td><td></td><td>$1.3\\times 10^{-3}$</td><td>$2.4\\times 10^{-1}$</td><td>$6.7\\times 10^{-1}$</td> </tr> </table></body></html>",
+        "pred_category_type": "",
+        "pred_position": "",
+        "edit": 0.4409044193216855,
+        "img_id": "docstructbench_llm-raw-scihub-o.O-s00128-008-9367-z.pdf_4.jpg",
+        "metric": {
+            "TEDS": 0.7414869643822005,
+            "TEDS_structure_only": 1.0,
+            "Edit_dist": 0.25412541254125415
+        },
+        "image_name": "docstructbench_llm-raw-scihub-o.O-s00128-008-9367-z.pdf_4.jpg",
+        "upper_len": 909,
+        "Edit_num": 231
+    },
+    {
+        "gt_idx": [
+            1
+        ],
+        "gt": "<table>\n<thead>\n<tr>\n <th>Tea type</th>\n <th>Country</th>\n <th>As</th>\n <th>Cr</th>\n <th>Cd</th>\n <th>Pb</th>\n <th>Reference</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n <td>Green tea</td>\n <td>Taiwan</td>\n <td>ND</td>\n <td>0.1 </td>\n <td>ND</td>\n <td>0.01</td>\n <td>This study</td>\n</tr>\n<tr>\n <td></td>\n <td>China</td>\n <td>0.14</td>\n <td>0.40</td>\n <td>0.24</td>\n <td>-</td>\n <td>Han et al. 2005</td>\n</tr>\n<tr>\n <td></td>\n <td>Japan</td>\n <td>-</td>\n <td>0.49</td>\n <td>0.04</td>\n <td>-</td>\n <td>Tsushida and Takeo 1977</td>\n</tr>\n<tr>\n <td></td>\n <td>Thailand</td>\n <td>0.09</td>\n <td>1.48</td>\n <td>0.04</td>\n <td>3.93</td>\n <td>Nookabkaew et al. 2006</td>\n</tr>\n<tr>\n <td>Oolong tea</td>\n <td>Taiwan</td>\n <td>0.005</td>\n <td>5.2 </td>\n <td>0.0050</td>\n <td>0.4 </td>\n <td>This study</td>\n</tr>\n<tr>\n <td></td>\n <td>China</td>\n <td>0.20</td>\n <td>0.28</td>\n <td>0.03</td>\n <td>-</td>\n <td>Han et al. 2005</td>\n</tr>\n<tr>\n <td>Black tea</td>\n <td>Taiwan</td>\n <td>0.01</td>\n <td>7.92</td>\n <td>0.07</td>\n <td>2.01</td>\n <td>This study</td>\n</tr>\n<tr>\n <td></td>\n <td>China</td>\n <td>0.69</td>\n <td>0.35</td>\n <td>0.01</td>\n <td>-</td>\n <td>Han et al. 2005</td>\n</tr>\n<tr>\n <td></td>\n <td>India</td>\n <td>-</td>\n <td>-</td>\n <td>0.66</td>\n <td>3.7</td>\n <td>Natesan and Ranganathan 1990</td>\n</tr>\n<tr>\n <td></td>\n <td>Turkey</td>\n <td>-</td>\n <td>-</td>\n <td>2.3</td>\n <td>17.9</td>\n <td>Narin et al. 2004</td>\n</tr>\n<tr>\n <td></td>\n <td>Nigeria</td>\n <td>-</td>\n <td>1.1 </td>\n <td>0.13</td>\n <td>0.50</td>\n <td>Onianwa et al. 1999</td>\n</tr>\n</tbody>\n</table>",
+        "norm_gt": "<html><body><table border=\"1\" ><tr><td>Tea type</td><td>Country</td><td>As</td><td>Cr</td><td>Cd</td><td>Pb</td><td>Reference</td></tr><tr><td>Green tea</td><td>Taiwan</td><td>ND</td><td>0.1 </td><td>ND</td><td>0.01</td><td>This study</td></tr><tr><td></td><td>China</td><td>0.14</td><td>0.40</td><td>0.24</td><td>-</td><td>Han et al. 2005</td></tr><tr><td></td><td>Japan</td><td>-</td><td>0.49</td><td>0.04</td><td>-</td><td>Tsushida and Takeo 1977</td></tr><tr><td></td><td>Thailand</td><td>0.09</td><td>1.48</td><td>0.04</td><td>3.93</td><td>Nookabkaew et al. 2006</td></tr><tr><td>Oolong tea</td><td>Taiwan</td><td>0.005</td><td>5.2 </td><td>0.0050</td><td>0.4 </td><td>This study</td></tr><tr><td></td><td>China</td><td>0.20</td><td>0.28</td><td>0.03</td><td>-</td><td>Han et al. 2005</td></tr><tr><td>Black tea</td><td>Taiwan</td><td>0.01</td><td>7.92</td><td>0.07</td><td>2.01</td><td>This study</td></tr><tr><td></td><td>China</td><td>0.69</td><td>0.35</td><td>0.01</td><td>-</td><td>Han et al. 2005</td></tr><tr><td></td><td>India</td><td>-</td><td>-</td><td>0.66</td><td>3.7</td><td>Natesan and Ranganathan 1990</td></tr><tr><td></td><td>Turkey</td><td>-</td><td>-</td><td>2.3</td><td>17.9</td><td>Narin et al. 2004</td></tr><tr><td></td><td>Nigeria</td><td>-</td><td>1.1 </td><td>0.13</td><td>0.50</td><td>Onianwa et al. 1999</td></tr></table></body></html>",
+        "gt_category_type": "table",
+        "gt_position": [
+            4
+        ],
+        "gt_attribute": [
+            {
+                "table_layout": "horizontal",
+                "with_span": true,
+                "line": "fewer_line",
+                "language": "table_en",
+                "include_equation": false,
+                "include_photo": false,
+                "include_background": false,
+                "with_structured_text": false
+            }
+        ],
+        "pred_idx": [
+            1
+        ],
+        "pred": "<table><thead><tr><th>Tea type</th><th>Country</th><th>As</th><th>Cr</th><th>Cd</th><th>Pb</th><th>Reference</th></tr></thead><tbody><tr><td>Green tea</td><td>Taiwan</td><td>ND</td><td>0.1</td><td>ND</td><td>0.01</td><td>This study</td></tr><tr><td></td><td>China</td><td>0.14</td><td>0.40</td><td>0.24</td><td>&#872c;</td><td>Han et al. 2005</td></tr><tr><td></td><td>Japan</td><td>&#872c;</td><td>0.49</td><td>0.04</td><td>&#872c;</td><td>Tsushida and Takeo 1977</td></tr><tr><td></td><td>Thailand</td><td>0.09</td><td>1.48</td><td>0.04</td><td>3.93</td><td>Nookabkaew et al. 2006</td></tr><tr><td>Oolong tea</td><td>Taiwan</td><td>0.005</td><td>5.2</td><td>0.0050</td><td>0.4</td><td>This study</td></tr><tr><td></td><td>China</td><td>0.20</td><td>0.28</td><td>0.03</td><td>&#872c;</td><td>Han et al. 2005</td></tr><tr><td>Black tea</td><td>Taiwan</td><td>0.01</td><td>7.92</td><td>0.07</td><td>2.01</td><td>This study</td></tr><tr><td></td><td>China</td><td>0.69</td><td>0.35</td><td>0.01</td><td>&#872c;</td><td>Han et al. 2005</td></tr><tr><td></td><td>India</td><td>&#872c;</td><td>&#872c;</td><td>0.66</td><td>3.7</td><td>Natesan and Ranganathan 1990</td></tr><tr><td></td><td>Turkey</td><td>&#872c;</td><td>&#872c;</td><td>2.3</td><td>17.9</td><td>Narin et al. 2004</td></tr><tr><td></td><td>Nigeria</td><td>&#872c;</td><td>1.1</td><td>0.13</td><td>0.50</td><td>Onianwa et al. 1999</td></tr></tbody></table>",
+        "norm_pred": "<html><body><table border=\"1\" ><tr><td>Tea type</td><td>Country</td><td>As</td><td>Cr</td><td>Cd</td><td>Pb</td><td>Reference</td></tr><tr><td>Green tea</td><td>Taiwan</td><td>ND</td><td>0.1</td><td>ND</td><td>0.01</td><td>This study</td></tr><tr><td></td><td>China</td><td>0.14</td><td>0.40</td><td>0.24</td><td>&#872c;</td><td>Han et al. 2005</td></tr><tr><td></td><td>Japan</td><td>&#872c;</td><td>0.49</td><td>0.04</td><td>&#872c;</td><td>Tsushida and Takeo 1977</td></tr><tr><td></td><td>Thailand</td><td>0.09</td><td>1.48</td><td>0.04</td><td>3.93</td><td>Nookabkaew et al. 2006</td></tr><tr><td>Oolong tea</td><td>Taiwan</td><td>0.005</td><td>5.2</td><td>0.0050</td><td>0.4</td><td>This study</td></tr><tr><td></td><td>China</td><td>0.20</td><td>0.28</td><td>0.03</td><td>&#872c;</td><td>Han et al. 2005</td></tr><tr><td>Black tea</td><td>Taiwan</td><td>0.01</td><td>7.92</td><td>0.07</td><td>2.01</td><td>This study</td></tr><tr><td></td><td>China</td><td>0.69</td><td>0.35</td><td>0.01</td><td>&#872c;</td><td>Han et al. 2005</td></tr><tr><td></td><td>India</td><td>&#872c;</td><td>&#872c;</td><td>0.66</td><td>3.7</td><td>Natesan and Ranganathan 1990</td></tr><tr><td></td><td>Turkey</td><td>&#872c;</td><td>&#872c;</td><td>2.3</td><td>17.9</td><td>Narin et al. 2004</td></tr><tr><td></td><td>Nigeria</td><td>&#872c;</td><td>1.1</td><td>0.13</td><td>0.50</td><td>Onianwa et al. 1999</td></tr></table></td></tr></table></body></html>",
+        "pred_category_type": "html_table",
+        "pred_position": 1182,
+        "edit": 0.17405266538214514,
+        "img_id": "docstructbench_llm-raw-scihub-o.O-s00128-008-9367-z.pdf_4.jpg",
+        "metric": {
+            "TEDS": 0.8854166666666666,
+            "TEDS_structure_only": 1.0,
+            "Edit_dist": 0.0638002773925104
+        },
+        "image_name": "docstructbench_llm-raw-scihub-o.O-s00128-008-9367-z.pdf_4.jpg",
+        "upper_len": 1442,
+        "Edit_num": 92
+    },
+    {
+        "gt_idx": [
+            0
+        ],
+        "gt": "<table>\n<tr>\n <th>行业</th>\n <th>银行</th>\n</tr>\n<tr>\n <td>公司网址</td>\n <td>www.csrcbank.com</td>\n</tr>\n<tr>\n <td>大股东/持股</td>\n <td>交通银行股份有限公司/9.01％</td>\n</tr>\n<tr>\n <td>实际控制人</td>\n <td></td>\n</tr>\n<tr>\n <td>总股本(百万股)</td>\n <td>2,741</td>\n</tr>\n<tr>\n <td>流通A股(百万股)</td>\n <td>2,643</td>\n</tr>\n<tr>\n <td>流通B/H股(百万股)</td>\n <td></td>\n</tr>\n<tr>\n <td>总市值（元）</td>\n <td></td>\n</tr>\n<tr>\n <td>流通A股市值(元)</td>\n <td>196</td>\n</tr>\n<tr>\n <td>每股净资产(元)</td>\n <td>189</td>\n</tr>\n<tr>\n <td>资产负债率(%)</td>\n <td>8.32</td>\n</tr>\n<tr>\n <td>资产负债率(%)</td>\n <td>92.1</td>\n</tr>\n</table>",
+        "norm_gt": "<html><body><table border=\"1\" ><tr><td>行业</td><td>银行</td></tr><tr><td>公司网址</td><td>www.csrcbank.com</td></tr><tr><td>大股东/持股</td><td>交通银行股份有限公司/9.01%</td></tr><tr><td>实际控制人</td><td></td></tr><tr><td>总股本(百万股)</td><td>2,741</td></tr><tr><td>流通A股(百万股)</td><td>2,643</td></tr><tr><td>流通B/H股(百万股)</td><td></td></tr><tr><td>总市值(元)</td><td></td></tr><tr><td>流通A股市值(元)</td><td>196</td></tr><tr><td>每股净资产(元)</td><td>189</td></tr><tr><td>资产负债率(%)</td><td>8.32</td></tr><tr><td>资产负债率(%)</td><td>92.1</td></tr></table></body></html>",
+        "gt_category_type": "table",
+        "gt_position": [
+            6
+        ],
+        "gt_attribute": [
+            {
+                "table_layout": "horizontal",
+                "with_span": false,
+                "line": "fewer_line",
+                "language": "table_simplified_chinese",
+                "include_equation": false,
+                "include_photo": false,
+                "include_background": false,
+                "with_structured_text": false
+            }
+        ],
+        "pred_idx": [
+            0
+        ],
+        "pred": "<table>  <tr>    <td rowspan=\"1\" colspan=\"2\">行业</td>    <td>银行</td>  </tr>  <tr>    <td>公司网址</td>    <td>www.csrcbank.com</td>  </tr>  <tr>    <td>大股东/持股</td>    <td>交通银行股份有限公司/9.01%</td>  </tr>  <tr>    <td>实际控制人</td>    <td></td>  </tr>  <tr>    <td>总股本(百万股)</td>    <td>2,741</td>  </tr>  <tr>    <td>流通A股(百万股)</td>    <td>2,643</td>  </tr>  <tr>    <td>流通B/H股(百万股)</td>    <td></td>  </tr>  <tr>    <td>总市值（亿元）</td>    <td>196</td>  </tr>  <tr>    <td>流通A股市值(亿元)</td>    <td>189</td>  </tr>  <tr>    <td>每股净资产元</td>    <td>8.32</td>  </tr>  <tr>    <td>资产负债率(%)</td>    <td>92.1</td>  </tr>  <tr>  </tr></table>",
+        "norm_pred": "<html><body><table border=\"1\" > <tr> <td colspan=\"2\" rowspan=\"1\">行业</td> <td>银行</td> </tr> <tr> <td>公司网址</td> <td>www.csrcbank.com</td> </tr> <tr> <td>大股东/持股</td> <td>交通银行股份有限公司/9.01%</td> </tr> <tr> <td>实际控制人</td> <td></td> </tr> <tr> <td>总股本(百万股)</td> <td>2,741</td> </tr> <tr> <td>流通A股(百万股)</td> <td>2,643</td> </tr> <tr> <td>流通B/H股(百万股)</td> <td></td> </tr> <tr> <td>总市值(亿元)</td> <td>196</td> </tr> <tr> <td>流通A股市值(亿元)</td> <td>189</td> </tr> <tr> <td>每股净资产元</td> <td>8.32</td> </tr> <tr> <td>资产负债率(%)</td> <td>92.1</td> </tr> <tr> </tr></table></body></html>",
+        "pred_category_type": "",
+        "pred_position": "",
+        "edit": 0.3121951219512195,
+        "img_id": "eastmoney_62b4149b1612ce28d20f26cd5c5b2e18f80b26fca6e4452e090376a2fe72eae3.pdf_0.jpg",
+        "metric": {
+            "TEDS": 0.8011243386243386,
+            "TEDS_structure_only": 0.9166666666666666,
+            "Edit_dist": 0.20603907637655416
+        },
+        "image_name": "eastmoney_62b4149b1612ce28d20f26cd5c5b2e18f80b26fca6e4452e090376a2fe72eae3.pdf_0.jpg",
+        "upper_len": 563,
+        "Edit_num": 116
+    },
+    {
+        "gt_idx": [
+            1
+        ],
+        "gt": "<table>\n<thead>\n<tr>\n <th></th>\n <th>2021A</th>\n <th>2022A</th>\n <th>2023E</th>\n <th>2024E</th>\n <th>2025E</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n <td>营业收入(百万元)</td>\n <td>7,655</td>\n <td>8,809</td>\n <td>10,122</td>\n <td>11,775</td>\n <td>13,727</td>\n</tr>\n<tr>\n <td>YOY(%)</td>\n <td>16.3</td>\n <td>15.1</td>\n <td>14.9</td>\n <td>16.3</td>\n <td>16.6</td>\n</tr>\n<tr>\n <td>归母净利润(百万元)</td>\n <td>2,188</td>\n <td>2,744</td>\n <td>3,426</td>\n <td>4,177</td>\n <td>5,063</td>\n</tr>\n<tr>\n <td>YOY(%)</td>\n <td>21.4</td>\n <td>25.4</td>\n <td>24.8</td>\n <td>21.9</td>\n <td>21.2</td>\n</tr>\n<tr>\n <td>ROE(%)</td>\n <td>11.6</td>\n <td>13.2</td>\n <td>15.1</td>\n <td>16.7</td>\n <td>18.0</td>\n</tr>\n<tr>\n <td>EPS(摊薄/元)</td>\n <td>0.80</td>\n <td>1.00</td>\n <td>1.25</td>\n <td>1.52</td>\n <td>1.85</td>\n</tr>\n<tr>\n <td>P/E(倍)</td>\n <td>9.0</td>\n <td>7.1</td>\n <td>5.7</td>\n <td>4.7</td>\n <td>3.9</td>\n</tr>\n<tr>\n <td>P/B(倍)</td>\n <td>1.0</td>\n <td>0.9</td>\n <td>0.8</td>\n <td>0.7</td>\n <td>0.7</td>\n</tr>\n</tbody>\n</table>",
+        "norm_gt": "<html><body><table border=\"1\" ><tr><td></td><td>2021A</td><td>2022A</td><td>2023E</td><td>2024E</td><td>2025E</td></tr><tr><td>营业收入(百万元)</td><td>7,655</td><td>8,809</td><td>10,122</td><td>11,775</td><td>13,727</td></tr><tr><td>YOY(%)</td><td>16.3</td><td>15.1</td><td>14.9</td><td>16.3</td><td>16.6</td></tr><tr><td>归母净利润(百万元)</td><td>2,188</td><td>2,744</td><td>3,426</td><td>4,177</td><td>5,063</td></tr><tr><td>YOY(%)</td><td>21.4</td><td>25.4</td><td>24.8</td><td>21.9</td><td>21.2</td></tr><tr><td>ROE(%)</td><td>11.6</td><td>13.2</td><td>15.1</td><td>16.7</td><td>18.0</td></tr><tr><td>EPS(摊薄/元)</td><td>0.80</td><td>1.00</td><td>1.25</td><td>1.52</td><td>1.85</td></tr><tr><td>P/E(倍)</td><td>9.0</td><td>7.1</td><td>5.7</td><td>4.7</td><td>3.9</td></tr><tr><td>P/B(倍)</td><td>1.0</td><td>0.9</td><td>0.8</td><td>0.7</td><td>0.7</td></tr></table></body></html>",
+        "gt_category_type": "table",
+        "gt_position": [
+            30
+        ],
+        "gt_attribute": [
+            {
+                "table_layout": "horizontal",
+                "with_span": false,
+                "line": "fewer_line",
+                "language": "table_simplified_chinese",
+                "include_equation": false,
+                "include_photo": false,
+                "include_background": true,
+                "with_structured_text": false
+            }
+        ],
+        "pred_idx": [
+            3
+        ],
+        "pred": "<table>  <tr>    <td></td>    <td>2021A</td>    <td>2022A</td>    <td>2023E</td>    <td>2024E</td>    <td>2025E</td>  </tr>  <tr>    <td>营业收入(百万元)</td>    <td>7,655</td>    <td>8,809</td>    <td>10,122</td>    <td>11,775</td>    <td>13,727</td>  </tr>  <tr>    <td>YOY(%)</td>    <td>16.3</td>    <td>15.1</td>    <td>14.9</td>    <td>16.3</td>    <td>16.6</td>  </tr>  <tr>    <td>归母净利润(百万元)</td>    <td>2,188</td>    <td>2,744</td>    <td>3,426</td>    <td>4,177</td>    <td>5,063</td>  </tr>  <tr>    <td>YOY(%)</td>    <td>21.4</td>    <td>25.4</td>    <td>24.8</td>    <td>21.9</td>    <td>21.2</td>  </tr>  <tr>    <td>ROE(%)</td>    <td>11.6</td>    <td>13.2</td>    <td>15.1</td>    <td>16.7</td>    <td>18.0</td>  </tr>  <tr>    <td>EPS(摊薄/元)</td>    <td>0.80</td>    <td>1.00</td>    <td>1.25</td>    <td>1.52</td>    <td>1.85</td>  </tr>  <tr>    <td>P/E(倍)</td>    <td>9.0</td>    <td>7.1</td>    <td>5.7</td>    <td>4.7</td>    <td>3.9</td>  </tr>  <tr>    <td>P/B(倍)</td>    <td>1.0</td>    <td>0.9</td>    <td>0.8</td>    <td>0.7</td>    <td>0.7</td>  </tr>  <tr>  </tr></table>",
+        "norm_pred": "<html><body><table border=\"1\" > <tr> <td></td> <td>2021A</td> <td>2022A</td> <td>2023E</td> <td>2024E</td> <td>2025E</td> </tr> <tr> <td>营业收入(百万元)</td> <td>7,655</td> <td>8,809</td> <td>10,122</td> <td>11,775</td> <td>13,727</td> </tr> <tr> <td>YOY(%)</td> <td>16.3</td> <td>15.1</td> <td>14.9</td> <td>16.3</td> <td>16.6</td> </tr> <tr> <td>归母净利润(百万元)</td> <td>2,188</td> <td>2,744</td> <td>3,426</td> <td>4,177</td> <td>5,063</td> </tr> <tr> <td>YOY(%)</td> <td>21.4</td> <td>25.4</td> <td>24.8</td> <td>21.9</td> <td>21.2</td> </tr> <tr> <td>ROE(%)</td> <td>11.6</td> <td>13.2</td> <td>15.1</td> <td>16.7</td> <td>18.0</td> </tr> <tr> <td>EPS(摊薄/元)</td> <td>0.80</td> <td>1.00</td> <td>1.25</td> <td>1.52</td> <td>1.85</td> </tr> <tr> <td>P/E(倍)</td> <td>9.0</td> <td>7.1</td> <td>5.7</td> <td>4.7</td> <td>3.9</td> </tr> <tr> <td>P/B(倍)</td> <td>1.0</td> <td>0.9</td> <td>0.8</td> <td>0.7</td> <td>0.7</td> </tr> <tr> </tr></table></body></html>",
+        "pred_category_type": "html_table",
+        "pred_position": 2461,
+        "edit": 0.2232387923147301,
+        "img_id": "eastmoney_62b4149b1612ce28d20f26cd5c5b2e18f80b26fca6e4452e090376a2fe72eae3.pdf_0.jpg",
+        "metric": {
+            "TEDS": 0.984375,
+            "TEDS_structure_only": 0.984375,
+            "Edit_dist": 0.0874604847207587
+        },
+        "image_name": "eastmoney_62b4149b1612ce28d20f26cd5c5b2e18f80b26fca6e4452e090376a2fe72eae3.pdf_0.jpg",
+        "upper_len": 949,
+        "Edit_num": 83
+    },
+    {
+        "gt_idx": [
+            0
+        ],
+        "gt": "<table>\n<thead>\n<tr>\n <th>题号</th>\n <th>一</th>\n <th>二</th>\n <th>三</th>\n <th>四</th>\n <th>五</th>\n <th>六</th>\n <th>附加题</th>\n <th>总分</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n <td>得分</td>\n <td></td>\n <td></td>\n <td></td>\n <td></td>\n <td></td>\n <td></td>\n <td></td>\n <td></td>\n</tr>\n</tbody>\n</table>",
+        "norm_gt": "<html><body><table border=\"1\" ><tr><td>题号</td><td>一</td><td>二</td><td>三</td><td>四</td><td>五</td><td>六</td><td>附加题</td><td>总分</td></tr><tr><td>得分</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></table></body></html>",
+        "gt_category_type": "table",
+        "gt_position": [
+            4
+        ],
+        "gt_attribute": [
+            {
+                "table_layout": "horizontal",
+                "with_span": false,
+                "line": "full_line",
+                "language": "table_simplified_chinese",
+                "include_equation": false,
+                "include_photo": false,
+                "include_background": false,
+                "with_structured_text": false
+            }
+        ],
+        "pred_idx": [
+            0
+        ],
+        "pred": "<table><thead><tr><th>题号</th><th>一</th><th>二</th><th>三</th><th>四</th><th>五</th><th>六</th><th>附加题</th><th>总分</th></tr></thead><tbody><tr><td>得分</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></tbody></table>",
+        "norm_pred": "<html><body><table border=\"1\" ><tr><td>题号</td><td>一</td><td>二</td><td>三</td><td>四</td><td>五</td><td>六</td><td>附加题</td><td>总分</td></tr><tr><td>得分</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></table></body></html>",
+        "pred_category_type": "",
+        "pred_position": "",
+        "edit": 0.15789473684210525,
+        "img_id": "jiaocaineedrop_jiaocai_needrop_en_999.jpg",
+        "metric": {
+            "TEDS": 1.0,
+            "TEDS_structure_only": 1.0,
+            "Edit_dist": 0.0
+        },
+        "image_name": "jiaocaineedrop_jiaocai_needrop_en_999.jpg",
+        "upper_len": 248,
+        "Edit_num": 0
+    },
+    {
+        "gt_idx": [
+            0
+        ],
+        "gt": "<table>\n<thead>\n<tr>\n <th>Variable</th>\n <th>Description</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n <td>1</td>\n <td>Flow of wash oil to reactor riser</td>\n</tr>\n<tr>\n <td>2</td>\n <td>Flow of fresh feed to reactor riser</td>\n</tr>\n<tr>\n <td>3</td>\n <td>Flow of slurry to reactor riser</td>\n</tr>\n<tr>\n <td>4</td>\n <td>Temperature of fresh feed entering furnace</td>\n</tr>\n<tr>\n <td>5</td>\n <td>Fresh feed temperature to riser</td>\n</tr>\n<tr>\n <td>6</td>\n <td>Furnace firebox temperature</td>\n</tr>\n<tr>\n <td>7</td>\n <td>Combustion air blower inlet suction flow</td>\n</tr>\n<tr>\n <td>8</td>\n <td>Combustion air blower throughput</td>\n</tr>\n<tr>\n <td>9</td>\n <td>Combustion air flow rate</td>\n</tr>\n<tr>\n <td>10</td>\n <td>Lift air blower suction flow</td>\n</tr>\n<tr>\n <td>11</td>\n <td>Lift air blower speed</td>\n</tr>\n<tr>\n <td>12</td>\n <td>Lift air blower throughput</td>\n</tr>\n<tr>\n <td>13</td>\n <td>Riser temperature</td>\n</tr>\n<tr>\n <td>14</td>\n <td>Wet gas compressor suction pressure</td>\n</tr>\n<tr>\n <td>15</td>\n <td>Wet gas compressor inlet suction flow</td>\n</tr>\n<tr>\n <td>16</td>\n <td>Wet gas flow to vapor recovery unit</td>\n</tr>\n<tr>\n <td>17</td>\n <td>Regenerator bed temperature</td>\n</tr>\n<tr>\n <td>18</td>\n <td>Stack gas valve position</td>\n</tr>\n<tr>\n <td>19</td>\n <td>Regenerator pressure</td>\n</tr>\n<tr>\n <td>20</td>\n <td>Standpipe catalyst level</td>\n</tr>\n<tr>\n <td>21</td>\n <td>Stack gas $\\text{O}_{2}$ concentration</td>\n</tr>\n<tr>\n <td>22</td>\n <td>Combustion air blower discharge pressure</td>\n</tr>\n<tr>\n <td>23</td>\n <td>Wet gas composition suction valve position</td>\n</tr>\n</tbody>\n</table>",
+        "norm_gt": "<html><body><table border=\"1\" ><tr><td>Variable</td><td>Description</td></tr><tr><td>1</td><td>Flow of wash oil to reactor riser</td></tr><tr><td>2</td><td>Flow of fresh feed to reactor riser</td></tr><tr><td>3</td><td>Flow of slurry to reactor riser</td></tr><tr><td>4</td><td>Temperature of fresh feed entering furnace</td></tr><tr><td>5</td><td>Fresh feed temperature to riser</td></tr><tr><td>6</td><td>Furnace firebox temperature</td></tr><tr><td>7</td><td>Combustion air blower inlet suction flow</td></tr><tr><td>8</td><td>Combustion air blower throughput</td></tr><tr><td>9</td><td>Combustion air flow rate</td></tr><tr><td>10</td><td>Lift air blower suction flow</td></tr><tr><td>11</td><td>Lift air blower speed</td></tr><tr><td>12</td><td>Lift air blower throughput</td></tr><tr><td>13</td><td>Riser temperature</td></tr><tr><td>14</td><td>Wet gas compressor suction pressure</td></tr><tr><td>15</td><td>Wet gas compressor inlet suction flow</td></tr><tr><td>16</td><td>Wet gas flow to vapor recovery unit</td></tr><tr><td>17</td><td>Regenerator bed temperature</td></tr><tr><td>18</td><td>Stack gas valve position</td></tr><tr><td>19</td><td>Regenerator pressure</td></tr><tr><td>20</td><td>Standpipe catalyst level</td></tr><tr><td>21</td><td>Stack gas $\\text{O}_{2}$ concentration</td></tr><tr><td>22</td><td>Combustion air blower discharge pressure</td></tr><tr><td>23</td><td>Wet gas composition suction valve position</td></tr></table></body></html>",
+        "gt_category_type": "table",
+        "gt_position": [
+            2
+        ],
+        "gt_attribute": [
+            {
+                "table_layout": "horizontal",
+                "with_span": true,
+                "line": "fewer_line",
+                "language": "table_en",
+                "include_equation": false,
+                "include_photo": false,
+                "include_background": false,
+                "with_structured_text": false
+            }
+        ],
+        "pred_idx": [
+            0
+        ],
+        "pred": "<table><thead><tr><th>Variable</th><th>Description</th></tr></thead><tbody><tr><td>1</td><td>Flow of wash oil to reactor riser</td></tr><tr><td>2</td><td>Flow of fresh feed to reactor riser</td></tr><tr><td>3</td><td>Flow of slurry to reactor riser</td></tr><tr><td>4</td><td>Temperature of fresh feed entering furnace</td></tr><tr><td>5</td><td>Fresh feed temperature to riser</td></tr><tr><td>6</td><td>Furnace firebox temperature</td></tr><tr><td>7</td><td>Combustion air blower inlet suction flow</td></tr><tr><td>8</td><td>Combustion air blower throughput</td></tr><tr><td>9</td><td>Combustion air flow rate</td></tr><tr><td>10</td><td>Lift air blower suction flow</td></tr><tr><td>11</td><td>Lift air blower speed</td></tr><tr><td>12</td><td>Lift air blower throughput</td></tr><tr><td>13</td><td>Riser temperature</td></tr><tr><td>14</td><td>Wet gas compressor suction pressure</td></tr><tr><td>15</td><td>Wet gas compressor inlet suction flow</td></tr><tr><td>16</td><td>Wet gas flow to vapor recovery unit</td></tr><tr><td>17</td><td>Regenerator bed temperature</td></tr><tr><td>18</td><td>Stack gas valve position</td></tr><tr><td>19</td><td>Regenerator pressure</td></tr><tr><td>20</td><td>Standpipe catalyst level</td></tr><tr><td>21</td><td>Stack gas O$_2$ concentration</td></tr><tr><td>22</td><td>Combustion air blower discharge pressure</td></tr><tr><td>23</td><td>Wet gas composition suction valve position</td></tr></tbody></table>",
+        "norm_pred": "<html><body><table border=\"1\" ><tr><td>Variable</td><td>Description</td></tr><tr><td>1</td><td>Flow of wash oil to reactor riser</td></tr><tr><td>2</td><td>Flow of fresh feed to reactor riser</td></tr><tr><td>3</td><td>Flow of slurry to reactor riser</td></tr><tr><td>4</td><td>Temperature of fresh feed entering furnace</td></tr><tr><td>5</td><td>Fresh feed temperature to riser</td></tr><tr><td>6</td><td>Furnace firebox temperature</td></tr><tr><td>7</td><td>Combustion air blower inlet suction flow</td></tr><tr><td>8</td><td>Combustion air blower throughput</td></tr><tr><td>9</td><td>Combustion air flow rate</td></tr><tr><td>10</td><td>Lift air blower suction flow</td></tr><tr><td>11</td><td>Lift air blower speed</td></tr><tr><td>12</td><td>Lift air blower throughput</td></tr><tr><td>13</td><td>Riser temperature</td></tr><tr><td>14</td><td>Wet gas compressor suction pressure</td></tr><tr><td>15</td><td>Wet gas compressor inlet suction flow</td></tr><tr><td>16</td><td>Wet gas flow to vapor recovery unit</td></tr><tr><td>17</td><td>Regenerator bed temperature</td></tr><tr><td>18</td><td>Stack gas valve position</td></tr><tr><td>19</td><td>Regenerator pressure</td></tr><tr><td>20</td><td>Standpipe catalyst level</td></tr><tr><td>21</td><td>Stack gas O$_2$ concentration</td></tr><tr><td>22</td><td>Combustion air blower discharge pressure</td></tr><tr><td>23</td><td>Wet gas composition suction valve position</td></tr></table></body></html>",
+        "pred_category_type": "",
+        "pred_position": "",
+        "edit": 0.09894212818917238,
+        "img_id": "docstructbench_llm-raw-scihub-o.O-ceat.200600410.pdf_5.jpg",
+        "metric": {
+            "TEDS": 0.9963450292397661,
+            "TEDS_structure_only": 1.0,
+            "Edit_dist": 0.0068212824010914054
+        },
+        "image_name": "docstructbench_llm-raw-scihub-o.O-ceat.200600410.pdf_5.jpg",
+        "upper_len": 1466,
+        "Edit_num": 10
+    },
+    {
+        "gt_idx": [
+            1
+        ],
+        "gt": "<table>\n<thead>\n<tr>\n <th>Case</th>\n <th>Disturbance</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n <td>1</td>\n <td>10 % loss of combustion air blower capacity</td>\n</tr>\n<tr>\n <td>2 </td>\n <td> 5 % degradation in the flow of regenerated catalyst</td>\n</tr>\n<tr>\n <td>3</td>\n <td>5 % increase in the coke factor of the feed</td>\n</tr>\n<tr>\n <td>4</td>\n <td>10 % decrease in the heat exchanger coefficient of the furnace</td>\n</tr>\n<tr>\n <td>5</td>\n <td>10 % increase in fresh feed</td>\n</tr>\n<tr>\n <td>6</td>\n <td>5% decrease in lift air blower speed</td>\n</tr>\n<tr>\n <td>7</td>\n <td>5 % increase in friction coefficient of regenerated catalyst</td>\n</tr>\n<tr>\n <td>8</td>\n <td>Negative bias of reactor pressure sensor</td>\n</tr>\n</tbody>\n</table>",
+        "norm_gt": "<html><body><table border=\"1\" ><tr><td>Case</td><td>Disturbance</td></tr><tr><td>1</td><td>10 % loss of combustion air blower capacity</td></tr><tr><td>2 </td><td> 5 % degradation in the flow of regenerated catalyst</td></tr><tr><td>3</td><td>5 % increase in the coke factor of the feed</td></tr><tr><td>4</td><td>10 % decrease in the heat exchanger coefficient of the furnace</td></tr><tr><td>5</td><td>10 % increase in fresh feed</td></tr><tr><td>6</td><td>5% decrease in lift air blower speed</td></tr><tr><td>7</td><td>5 % increase in friction coefficient of regenerated catalyst</td></tr><tr><td>8</td><td>Negative bias of reactor pressure sensor</td></tr></table></body></html>",
+        "gt_category_type": "table",
+        "gt_position": [
+            13
+        ],
+        "gt_attribute": [
+            {
+                "table_layout": "horizontal",
+                "with_span": true,
+                "line": "fewer_line",
+                "language": "table_en",
+                "include_equation": false,
+                "include_photo": false,
+                "include_background": false,
+                "with_structured_text": false
+            }
+        ],
+        "pred_idx": [
+            1
+        ],
+        "pred": "<table><thead><tr><th>Case</th><th>Disturbance</th></tr></thead><tbody><tr><td>1</td><td>10 % loss of combustion air blower capacity</td></tr><tr><td>2</td><td>5 % degradation in the flow of regenerated catalyst</td></tr><tr><td>3</td><td>5 % increase in the coke factor of the feed</td></tr><tr><td>4</td><td>10 % decrease in the heat exchanger coefficient of the furnace</td></tr><tr><td>5</td><td>10 % increase in fresh feed</td></tr><tr><td>6</td><td>5 % decrease in lift air blower speed</td></tr><tr><td>7</td><td>5 % increase in friction coefficient of regenerated catalyst</td></tr><tr><td>8</td><td>Negative bias of reactor pressure sensor</td></tr></tbody></table>",
+        "norm_pred": "<html><body><table border=\"1\" ><tr><td>Case</td><td>Disturbance</td></tr><tr><td>1</td><td>10 % loss of combustion air blower capacity</td></tr><tr><td>2</td><td>5 % degradation in the flow of regenerated catalyst</td></tr><tr><td>3</td><td>5 % increase in the coke factor of the feed</td></tr><tr><td>4</td><td>10 % decrease in the heat exchanger coefficient of the furnace</td></tr><tr><td>5</td><td>10 % increase in fresh feed</td></tr><tr><td>6</td><td>5 % decrease in lift air blower speed</td></tr><tr><td>7</td><td>5 % increase in friction coefficient of regenerated catalyst</td></tr><tr><td>8</td><td>Negative bias of reactor pressure sensor</td></tr></table></body></html>",
+        "pred_category_type": "html_table",
+        "pred_position": 3165,
+        "edit": 0.08446866485013624,
+        "img_id": "docstructbench_llm-raw-scihub-o.O-ceat.200600410.pdf_5.jpg",
+        "metric": {
+            "TEDS": 0.9797682297682297,
+            "TEDS_structure_only": 1.0,
+            "Edit_dist": 0.004392386530014641
+        },
+        "image_name": "docstructbench_llm-raw-scihub-o.O-ceat.200600410.pdf_5.jpg",
+        "upper_len": 683,
+        "Edit_num": 3
+    },
+    {
+        "gt_idx": [
+            0
+        ],
+        "gt": "<table>\n<thead>\n<tr>\n <th>得分</th>\n <th></th>\n</tr>\n</thead>\n<tbody>\n<tr>\n <td>阅卷人</td>\n <td></td>\n</tr>\n</tbody>\n</table>",
+        "norm_gt": "<html><body><table border=\"1\" ><tr><td>得分</td><td></td></tr><tr><td>阅卷人</td><td></td></tr></table></body></html>",
+        "gt_category_type": "table",
+        "gt_position": [
+            24
+        ],
+        "gt_attribute": [
+            {
+                "table_layout": "horizontal",
+                "with_span": false,
+                "line": "full_line",
+                "language": "table_simplified_chinese",
+                "include_equation": false,
+                "include_photo": false,
+                "include_background": false,
+                "with_structured_text": false
+            }
+        ],
+        "pred_idx": [
+            0
+        ],
+        "pred": "<table>  <tr>    <td>得分</td>    <td></td>  </tr>  <tr>    <td>阅卷人</td>    <td></td>  </tr>  <tr>  </tr></table>",
+        "norm_pred": "<html><body><table border=\"1\" > <tr> <td>得分</td> <td></td> </tr> <tr> <td>阅卷人</td> <td></td> </tr> <tr> </tr></table></body></html>",
+        "pred_category_type": "",
+        "pred_position": "",
+        "edit": 0.4793388429752066,
+        "img_id": "jiaocaineedrop_42351289.pdf_1.jpg",
+        "metric": {
+            "TEDS": 0.8571428571428572,
+            "TEDS_structure_only": 0.8571428571428572,
+            "Edit_dist": 0.1450381679389313
+        },
+        "image_name": "jiaocaineedrop_42351289.pdf_1.jpg",
+        "upper_len": 131,
+        "Edit_num": 19
+    },
+    {
+        "gt_idx": [
+            0
+        ],
+        "gt": "<table style=\"undefined;table-layout: fixed; width: 109px\"><colgroup><col style=\"width: 53px\"><col style=\"width: 56px\"></colgroup>\n<thead>\n<tr>\n <th>得分</th>\n <th></th>\n</tr>\n</thead>\n<tbody>\n<tr>\n <td>阅卷人</td>\n <td></td>\n</tr>\n</tbody>\n</table>",
+        "norm_gt": "<html><body><table border=\"1\" ><tr><td>得分</td><td></td></tr><tr><td>阅卷人</td><td></td></tr></table></body></html>",
+        "gt_category_type": "table",
+        "gt_position": [
+            10
+        ],
+        "gt_attribute": [
+            {
+                "table_layout": "horizontal",
+                "with_span": false,
+                "line": "full_line",
+                "language": "table_simplified_chinese",
+                "include_equation": false,
+                "include_photo": false,
+                "include_background": false,
+                "with_structured_text": false
+            }
+        ],
+        "pred_idx": [
+            0
+        ],
+        "pred": "<table>  <tr>    <td>得分</td>    <td></td>  </tr>  <tr>    <td>阅卷人</td>    <td></td>  </tr>  <tr>  </tr></table>",
+        "norm_pred": "<html><body><table border=\"1\" > <tr> <td>得分</td> <td></td> </tr> <tr> <td>阅卷人</td> <td></td> </tr> <tr> </tr></table></body></html>",
+        "pred_category_type": "",
+        "pred_position": "",
+        "edit": 0.7172131147540983,
+        "img_id": "jiaocaineedrop_20608808.pdf_0.jpg",
+        "metric": {
+            "TEDS": 0.8571428571428572,
+            "TEDS_structure_only": 0.8571428571428572,
+            "Edit_dist": 0.1450381679389313
+        },
+        "image_name": "jiaocaineedrop_20608808.pdf_0.jpg",
+        "upper_len": 131,
+        "Edit_num": 19
+    },
+    {
+        "gt_idx": [
+            0
+        ],
+        "gt": "<table>\n<thead>\n<tr>\n <th></th>\n <th>NS raisins</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n <td>Prior year's shipments ......</td>\n <td>297,176</td>\n</tr>\n<tr>\n <td>Multiplied by 90 percent ......</td>\n <td>0.90</td>\n</tr>\n<tr>\n <td>Equals adjusted base ......</td>\n <td>267,458</td>\n</tr>\n<tr>\n <td>Minus carryin inventory ......</td>\n <td>116,465</td>\n</tr>\n<tr>\n <td>Plus desirable carryout ......</td>\n <td>60,000</td>\n</tr>\n<tr>\n <td>Equals computed trade demand<br></td>\n <td>210,993</td>\n</tr>\n<tr>\n <td>Plus Oleate minimum trade de-mand tons ......</td>\n <td>500</td>\n</tr>\n<tr>\n <td>Equals revised trade demand ......</td>\n <td>211,493</td>\n</tr>\n</tbody>\n</table>",
+        "norm_gt": "<html><body><table border=\"1\" ><tr><td></td><td>NS raisins</td></tr><tr><td>Prior year's shipments ......</td><td>297,176</td></tr><tr><td>Multiplied by 90 percent ......</td><td>0.90</td></tr><tr><td>Equals adjusted base ......</td><td>267,458</td></tr><tr><td>Minus carryin inventory ......</td><td>116,465</td></tr><tr><td>Plus desirable carryout ......</td><td>60,000</td></tr><tr><td>Equals computed trade demand<br/></td><td>210,993</td></tr><tr><td>Plus Oleate minimum trade de-mand tons ......</td><td>500</td></tr><tr><td>Equals revised trade demand ......</td><td>211,493</td></tr></table></body></html>",
+        "gt_category_type": "table",
+        "gt_position": [
+            8
+        ],
+        "gt_attribute": [
+            {
+                "table_layout": "horizontal",
+                "with_span": false,
+                "line": "less_line",
+                "language": "table_en",
+                "include_equation": false,
+                "include_photo": false,
+                "include_background": false,
+                "with_structured_text": false
+            }
+        ],
+        "pred_idx": [
+            0
+        ],
+        "pred": "<table>  <tr>    <td></td>    <td>NS raisins</td>  </tr>  <tr>    <td>Prior year's shipments</td>    <td>297,176</td>  </tr>  <tr>    <td>Multipled by 90 percent</td>    <td>0.90</td>  </tr>  <tr>    <td>Equal s adjusted base</td>    <td>267,458</td>  </tr>  <tr>    <td>Minus carryin inventory</td>    <td>116,465</td>  </tr>  <tr>    <td>Plus desirable carryout</td>    <td>60,000</td>  </tr>  <tr>    <td>Equal s computed trade demand</td>    <td>210,993</td>  </tr>  <tr>    <td>Plus Cleate minimum trade de- m and tons</td>    <td>500</td>  </tr>  <tr>    <td>Equal s revised trade demand</td>    <td>211,493</td>  </tr>  <tr>  </tr></table>",
+        "norm_pred": "<html><body><table border=\"1\" > <tr> <td></td> <td>NS raisins</td> </tr> <tr> <td>Prior year's shipments</td> <td>297,176</td> </tr> <tr> <td>Multipled by 90 percent</td> <td>0.90</td> </tr> <tr> <td>Equal s adjusted base</td> <td>267,458</td> </tr> <tr> <td>Minus carryin inventory</td> <td>116,465</td> </tr> <tr> <td>Plus desirable carryout</td> <td>60,000</td> </tr> <tr> <td>Equal s computed trade demand</td> <td>210,993</td> </tr> <tr> <td>Plus Cleate minimum trade de- m and tons</td> <td>500</td> </tr> <tr> <td>Equal s revised trade demand</td> <td>211,493</td> </tr> <tr> </tr></table></body></html>",
+        "pred_category_type": "",
+        "pred_position": "",
+        "edit": 0.28355957767722473,
+        "img_id": "newspaper_fe5ed29024932fad071afc53807b16ba_2.jpg",
+        "metric": {
+            "TEDS": 0.8992884596676392,
+            "TEDS_structure_only": 0.9642857142857143,
+            "Edit_dist": 0.1761827079934747
+        },
+        "image_name": "newspaper_fe5ed29024932fad071afc53807b16ba_2.jpg",
+        "upper_len": 613,
+        "Edit_num": 108
+    },
+    {
+        "gt_idx": [
+            1
+        ],
+        "gt": "<table>\n<thead>\n<tr>\n <th></th>\n <th>NS raisins</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n <td>Trade demand ......</td>\n <td>211.493</td>\n</tr>\n<tr>\n <td>Divided by crop estimate ......</td>\n <td>304,072</td>\n</tr>\n<tr>\n <td>Equals free percentage</td>\n <td>70</td>\n</tr>\n<tr>\n <td>100 minus free percentage equals reserve percentage ......</td>\n <td>30</td>\n</tr>\n</tbody>\n</table>",
+        "norm_gt": "<html><body><table border=\"1\" ><tr><td></td><td>NS raisins</td></tr><tr><td>Trade demand ......</td><td>211.493</td></tr><tr><td>Divided by crop estimate ......</td><td>304,072</td></tr><tr><td>Equals free percentage</td><td>70</td></tr><tr><td>100 minus free percentage equals reserve percentage ......</td><td>30</td></tr></table></body></html>",
+        "gt_category_type": "table",
+        "gt_position": [
+            18
+        ],
+        "gt_attribute": [
+            {
+                "table_layout": "horizontal",
+                "with_span": false,
+                "line": "less_line",
+                "language": "table_en",
+                "include_equation": false,
+                "include_photo": false,
+                "include_background": false,
+                "with_structured_text": false
+            }
+        ],
+        "pred_idx": [
+            1
+        ],
+        "pred": "<table>  <tr>    <td></td>    <td>NIS raisins</td>  </tr>  <tr>    <td>Trade demand</td>    <td>211,493</td>  </tr>  <tr>    <td>Divided by crop estimate</td>    <td>304,072</td>  </tr>  <tr>    <td>Equal free percentage</td>    <td>70</td>  </tr>  <tr>    <td>100 minus free percentage</td>    <td></td>  </tr>  <tr>    <td>equals reserve percentage</td>    <td>30</td>  </tr>  <tr>  </tr></table>",
+        "norm_pred": "<html><body><table border=\"1\" > <tr> <td></td> <td>NIS raisins</td> </tr> <tr> <td>Trade demand</td> <td>211,493</td> </tr> <tr> <td>Divided by crop estimate</td> <td>304,072</td> </tr> <tr> <td>Equal free percentage</td> <td>70</td> </tr> <tr> <td>100 minus free percentage</td> <td></td> </tr> <tr> <td>equals reserve percentage</td> <td>30</td> </tr> <tr> </tr></table></body></html>",
+        "pred_category_type": "html_table",
+        "pred_position": 5962,
+        "edit": 0.3768844221105528,
+        "img_id": "newspaper_fe5ed29024932fad071afc53807b16ba_2.jpg",
+        "metric": {
+            "TEDS": 0.7135571683838611,
+            "TEDS_structure_only": 0.7894736842105263,
+            "Edit_dist": 0.21761658031088082
+        },
+        "image_name": "newspaper_fe5ed29024932fad071afc53807b16ba_2.jpg",
+        "upper_len": 386,
+        "Edit_num": 84
+    },
+    {
+        "gt_idx": [
+            0
+        ],
+        "gt": "<table>\n<thead>\n<tr>\n <th>题号</th>\n <th>一</th>\n <th>二</th>\n <th>三</th>\n <th>四</th>\n <th>五</th>\n <th>三</th>\n <th>六</th>\n <th>附加题</th>\n <th>总分</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n <td>得分</td>\n <td></td>\n <td></td>\n <td></td>\n <td></td>\n <td></td>\n <td></td>\n <td></td>\n <td></td>\n <td></td>\n</tr>\n</tbody>\n</table>",
+        "norm_gt": "<html><body><table border=\"1\" ><tr><td>题号</td><td>一</td><td>二</td><td>三</td><td>四</td><td>五</td><td>三</td><td>六</td><td>附加题</td><td>总分</td></tr><tr><td>得分</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></table></body></html>",
+        "gt_category_type": "table",
+        "gt_position": [
+            3
+        ],
+        "gt_attribute": [
+            {
+                "table_layout": "horizontal",
+                "with_span": false,
+                "line": "full_line",
+                "language": "table_simplified_chinese",
+                "include_equation": false,
+                "include_photo": false,
+                "include_background": false,
+                "with_structured_text": false
+            }
+        ],
+        "pred_idx": [
+            0
+        ],
+        "pred": "<table><thead><tr><th>题号</th><th>一</th><th>二</th><th>三</th><th>四</th><th>五</th><th>六</th><th>附加题</th><th>总分</th></tr></thead><tbody><tr><td>得分</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></tbody></table>",
+        "norm_pred": "<html><body><table border=\"1\" ><tr><td>题号</td><td>一</td><td>二</td><td>三</td><td>四</td><td>五</td><td>六</td><td>附加题</td><td>总分</td></tr><tr><td>得分</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></table></body></html>",
+        "pred_category_type": "",
+        "pred_position": "",
+        "edit": 0.22077922077922077,
+        "img_id": "jiaocaineedrop_jiaocai_needrop_en_1349.jpg",
+        "metric": {
+            "TEDS": 0.9090909090909091,
+            "TEDS_structure_only": 0.9090909090909091,
+            "Edit_dist": 0.07116104868913857
+        },
+        "image_name": "jiaocaineedrop_jiaocai_needrop_en_1349.jpg",
+        "upper_len": 267,
+        "Edit_num": 19
+    },
+    {
+        "gt_idx": [
+            0
+        ],
+        "gt": "<table>\n<thead>\n<tr>\n <th>Data</th>\n <th>Freq.</th>\n <th>Deviations</th>\n <th>${\\text{Deviations}}^{2}$</th>\n <th>$(\\text{Freq.})({\\text{Deviations}}^{2})$</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n <td>$x$</td>\n <td>$f$</td>\n <td>$(x-\\bar{x})$</td>\n <td>$(x-\\bar{x})^2$</td>\n <td>$(f)(x-\\bar{x})^2$</td>\n</tr>\n<tr>\n <td>9</td>\n <td>1</td>\n <td>$9-10.525=-1.525$</td>\n <td>$(-1.525)^2=2.325625$</td>\n <td>$1 \\times 2.325625=2.325625$</td>\n</tr>\n<tr>\n <td>9.5</td>\n <td>2</td>\n <td>$9.5-10.525=-1.025$</td>\n <td>$(-1.025)^2=1.050625$</td>\n <td>$2 \\times 1.050625=2.101250$</td>\n</tr>\n<tr>\n <td>10</td>\n <td>4</td>\n <td>$10-10.525=-0.525$</td>\n <td>$(-0.525)^2=0.275625$</td>\n <td>$4 \\times 0.275625=1.1025$</td>\n</tr>\n<tr>\n <td>10.5</td>\n <td>4</td>\n <td>$10.5-10.525=-0.025$</td>\n <td>$(-0.025)^2=0.000625$</td>\n <td>$4 \\times 0.000625=0.0025$</td>\n</tr>\n<tr>\n <td>11</td>\n <td>6</td>\n <td>$11-10.525=0.475$</td>\n <td>$(0.475)^2=0.225625$</td>\n <td>$6 \\times 0.225625=1.35375$</td>\n</tr>\n<tr>\n <td>11.5</td>\n <td>3</td>\n <td>$11.5-10.525=0.975$</td>\n <td>$(0.975)^2=0.950625$</td>\n <td>$3 \\times 0.950625=2.851875$</td>\n</tr>\n<tr>\n <td></td>\n <td></td>\n <td></td>\n <td></td>\n <td>The total is 9.7375</td>\n</tr>\n</tbody>\n</table>",
+        "norm_gt": "<html><body><table border=\"1\" ><tr><td>Data</td><td>Freq.</td><td>Deviations</td><td>${\\text{Deviations}}^{2}$</td><td>$(\\text{Freq.})({\\text{Deviations}}^{2})$</td></tr><tr><td>$x$</td><td>$f$</td><td>$(x-\\bar{x})$</td><td>$(x-\\bar{x})^2$</td><td>$(f)(x-\\bar{x})^2$</td></tr><tr><td>9</td><td>1</td><td>$9-10.525=-1.525$</td><td>$(-1.525)^2=2.325625$</td><td>$1 \\times 2.325625=2.325625$</td></tr><tr><td>9.5</td><td>2</td><td>$9.5-10.525=-1.025$</td><td>$(-1.025)^2=1.050625$</td><td>$2 \\times 1.050625=2.101250$</td></tr><tr><td>10</td><td>4</td><td>$10-10.525=-0.525$</td><td>$(-0.525)^2=0.275625$</td><td>$4 \\times 0.275625=1.1025$</td></tr><tr><td>10.5</td><td>4</td><td>$10.5-10.525=-0.025$</td><td>$(-0.025)^2=0.000625$</td><td>$4 \\times 0.000625=0.0025$</td></tr><tr><td>11</td><td>6</td><td>$11-10.525=0.475$</td><td>$(0.475)^2=0.225625$</td><td>$6 \\times 0.225625=1.35375$</td></tr><tr><td>11.5</td><td>3</td><td>$11.5-10.525=0.975$</td><td>$(0.975)^2=0.950625$</td><td>$3 \\times 0.950625=2.851875$</td></tr><tr><td></td><td></td><td></td><td></td><td>The total is 9.7375</td></tr></table></body></html>",
+        "gt_category_type": "table",
+        "gt_position": [
+            1
+        ],
+        "gt_attribute": [
+            {
+                "table_layout": "horizontal",
+                "with_span": false,
+                "line": "full_line",
+                "language": "table_en",
+                "include_equation": true,
+                "include_photo": false,
+                "include_background": false,
+                "with_structured_text": false
+            }
+        ],
+        "pred_idx": [
+            0
+        ],
+        "pred": "<table><thead><tr><th>Data</th><th>Freq.</th><th>Deviations</th><th>$\\text{Deviations}^2$</th><th>(Freq.)(Deviations$^2$)</th></tr></thead><tbody><tr><td>$x$</td><td>$f$</td><td>$(x-\\overline{x})$</td><td>$(x-\\overline{x})^2$</td><td>$(f)(x-\\overline{x})^2$</td></tr><tr><td>9</td><td>1</td><td>$9-10.525=-1.525$</td><td>$(-1.525)^2=2.325625$</td><td>$1\\times2.325625=2.325625$</td></tr><tr><td>9.5</td><td>2</td><td>$9.5-10.525=-1.025$</td><td>$(-1.025)^2=1.050625$</td><td>$2\\times1.050625=2.101250$</td></tr><tr><td>10</td><td>4</td><td>$10-10.525=-0.525$</td><td>$(-0.525)^2=0.275625$</td><td>$4\\times0.275625=1.1025$</td></tr><tr><td>10.5</td><td>4</td><td>$10.5-10.525=-0.025$</td><td>$(-0.025)^2=0.000625$</td><td>$4\\times0.000625=0.0025$</td></tr><tr><td>11</td><td>6</td><td>$11-10.525=0.475$</td><td>$(0.475)^2=0.225625$</td><td>$6\\times0.225625=1.35375$</td></tr><tr><td>11.5</td><td>3</td><td>$11.5-10.525=0.975$</td><td>$(0.975)^2=0.950625$</td><td>$3\\times0.950625=2.851875$</td></tr><tr><td></td><td></td><td></td><td></td><td>The total is 9.7375</td></tr></tbody></table>",
+        "norm_pred": "<html><body><table border=\"1\" ><tr><td>Data</td><td>Freq.</td><td>Deviations</td><td>$\\text{Deviations}^2$</td><td>(Freq.)(Deviations$^2$)</td></tr><tr><td>$x$</td><td>$f$</td><td>$(x-\\overline{x})$</td><td>$(x-\\overline{x})^2$</td><td>$(f)(x-\\overline{x})^2$</td></tr><tr><td>9</td><td>1</td><td>$9-10.525=-1.525$</td><td>$(-1.525)^2=2.325625$</td><td>$1\\times2.325625=2.325625$</td></tr><tr><td>9.5</td><td>2</td><td>$9.5-10.525=-1.025$</td><td>$(-1.025)^2=1.050625$</td><td>$2\\times1.050625=2.101250$</td></tr><tr><td>10</td><td>4</td><td>$10-10.525=-0.525$</td><td>$(-0.525)^2=0.275625$</td><td>$4\\times0.275625=1.1025$</td></tr><tr><td>10.5</td><td>4</td><td>$10.5-10.525=-0.025$</td><td>$(-0.025)^2=0.000625$</td><td>$4\\times0.000625=0.0025$</td></tr><tr><td>11</td><td>6</td><td>$11-10.525=0.475$</td><td>$(0.475)^2=0.225625$</td><td>$6\\times0.225625=1.35375$</td></tr><tr><td>11.5</td><td>3</td><td>$11.5-10.525=0.975$</td><td>$(0.975)^2=0.950625$</td><td>$3\\times0.950625=2.851875$</td></tr><tr><td></td><td></td><td></td><td></td><td>The total is 9.7375</td></tr></table></body></html>",
+        "pred_category_type": "",
+        "pred_position": "",
+        "edit": 0.13945857260049221,
+        "img_id": "yanbaopptmerge_d4fc7cba428625974e93183edfccea73.pdf_89.jpg",
+        "metric": {
+            "TEDS": 0.9604954160142487,
+            "TEDS_structure_only": 1.0,
+            "Edit_dist": 0.05116696588868941
+        },
+        "image_name": "yanbaopptmerge_d4fc7cba428625974e93183edfccea73.pdf_89.jpg",
+        "upper_len": 1114,
+        "Edit_num": 57
+    },
+    {
+        "gt_idx": [
+            0
+        ],
+        "gt": "<table>\n<thead>\n<tr>\n <th>得分</th>\n <th></th>\n</tr>\n</thead>\n<tbody>\n<tr>\n <td>阅卷人</td>\n <td></td>\n</tr>\n</tbody>\n</table>",
+        "norm_gt": "<html><body><table border=\"1\" ><tr><td>得分</td><td></td></tr><tr><td>阅卷人</td><td></td></tr></table></body></html>",
+        "gt_category_type": "table",
+        "gt_position": [
+            11
+        ],
+        "gt_attribute": [
+            {
+                "table_layout": "horizontal",
+                "with_span": false,
+                "line": "full_line",
+                "language": "table_simplified_chinese",
+                "include_equation": false,
+                "include_photo": false,
+                "include_background": false,
+                "with_structured_text": false
+            }
+        ],
+        "pred_idx": [
+            0
+        ],
+        "pred": "<table>  <tr>    <td>得分</td>    <td></td>  </tr>  <tr>    <td>阅卷人</td>    <td></td>  </tr>  <tr>  </tr></table>",
+        "norm_pred": "<html><body><table border=\"1\" > <tr> <td>得分</td> <td></td> </tr> <tr> <td>阅卷人</td> <td></td> </tr> <tr> </tr></table></body></html>",
+        "pred_category_type": "",
+        "pred_position": "",
+        "edit": 0.4793388429752066,
+        "img_id": "jiaocaineedrop_33137159.pdf_3.jpg",
+        "metric": {
+            "TEDS": 0.8571428571428572,
+            "TEDS_structure_only": 0.8571428571428572,
+            "Edit_dist": 0.1450381679389313
+        },
+        "image_name": "jiaocaineedrop_33137159.pdf_3.jpg",
+        "upper_len": 131,
+        "Edit_num": 19
+    }
+]

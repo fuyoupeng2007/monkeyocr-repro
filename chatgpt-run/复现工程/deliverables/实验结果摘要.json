@@ -1,0 +1,42 @@
+{
+  "scope": {
+    "full_981_pages_run": false,
+    "formal_subset_pages": 120,
+    "pilot_pages": 20,
+    "subset_seed": 250605
+  },
+  "monkeyocr_formal_120": {
+    "successful_pages": 112,
+    "upstream_failure_pages_counted_as_empty_predictions": 8,
+    "text_edit_en": 0.09610974327045849,
+    "text_edit_zh": 0.11414678170212525,
+    "formula_edit_en": 0.280149451517494,
+    "formula_edit_zh": 0.5025335551916604,
+    "table_teds_en": 81.80138207555974,
+    "table_teds_zh": 84.13000726345585,
+    "table_edit_en": 0.16644949111831128,
+    "table_edit_zh": 0.17917679672276088,
+    "reading_order_edit_en": 0.19179921055846483,
+    "reading_order_edit_zh": 0.120844407339504,
+    "overall_edit_en": 0.18362697411618215,
+    "overall_edit_zh": 0.22917538523901262,
+    "model_only_successful_pages_seconds": 640.82,
+    "model_only_successful_pages_mean_seconds": 5.72,
+    "peak_vram_mib": 17960.7,
+    "formula_cdm": "历史评测器仅导出配对 JSON，未直接给出数值"
+  },
+  "paper_monkeyocr_3b_981": {
+    "overall_edit_en": 0.14,
+    "overall_edit_zh": 0.297,
+    "text_edit_en": 0.058,
+    "text_edit_zh": 0.185,
+    "formula_edit_en": 0.238,
+    "formula_edit_zh": 0.506,
+    "table_teds_en": 80.2,
+    "table_teds_zh": 77.7,
+    "table_edit_en": 0.17,
+    "table_edit_zh": 0.253,
+    "reading_order_edit_en": 0.093,
+    "reading_order_edit_zh": 0.244
+  }
+}

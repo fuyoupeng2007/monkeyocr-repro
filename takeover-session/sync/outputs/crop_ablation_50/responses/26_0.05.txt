@@ -1,0 +1,18 @@
+\begin{tabular}{|l|l|l|}
+\multicolumn{3}{c}{\textbf{Words and Expressions}}\\
+\hline
+\hline
+tower & [taiv(r)] & n. 塔\\
+\hline
+view & [vju:] & v. 看待 \& \\
+\hline
+useful & [ju:sfli] & adj. 有用\\
+\hline
+information & [infɛmɛrɪn] & n. 信息\\
+\hline
+center & [sente:] & n. 中心\\
+\hline
+symbol & ['simbl] & n. 象征\\
+\hline
+for example & & 例如\\
+\end{tabular}

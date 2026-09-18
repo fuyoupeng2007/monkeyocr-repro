@@ -1,0 +1,410 @@
+[
+  {
+    "source": "run_log",
+    "kind": "empty",
+    "img_id": "notes_f7f010b78016aeebd76e56d9283eb67f_50.jpg",
+    "reason": "漏检或上游异常：检测后没有有效区域，推理接口收到空提示列表。",
+    "evidence": {
+      "image_path": "notes_f7f010b78016aeebd76e56d9283eb67f_50.jpg",
+      "stem": "notes_f7f010b78016aeebd76e56d9283eb67f_50",
+      "pilot": false,
+      "started_at": "2026-09-18T00:28:14+0800",
+      "status": "error",
+      "error": "IndexError('list index out of range')",
+      "traceback": "Traceback (most recent call last):\n  File \"/root/autodl-tmp/monkeyocr-repro/scripts/run_batch_monkeyocr.py\", line 93, in main\n    metrics = parse_one(model, input_file, page_dir)\n  File \"/root/autodl-tmp/monkeyocr-repro/scripts/run_batch_monkeyocr.py\", line 42, in parse_one\n    infer_result = ds.apply(doc_analyze_llm, MonkeyOCR_model=model)\n  File \"/root/autodl-tmp/monkeyocr-repro/MonkeyOCR/magic_pdf/data/dataset.py\", line 289, in apply\n    return proc(self, *args, **kwargs)\n  File \"/root/autodl-tmp/monkeyocr-repro/MonkeyOCR/magic_pdf/model/doc_analyze_by_custom_model_llm.py\", line 64, in doc_analyze_llm\n    analyze_result = batch_model(images)\n  File \"/root/autodl-tmp/monkeyocr-repro/MonkeyOCR/magic_pdf/model/batch_analyze_llm.py\", line 81, in __call__\n    ocr_result = self.batch_llm_ocr(new_images_all, cids_all)\n  File \"/root/autodl-tmp/monkeyocr-repro/MonkeyOCR/magic_pdf/model/batch_analyze_llm.py\", line 158, in batch_llm_ocr\n    out = self.model.chat_model.batch_inference(new_images, messages)\n  File \"/root/autodl-tmp/monkeyocr-repro/MonkeyOCR/magic_pdf/model/custom_model.py\", line 129, in batch_inference\n    outputs = self.pipe(inputs, gen_config=self.gen_config)\n  File \"/root/autodl-tmp/conda_envs/monkeyocr/lib/python3.10/site-packages/lmdeploy/serve/vl_async_engine.py\", line 201, in __call__\n    return super().__call__(prompts, *args, **kwargs)\n  File \"/root/autodl-tmp/conda_envs/monkeyocr/lib/python3.10/site-packages/lmdeploy/serve/async_engine.py\", line 369, in __call__\n    return self.batch_infer(prompts,\n  File \"/root/autodl-tmp/conda_envs/monkeyocr/lib/python3.10/site-packages/lmdeploy/serve/vl_async_engine.py\", line 190, in batch_infer\n    prompts = self._convert_prompts(prompts)\n  File \"/root/autodl-tmp/conda_envs/monkeyocr/lib/python3.10/site-packages/lmdeploy/serve/vl_async_engine.py\", line 43, in _convert_prompts\n    elif isinstance(prompts[0], tuple) or isinstance(prompts[0], str):\nIndexError: list index out of range\n"
+    }
+  },
+  {
+    "source": "run_log",
+    "kind": "empty",
+    "img_id": "notes_f7f010b78016aeebd76e56d9283eb67f_48.jpg",
+    "reason": "漏检或上游异常：检测后没有有效区域，推理接口收到空提示列表。",
+    "evidence": {
+      "image_path": "notes_f7f010b78016aeebd76e56d9283eb67f_48.jpg",
+      "stem": "notes_f7f010b78016aeebd76e56d9283eb67f_48",
+      "pilot": false,
+      "started_at": "2026-09-18T00:29:27+0800",
+      "status": "error",
+      "error": "IndexError('list index out of range')",
+      "traceback": "Traceback (most recent call last):\n  File \"/root/autodl-tmp/monkeyocr-repro/scripts/run_batch_monkeyocr.py\", line 93, in main\n    metrics = parse_one(model, input_file, page_dir)\n  File \"/root/autodl-tmp/monkeyocr-repro/scripts/run_batch_monkeyocr.py\", line 42, in parse_one\n    infer_result = ds.apply(doc_analyze_llm, MonkeyOCR_model=model)\n  File \"/root/autodl-tmp/monkeyocr-repro/MonkeyOCR/magic_pdf/data/dataset.py\", line 289, in apply\n    return proc(self, *args, **kwargs)\n  File \"/root/autodl-tmp/monkeyocr-repro/MonkeyOCR/magic_pdf/model/doc_analyze_by_custom_model_llm.py\", line 64, in doc_analyze_llm\n    analyze_result = batch_model(images)\n  File \"/root/autodl-tmp/monkeyocr-repro/MonkeyOCR/magic_pdf/model/batch_analyze_llm.py\", line 81, in __call__\n    ocr_result = self.batch_llm_ocr(new_images_all, cids_all)\n  File \"/root/autodl-tmp/monkeyocr-repro/MonkeyOCR/magic_pdf/model/batch_analyze_llm.py\", line 158, in batch_llm_ocr\n    out = self.model.chat_model.batch_inference(new_images, messages)\n  File \"/root/autodl-tmp/monkeyocr-repro/MonkeyOCR/magic_pdf/model/custom_model.py\", line 129, in batch_inference\n    outputs = self.pipe(inputs, gen_config=self.gen_config)\n  File \"/root/autodl-tmp/conda_envs/monkeyocr/lib/python3.10/site-packages/lmdeploy/serve/vl_async_engine.py\", line 201, in __call__\n    return super().__call__(prompts, *args, **kwargs)\n  File \"/root/autodl-tmp/conda_envs/monkeyocr/lib/python3.10/site-packages/lmdeploy/serve/async_engine.py\", line 369, in __call__\n    return self.batch_infer(prompts,\n  File \"/root/autodl-tmp/conda_envs/monkeyocr/lib/python3.10/site-packages/lmdeploy/serve/vl_async_engine.py\", line 190, in batch_infer\n    prompts = self._convert_prompts(prompts)\n  File \"/root/autodl-tmp/conda_envs/monkeyocr/lib/python3.10/site-packages/lmdeploy/serve/vl_async_engine.py\", line 43, in _convert_prompts\n    elif isinstance(prompts[0], tuple) or isinstance(prompts[0], str):\nIndexError: list index out of range\n"
+    }
+  },
+  {
+    "source": "run_log",
+    "kind": "empty",
+    "img_id": "notes_f7f010b78016aeebd76e56d9283eb67f_52.jpg",
+    "reason": "漏检或上游异常：检测后没有有效区域，推理接口收到空提示列表。",
+    "evidence": {
+      "image_path": "notes_f7f010b78016aeebd76e56d9283eb67f_52.jpg",
+      "stem": "notes_f7f010b78016aeebd76e56d9283eb67f_52",
+      "pilot": false,
+      "started_at": "2026-09-18T00:30:11+0800",
+      "status": "error",
+      "error": "IndexError('list index out of range')",
+      "traceback": "Traceback (most recent call last):\n  File \"/root/autodl-tmp/monkeyocr-repro/scripts/run_batch_monkeyocr.py\", line 93, in main\n    metrics = parse_one(model, input_file, page_dir)\n  File \"/root/autodl-tmp/monkeyocr-repro/scripts/run_batch_monkeyocr.py\", line 42, in parse_one\n    infer_result = ds.apply(doc_analyze_llm, MonkeyOCR_model=model)\n  File \"/root/autodl-tmp/monkeyocr-repro/MonkeyOCR/magic_pdf/data/dataset.py\", line 289, in apply\n    return proc(self, *args, **kwargs)\n  File \"/root/autodl-tmp/monkeyocr-repro/MonkeyOCR/magic_pdf/model/doc_analyze_by_custom_model_llm.py\", line 64, in doc_analyze_llm\n    analyze_result = batch_model(images)\n  File \"/root/autodl-tmp/monkeyocr-repro/MonkeyOCR/magic_pdf/model/batch_analyze_llm.py\", line 81, in __call__\n    ocr_result = self.batch_llm_ocr(new_images_all, cids_all)\n  File \"/root/autodl-tmp/monkeyocr-repro/MonkeyOCR/magic_pdf/model/batch_analyze_llm.py\", line 158, in batch_llm_ocr\n    out = self.model.chat_model.batch_inference(new_images, messages)\n  File \"/root/autodl-tmp/monkeyocr-repro/MonkeyOCR/magic_pdf/model/custom_model.py\", line 129, in batch_inference\n    outputs = self.pipe(inputs, gen_config=self.gen_config)\n  File \"/root/autodl-tmp/conda_envs/monkeyocr/lib/python3.10/site-packages/lmdeploy/serve/vl_async_engine.py\", line 201, in __call__\n    return super().__call__(prompts, *args, **kwargs)\n  File \"/root/autodl-tmp/conda_envs/monkeyocr/lib/python3.10/site-packages/lmdeploy/serve/async_engine.py\", line 369, in __call__\n    return self.batch_infer(prompts,\n  File \"/root/autodl-tmp/conda_envs/monkeyocr/lib/python3.10/site-packages/lmdeploy/serve/vl_async_engine.py\", line 190, in batch_infer\n    prompts = self._convert_prompts(prompts)\n  File \"/root/autodl-tmp/conda_envs/monkeyocr/lib/python3.10/site-packages/lmdeploy/serve/vl_async_engine.py\", line 43, in _convert_prompts\n    elif isinstance(prompts[0], tuple) or isinstance(prompts[0], str):\nIndexError: list index out of range\n"
+    }
+  },
+  {
+    "source": "run_log",
+    "kind": "empty",
+    "img_id": "notes_f7f010b78016aeebd76e56d9283eb67f_45.jpg",
+    "reason": "漏检或上游异常：检测后没有有效区域，推理接口收到空提示列表。",
+    "evidence": {
+      "image_path": "notes_f7f010b78016aeebd76e56d9283eb67f_45.jpg",
+      "stem": "notes_f7f010b78016aeebd76e56d9283eb67f_45",
+      "pilot": false,
+      "started_at": "2026-09-18T00:31:11+0800",
+      "status": "error",
+      "error": "IndexError('list index out of range')",
+      "traceback": "Traceback (most recent call last):\n  File \"/root/autodl-tmp/monkeyocr-repro/scripts/run_batch_monkeyocr.py\", line 93, in main\n    metrics = parse_one(model, input_file, page_dir)\n  File \"/root/autodl-tmp/monkeyocr-repro/scripts/run_batch_monkeyocr.py\", line 42, in parse_one\n    infer_result = ds.apply(doc_analyze_llm, MonkeyOCR_model=model)\n  File \"/root/autodl-tmp/monkeyocr-repro/MonkeyOCR/magic_pdf/data/dataset.py\", line 289, in apply\n    return proc(self, *args, **kwargs)\n  File \"/root/autodl-tmp/monkeyocr-repro/MonkeyOCR/magic_pdf/model/doc_analyze_by_custom_model_llm.py\", line 64, in doc_analyze_llm\n    analyze_result = batch_model(images)\n  File \"/root/autodl-tmp/monkeyocr-repro/MonkeyOCR/magic_pdf/model/batch_analyze_llm.py\", line 81, in __call__\n    ocr_result = self.batch_llm_ocr(new_images_all, cids_all)\n  File \"/root/autodl-tmp/monkeyocr-repro/MonkeyOCR/magic_pdf/model/batch_analyze_llm.py\", line 158, in batch_llm_ocr\n    out = self.model.chat_model.batch_inference(new_images, messages)\n  File \"/root/autodl-tmp/monkeyocr-repro/MonkeyOCR/magic_pdf/model/custom_model.py\", line 129, in batch_inference\n    outputs = self.pipe(inputs, gen_config=self.gen_config)\n  File \"/root/autodl-tmp/conda_envs/monkeyocr/lib/python3.10/site-packages/lmdeploy/serve/vl_async_engine.py\", line 201, in __call__\n    return super().__call__(prompts, *args, **kwargs)\n  File \"/root/autodl-tmp/conda_envs/monkeyocr/lib/python3.10/site-packages/lmdeploy/serve/async_engine.py\", line 369, in __call__\n    return self.batch_infer(prompts,\n  File \"/root/autodl-tmp/conda_envs/monkeyocr/lib/python3.10/site-packages/lmdeploy/serve/vl_async_engine.py\", line 190, in batch_infer\n    prompts = self._convert_prompts(prompts)\n  File \"/root/autodl-tmp/conda_envs/monkeyocr/lib/python3.10/site-packages/lmdeploy/serve/vl_async_engine.py\", line 43, in _convert_prompts\n    elif isinstance(prompts[0], tuple) or isinstance(prompts[0], str):\nIndexError: list index out of range\n"
+    }
+  },
+  {
+    "source": "run_log",
+    "kind": "empty",
+    "img_id": "notes_f7f010b78016aeebd76e56d9283eb67f_116.jpg",
+    "reason": "漏检或上游异常：检测后没有有效区域，推理接口收到空提示列表。",
+    "evidence": {
+      "image_path": "notes_f7f010b78016aeebd76e56d9283eb67f_116.jpg",
+      "stem": "notes_f7f010b78016aeebd76e56d9283eb67f_116",
+      "pilot": false,
+      "started_at": "2026-09-18T00:32:31+0800",
+      "status": "error",
+      "error": "IndexError('list index out of range')",
+      "traceback": "Traceback (most recent call last):\n  File \"/root/autodl-tmp/monkeyocr-repro/scripts/run_batch_monkeyocr.py\", line 93, in main\n    metrics = parse_one(model, input_file, page_dir)\n  File \"/root/autodl-tmp/monkeyocr-repro/scripts/run_batch_monkeyocr.py\", line 42, in parse_one\n    infer_result = ds.apply(doc_analyze_llm, MonkeyOCR_model=model)\n  File \"/root/autodl-tmp/monkeyocr-repro/MonkeyOCR/magic_pdf/data/dataset.py\", line 289, in apply\n    return proc(self, *args, **kwargs)\n  File \"/root/autodl-tmp/monkeyocr-repro/MonkeyOCR/magic_pdf/model/doc_analyze_by_custom_model_llm.py\", line 64, in doc_analyze_llm\n    analyze_result = batch_model(images)\n  File \"/root/autodl-tmp/monkeyocr-repro/MonkeyOCR/magic_pdf/model/batch_analyze_llm.py\", line 81, in __call__\n    ocr_result = self.batch_llm_ocr(new_images_all, cids_all)\n  File \"/root/autodl-tmp/monkeyocr-repro/MonkeyOCR/magic_pdf/model/batch_analyze_llm.py\", line 158, in batch_llm_ocr\n    out = self.model.chat_model.batch_inference(new_images, messages)\n  File \"/root/autodl-tmp/monkeyocr-repro/MonkeyOCR/magic_pdf/model/custom_model.py\", line 129, in batch_inference\n    outputs = self.pipe(inputs, gen_config=self.gen_config)\n  File \"/root/autodl-tmp/conda_envs/monkeyocr/lib/python3.10/site-packages/lmdeploy/serve/vl_async_engine.py\", line 201, in __call__\n    return super().__call__(prompts, *args, **kwargs)\n  File \"/root/autodl-tmp/conda_envs/monkeyocr/lib/python3.10/site-packages/lmdeploy/serve/async_engine.py\", line 369, in __call__\n    return self.batch_infer(prompts,\n  File \"/root/autodl-tmp/conda_envs/monkeyocr/lib/python3.10/site-packages/lmdeploy/serve/vl_async_engine.py\", line 190, in batch_infer\n    prompts = self._convert_prompts(prompts)\n  File \"/root/autodl-tmp/conda_envs/monkeyocr/lib/python3.10/site-packages/lmdeploy/serve/vl_async_engine.py\", line 43, in _convert_prompts\n    elif isinstance(prompts[0], tuple) or isinstance(prompts[0], str):\nIndexError: list index out of range\n"
+    }
+  },
+  {
+    "source": "run_log",
+    "kind": "empty",
+    "img_id": "notes_f7f010b78016aeebd76e56d9283eb67f_46.jpg",
+    "reason": "漏检或上游异常：检测后没有有效区域，推理接口收到空提示列表。",
+    "evidence": {
+      "image_path": "notes_f7f010b78016aeebd76e56d9283eb67f_46.jpg",
+      "stem": "notes_f7f010b78016aeebd76e56d9283eb67f_46",
+      "pilot": false,
+      "started_at": "2026-09-18T00:33:49+0800",
+      "status": "error",
+      "error": "IndexError('list index out of range')",
+      "traceback": "Traceback (most recent call last):\n  File \"/root/autodl-tmp/monkeyocr-repro/scripts/run_batch_monkeyocr.py\", line 93, in main\n    metrics = parse_one(model, input_file, page_dir)\n  File \"/root/autodl-tmp/monkeyocr-repro/scripts/run_batch_monkeyocr.py\", line 42, in parse_one\n    infer_result = ds.apply(doc_analyze_llm, MonkeyOCR_model=model)\n  File \"/root/autodl-tmp/monkeyocr-repro/MonkeyOCR/magic_pdf/data/dataset.py\", line 289, in apply\n    return proc(self, *args, **kwargs)\n  File \"/root/autodl-tmp/monkeyocr-repro/MonkeyOCR/magic_pdf/model/doc_analyze_by_custom_model_llm.py\", line 64, in doc_analyze_llm\n    analyze_result = batch_model(images)\n  File \"/root/autodl-tmp/monkeyocr-repro/MonkeyOCR/magic_pdf/model/batch_analyze_llm.py\", line 81, in __call__\n    ocr_result = self.batch_llm_ocr(new_images_all, cids_all)\n  File \"/root/autodl-tmp/monkeyocr-repro/MonkeyOCR/magic_pdf/model/batch_analyze_llm.py\", line 158, in batch_llm_ocr\n    out = self.model.chat_model.batch_inference(new_images, messages)\n  File \"/root/autodl-tmp/monkeyocr-repro/MonkeyOCR/magic_pdf/model/custom_model.py\", line 129, in batch_inference\n    outputs = self.pipe(inputs, gen_config=self.gen_config)\n  File \"/root/autodl-tmp/conda_envs/monkeyocr/lib/python3.10/site-packages/lmdeploy/serve/vl_async_engine.py\", line 201, in __call__\n    return super().__call__(prompts, *args, **kwargs)\n  File \"/root/autodl-tmp/conda_envs/monkeyocr/lib/python3.10/site-packages/lmdeploy/serve/async_engine.py\", line 369, in __call__\n    return self.batch_infer(prompts,\n  File \"/root/autodl-tmp/conda_envs/monkeyocr/lib/python3.10/site-packages/lmdeploy/serve/vl_async_engine.py\", line 190, in batch_infer\n    prompts = self._convert_prompts(prompts)\n  File \"/root/autodl-tmp/conda_envs/monkeyocr/lib/python3.10/site-packages/lmdeploy/serve/vl_async_engine.py\", line 43, in _convert_prompts\n    elif isinstance(prompts[0], tuple) or isinstance(prompts[0], str):\nIndexError: list index out of range\n"
+    }
+  },
+  {
+    "source": "run_log",
+    "kind": "empty",
+    "img_id": "notes_f7f010b78016aeebd76e56d9283eb67f_47.jpg",
+    "reason": "漏检或上游异常：检测后没有有效区域，推理接口收到空提示列表。",
+    "evidence": {
+      "image_path": "notes_f7f010b78016aeebd76e56d9283eb67f_47.jpg",
+      "stem": "notes_f7f010b78016aeebd76e56d9283eb67f_47",
+      "pilot": false,
+      "started_at": "2026-09-18T00:34:51+0800",
+      "status": "error",
+      "error": "IndexError('list index out of range')",
+      "traceback": "Traceback (most recent call last):\n  File \"/root/autodl-tmp/monkeyocr-repro/scripts/run_batch_monkeyocr.py\", line 93, in main\n    metrics = parse_one(model, input_file, page_dir)\n  File \"/root/autodl-tmp/monkeyocr-repro/scripts/run_batch_monkeyocr.py\", line 42, in parse_one\n    infer_result = ds.apply(doc_analyze_llm, MonkeyOCR_model=model)\n  File \"/root/autodl-tmp/monkeyocr-repro/MonkeyOCR/magic_pdf/data/dataset.py\", line 289, in apply\n    return proc(self, *args, **kwargs)\n  File \"/root/autodl-tmp/monkeyocr-repro/MonkeyOCR/magic_pdf/model/doc_analyze_by_custom_model_llm.py\", line 64, in doc_analyze_llm\n    analyze_result = batch_model(images)\n  File \"/root/autodl-tmp/monkeyocr-repro/MonkeyOCR/magic_pdf/model/batch_analyze_llm.py\", line 81, in __call__\n    ocr_result = self.batch_llm_ocr(new_images_all, cids_all)\n  File \"/root/autodl-tmp/monkeyocr-repro/MonkeyOCR/magic_pdf/model/batch_analyze_llm.py\", line 158, in batch_llm_ocr\n    out = self.model.chat_model.batch_inference(new_images, messages)\n  File \"/root/autodl-tmp/monkeyocr-repro/MonkeyOCR/magic_pdf/model/custom_model.py\", line 129, in batch_inference\n    outputs = self.pipe(inputs, gen_config=self.gen_config)\n  File \"/root/autodl-tmp/conda_envs/monkeyocr/lib/python3.10/site-packages/lmdeploy/serve/vl_async_engine.py\", line 201, in __call__\n    return super().__call__(prompts, *args, **kwargs)\n  File \"/root/autodl-tmp/conda_envs/monkeyocr/lib/python3.10/site-packages/lmdeploy/serve/async_engine.py\", line 369, in __call__\n    return self.batch_infer(prompts,\n  File \"/root/autodl-tmp/conda_envs/monkeyocr/lib/python3.10/site-packages/lmdeploy/serve/vl_async_engine.py\", line 190, in batch_infer\n    prompts = self._convert_prompts(prompts)\n  File \"/root/autodl-tmp/conda_envs/monkeyocr/lib/python3.10/site-packages/lmdeploy/serve/vl_async_engine.py\", line 43, in _convert_prompts\n    elif isinstance(prompts[0], tuple) or isinstance(prompts[0], str):\nIndexError: list index out of range\n"
+    }
+  },
+  {
+    "source": "run_log",
+    "kind": "empty",
+    "img_id": "notes_f7f010b78016aeebd76e56d9283eb67f_67.jpg",
+    "reason": "漏检或上游异常：检测后没有有效区域，推理接口收到空提示列表。",
+    "evidence": {
+      "image_path": "notes_f7f010b78016aeebd76e56d9283eb67f_67.jpg",
+      "stem": "notes_f7f010b78016aeebd76e56d9283eb67f_67",
+      "pilot": false,
+      "started_at": "2026-09-18T00:35:35+0800",
+      "status": "error",
+      "error": "IndexError('list index out of range')",
+      "traceback": "Traceback (most recent call last):\n  File \"/root/autodl-tmp/monkeyocr-repro/scripts/run_batch_monkeyocr.py\", line 93, in main\n    metrics = parse_one(model, input_file, page_dir)\n  File \"/root/autodl-tmp/monkeyocr-repro/scripts/run_batch_monkeyocr.py\", line 42, in parse_one\n    infer_result = ds.apply(doc_analyze_llm, MonkeyOCR_model=model)\n  File \"/root/autodl-tmp/monkeyocr-repro/MonkeyOCR/magic_pdf/data/dataset.py\", line 289, in apply\n    return proc(self, *args, **kwargs)\n  File \"/root/autodl-tmp/monkeyocr-repro/MonkeyOCR/magic_pdf/model/doc_analyze_by_custom_model_llm.py\", line 64, in doc_analyze_llm\n    analyze_result = batch_model(images)\n  File \"/root/autodl-tmp/monkeyocr-repro/MonkeyOCR/magic_pdf/model/batch_analyze_llm.py\", line 81, in __call__\n    ocr_result = self.batch_llm_ocr(new_images_all, cids_all)\n  File \"/root/autodl-tmp/monkeyocr-repro/MonkeyOCR/magic_pdf/model/batch_analyze_llm.py\", line 158, in batch_llm_ocr\n    out = self.model.chat_model.batch_inference(new_images, messages)\n  File \"/root/autodl-tmp/monkeyocr-repro/MonkeyOCR/magic_pdf/model/custom_model.py\", line 129, in batch_inference\n    outputs = self.pipe(inputs, gen_config=self.gen_config)\n  File \"/root/autodl-tmp/conda_envs/monkeyocr/lib/python3.10/site-packages/lmdeploy/serve/vl_async_engine.py\", line 201, in __call__\n    return super().__call__(prompts, *args, **kwargs)\n  File \"/root/autodl-tmp/conda_envs/monkeyocr/lib/python3.10/site-packages/lmdeploy/serve/async_engine.py\", line 369, in __call__\n    return self.batch_infer(prompts,\n  File \"/root/autodl-tmp/conda_envs/monkeyocr/lib/python3.10/site-packages/lmdeploy/serve/vl_async_engine.py\", line 190, in batch_infer\n    prompts = self._convert_prompts(prompts)\n  File \"/root/autodl-tmp/conda_envs/monkeyocr/lib/python3.10/site-packages/lmdeploy/serve/vl_async_engine.py\", line 43, in _convert_prompts\n    elif isinstance(prompts[0], tuple) or isinstance(prompts[0], str):\nIndexError: list index out of range\n"
+    }
+  },
+  {
+    "source": "predictions_quick_match_text_block_result.json",
+    "kind": "text",
+    "img_id": "jiaocaineedrop_jiaocai_needrop_en_1910.jpg",
+    "reason": "文字识别或文本合并错误：按官方文本编辑距离从高到低抽取。",
+    "evidence": {
+      "gt_idx": [
+        ""
+      ],
+      "gt": "",
+      "pred_idx": [
+        2
+      ],
+      "pred": "<html>\n</html>",
+      "edit": 1,
+      "gt_position": [
+        ""
+      ],
+      "pred_position": 279,
+      "norm_gt": "",
+      "norm_pred": "htmlhtml",
+      "gt_category_type": "",
+      "pred_category_type": "text_block",
+      "gt_attribute": [
+        {}
+      ],
+      "img_id": "jiaocaineedrop_jiaocai_needrop_en_1910.jpg",
+      "image_name": "jiaocaineedrop_jiaocai_needrop_en_1910.jpg",
+      "upper_len": 8,
+      "metric": {
+        "Edit_dist": 1.0
+      },
+      "Edit_num": 8
+    },
+    "severity": 1.0
+  },
+  {
+    "source": "predictions_quick_match_text_block_result.json",
+    "kind": "text",
+    "img_id": "yanbaopptmerge_yanbaoPPT_2460.jpg",
+    "reason": "文字识别或文本合并错误：按官方文本编辑距离从高到低抽取。",
+    "evidence": {
+      "gt_idx": [
+        3
+      ],
+      "gt": "- A 有两个线性无关的特征向",
+      "pred_idx": [
+        ""
+      ],
+      "pred": "",
+      "edit": 1,
+      "gt_position": [
+        3
+      ],
+      "pred_position": "",
+      "norm_gt": "A有两个线性无关的特征向",
+      "norm_pred": "",
+      "gt_category_type": "text_block",
+      "pred_category_type": "",
+      "gt_attribute": [
+        {
+          "text_language": "text_simplified_chinese",
+          "text_background": "white",
+          "text_rotate": "normal"
+        }
+      ],
+      "img_id": "yanbaopptmerge_yanbaoPPT_2460.jpg",
+      "image_name": "yanbaopptmerge_yanbaoPPT_2460.jpg",
+      "upper_len": 12,
+      "metric": {
+        "Edit_dist": 1.0
+      },
+      "Edit_num": 12
+    },
+    "severity": 1.0
+  },
+  {
+    "source": "predictions_quick_match_display_formula_result.json",
+    "kind": "formula",
+    "img_id": "docstructbench_dianzishu_zhongwenzaixian-o.O-61520788.pdf_391.jpg",
+    "reason": "公式识别错误：按官方展示公式编辑距离从高到低抽取。",
+    "evidence": {
+      "gt_idx": [
+        0
+      ],
+      "gt": "$$\n运输保险费=材料原价\\times材料运输保险费率\n $$",
+      "pred_idx": [
+        0
+      ],
+      "pred": "\\[11-1\\]",
+      "gt_position": [
+        15
+      ],
+      "pred_position": 487,
+      "norm_gt": "$$\n运输保险费=材料原价\\times材料运输保险费率\n$$",
+      "norm_pred": "11-1",
+      "gt_category_type": "equation_isolated",
+      "pred_category_type": "equation_inline",
+      "gt_attribute": [
+        {
+          "formula_type": "print"
+        }
+      ],
+      "edit": 1.0,
+      "img_id": "docstructbench_dianzishu_zhongwenzaixian-o.O-61520788.pdf_391.jpg",
+      "image_name": "docstructbench_dianzishu_zhongwenzaixian-o.O-61520788.pdf_391.jpg",
+      "upper_len": 30,
+      "metric": {
+        "Edit_dist": 1.0
+      },
+      "Edit_num": 30
+    },
+    "severity": 1.0
+  },
+  {
+    "source": "predictions_quick_match_display_formula_result.json",
+    "kind": "formula",
+    "img_id": "jiaocaineedrop_jiaocai_needrop_en_546.jpg",
+    "reason": "公式识别错误：按官方展示公式编辑距离从高到低抽取。",
+    "evidence": {
+      "gt_idx": [
+        0
+      ],
+      "gt": "$$\n\\begin{array}{l}\n38\\div7=    20\\div3=\n\\\\50\\div8=  71\\div8=\n\\\\42\\div6=  17\\div2=\n\\\\78\\div9=  38\\div6=\n\\\\60\\div8=  80\\div9=\n\\\\30\\div4=  15\\div5=\n\\\\64\\div8=  32\\div5=\n\\\\35\\div8=  42\\div7=\n\\\\54\\div8=  36\\div4=\n\\\\36\\div9=  30\\div8=\n\\\\60\\div7=  48\\div9=\n\\\\23\\div4=  45\\div7=\n\\end{array}\n$$",
+      "pred_idx": [
+        ""
+      ],
+      "pred": "",
+      "edit": 1,
+      "gt_position": [
+        4
+      ],
+      "pred_position": "",
+      "norm_gt": "$$\n{l}\n38\\div7=20\\div3=\n\\\\50\\div8=71\\div8=\n\\\\42\\div6=17\\div2=\n\\\\78\\div9=38\\div6=\n\\\\60\\div8=80\\div9=\n\\\\30\\div4=15\\div5=\n\\\\64\\div8=32\\div5=\n\\\\35\\div8=42\\div7=\n\\\\54\\div8=36\\div4=\n\\\\36\\div9=30\\div8=\n\\\\60\\div7=48\\div9=\n\\\\23\\div4=45\\div7=\n\n$$",
+      "norm_pred": "",
+      "gt_category_type": "equation_isolated",
+      "pred_category_type": "",
+      "gt_attribute": [
+        {
+          "formula_type": "print"
+        }
+      ],
+      "img_id": "jiaocaineedrop_jiaocai_needrop_en_546.jpg",
+      "image_name": "jiaocaineedrop_jiaocai_needrop_en_546.jpg",
+      "upper_len": 236,
+      "metric": {
+        "Edit_dist": 1.0
+      },
+      "Edit_num": 236
+    },
+    "severity": 1.0
+  },
+  {
+    "source": "predictions_quick_match_table_result.json",
+    "kind": "table",
+    "img_id": "notes_f7f010b78016aeebd76e56d9283eb67f_49.jpg",
+    "reason": "表格结构或表格内容错误：按较低 TEDS 或较高编辑距离抽取。",
+    "evidence": {
+      "gt_idx": [
+        0
+      ],
+      "gt": "<table>\n<thead>\n<tr>\n <th>1 one</th>\n <th>5 five</th>\n <th>9 nine</th>\n <th>13 thirteen</th>\n <th>17 seventeen</th>\n <th>30 thirty</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n <td>2 two</td>\n <td>6 six</td>\n <td>10 ten</td>\n <td>14 fourteen</td>\n <td>18 eighteen</td>\n <td>40 forty</td>\n</tr>\n<tr>\n <td>3 three</td>\n <td>7 seven</td>\n <td>11 eleven</td>\n <td>15 fifteen</td>\n <td>19 nineteen</td>\n <td>50 fifty</td>\n</tr>\n<tr>\n <td>4 four</td>\n <td>8 eight</td>\n <td>12 twelve</td>\n <td>16 sixteen</td>\n <td>20 twenty</td>\n <td>60 sixty</td>\n</tr>\n</tbody>\n</table>",
+      "pred_idx": [
+        ""
+      ],
+      "pred": "",
+      "gt_position": [
+        15
+      ],
+      "pred_position": "",
+      "norm_gt": "<html><body><table border=\"1\" ><tr><td>1 one</td><td>5 five</td><td>9 nine</td><td>13 thirteen</td><td>17 seventeen</td><td>30 thirty</td></tr><tr><td>2 two</td><td>6 six</td><td>10 ten</td><td>14 fourteen</td><td>18 eighteen</td><td>40 forty</td></tr><tr><td>3 three</td><td>7 seven</td><td>11 eleven</td><td>15 fifteen</td><td>19 nineteen</td><td>50 fifty</td></tr><tr><td>4 four</td><td>8 eight</td><td>12 twelve</td><td>16 sixteen</td><td>20 twenty</td><td>60 sixty</td></tr></table></body></html>",
+      "norm_pred": "",
+      "gt_category_type": "table",
+      "pred_category_type": "",
+      "gt_attribute": [
+        {
+          "table_layout": "horizontal",
+          "with_span": false,
+          "line": "full_line",
+          "language": "table_en",
+          "include_equation": false,
+          "include_photo": false,
+          "include_background": false,
+          "with_structured_text": false
+        }
+      ],
+      "edit": 1,
+      "img_id": "notes_f7f010b78016aeebd76e56d9283eb67f_49.jpg",
+      "metric": {
+        "TEDS": 0.0,
+        "TEDS_structure_only": 0.0,
+        "Edit_dist": 1.0
+      },
+      "image_name": "notes_f7f010b78016aeebd76e56d9283eb67f_49.jpg",
+      "upper_len": 501,
+      "Edit_num": 501
+    },
+    "severity": 1.0
+  },
+  {
+    "source": "predictions_quick_match_table_result.json",
+    "kind": "table",
+    "img_id": "jiaocaineedrop_38247658.pdf_0.jpg",
+    "reason": "表格结构或表格内容错误：按较低 TEDS 或较高编辑距离抽取。",
+    "evidence": {
+      "gt_idx": [
+        0
+      ],
+      "gt": "<table>\n<thead>\n<tr>\n <th>得分</th>\n <th></th>\n</tr>\n</thead>\n<tbody>\n<tr>\n <td>阅卷人</td>\n <td></td>\n</tr>\n</tbody>\n</table>",
+      "pred_idx": [
+        ""
+      ],
+      "pred": "",
+      "gt_position": [
+        10
+      ],
+      "pred_position": "",
+      "norm_gt": "<html><body><table border=\"1\" ><tr><td>得分</td><td></td></tr><tr><td>阅卷人</td><td></td></tr></table></body></html>",
+      "norm_pred": "",
+      "gt_category_type": "table",
+      "pred_category_type": "",
+      "gt_attribute": [
+        {
+          "table_layout": "horizontal",
+          "with_span": false,
+          "line": "full_line",
+          "language": "table_simplified_chinese",
+          "include_equation": false,
+          "include_photo": false,
+          "include_background": false,
+          "with_structured_text": false
+        }
+      ],
+      "edit": 1,
+      "img_id": "jiaocaineedrop_38247658.pdf_0.jpg",
+      "metric": {
+        "TEDS": 0.0,
+        "TEDS_structure_only": 0.0,
+        "Edit_dist": 1.0
+      },
+      "image_name": "jiaocaineedrop_38247658.pdf_0.jpg",
+      "upper_len": 112,
+      "Edit_num": 112
+    },
+    "severity": 1.0
+  },
+  {
+    "source": "predictions_quick_match_reading_order_result.json",
+    "kind": "reading_order",
+    "img_id": "notes_f7f010b78016aeebd76e56d9283eb67f_94.jpg",
+    "reason": "阅读顺序错误：按官方阅读顺序编辑距离从高到低抽取。",
+    "evidence": {
+      "gt": [
+        1,
+        1,
+        2,
+        2,
+        3,
+        3,
+        4,
+        4,
+        10,
+        10,
+        11,
+        11,
+        12,
+        12,
+        13,
+        13,
+        14,
+        14,
+        15,
+        15,
+        16,
+        16
+      ],
+      "pred": [],
+      "img_id": "notes_f7f010b78016aeebd76e56d9283eb67f_94.jpg",
+      "edit": 1.0,
+      "image_name": "notes_f7f010b78016aeebd76e56d9283eb67f_94.jpg",
+      "upper_len": 22,
+      "metric": {
+        "Edit_dist": 1.0
+      },
+      "Edit_num": 22
+    },
+    "severity": 1.0
+  }
+]

@@ -1,0 +1,12 @@
+\begin{tabular}{|l|l|l|}
+    \hline
+    \multicolumn{3}{|c|}{Example Symbol Table} \\
+    \hline
+    \textbf{Name} & \textbf{Type} & \textbf{Offset} \\
+    \hline
+    \texttt{inGlobal} & int & 0 \\
+    \hline
+    \texttt{inLocal} & int & 0 \\
+    \hline
+    & & \\
+\end{tabular}

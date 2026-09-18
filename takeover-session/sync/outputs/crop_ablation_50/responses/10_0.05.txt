@@ -1,0 +1,1 @@
+$\lambda_{\mathrm{bed}}(\mathbf{r})+\mathbf{K}_{1} \cdot \mathbf{P e}_{0}=\frac{\omega_{c}}{\bar{u}_{0}} \cdot \mathbf{f}(\mathbf{R}-\mathbf{r})$ remaining function $\mathbf{f}(\mathbf{R}-\mathbf{r})$ remain constant (Eq.(11)), while the shear parameter are slightly modified

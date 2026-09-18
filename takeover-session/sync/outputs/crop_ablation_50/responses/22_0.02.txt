@@ -1,0 +1,11 @@
+\begin{tabular}{lcc}
+\toprule
+\multicolumn{1}{c}{} & \multicolumn{1}{c}{} & \multirow{2}{*}{Hazard quotient} \\
+\cmidrule(lr){2-2}
+Elements & RfD (mg/kg-day) & Green tea \\
+\midrule
+As & $3\times 10^{-4}$ & None \\
+Cr & $3\times 10^{-3}$ & $8.5\times 10^{-4}$ \\
+Cd & $1\times 10^{-3}$ & None \\
+\bottomrule
+\end{tabular}

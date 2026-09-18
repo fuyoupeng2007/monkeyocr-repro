@@ -1,0 +1,42 @@
+{
+  "source": "predictions_quick_match_reading_order_result.json",
+  "kind": "reading_order",
+  "img_id": "notes_f7f010b78016aeebd76e56d9283eb67f_94.jpg",
+  "reason": "阅读顺序错误：按官方阅读顺序编辑距离从高到低抽取。",
+  "evidence": {
+    "gt": [
+      1,
+      1,
+      2,
+      2,
+      3,
+      3,
+      4,
+      4,
+      10,
+      10,
+      11,
+      11,
+      12,
+      12,
+      13,
+      13,
+      14,
+      14,
+      15,
+      15,
+      16,
+      16
+    ],
+    "pred": [],
+    "img_id": "notes_f7f010b78016aeebd76e56d9283eb67f_94.jpg",
+    "edit": 1.0,
+    "image_name": "notes_f7f010b78016aeebd76e56d9283eb67f_94.jpg",
+    "upper_len": 22,
+    "metric": {
+      "Edit_dist": 1.0
+    },
+    "Edit_num": 22
+  },
+  "severity": 1.0
+}

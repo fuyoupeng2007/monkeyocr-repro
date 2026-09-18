@@ -1,0 +1,9 @@
+\begin{tabular}{|l|l|l|l|}
+\toprule
+\textbf{Data} & \textbf{Freq.} & \textbf{Deviations} & \textbf{Deviations}$^2$ \\ \hline
+$x$ & $f$ & $(x - \overline{x})$ & $(x - \overline{x})^2$ \\ \hline
+9 & 1 & $9-10.525 = -1.525$ & $(-1.525)^2 = 2.325625$ \\ \hline
+9.5 & 2 & $9.5-10.525 = -0.125$ & $(-1.025)^2 = 1.050625$ \\ \hline
+10 & 4 & $10-10.525 = -0.525$ & $(-0.525)^2 = 0.275625$ \\ \hline
+10.5 & 4 & $10.5-10.525 = -0.025$ & $(-0.025)^2 = 0.000625$ \\ \hline
+\end{tabular}

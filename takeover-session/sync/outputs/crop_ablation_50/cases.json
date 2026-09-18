@@ -1,0 +1,1152 @@
+[
+  {
+    "page": "eastmoney_a2542ccf95ec3bb51dcc6fb90a7c32b18f883e10a3cb301901a428882d8d2015.pdf_2",
+    "image_path": "eastmoney_a2542ccf95ec3bb51dcc6fb90a7c32b18f883e10a3cb301901a428882d8d2015.pdf_2.jpg",
+    "model_type": "text",
+    "task": "text",
+    "model_block_index": 8,
+    "gt_index": 6,
+    "detector_bbox": [
+      88.0,
+      880.0,
+      1153.0,
+      995.0
+    ],
+    "gt_bbox": [
+      114.8916244506836,
+      764.0593872070312,
+      1538.943603515625,
+      1031.116943359375
+    ],
+    "iou": 0.31138,
+    "gt_coverage": 0.31391,
+    "gt": "本报告由首创证券股份有限公司（已具备中国证监会批复的证券投资咨询业务资格）制作。本报告所在资料的来源及观点的出处皆被首创证券认为可靠，但首创证券不保证其准确性或完整性。该等信息、意见并未考虑到获取本报告人员的具体投资目的、财务状况以及特定需求，在任何时候均不构成对任何人的个人推荐。投资者应当对本报告中的信息和意见进行独立评估，并应同时考量各自的投资目的、财务状况和特定需求，必要时就法律、商业、财务、税收等方面咨询专业财务顾问的意见。对依据或者使用本报告所造成的一切后果，首创证券及/或其关联人员均不承担任何法律责任。投资者需自主作出投资决策并自行承担投资风险，任何形式的分享证券投资收益或者分担证券投资损失的书面或口头承诺均为无效。"
+  },
+  {
+    "page": "docstructbench_enbook-zlib-o.O-21353024.pdf_39",
+    "image_path": "docstructbench_enbook-zlib-o.O-21353024.pdf_39.jpg",
+    "model_type": "text",
+    "task": "text",
+    "model_block_index": 4,
+    "gt_index": 2,
+    "detector_bbox": [
+      87.0,
+      782.0,
+      623.0,
+      905.0
+    ],
+    "gt_bbox": [
+      102.425604,
+      737.51009,
+      839.6200200000001,
+      1012.9647640000001
+    ],
+    "iou": 0.3124,
+    "gt_coverage": 0.31532,
+    "gt": "Values on passive components are either shown directly like 47 pF or as figures or resistor colour code in the form Digit1, Digit2, Multiplier (being the number of zeros) on the component. So SMD inductors often have the value marked in microhenries in this fashion, so 3R3 is $ \\mu\\mathrm{H} $ and 333 is 33 mH( $ 3 3, 0 0 0 \\mu\\mathrm{H} $ ).Capacitors may be marked in picofarads. A tantalum capacitor labelled 227 is $ 2 2 \\times1 0^{7} \\, \\mathrm{p F}=2 2 0 \\, \\mathrm{\\mu F}. $ Some components may have five or six rings of colour code, but the Internet is a great help in decoding these."
+  },
+  {
+    "page": "jiaocaineedrop_jiaocai_needrop_en_2211",
+    "image_path": "jiaocaineedrop_jiaocai_needrop_en_2211.jpg",
+    "model_type": "text",
+    "task": "text",
+    "model_block_index": 13,
+    "gt_index": 10,
+    "detector_bbox": [
+      72.0,
+      566.0,
+      480.0,
+      602.0
+    ],
+    "gt_bbox": [
+      114.98845954074254,
+      559.1156403924944,
+      616.7072175994356,
+      640.1190443844486
+    ],
+    "iou": 0.31147,
+    "gt_coverage": 0.32333,
+    "gt": "一个铝锅能盛水 5（     ）。一间教室的占地面积是 48（    ）。一台冰柜的体积是 1.8（    ）一个 MP5 的体积约24（    ）。一个游泳池的容积是 1200（    ）一瓶矿泉水约 450（    ）。"
+  },
+  {
+    "page": "jiaocaineedrop_jiaocai_needrop_en_2124",
+    "image_path": "jiaocaineedrop_jiaocai_needrop_en_2124.jpg",
+    "model_type": "text",
+    "task": "text",
+    "model_block_index": 11,
+    "gt_index": 7,
+    "detector_bbox": [
+      183.0,
+      1381.0,
+      826.0,
+      1506.0
+    ],
+    "gt_bbox": [
+      238.15688181336097,
+      1341.6904529140932,
+      1263.3126894974992,
+      1563.2334530538553
+    ],
+    "iou": 0.314,
+    "gt_coverage": 0.32354,
+    "gt": "\\t1. — When is Miss Chen's birthday?\n— Her birthday is on August____"
+  },
+  {
+    "page": "scihub_j.conbuildmat.2019.117698.pdf_5",
+    "image_path": "scihub_j.conbuildmat.2019.117698.pdf_5.jpg",
+    "model_type": "text",
+    "task": "text",
+    "model_block_index": 12,
+    "gt_index": 5,
+    "detector_bbox": [
+      67.0,
+      1175.0,
+      592.0,
+      1348.0
+    ],
+    "gt_bbox": [
+      90.86680942111545,
+      1117.2237820095484,
+      795.1211445369121,
+      1495.372734892295
+    ],
+    "iou": 0.32057,
+    "gt_coverage": 0.32554,
+    "gt": "where r: amount of nitro oxides removed by the test sample, $ \\mu{mol} $ $ \\mathbf{m^{-2}h}; $ f: flow rate converted into that at the standard state $ (0\\ {\\mathrm{~}}^{\\circ}\\mathbb{C}, $ 1.013 kPa ), $ \\mathrm{L}\\ \\mathrm{min}^{-1} $ $ [NO]_{0} $ : inlet concentration of nitrogen monoxide, ppb; [NO]: outlet concentration of nitrogen monoxide, ppb; $ [NO_{2}]_{0} $ : inlet concentration of nitrogen dioxide, ppb; $ [NO_{2}] $ : outlet concentration of nitrogen dioxide,ppb; A: surface area of cement paste samples, T:time to UV radiation, min; 22.4: volume of 1 mol ideal gas at the standard state (ideal gas law)."
+  },
+  {
+    "page": "eastmoney_fca0676d8b0c4d3926a2d02229fa3372f87a45dbfbf7472773c6dbe04d35af65.pdf_3",
+    "image_path": "eastmoney_fca0676d8b0c4d3926a2d02229fa3372f87a45dbfbf7472773c6dbe04d35af65.pdf_3.jpg",
+    "model_type": "text",
+    "task": "text",
+    "model_block_index": 10,
+    "gt_index": 6,
+    "detector_bbox": [
+      88.0,
+      1189.0,
+      1154.0,
+      1277.0
+    ],
+    "gt_bbox": [
+      116.98051452636717,
+      1123.1603133644246,
+      1539.9130859375,
+      1319.4246227084466
+    ],
+    "iou": 0.32381,
+    "gt_coverage": 0.32677,
+    "gt": "本报告是机密的，仅供我们的客户使用，国联证券不因收件人收到本报告而视其为国联证券的客户。本报告中的信息均来源于我们认为可靠的已公开资料，但国联证券对这些信息的准确性及完整性不作任何保证。本报告中的信息、意见等均仅供客户参考，不构成所述证券买卖的出价或征价邀请或要约。该等信息、意见并未考虑到获取本报告人员的具体投资自的、财务状况以及特定需求，在任何时候均不构成对任何人的个人推荐。客户应当对本报告中的信息和意见进行独立评估，并应同时考量各自的投资目的、财务状况和特定需求，必要时就法律、商业、财务、税收等方面咨询专家的意见。对依据或者使用本报告所造成的一切后果，国联证券及/或其关联人员均不承担任何法律责任。"
+  },
+  {
+    "page": "newspaper_01f020903d7bc4b3fc69f500f41eb77e_1",
+    "image_path": "newspaper_01f020903d7bc4b3fc69f500f41eb77e_1.jpg",
+    "model_type": "text",
+    "task": "text",
+    "model_block_index": 65,
+    "gt_index": 41,
+    "detector_bbox": [
+      605.0,
+      923.0,
+      730.0,
+      994.0
+    ],
+    "gt_bbox": [
+      627.6710957343059,
+      885.149739517209,
+      751.7575006766928,
+      1063.4751705193185
+    ],
+    "iou": 0.30607,
+    "gt_coverage": 0.32834,
+    "gt": "大豆是中国和亚洲狼区的重要传统作物，蕴含丰富营养价值，是提供食粮和饲料的重要经济作物。大豆亦是一种对环境十分友善的作物，每年以每公 100公斤的效率把大气中的氧气转化到土壤之中，令植物可以吸收，适合应用在轮作、连作和套作等可持续发展农业模式中。由于中国及世界的优质农耕地面积及淡水资源不断萎缩，今大豆等作物的产量难以满足全球人口上升而日益增加的需求。因此，有效利用边缘土地作为种植用途成为优先课题。"
+  },
+  {
+    "page": "jiaocaineedrop_jiaocai_needrop_en_2124",
+    "image_path": "jiaocaineedrop_jiaocai_needrop_en_2124.jpg",
+    "model_type": "text",
+    "task": "text",
+    "model_block_index": 2,
+    "gt_index": 1,
+    "detector_bbox": [
+      186.0,
+      517.0,
+      823.0,
+      571.0
+    ],
+    "gt_bbox": [
+      252.05557799204348,
+      507.9771366556196,
+      1545.0047477637097,
+      578.9950234854167
+    ],
+    "iou": 0.32321,
+    "gt_coverage": 0.33577,
+    "gt": "（     ）5. maths A. English B.school"
+  },
+  {
+    "page": "eastmoney_a2542ccf95ec3bb51dcc6fb90a7c32b18f883e10a3cb301901a428882d8d2015.pdf_2",
+    "image_path": "eastmoney_a2542ccf95ec3bb51dcc6fb90a7c32b18f883e10a3cb301901a428882d8d2015.pdf_2.jpg",
+    "model_type": "text",
+    "task": "text",
+    "model_block_index": 10,
+    "gt_index": 7,
+    "detector_bbox": [
+      84.0,
+      1104.0,
+      1150.0,
+      1163.0
+    ],
+    "gt_bbox": [
+      116.51127624511719,
+      1044.68408203125,
+      1537.96923828125,
+      1159.5184326171875
+    ],
+    "iou": 0.34002,
+    "gt_coverage": 0.35151,
+    "gt": "本报告所载的信息、材料或分析工具仅提供给阁下作参考用，不是也不应被视为出售、购买或认购证券或其他金融工具的要约或要约邀请。该等信息、材料及预测无需通知即可随时更改。过往的表现亦不应作为日后表现的预示和担保。在不同时期，首创证券可能会发出与本报告所载意见、评估及预测不一致的研究报告。"
+  },
+  {
+    "page": "docstructbench_llm-raw-scihub-o.O-ceat.200407001.pdf_3",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-ceat.200407001.pdf_3.jpg",
+    "model_type": "text",
+    "task": "text",
+    "model_block_index": 12,
+    "gt_index": 2,
+    "detector_bbox": [
+      304.0,
+      194.0,
+      541.0,
+      345.0
+    ],
+    "gt_bbox": [
+      149.30889623844442,
+      245.1042480000002,
+      808.283462503301,
+      342.5624922582539
+    ],
+    "iou": 0.30031,
+    "gt_coverage": 0.35965,
+    "gt": "The damping function f(R-r) remains the same as for the mass transfer (Eq.(11)), while the slope parameter and the damping parameter are slightly modified to, respectively,"
+  },
+  {
+    "page": "yanbaor2_8072f7ea9b3083ff5e8f9bfbba591771e61115039c96fda1c8ea391a7570f098.pdf_5",
+    "image_path": "yanbaor2_8072f7ea9b3083ff5e8f9bfbba591771e61115039c96fda1c8ea391a7570f098.pdf_5.jpg",
+    "model_type": "text",
+    "task": "text",
+    "model_block_index": 4,
+    "gt_index": 2,
+    "detector_bbox": [
+      67.0,
+      815.0,
+      509.0,
+      982.0
+    ],
+    "gt_bbox": [
+      89.3188705444336,
+      667.3078002929688,
+      682.2501220703125,
+      968.3961181640625
+    ],
+    "iou": 0.3425,
+    "gt_coverage": 0.36061,
+    "gt": "随着银行业务的多元化发展，价值驱动必将呈现出多因素化的特征，因此，仅以财务结果论英雄的时代已经过去，需要体系化地梳理银行价值构成，并逐个击破，找到价值驱动要素。德勤第四张报表价值管理体系将从用户、产品/服务、渠道、数字科技四个视角出发，站在全局视角上研究和解读各大银行2020年年报，从中找到银行新价值增长点的构成、驱动和评估管理方式。"
+  },
+  {
+    "page": "yanbaopptmerge_3aa9b6677e17fd012b0a7a230b9f18db.pdf_1327",
+    "image_path": "yanbaopptmerge_3aa9b6677e17fd012b0a7a230b9f18db.pdf_1327.jpg",
+    "model_type": "text",
+    "task": "text",
+    "model_block_index": 11,
+    "gt_index": 12,
+    "detector_bbox": [
+      147.0,
+      1322.0,
+      1084.0,
+      1398.0
+    ],
+    "gt_bbox": [
+      195.62263488769534,
+      1265.387939453125,
+      1442.3131103515625,
+      1380.3046843008012
+    ],
+    "iou": 0.31839,
+    "gt_coverage": 0.36154,
+    "gt": "55. After finding at several different temperatures, a plot of ln k versus $ \\frac{1 }{T} $ ,gives a straight line with the slope $ \\frac{-E_{\\mathrm{a}} }{R} $ from which $ E_{\\mathrm{a}} $ may be deemined."
+  },
+  {
+    "page": "eastmoney_fca0676d8b0c4d3926a2d02229fa3372f87a45dbfbf7472773c6dbe04d35af65.pdf_3",
+    "image_path": "eastmoney_fca0676d8b0c4d3926a2d02229fa3372f87a45dbfbf7472773c6dbe04d35af65.pdf_3.jpg",
+    "model_type": "text",
+    "task": "text",
+    "model_block_index": 7,
+    "gt_index": 5,
+    "detector_bbox": [
+      82.0,
+      1000.0,
+      1155.0,
+      1057.0
+    ],
+    "gt_bbox": [
+      118.09471130371094,
+      990.5090942382812,
+      1538.9146728515625,
+      1104.997802734375
+    ],
+    "iou": 0.3588,
+    "gt_coverage": 0.36334,
+    "gt": "除非另有规定，本报告中的所有材料版权均属国联证券股份有限公司（已获中国证监会许可的证券投资咨询业务资格）及其附属机构（以下统称“国联证券”）。未经国联证券事先书面授权，不得以任何方式修改、发送或者复制本报告及其所包含的材料、内容。所有本报告中使用的商标、服务标识及标记均为国联证券的商标、服务标识及标记。"
+  },
+  {
+    "page": "newspaper_fe5ed29024932fad071afc53807b16ba_1",
+    "image_path": "newspaper_fe5ed29024932fad071afc53807b16ba_1.jpg",
+    "model_type": "text",
+    "task": "text",
+    "model_block_index": 2,
+    "gt_index": 1,
+    "detector_bbox": [
+      33.0,
+      235.0,
+      158.0,
+      305.0
+    ],
+    "gt_bbox": [
+      44.49064753457333,
+      177.1204651180618,
+      206.87262616833218,
+      309.94607483383373
+    ],
+    "iou": 0.35515,
+    "gt_coverage": 0.36839,
+    "gt": "An interim final rule concerning this action was published in the Federal Register on April 26, 2004 [69 FR 22377]. Copies of the rule were mailed by the Committee's staff to all Committee members and Walla Walla sweet onion handlers. In addition, the rule was made availlable through the Internet by the Office of the Federal Register and the USDA. Thal rule provided a 60-day comment period which ended June 25, 2004. No comments were received."
+  },
+  {
+    "page": "jiaocaineedrop_jiaocai_needrop_en_1290",
+    "image_path": "jiaocaineedrop_jiaocai_needrop_en_1290.jpg",
+    "model_type": "text",
+    "task": "text",
+    "model_block_index": 16,
+    "gt_index": 12,
+    "detector_bbox": [
+      165.0,
+      994.0,
+      387.0,
+      1009.0
+    ],
+    "gt_bbox": [
+      170.1889051708412,
+      985.8558789737115,
+      511.1659585549997,
+      1005.2848118371792
+    ],
+    "iou": 0.32587,
+    "gt_coverage": 0.36932,
+    "gt": "二、1. $ \\times $ 2. $ \\surd $ 3. $ \\times $ 4. $ \\surd $ 5. $ \\times $ 6. $ \\surd $"
+  },
+  {
+    "page": "jiaocaineedrop_jiaocai_needrop_en_3009",
+    "image_path": "jiaocaineedrop_jiaocai_needrop_en_3009.jpg",
+    "model_type": "text",
+    "task": "text",
+    "model_block_index": 4,
+    "gt_index": 2,
+    "detector_bbox": [
+      180.0,
+      639.0,
+      1101.0,
+      727.0
+    ],
+    "gt_bbox": [
+      240.57688903808597,
+      598.215087890625,
+      1040.4412038548505,
+      836.446013260735
+    ],
+    "iou": 0.34982,
+    "gt_coverage": 0.36939,
+    "gt": "曲线 $ \\varGamma $上的所有点在 xOy面上的投影组成的曲线称为 $ \\varGamma $在 xOy面上的投影.显然曲线 $ \\varGamma $在 xOy面上的投影就是以 $ \\varGamma $为准线、母线平行于轴的柱面与 xOy"
+  },
+  {
+    "page": "yanbaor2_7d1e64f512712a29658dd6c775c5120c90dda9a50698b42b953882a8a8020dbb.pdf_57",
+    "image_path": "yanbaor2_7d1e64f512712a29658dd6c775c5120c90dda9a50698b42b953882a8a8020dbb.pdf_57.jpg",
+    "model_type": "text",
+    "task": "text",
+    "model_block_index": 6,
+    "gt_index": 4,
+    "detector_bbox": [
+      75.0,
+      516.0,
+      365.0,
+      553.0
+    ],
+    "gt_bbox": [
+      100.7669448852539,
+      528.0731811523438,
+      476.3835754394531,
+      574.9387817382812
+    ],
+    "iou": 0.30287,
+    "gt_coverage": 0.37416,
+    "gt": "成立时间：2018年4月"
+  },
+  {
+    "page": "jiaocai_f32828acecb4282c87eaa554d2e1db74e418cd6845843012463a3324028bdd9d.pdf_9",
+    "image_path": "jiaocai_f32828acecb4282c87eaa554d2e1db74e418cd6845843012463a3324028bdd9d.pdf_9.jpg",
+    "model_type": "text",
+    "task": "text",
+    "model_block_index": 11,
+    "gt_index": 6,
+    "detector_bbox": [
+      192.0,
+      1313.0,
+      407.0,
+      1456.0
+    ],
+    "gt_bbox": [
+      231.75092483654112,
+      1249.6085520821032,
+      543.9705690747468,
+      1463.993702894168
+    ],
+    "iou": 0.34509,
+    "gt_coverage": 0.3744,
+    "gt": "Local isn't just a place on a map.It's people:your neighbors and their families, their businesses,farms,nonprofits,events and recreational venues.Local is a community and all ofthe opportunities we create together and challenges we work to overcome Local First has a passion for people living and working together in sustainable community"
+  },
+  {
+    "page": "yanbaor2_7d1e64f512712a29658dd6c775c5120c90dda9a50698b42b953882a8a8020dbb.pdf_57",
+    "image_path": "yanbaor2_7d1e64f512712a29658dd6c775c5120c90dda9a50698b42b953882a8a8020dbb.pdf_57.jpg",
+    "model_type": "title",
+    "task": "text",
+    "model_block_index": 0,
+    "gt_index": 0,
+    "detector_bbox": [
+      77.0,
+      53.0,
+      734.0,
+      115.0
+    ],
+    "gt_bbox": [
+      105.98090362548828,
+      73.02825927734375,
+      976.1001586914062,
+      153.74978637695312
+    ],
+    "iou": 0.31153,
+    "gt_coverage": 0.37529,
+    "gt": "上海复诺健生物科技有限公司"
+  },
+  {
+    "page": "docstructbench_enbook-zlib-o.O-21353024.pdf_39",
+    "image_path": "docstructbench_enbook-zlib-o.O-21353024.pdf_39.jpg",
+    "model_type": "text",
+    "task": "text",
+    "model_block_index": 12,
+    "gt_index": 6,
+    "detector_bbox": [
+      86.0,
+      1482.0,
+      624.0,
+      1557.0
+    ],
+    "gt_bbox": [
+      111.30758399999999,
+      1442.4379099999999,
+      833.6987,
+      1581.645834
+    ],
+    "iou": 0.37528,
+    "gt_coverage": 0.38237,
+    "gt": "If you're stripping parts off boards, or otherwise know where the component came from, that may give you a clue as to what the part is. A power supply is likely to have a switched-mode PWM IC, whereas an audio board is more likely to have op-amps."
+  },
+  {
+    "page": "newspaper_2a6b4fa088699701a6fa9ccecfb5c25d_18",
+    "image_path": "newspaper_2a6b4fa088699701a6fa9ccecfb5c25d_18.jpg",
+    "model_type": "table",
+    "task": "table",
+    "model_block_index": 18,
+    "gt_index": 25,
+    "detector_bbox": [
+      31.0,
+      490.0,
+      427.0,
+      556.0
+    ],
+    "gt_bbox": [
+      43.78491165498516,
+      471.2639317731597,
+      567.2264438662614,
+      595.4808715304991
+    ],
+    "iou": 0.38401,
+    "gt_coverage": 0.38899,
+    "gt": "\\begin{tabular}{|l|l|l|l|l|l|l|} \\hline\n\\multirow{2}{*}{Sector} & \\multicolumn{3}{l}{Pacific ocean perch} & Flathead sole & Rock sole & Yellowfin sole \\\\ \\hline\n & Eastem Aleuian district & Central Alattian disirict & Westam Aleutian district & BSAI & BSAI & BSAI \\\\ \\hline\nTAC...... & 7,900 & 7,000 & 9,000 & 16,390 & 56,180 & 150,530 \\\\ \\hline\nCDQ...... & 845 & 749 & 963 & 1,537 & 5,215 & 17,013 \\\\ \\hline\nICA...... & 200 & 75 & 10 & 5,000 & 6,000 & 3,500 \\\\ \\hline\nBSAI trawl limited acoess...... & 685 & 618 & 161 & 0 & 0 & 14,979 \\\\ \\hline\nAmendment 80...... & 6,169 & 5,558 & 7.866 & 9,853 & 43,965 & 115,038 \\\\ \\hline\nAlaska Groundfish Cooperative...... & 3,271 & 2,947 & 4,171 & 1,411 & 11,129 & 43,748 \\\\ \\hline\nAlaska Seafood Cooperafive...... & 2,898 & 2,611 & 3,695 & 8,442 & 32,836 & 71,290\\\\ \\hline\n\\end{tabular}"
+  },
+  {
+    "page": "docstructbench_llm-raw-scihub-o.O-s00128-008-9367-z.pdf_4",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-s00128-008-9367-z.pdf_4.jpg",
+    "model_type": "table",
+    "task": "table",
+    "model_block_index": 0,
+    "gt_index": 1,
+    "detector_bbox": [
+      369.0,
+      121.0,
+      1138.0,
+      359.0
+    ],
+    "gt_bbox": [
+      492.71171400000003,
+      160.728126,
+      1514.0881399999998,
+      482.733628
+    ],
+    "iou": 0.33321,
+    "gt_coverage": 0.38901,
+    "gt": "\\begin{tabular}{|l|l|l|l|l|} \\hline\n\\multirow{2}{*}{Elements} & \\multirow{2}{*}{RfD (mg/kg-day)} & \\multicolumn{3}{c|}{Hazard quotient (HQ)} \\\\ \\cline{3-5} \n & & Green tea & Oolong tea & Black tea \\\\ \\hline\nAs & $3 \\times 10^{-4}$ & None & $2.1 \\times 10^{-3}$ & $3.0 \\times 10^{-3}$ \\\\ \\hline\nCr & $3 \\times 10^{-3}$ & $8.5 \\times 10^{-4}$ & $2.1 \\times 10^{-1}$ & $4.5 \\times 10^{-1}$ \\\\ \\hline\nCd & $1 \\times 10^{-3}$ & None & $6.3 \\times 10^{-4}$ & $7.7 \\times 10^{-3}$ \\\\ \\hline\nPb & $1.43 \\times 10^{-3}$ & $4.2 \\times 10^{-4}$ & $3.5 \\times 10^{-2}$ & $2.1 \\times 10^{-1}$ \\\\ \\hline\nHazard Index (HI = $\\Sigma$HQ) & & $1.3 \\times 10^{-3}$ & $2.4 \\times 10^{-1}$ & $6.7 \\times 10^{-1}$ \\\\ \\hline\n\\end{tabular}\n"
+  },
+  {
+    "page": "yanbaopptmerge_d4fc7cba428625974e93183edfccea73.pdf_89",
+    "image_path": "yanbaopptmerge_d4fc7cba428625974e93183edfccea73.pdf_89.jpg",
+    "model_type": "table",
+    "task": "table",
+    "model_block_index": 0,
+    "gt_index": 0,
+    "detector_bbox": [
+      266.0,
+      167.0,
+      1011.0,
+      497.0
+    ],
+    "gt_bbox": [
+      354.3524475097656,
+      226.14657592773438,
+      1348.71435546875,
+      665.7548217773438
+    ],
+    "iou": 0.3521,
+    "gt_coverage": 0.40687,
+    "gt": "\\begin{tabular}{|l|l|l|l|l|} \\hline\nData & Freq. & Deviations & Deviations$^2$ & (Freq.)(Deviations$^2$) \\\\ \\hline\n$x$ & $f$ & $(x-\\bar{x})$ & $(x-\\bar{x})^2$ & $f(x-\\bar{x})^2$ \\\\ \\hline\n9 & 1 & $9-10.525=-1.525$ & $(-1.525)^2=2.325625$ & $1 \\times 2.325625=2.325625$ \\\\ \\hline\n9.5 & 2 & $9.5-10.525=-1.025$ & $(-1.025)^2=1.050625$ & $2 \\times 1.050625=2.101250$ \\\\ \\hline\n10 & 4 & $10-10.525=-0.525$ & $(-0.525)^2=0.275625$ & $4 \\times 0.275625=1.1025$ \\\\ \\hline\n10.5 & 4 & $10.5-10.525=-0.025$ & $(-0.025)^2=0.000625$ & $4 \\times 0.000625=0.0025$ \\\\ \\hline\n11 & 6 & $11-10.525=0.475$ & $(0.475)^2=0.225625$ & $6 \\times 0.225625=1.35375$ \\\\ \\hline\n11.5 & 3 & $11.5-10.525=0.975$ & $(0.975)^2=0.950625$ & $3 \\times 0.950625=2.851875$ \\\\ \\hline\n & & & & The total is 9.7375 \\\\ \\hline\n\\end{tabular}\n"
+  },
+  {
+    "page": "eastmoney_fca0676d8b0c4d3926a2d02229fa3372f87a45dbfbf7472773c6dbe04d35af65.pdf_3",
+    "image_path": "eastmoney_fca0676d8b0c4d3926a2d02229fa3372f87a45dbfbf7472773c6dbe04d35af65.pdf_3.jpg",
+    "model_type": "table",
+    "task": "table",
+    "model_block_index": 3,
+    "gt_index": 3,
+    "detector_bbox": [
+      88.0,
+      271.0,
+      1154.0,
+      704.0
+    ],
+    "gt_bbox": [
+      118.83778381347636,
+      358.2261657714846,
+      1541.4157695312067,
+      941.6854248046873
+    ],
+    "iou": 0.38336,
+    "gt_coverage": 0.43123,
+    "gt": "\\begin{tabular}{|l|l|l|l|} \\hline\n投资建议的评级标准 & & 评级 & 说明 \\\\ \\hline\n\\multirow{7}{*}{报告中投资建议所涉及的评级分为股票评级和行业评级（另有说明的除外）。评级标准为报告发布日后6到12个月内的相对市场表现，也即：以报告发布日后的6到12个月内的公司股价（或行业指数）相对同期相关证券市场代表性指数的涨跌幅作为基准。其中：A股市场以沪深300指数为基准，新三板市场以三板成指（针对协议转让标的）或三板做市指数（针对做市转让标的）为基准；香港市场以摩根士丹利中国指数为基准；美国市场以纳斯达克综合指数或标普500指数为基准；韩国市场以柯斯达克指数或韩国综合股价指数为基准。} & \\multirow{4}{*}{股票评级} & 买入 & 相对同期相关证券市场代表指数涨幅20\\%以上 \\\\\n & & 增持 & 相对同期相关证券市场代表指数涨幅介于5\\%$\\sim$20\\%之间 \\\\\n & & 持有 & 相对同期相关证券市场代表指数涨幅介于-10\\%$\\sim$5\\%之间 \\\\\n & & 卖出 & 相对同期相关证券市场代表指数跌幅10\\%以上 \\\\ \\hline\n & \\multirow{3}{*}{行业评级} & 强于大市 & 相对同期相关证券市场代表指数涨幅10\\%以上 \\\\\n & & 中性 & 相对同期相关证券市场代表指数涨幅介于-10\\%$\\sim$10\\%之间 \\\\\n & & 弱于大市 & 相对同期相关证券市场代表指数跌幅10\\%以上 \\\\ \\hline\n\\end{tabular}"
+  },
+  {
+    "page": "yanbaopptmerge_PattPatelCh12.pdf_27",
+    "image_path": "yanbaopptmerge_PattPatelCh12.pdf_27.jpg",
+    "model_type": "table",
+    "task": "table",
+    "model_block_index": 1,
+    "gt_index": 1,
+    "detector_bbox": [
+      155.0,
+      225.0,
+      1260.0,
+      648.0
+    ],
+    "gt_bbox": [
+      204.63194274902344,
+      298.9232482910156,
+      1677.8414306640625,
+      869.5210571289062
+    ],
+    "iou": 0.39208,
+    "gt_coverage": 0.43826,
+    "gt": "\\begin{tabular}{|l|l|l|l|} \\hline\nName & Type & Offset & Scope \\\\ \\hline\ninGlobal & int & 0 & global \\\\ \\hline\ninLocal & int & 0 & main \\\\ \\hline\noutLocalA & int & -1 & main \\\\ \\hline\noutLocalB & int & -2 & main\\\\ \\hline\n\\end{tabular}\n"
+  },
+  {
+    "page": "jiaocaineedrop_jiaocai_needrop_en_1118",
+    "image_path": "jiaocaineedrop_jiaocai_needrop_en_1118.jpg",
+    "model_type": "table",
+    "task": "table",
+    "model_block_index": 1,
+    "gt_index": 1,
+    "detector_bbox": [
+      102.0,
+      258.0,
+      1102.0,
+      970.0
+    ],
+    "gt_bbox": [
+      141.27076721191406,
+      347.8895263671875,
+      1469.5052673285686,
+      1297.1053466796875
+    ],
+    "iou": 0.43464,
+    "gt_coverage": 0.47406,
+    "gt": "\\begin{tabular}{|l|l|l|} \\hline\ntower & [taʊə(r)] & n.塔 \\\\ \\hline\nview & [vjuː] & v.看待 \\& n.看法；风景 \\\\ \\hline\nuseful & [ˈjuːsfl] & adj.有用的；有益的 \\\\ \\hline\ninformation & [ˌɪnfərˈmeɪʃn] & n.信息 \\\\ \\hline\ncenter & [ˈsentə] & n.中心 \\\\ \\hline\nsymbol & [ˈsɪmbl] & n.象征 \\\\ \\hline\nfor example & & 例如 \\\\ \\hline\nin the center of & & 在......的中心 \\\\ \\hline\non the top of & & 在......顶端 \\\\ \\hline\nlight up & & 点亮；露出喜色\n\\\\ \\hline\n\\end{tabular}"
+  },
+  {
+    "page": "newspaper_01f020903d7bc4b3fc69f500f41eb77e_1",
+    "image_path": "newspaper_01f020903d7bc4b3fc69f500f41eb77e_1.jpg",
+    "model_type": "table",
+    "task": "table",
+    "model_block_index": 24,
+    "gt_index": 22,
+    "detector_bbox": [
+      11.0,
+      557.0,
+      227.0,
+      815.0
+    ],
+    "gt_bbox": [
+      15.767320419320162,
+      612.3504975016803,
+      306.29274593996223,
+      715.571107766499
+    ],
+    "iou": 0.34115,
+    "gt_coverage": 0.72707,
+    "gt": "\\begin{tabular}{|l|l|l|} \\hline\n序号 & 品种名称 & 审定编号 \\\\ \\hline\n1 & 油优64 & GS01015-1990 \\\\ \\hline\n2 & 金珠一号 & GS01008-1994 \\\\ \\hline\n3 & 优优128 & 国审稻990007 \\\\ \\hline\n4 & 特优70 & 国审稻2001011 \\\\ \\hline\n5 & 优优122 & 国审稻2001022 \\\\ \\hline\n6 & 培杂茂三 & 国审稻2001024 \\\\ \\hline\n\\end{tabular}\n"
+  },
+  {
+    "page": "jiaocaineedrop_33137159.pdf_3",
+    "image_path": "jiaocaineedrop_33137159.pdf_3.jpg",
+    "model_type": "interline_equation",
+    "task": "formula",
+    "model_block_index": 0,
+    "gt_index": 0,
+    "detector_bbox": [
+      253.0,
+      175.0,
+      986.0,
+      358.0
+    ],
+    "gt_bbox": [
+      340.93562523614764,
+      233.13247680664085,
+      1304.9158803631008,
+      348.40228013900787
+    ],
+    "iou": 0.43509,
+    "gt_coverage": 0.66917,
+    "gt": "$$\n\\therefore\\left[(2b)2+\\left(\\frac{3\\sqrt2}b\\right)^2\\right]+\\left[(2b-b)2+\\left(\\frac{6\\sqrt2}b-\\frac{3\\sqrt2}b\\right)^2\\right]=b^2+\\left(\\frac{6\\sqrt2}b\\right)^2\n$$"
+  },
+  {
+    "page": "yanbaopptmerge_0c79d327060dbf9f1582d03c235dadb039533a19091d2c0d24f2ad95d267f79b.pdf_2",
+    "image_path": "yanbaopptmerge_0c79d327060dbf9f1582d03c235dadb039533a19091d2c0d24f2ad95d267f79b.pdf_2.jpg",
+    "model_type": "text",
+    "task": "text",
+    "model_block_index": 11,
+    "gt_index": 8,
+    "detector_bbox": [
+      72.0,
+      1363.0,
+      758.0,
+      1462.0
+    ],
+    "gt_bbox": [
+      95.55487060546875,
+      1357.4207763671875,
+      1555.295654296875,
+      1474.4500732421875
+    ],
+    "iou": 0.37873,
+    "gt_coverage": 0.3839,
+    "gt": "在法律充许的情况下，本公司及其附属机构可能持有报告中提及的公司所发行证券的头寸并进行交易，也可能为这些公司提供或正在争取提供投资银行、财务顾问、咨询服务等相关服务，本公司的员工可能担任本报告所提及的公司的董事。客户应充分考虑可能存在的利益冲突，勿将本报告作为投资决策的唯一参考依据"
+  },
+  {
+    "page": "newspaper_7d8b25729455f1d061a95ec4269d72dc_1",
+    "image_path": "newspaper_7d8b25729455f1d061a95ec4269d72dc_1.jpg",
+    "model_type": "text",
+    "task": "text",
+    "model_block_index": 0,
+    "gt_index": 0,
+    "detector_bbox": [
+      33.0,
+      43.0,
+      158.0,
+      111.0
+    ],
+    "gt_bbox": [
+      44.4874344357232,
+      59.39520800952465,
+      211.12278643723567,
+      150.15196222463405
+    ],
+    "iou": 0.32973,
+    "gt_coverage": 0.38734,
+    "gt": "as amended. The grant applications and the discussions could disclose confidential trade secrets or commercial property such as patentable material. and personal information concerning individuals associated with the grant applications, the disclosure of which would constitute a clearly unwarranted invasion of personal privacy."
+  },
+  {
+    "page": "jiaocaineedrop_20608808.pdf_0",
+    "image_path": "jiaocaineedrop_20608808.pdf_0.jpg",
+    "model_type": "text",
+    "task": "text",
+    "model_block_index": 10,
+    "gt_index": 7,
+    "detector_bbox": [
+      180.0,
+      1046.0,
+      1185.0,
+      1145.0
+    ],
+    "gt_bbox": [
+      246.4975938705438,
+      1031.4258993333033,
+      1398.7064079312122,
+      1239.4518090200118
+    ],
+    "iou": 0.37727,
+    "gt_coverage": 0.38763,
+    "gt": "1．已知函数 $ f(x)=\\int_{0}^{x}e^{\\cos t}dt,g(x)=\\int_{0}^{\\sin x}e^{t^{2}}dt $则\nA. f(x)是奇函数， g(x)是偶函数 B. f(x)足偶函数， g(x)足奇函数\nC. f(x)与 g(x)均为奇函数 D. f(x)与 g(x)均为周期函数"
+  },
+  {
+    "page": "newspaper_d7fe1132386670993aae3dabc6247bc9_1",
+    "image_path": "newspaper_d7fe1132386670993aae3dabc6247bc9_1.jpg",
+    "model_type": "text",
+    "task": "text",
+    "model_block_index": 29,
+    "gt_index": 20,
+    "detector_bbox": [
+      298.0,
+      376.0,
+      424.0,
+      391.0
+    ],
+    "gt_bbox": [
+      221.4863329434637,
+      373.84611815802776,
+      380.9287240203439,
+      393.89296849810336
+    ],
+    "iou": 0.32374,
+    "gt_coverage": 0.38918,
+    "gt": "Agency: National Ooeanic and Atmospheric Administration (NOAA]."
+  },
+  {
+    "page": "docstructbench_enbook-zlib-o.O-21353024.pdf_39",
+    "image_path": "docstructbench_enbook-zlib-o.O-21353024.pdf_39.jpg",
+    "model_type": "text",
+    "task": "text",
+    "model_block_index": 7,
+    "gt_index": 3,
+    "detector_bbox": [
+      86.0,
+      1083.0,
+      623.0,
+      1182.0
+    ],
+    "gt_bbox": [
+      108.34692399999999,
+      1036.658834,
+      839.6200200000001,
+      1214.373715
+    ],
+    "iou": 0.38549,
+    "gt_coverage": 0.39205,
+    "gt": "Most small SMD capacitors are not marked at all, so use your component test skills and equipment to verify them. And get a magnifying glass or a USB microscope (which is what I used to take most of the photos for this article) - it makes it much easier to see the tiny writing on small components."
+  },
+  {
+    "page": "newspaper_fe5ed29024932fad071afc53807b16ba_2",
+    "image_path": "newspaper_fe5ed29024932fad071afc53807b16ba_2.jpg",
+    "model_type": "text",
+    "task": "text",
+    "model_block_index": 13,
+    "gt_index": 5,
+    "detector_bbox": [
+      298.0,
+      80.0,
+      424.0,
+      155.0
+    ],
+    "gt_bbox": [
+      220.57059051331848,
+      59.14865272353239,
+      389.82929565082947,
+      162.42515077353906
+    ],
+    "iou": 0.34362,
+    "gt_coverage": 0.39399,
+    "gt": "any varietal tvpe for which the computed trade demand is zero or less. The computed trade demand for Oleates was less than zero, so the Commillee established the trade demand for Oleates at 500 tons. At USDA's request. the Committee met on September 9. 2003, and recomputed the combined NS trade demand to account for Oleales at 211,493 tons [210,933 plus 500]."
+  },
+  {
+    "page": "yanbaopptmerge_0c79d327060dbf9f1582d03c235dadb039533a19091d2c0d24f2ad95d267f79b.pdf_2",
+    "image_path": "yanbaopptmerge_0c79d327060dbf9f1582d03c235dadb039533a19091d2c0d24f2ad95d267f79b.pdf_2.jpg",
+    "model_type": "text",
+    "task": "text",
+    "model_block_index": 9,
+    "gt_index": 7,
+    "detector_bbox": [
+      72.0,
+      1203.0,
+      1163.0,
+      1296.0
+    ],
+    "gt_bbox": [
+      96.13414764404297,
+      1230.6495361328125,
+      1553.501953125,
+      1352.05712890625
+    ],
+    "iou": 0.3341,
+    "gt_coverage": 0.39404,
+    "gt": "本报告是基于已公开信息撰写，但本公司不保证该等信息的准确性或完整性。本报告所载的资料、意见及预测仅反映本公司于发布本报告当日的判断，且预测方法及结果存在一定程度局限性。在不同时期，本公司可发出与本报告所刊载的意见、预测不一致的报告，但本公司没有义务和责任及时更新本报告所涉及的内容并通知客户。"
+  },
+  {
+    "page": "eastmoney_944c06af0b176ef718ee34d3affee40554920f76210dfbf007972fe9c39074fc.pdf_0",
+    "image_path": "eastmoney_944c06af0b176ef718ee34d3affee40554920f76210dfbf007972fe9c39074fc.pdf_0.jpg",
+    "model_type": "text",
+    "task": "text",
+    "model_block_index": 15,
+    "gt_index": 16,
+    "detector_bbox": [
+      469.0,
+      914.0,
+      1144.0,
+      1104.0
+    ],
+    "gt_bbox": [
+      625.8776245117188,
+      960.222412109375,
+      1526.841796875,
+      1168.0643310546875
+    ],
+    "iou": 0.30909,
+    "gt_coverage": 0.39782,
+    "gt": "此前公司已于 10 月 21 日公告，公司拟以竞价方式回购股份，数量不少于 180万股，不超过 330 万股，占公司目前总股本的比例为 1.28%-2.34% ，根据本次拟回购数量及拟回购价格上限测算预计回购资金总额区间为 2700 万-4950万，资金来源为自有资金。公司本次回购股份的实施期限为自董事会审议通过本次股份回购方案之日起不超过 12 个月。"
+  },
+  {
+    "page": "jiaocaineedrop_jiaocai_needrop_en_250",
+    "image_path": "jiaocaineedrop_jiaocai_needrop_en_250.jpg",
+    "model_type": "text",
+    "task": "text",
+    "model_block_index": 9,
+    "gt_index": 9,
+    "detector_bbox": [
+      50.0,
+      723.0,
+      662.0,
+      827.0
+    ],
+    "gt_bbox": [
+      67.81091532541151,
+      667.998167427025,
+      885.255583957653,
+      857.9165321463969
+    ],
+    "iou": 0.39335,
+    "gt_coverage": 0.39805,
+    "gt": "最早使用的化学电池是锌锰电池，也是最普通的干电池，构造如图2-11所示。它是一种一次性电池，放完电之后不能再使用（内部的氧化还原反应是不可逆的）。电池在使用过程中，锌会逐渐溶解"
+  },
+  {
+    "page": "newspaper_d7fe1132386670993aae3dabc6247bc9_2",
+    "image_path": "newspaper_d7fe1132386670993aae3dabc6247bc9_2.jpg",
+    "model_type": "text",
+    "task": "text",
+    "model_block_index": 10,
+    "gt_index": 9,
+    "detector_bbox": [
+      33.0,
+      285.0,
+      157.0,
+      338.0
+    ],
+    "gt_bbox": [
+      44.166065864348326,
+      266.90994639253773,
+      206.622115158977,
+      358.91704540063307
+    ],
+    "iou": 0.38485,
+    "gt_coverage": 0.40009,
+    "gt": "SUMMARY: The Department of Commerce, as part of its continuing effort to reduce paperwork and respondent burden, invites the general public and other Federal agencies to comment on proposed and/or continuing information collections, as required by the Paperwork Reduction Act of 1995."
+  },
+  {
+    "page": "newspaper_bf784eedb0c377adb9a0f286954af785_2",
+    "image_path": "newspaper_bf784eedb0c377adb9a0f286954af785_2.jpg",
+    "model_type": "text",
+    "task": "text",
+    "model_block_index": 0,
+    "gt_index": 0,
+    "detector_bbox": [
+      33.0,
+      43.0,
+      158.0,
+      125.0
+    ],
+    "gt_bbox": [
+      43.43806710940416,
+      58.2753713129714,
+      214.70396605141437,
+      168.8109608740436
+    ],
+    "iou": 0.35493,
+    "gt_coverage": 0.40379,
+    "gt": "U.S.C. 3506[(c]2]A]] requires Federal agencies to provide a 60-day notice in the Federal Register concerning each proposed collection of information, including each proposed extension of an existing collection of information. before submitting the collection to OMB for approval. To comply with this requirement, ACL is publishing a notice of the proposed collection of information set forth in this document"
+  },
+  {
+    "page": "newspaper_d7fe1132386670993aae3dabc6247bc9_2",
+    "image_path": "newspaper_d7fe1132386670993aae3dabc6247bc9_2.jpg",
+    "model_type": "text",
+    "task": "text",
+    "model_block_index": 2,
+    "gt_index": 1,
+    "detector_bbox": [
+      33.0,
+      60.0,
+      145.0,
+      88.0
+    ],
+    "gt_bbox": [
+      43.990151498744446,
+      69.09221888801142,
+      194.89760591093614,
+      100.35521658391627
+    ],
+    "iou": 0.32131,
+    "gt_coverage": 0.40482,
+    "gt": "Gwellnar Banks, Management Analyst, Office of the Chief Information Officer."
+  },
+  {
+    "page": "newspaper_bf784eedb0c377adb9a0f286954af785_2",
+    "image_path": "newspaper_bf784eedb0c377adb9a0f286954af785_2.jpg",
+    "model_type": "text",
+    "task": "text",
+    "model_block_index": 10,
+    "gt_index": 7,
+    "detector_bbox": [
+      298.0,
+      121.0,
+      424.0,
+      210.0
+    ],
+    "gt_bbox": [
+      221.83262828288392,
+      102.36776850602831,
+      389.779616766697,
+      222.48420710552656
+    ],
+    "iou": 0.3518,
+    "gt_coverage": 0.40491,
+    "gt": "The Administration for Community Living (ACL) is requesting approval for a revised data collection associated with theEvaluationoltheAdminislrationlor Community Living's [ACL] American Indian, Alaska Natives, and Native Hawaiian Programs [O]lder Americans Act [OAA]Title Vl; short title Evaluation of the Title VI Programs). OAA Title VI establishes grants to Native Americans for nutrition services, supportive services, and familly"
+  },
+  {
+    "page": "yanbaopptmerge_0c79d327060dbf9f1582d03c235dadb039533a19091d2c0d24f2ad95d267f79b.pdf_2",
+    "image_path": "yanbaopptmerge_0c79d327060dbf9f1582d03c235dadb039533a19091d2c0d24f2ad95d267f79b.pdf_2.jpg",
+    "model_type": "text",
+    "task": "text",
+    "model_block_index": 8,
+    "gt_index": 6,
+    "detector_bbox": [
+      71.0,
+      1110.0,
+      1165.0,
+      1200.0
+    ],
+    "gt_bbox": [
+      95.77110290527344,
+      1064.45361328125,
+      1550.959228515625,
+      1226.354248046875
+    ],
+    "iou": 0.40463,
+    "gt_coverage": 0.40846,
+    "gt": "本报告仅供本公司境内客户使用。本公司不会因接收人收到本报告而视其为客户。本报告仅为参考之用，并不构成对客户的投资建议，不应被视为买卖任何证券、金融工具的要约或要约邀请。本报告所包含的观点及建议并未考虑个别客户的特殊状况、自标或需要，客户应当充分考虑自身特定状况，不应单纯依靠本报告所载的内容而取代个人的独立判断。在任何情况下，本公司不对任何人因使用本报告中的任何内容而导致的任何可能的损失负任何责任"
+  },
+  {
+    "page": "jiaocaineedrop_math-134115.pdf_670",
+    "image_path": "jiaocaineedrop_math-134115.pdf_670.jpg",
+    "model_type": "text",
+    "task": "text",
+    "model_block_index": 9,
+    "gt_index": 6,
+    "detector_bbox": [
+      106.0,
+      1120.0,
+      1169.0,
+      1222.0
+    ],
+    "gt_bbox": [
+      145.4019317626953,
+      1075.1678466796875,
+      1557.241455078125,
+      1178.4422607421875
+    ],
+    "iou": 0.3077,
+    "gt_coverage": 0.41028,
+    "gt": "Uncontrolled population growth, as in the wild rabbits in Australia, can be modeled with exponential functions. Equations resulting from those exponential functions can be solved to analyze and make predictions about exponential growth. In this section, we wil learn techniques for solving exponential functions."
+  },
+  {
+    "page": "newspaper_fe5ed29024932fad071afc53807b16ba_1",
+    "image_path": "newspaper_fe5ed29024932fad071afc53807b16ba_1.jpg",
+    "model_type": "text",
+    "task": "text",
+    "model_block_index": 0,
+    "gt_index": 0,
+    "detector_bbox": [
+      33.0,
+      43.0,
+      157.0,
+      129.0
+    ],
+    "gt_bbox": [
+      44.48871397579191,
+      59.64329979259054,
+      208.9212999557419,
+      174.0311856916861
+    ],
+    "iou": 0.36011,
+    "gt_coverage": 0.41487,
+    "gt": "The Gommittee's meetings were widely publicized throughout the sweet onion industry and all interested persons were invited to allend the meetings and participate in Commmittee deliberations on all issues. Like all Committeemee tings,the December &, 2003, and the February 10, z004, meetings were public meelings and all entities, both large and small, were able to express their views."
+  },
+  {
+    "page": "jiaocaineedrop_jiaocai_needrop_en_3009",
+    "image_path": "jiaocaineedrop_jiaocai_needrop_en_3009.jpg",
+    "model_type": "text",
+    "task": "text",
+    "model_block_index": 0,
+    "gt_index": 0,
+    "detector_bbox": [
+      174.0,
+      111.0,
+      1098.0,
+      299.0
+    ],
+    "gt_bbox": [
+      233.54957580566406,
+      148.091796875,
+      1468.747802734375,
+      399.5101318359375
+    ],
+    "iou": 0.36871,
+    "gt_coverage": 0.42007,
+    "gt": "这四个点中，只要知道了其中两个点，就可以画出另外两个点，譬如，若知道了 $ M_{2}, M_{3} $两个点，则只要分别过 $ M_{2}, M_{3} $画出投影线(平行于相应坐标轴的直线），它们的交点就是M点，再过M画投影线（平行于z轴），它与 xOy面的交点就是 $ M_{1}. $"
+  },
+  {
+    "page": "docstructbench_dianzishu_zhongwenzaixian-o.O-61520788.pdf_391",
+    "image_path": "docstructbench_dianzishu_zhongwenzaixian-o.O-61520788.pdf_391.jpg",
+    "model_type": "text",
+    "task": "text",
+    "model_block_index": 4,
+    "gt_index": 2,
+    "detector_bbox": [
+      74.0,
+      294.0,
+      930.0,
+      354.0
+    ],
+    "gt_bbox": [
+      98.593248,
+      257.69926899999996,
+      1239.452045,
+      344.317475
+    ],
+    "iou": 0.38612,
+    "gt_coverage": 0.42334,
+    "gt": "（1）人工预算单价。是指支付给从事建筑及安装工程施工的生产工人的各项费用。包括生产工人的基本工资和辅助工资。"
+  },
+  {
+    "page": "yanbaor2_0071908e787f90267682e19ef093bb18dda6e1c1614534c445ddd62c425b3a94.pdf_44",
+    "image_path": "yanbaor2_0071908e787f90267682e19ef093bb18dda6e1c1614534c445ddd62c425b3a94.pdf_44.jpg",
+    "model_type": "text",
+    "task": "text",
+    "model_block_index": 5,
+    "gt_index": 3,
+    "detector_bbox": [
+      65.0,
+      1327.0,
+      418.0,
+      1546.0
+    ],
+    "gt_bbox": [
+      92.10098873318697,
+      1288.4253586905759,
+      564.0823399836922,
+      1643.8302576708425
+    ],
+    "iou": 0.41094,
+    "gt_coverage": 0.42548,
+    "gt": "With our solution, no matter what question a customer asks, the employee Will be able to quickly consider the right factors, ask the right questions and then offer the right products or solutions. They don't need to confer with trained specialists because the logic used by those specialists is already embedded in the system. It also means staff  can be performing in a fully compliant way with a fraction of traditional training."
+  },
+  {
+    "page": "eastmoney_34d623c64d12b5f02ffe4bff74f464b368270b1d6930192876bfe353d8fd6c30.pdf_0",
+    "image_path": "eastmoney_34d623c64d12b5f02ffe4bff74f464b368270b1d6930192876bfe353d8fd6c30.pdf_0.jpg",
+    "model_type": "text",
+    "task": "text",
+    "model_block_index": 13,
+    "gt_index": 15,
+    "detector_bbox": [
+      531.0,
+      1197.0,
+      1205.0,
+      1571.0
+    ],
+    "gt_bbox": [
+      707.8655395507812,
+      1099.8145751953125,
+      1605.0826416015625,
+      1518.9456787109375
+    ],
+    "iou": 0.34193,
+    "gt_coverage": 0.42561,
+    "gt": "数据加密作为数据要素开发与利用的核心技术，产业应用与创新发展已延伸至国家基础设施、金融证券、电力能源、数字经济、数据安全等重要领域。数据确权需要通过数据指纹、数字签名与时间戳技术，构建数据资产的产权证；其次在数据共享中需使用同态加密、多方安全计算等隐私计算技术，实现密文状态下的数据运算处理；资产确权、隐私利用等数据交易全流程均离不开密码技术。此外，在数据要素融通过程中，传统的密码技术结合隐私计算等新型密码技术构筑安全防护边界。在国家大力推动数据要素化的过程中，国产密码有望率先受益。"
+  },
+  {
+    "page": "newspaper_01f020903d7bc4b3fc69f500f41eb77e_1",
+    "image_path": "newspaper_01f020903d7bc4b3fc69f500f41eb77e_1.jpg",
+    "model_type": "text",
+    "task": "text",
+    "model_block_index": 10,
+    "gt_index": 7,
+    "detector_bbox": [
+      357.0,
+      157.0,
+      461.0,
+      201.0
+    ],
+    "gt_bbox": [
+      323.39194196004206,
+      174.06696479238553,
+      463.4853026609531,
+      220.76475169268923
+    ],
+    "iou": 0.33678,
+    "gt_coverage": 0.42816,
+    "gt": "关方面公布的今年种子供不应求的预测就要打折扣了。如果无视这一现实，硬要将其派上用场，虽不属假冒伪劣，自当也算不得优质。"
+  },
+  {
+    "page": "eastmoney_fcc1c7940f94c7f36157a4aa9c1c804fe16e6b681ca1cef589af39c6d3e0cb90.pdf_0",
+    "image_path": "eastmoney_fcc1c7940f94c7f36157a4aa9c1c804fe16e6b681ca1cef589af39c6d3e0cb90.pdf_0.jpg",
+    "model_type": "text",
+    "task": "text",
+    "model_block_index": 4,
+    "gt_index": 3,
+    "detector_bbox": [
+      131.0,
+      876.0,
+      757.0,
+      1337.0
+    ],
+    "gt_bbox": [
+      158.7962718301277,
+      705.2304549694269,
+      1018.6465492858453,
+      1157.1885508725632
+    ],
+    "iou": 0.33047,
+    "gt_coverage": 0.43284,
+    "gt": "-  矿山开发服务业务延续强增长稳定性。尽管2022年市场受流动性、事件\n性及政策性等因素冲击，但公司矿山开发服务业务延续了稳定的强增长\n性，全年实现采供矿量3400.43万吨，掘进总量347.55万立方米，分别\n达到计划完成率的 103%及 96% 。公司矿山开发业务的稳定增长一方面反映\n了矿山开发服务领域具有一定的抗周期扰动性的特点（矿山端采矿工程停\n滞对矿山业主易造成巨大机会成本），另一方面则显示出公司在矿采选服\n务行业市场优势的扩大。合同签署情况也进一步印证公司矿采服务行业的\n强成长性，22年公司全年新签及续签合同完成额达56亿元 （+24.5%），\n其中海外项目在已有合同基础上进一步承接了 RTB BOR下部矿带井巷第二\n标段工程、卡莫亚铜钻矿未来干年的深部矿体采矿工程、Kinsenda 地下\n铜矿工程及老挝钾盐采矿等工程，综合反映出公司客户的强黏性特点。考\n虑到公司采矿运营管理业务占主营比例已由2020年 49.8%增长至22年的\n63.7% ，毛利率同期由 10.9%升至 30.5% ：结合公司海外主营收入已占业务\n总收入 61.8% （总金额升至32.3亿元），海外毛利增至 28.8%，预计公司\n矿山开发服务业务规模有望维持年均 15%以上的复合增速。"
+  }
+]

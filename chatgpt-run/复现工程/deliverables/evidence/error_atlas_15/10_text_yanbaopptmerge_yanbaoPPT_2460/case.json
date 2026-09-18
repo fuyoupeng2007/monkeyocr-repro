@@ -1,0 +1,40 @@
+{
+  "source": "predictions_quick_match_text_block_result.json",
+  "kind": "text",
+  "img_id": "yanbaopptmerge_yanbaoPPT_2460.jpg",
+  "reason": "文字识别或文本合并错误：按官方文本编辑距离从高到低抽取。",
+  "evidence": {
+    "gt_idx": [
+      3
+    ],
+    "gt": "- A 有两个线性无关的特征向",
+    "pred_idx": [
+      ""
+    ],
+    "pred": "",
+    "edit": 1,
+    "gt_position": [
+      3
+    ],
+    "pred_position": "",
+    "norm_gt": "A有两个线性无关的特征向",
+    "norm_pred": "",
+    "gt_category_type": "text_block",
+    "pred_category_type": "",
+    "gt_attribute": [
+      {
+        "text_language": "text_simplified_chinese",
+        "text_background": "white",
+        "text_rotate": "normal"
+      }
+    ],
+    "img_id": "yanbaopptmerge_yanbaoPPT_2460.jpg",
+    "image_name": "yanbaopptmerge_yanbaoPPT_2460.jpg",
+    "upper_len": 12,
+    "metric": {
+      "Edit_dist": 1.0
+    },
+    "Edit_num": 12
+  },
+  "severity": 1.0
+}

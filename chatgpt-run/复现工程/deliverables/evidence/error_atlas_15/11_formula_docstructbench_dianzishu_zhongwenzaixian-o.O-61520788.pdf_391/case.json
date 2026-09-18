@@ -1,0 +1,38 @@
+{
+  "source": "predictions_quick_match_display_formula_result.json",
+  "kind": "formula",
+  "img_id": "docstructbench_dianzishu_zhongwenzaixian-o.O-61520788.pdf_391.jpg",
+  "reason": "公式识别错误：按官方展示公式编辑距离从高到低抽取。",
+  "evidence": {
+    "gt_idx": [
+      0
+    ],
+    "gt": "$$\n运输保险费=材料原价\\times材料运输保险费率\n $$",
+    "pred_idx": [
+      0
+    ],
+    "pred": "\\[11-1\\]",
+    "gt_position": [
+      15
+    ],
+    "pred_position": 487,
+    "norm_gt": "$$\n运输保险费=材料原价\\times材料运输保险费率\n$$",
+    "norm_pred": "11-1",
+    "gt_category_type": "equation_isolated",
+    "pred_category_type": "equation_inline",
+    "gt_attribute": [
+      {
+        "formula_type": "print"
+      }
+    ],
+    "edit": 1.0,
+    "img_id": "docstructbench_dianzishu_zhongwenzaixian-o.O-61520788.pdf_391.jpg",
+    "image_name": "docstructbench_dianzishu_zhongwenzaixian-o.O-61520788.pdf_391.jpg",
+    "upper_len": 30,
+    "metric": {
+      "Edit_dist": 1.0
+    },
+    "Edit_num": 30
+  },
+  "severity": 1.0
+}

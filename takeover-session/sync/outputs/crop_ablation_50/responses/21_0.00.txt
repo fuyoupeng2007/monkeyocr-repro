@@ -1,0 +1,7 @@
+\begin{tabular}{cccccc}
+Sector & Eastern Amazonian district & Central Amazonian district & Western Amazonian district & BSAJ & \\
+\hline
+TAC & 7,900 & 7,000 & 9,000 & 163 & \\
+CQO & 345 & 748 & 2,000 & 10 & \\
+ICA & 200 & 75 & 10 & 5 & \\
+\end{tabular}

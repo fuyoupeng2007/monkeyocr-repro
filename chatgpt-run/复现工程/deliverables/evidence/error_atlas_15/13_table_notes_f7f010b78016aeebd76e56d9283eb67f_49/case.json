@@ -1,0 +1,47 @@
+{
+  "source": "predictions_quick_match_table_result.json",
+  "kind": "table",
+  "img_id": "notes_f7f010b78016aeebd76e56d9283eb67f_49.jpg",
+  "reason": "表格结构或表格内容错误：按较低 TEDS 或较高编辑距离抽取。",
+  "evidence": {
+    "gt_idx": [
+      0
+    ],
+    "gt": "<table>\n<thead>\n<tr>\n <th>1 one</th>\n <th>5 five</th>\n <th>9 nine</th>\n <th>13 thirteen</th>\n <th>17 seventeen</th>\n <th>30 thirty</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n <td>2 two</td>\n <td>6 six</td>\n <td>10 ten</td>\n <td>14 fourteen</td>\n <td>18 eighteen</td>\n <td>40 forty</td>\n</tr>\n<tr>\n <td>3 three</td>\n <td>7 seven</td>\n <td>11 eleven</td>\n <td>15 fifteen</td>\n <td>19 nineteen</td>\n <td>50 fifty</td>\n</tr>\n<tr>\n <td>4 four</td>\n <td>8 eight</td>\n <td>12 twelve</td>\n <td>16 sixteen</td>\n <td>20 twenty</td>\n <td>60 sixty</td>\n</tr>\n</tbody>\n</table>",
+    "pred_idx": [
+      ""
+    ],
+    "pred": "",
+    "gt_position": [
+      15
+    ],
+    "pred_position": "",
+    "norm_gt": "<html><body><table border=\"1\" ><tr><td>1 one</td><td>5 five</td><td>9 nine</td><td>13 thirteen</td><td>17 seventeen</td><td>30 thirty</td></tr><tr><td>2 two</td><td>6 six</td><td>10 ten</td><td>14 fourteen</td><td>18 eighteen</td><td>40 forty</td></tr><tr><td>3 three</td><td>7 seven</td><td>11 eleven</td><td>15 fifteen</td><td>19 nineteen</td><td>50 fifty</td></tr><tr><td>4 four</td><td>8 eight</td><td>12 twelve</td><td>16 sixteen</td><td>20 twenty</td><td>60 sixty</td></tr></table></body></html>",
+    "norm_pred": "",
+    "gt_category_type": "table",
+    "pred_category_type": "",
+    "gt_attribute": [
+      {
+        "table_layout": "horizontal",
+        "with_span": false,
+        "line": "full_line",
+        "language": "table_en",
+        "include_equation": false,
+        "include_photo": false,
+        "include_background": false,
+        "with_structured_text": false
+      }
+    ],
+    "edit": 1,
+    "img_id": "notes_f7f010b78016aeebd76e56d9283eb67f_49.jpg",
+    "metric": {
+      "TEDS": 0.0,
+      "TEDS_structure_only": 0.0,
+      "Edit_dist": 1.0
+    },
+    "image_name": "notes_f7f010b78016aeebd76e56d9283eb67f_49.jpg",
+    "upper_len": 501,
+    "Edit_num": 501
+  },
+  "severity": 1.0
+}

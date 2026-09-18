@@ -1,0 +1,65 @@
+{
+  "dataset_repo": "opendatalab/OmniDocBench",
+  "dataset_revision": "f5f559bddf50e36f7f9899d842d0006f13ce8afc",
+  "ground_truth_sha256": "2fafe9329dc92fc426b30036aee51c716b3fcdcc1d20cb964dc7670579533817",
+  "seed": 250605,
+  "selection": "deterministic greedy stratification; pilot is a challenge-rich subset of formal",
+  "pilot": {
+    "pages": 20,
+    "source": {
+      "exam_paper": 7,
+      "academic_literature": 3,
+      "book": 3,
+      "newspaper": 2,
+      "colorful_textbook": 1,
+      "note": 1,
+      "magazine": 1,
+      "research_report": 1,
+      "PPT2PDF": 1
+    },
+    "language": {
+      "simplified_chinese": 11,
+      "english": 8,
+      "en_ch_mixed": 1
+    },
+    "layout": {
+      "double_column": 8,
+      "1andmore_column": 3,
+      "single_column": 4,
+      "other_layout": 3,
+      "three_column": 2
+    },
+    "pages_with_table": 18,
+    "pages_with_display_formula": 15,
+    "pages_with_complex_layout": 16
+  },
+  "formal": {
+    "pages": 120,
+    "source": {
+      "exam_paper": 14,
+      "academic_literature": 13,
+      "colorful_textbook": 13,
+      "book": 14,
+      "newspaper": 14,
+      "magazine": 13,
+      "PPT2PDF": 13,
+      "research_report": 13,
+      "note": 13
+    },
+    "language": {
+      "simplified_chinese": 52,
+      "english": 44,
+      "en_ch_mixed": 24
+    },
+    "layout": {
+      "double_column": 23,
+      "1andmore_column": 23,
+      "single_column": 30,
+      "other_layout": 22,
+      "three_column": 22
+    },
+    "pages_with_table": 48,
+    "pages_with_display_formula": 40,
+    "pages_with_complex_layout": 90
+  }
+}

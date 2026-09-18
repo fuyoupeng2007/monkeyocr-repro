@@ -1,0 +1,1 @@
+\therefore \left[ ( 2 b ) 2 + \left( \frac { 3 \sqrt { 2 } } { b } \right) ^ { 2 } \right] + \left[ ( 2 b - b ) 2 + \left( \frac { 6 \sqrt { 2 } } { b } - \frac { 3 \sqrt { 2 } } { b } \right) ^ { 2 } \right] = 0

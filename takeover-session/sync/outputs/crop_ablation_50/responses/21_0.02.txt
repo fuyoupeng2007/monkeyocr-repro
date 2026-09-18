@@ -1,0 +1,7 @@
+\begin{tabular}{lrrr}
+Sector & Eastern Abaco district & Central Abaco district & Western Abaco district & BSAI \\
+\hline
+TAC & 7,900 & 7,000 & 9,000 & 16.3 \\
+CBA & 840 & 75 & 10 & 5.0 \\
+ICA & 75 & 75 & 10 & 5.0 \\
+\end{tabular}

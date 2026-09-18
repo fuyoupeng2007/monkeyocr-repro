@@ -1,0 +1,38 @@
+{
+  "source": "predictions_quick_match_display_formula_result.json",
+  "kind": "formula",
+  "img_id": "jiaocaineedrop_jiaocai_needrop_en_546.jpg",
+  "reason": "公式识别错误：按官方展示公式编辑距离从高到低抽取。",
+  "evidence": {
+    "gt_idx": [
+      0
+    ],
+    "gt": "$$\n\\begin{array}{l}\n38\\div7=    20\\div3=\n\\\\50\\div8=  71\\div8=\n\\\\42\\div6=  17\\div2=\n\\\\78\\div9=  38\\div6=\n\\\\60\\div8=  80\\div9=\n\\\\30\\div4=  15\\div5=\n\\\\64\\div8=  32\\div5=\n\\\\35\\div8=  42\\div7=\n\\\\54\\div8=  36\\div4=\n\\\\36\\div9=  30\\div8=\n\\\\60\\div7=  48\\div9=\n\\\\23\\div4=  45\\div7=\n\\end{array}\n$$",
+    "pred_idx": [
+      ""
+    ],
+    "pred": "",
+    "edit": 1,
+    "gt_position": [
+      4
+    ],
+    "pred_position": "",
+    "norm_gt": "$$\n{l}\n38\\div7=20\\div3=\n\\\\50\\div8=71\\div8=\n\\\\42\\div6=17\\div2=\n\\\\78\\div9=38\\div6=\n\\\\60\\div8=80\\div9=\n\\\\30\\div4=15\\div5=\n\\\\64\\div8=32\\div5=\n\\\\35\\div8=42\\div7=\n\\\\54\\div8=36\\div4=\n\\\\36\\div9=30\\div8=\n\\\\60\\div7=48\\div9=\n\\\\23\\div4=45\\div7=\n\n$$",
+    "norm_pred": "",
+    "gt_category_type": "equation_isolated",
+    "pred_category_type": "",
+    "gt_attribute": [
+      {
+        "formula_type": "print"
+      }
+    ],
+    "img_id": "jiaocaineedrop_jiaocai_needrop_en_546.jpg",
+    "image_name": "jiaocaineedrop_jiaocai_needrop_en_546.jpg",
+    "upper_len": 236,
+    "metric": {
+      "Edit_dist": 1.0
+    },
+    "Edit_num": 236
+  },
+  "severity": 1.0
+}

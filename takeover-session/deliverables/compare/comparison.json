@@ -1,0 +1,310 @@
+{
+  "models": [
+    "MonkeyOCR-3B",
+    "MinerU-0.9.3"
+  ],
+  "prefixes": [
+    "monkeyocr_formal_120_quick_match",
+    "mineru_formal_120_quick_match"
+  ],
+  "headline": [
+    {
+      "metric": "text_block_edit_dist",
+      "values": [
+        0.20223554619821063,
+        0.20543107909781663
+      ],
+      "delta": "-1.6%"
+    },
+    {
+      "metric": "display_formula_edit_dist",
+      "values": [
+        0.4135799137219938,
+        0.38532717479325673
+      ],
+      "delta": "+6.8%"
+    },
+    {
+      "metric": "table_TEDS",
+      "values": [
+        0.8080815229210488,
+        0.6020239334693499
+      ],
+      "delta": "-25.5%"
+    },
+    {
+      "metric": "table_TEDS_structure_only",
+      "values": [
+        0.8695972667171095,
+        0.6633455669122504
+      ],
+      "delta": "-23.7%"
+    },
+    {
+      "metric": "table_edit_dist",
+      "values": [
+        0.20409789945923884,
+        0.27966614890778324
+      ],
+      "delta": "-37.0%"
+    },
+    {
+      "metric": "reading_order_edit_dist",
+      "values": [
+        0.23626542052409816,
+        0.24244304497631916
+      ],
+      "delta": "-2.6%"
+    }
+  ],
+  "groups": {
+    "text by language": {
+      "text_language: text_en_ch_mixed": [
+        0.8266343919121202,
+        1.0
+      ],
+      "text_language: text_english": [
+        0.11793065783773572,
+        0.2045625446078897
+      ],
+      "text_language: text_simplified_chinese": [
+        0.18216736769465727,
+        0.12268908404809699
+      ]
+    },
+    "text by background": {
+      "text_background: multi_colored": [
+        0.3884244955380503,
+        0.2595789605332784
+      ],
+      "text_background: single_colored": [
+        0.017552584559157078,
+        0.07041666666666667
+      ],
+      "text_background: white": [
+        0.18728759363121641,
+        0.18166999271793627
+      ]
+    },
+    "text by rotate": {
+      "text_rotate: horizontal": [
+        0.32954545454545453,
+        0.5
+      ],
+      "text_rotate: normal": [
+        0.19814402863106403,
+        0.18356690080695115
+      ],
+      "text_rotate: rotate270": [
+        0.2758308745175615
+      ]
+    },
+    "table by language": {
+      "language: table_en": [
+        0.7417933846444131,
+        0.5865146696979321
+      ],
+      "language: table_en_ch_mixed": [
+        0.9219743510287166
+      ],
+      "language: table_simplified_chinese": [
+        0.8424138699063409,
+        0.6175331972407678
+      ]
+    },
+    "table by line style": {
+      "line: fewer_line": [
+        0.8535267253440532,
+        0.5495478590708853
+      ],
+      "line: full_line": [
+        0.7859916523892789,
+        0.6127848649663273
+      ],
+      "line: less_line": [
+        0.765306677276312,
+        0.6481231048045089
+      ],
+      "line: wireless_line": [
+        0.8341966636781704
+      ]
+    },
+    "table with span": {
+      "with_span: False": [
+        0.7895274810862621,
+        0.5998924134496209
+      ],
+      "with_span: True": [
+        0.8743459580452878,
+        0.6148130535877246
+      ]
+    },
+    "formula by type": {
+      "formula_type: handwriting": [
+        1.0
+      ],
+      "formula_type: print": [
+        0.42945443617033097,
+        0.4738897349667938
+      ]
+    }
+  },
+  "per_source": {
+    "text_block": [
+      {
+        "PPT2PDF": 0.12772564550557583,
+        "academic_literature": 0.006142280309969097,
+        "book": 0.16416285761030275,
+        "colorful_textbook": 0.10245643230352003,
+        "exam_paper": 0.11655654853899515,
+        "magazine": 0.21765330414688547,
+        "newspaper": 0.059269692254076176,
+        "note": 0.9967733021238991,
+        "research_report": 0.036489739575589986
+      },
+      {
+        "PPT2PDF": 0.5157880508245472,
+        "academic_literature": 0.025504546687236757,
+        "book": 0.23874319733145433,
+        "colorful_textbook": 0.22676579925650558,
+        "exam_paper": 0.11610990095784646,
+        "magazine": 0.0035895901884534847,
+        "newspaper": 0.04645752276663501,
+        "note": 0.996832101372756,
+        "research_report": 0.2342281879194631
+      }
+    ],
+    "display_formula": [
+      {
+        "PPT2PDF": 0.46535974553381526,
+        "academic_literature": 0.2514493559234529,
+        "book": 0.5138439926265291,
+        "colorful_textbook": 0.5463838383214389,
+        "exam_paper": 0.33610772216195206,
+        "note": 1.0
+      },
+      {
+        "PPT2PDF": 0.891271056661562,
+        "academic_literature": 0.15419870799617635,
+        "book": 0.4641963988866481,
+        "colorful_textbook": 0.26284875183553597,
+        "exam_paper": 0.38440101564443857,
+        "note": null
+      }
+    ],
+    "reading_order": [
+      {
+        "PPT2PDF": 0.1205837173579109,
+        "academic_literature": 0.19323421676362854,
+        "book": 0.17860977724423102,
+        "colorful_textbook": 0.11835317460317461,
+        "exam_paper": 0.16313741376092378,
+        "magazine": 0.1554951690821256,
+        "newspaper": 0.16160933167630584,
+        "note": 0.977948717948718,
+        "research_report": 0.04903846153846154
+      },
+      {
+        "PPT2PDF": 0.3333333333333333,
+        "academic_literature": 0.3,
+        "book": 0.2920289855072464,
+        "colorful_textbook": 0.125,
+        "exam_paper": 0.12943722943722943,
+        "magazine": 0.25,
+        "newspaper": 0.12244897959183673,
+        "note": 0.96,
+        "research_report": 0.0
+      }
+    ],
+    "table": [
+      {
+        "PPT2PDF": 0.9314004801723597,
+        "academic_literature": 0.7679615457264659,
+        "book": 0.9436165100324501,
+        "colorful_textbook": 0.913050136337439,
+        "exam_paper": 0.8299722454964391,
+        "magazine": 0.7305663548695381,
+        "newspaper": 0.8190559772162276,
+        "note": 0.0,
+        "research_report": 0.8690311385281214
+      },
+      {
+        "PPT2PDF": 0.5769230769230769,
+        "academic_literature": 0.5537824630958162,
+        "book": 0.9016258885687499,
+        "colorful_textbook": 0.98125,
+        "exam_paper": 0.4090909090909091,
+        "magazine": 0.718541623860422,
+        "newspaper": 0.7904016466676193,
+        "note": 0.0,
+        "research_report": 0.40532986111111113
+      }
+    ]
+  },
+  "missing": [],
+  "source_files": [
+    "monkeyocr_formal_120_quick_match",
+    "mineru_formal_120_quick_match"
+  ],
+  "per_page_worst": [
+    {
+      "page": "eastmoney_62b4149b1612ce28d20f26cd5c5b2e18f80b26fca6e4452e090376a2fe72eae3.pdf_0.jpg",
+      "MonkeyOCR-3B": 0.32348993288590605,
+      "MinerU-0.9.3": 0.2342281879194631
+    },
+    {
+      "page": "newspaper_01f020903d7bc4b3fc69f500f41eb77e_1.jpg",
+      "MonkeyOCR-3B": 0.14575163398692811,
+      "MinerU-0.9.3": 0.06788571428571429
+    },
+    {
+      "page": "jiaocaineedrop_jiaocai_needrop_en_999.jpg",
+      "MonkeyOCR-3B": 0.14978601997146934,
+      "MinerU-0.9.3": 0.13590844062947066
+    },
+    {
+      "page": "docstructbench_llm-raw-scihub-o.O-ceat.200600410.pdf_5.jpg",
+      "MonkeyOCR-3B": 0.0,
+      "MinerU-0.9.3": 0.0
+    },
+    {
+      "page": "notes_f7f010b78016aeebd76e56d9283eb67f_49.jpg",
+      "MonkeyOCR-3B": 0.996832101372756,
+      "MinerU-0.9.3": 0.996832101372756
+    },
+    {
+      "page": "jiaocaineedrop_chap02.pdf_16.jpg",
+      "MonkeyOCR-3B": 0.0032934131736526945,
+      "MinerU-0.9.3": 0.0035895901884534847
+    },
+    {
+      "page": "docstructbench_llm-raw-scihub-o.O-s00128-008-9367-z.pdf_4.jpg",
+      "MonkeyOCR-3B": 0.004451038575667656,
+      "MinerU-0.9.3": 0.00791295746785361
+    },
+    {
+      "page": "jiaocaineedrop_jiaocai_needrop_en_2211.jpg",
+      "MonkeyOCR-3B": 0.03295454545454545,
+      "MinerU-0.9.3": 0.037296037296037296
+    },
+    {
+      "page": "jiaocai_71434495.pdf_0.jpg",
+      "MonkeyOCR-3B": 0.024615384615384615,
+      "MinerU-0.9.3": 0.02909647779479326
+    },
+    {
+      "page": "yanbaopptmerge_yanbaoPPT_2460.jpg",
+      "MonkeyOCR-3B": 0.8518518518518519,
+      "MinerU-0.9.3": 0.8686131386861314
+    }
+  ],
+  "scored_pages": {
+    "MonkeyOCR-3B": 118,
+    "MinerU-0.9.3": 21
+  },
+  "expected_pages": 120,
+  "complete": {
+    "MonkeyOCR-3B": true,
+    "MinerU-0.9.3": false
+  }
+}

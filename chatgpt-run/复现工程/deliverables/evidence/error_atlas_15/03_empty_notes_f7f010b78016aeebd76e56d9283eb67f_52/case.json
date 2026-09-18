@@ -1,0 +1,15 @@
+{
+  "source": "run_log",
+  "kind": "empty",
+  "img_id": "notes_f7f010b78016aeebd76e56d9283eb67f_52.jpg",
+  "reason": "漏检或上游异常：检测后没有有效区域，推理接口收到空提示列表。",
+  "evidence": {
+    "image_path": "notes_f7f010b78016aeebd76e56d9283eb67f_52.jpg",
+    "stem": "notes_f7f010b78016aeebd76e56d9283eb67f_52",
+    "pilot": false,
+    "started_at": "2026-09-18T00:30:11+0800",
+    "status": "error",
+    "error": "IndexError('list index out of range')",
+    "traceback": "Traceback (most recent call last):\n  File \"/root/autodl-tmp/monkeyocr-repro/scripts/run_batch_monkeyocr.py\", line 93, in main\n    metrics = parse_one(model, input_file, page_dir)\n  File \"/root/autodl-tmp/monkeyocr-repro/scripts/run_batch_monkeyocr.py\", line 42, in parse_one\n    infer_result = ds.apply(doc_analyze_llm, MonkeyOCR_model=model)\n  File \"/root/autodl-tmp/monkeyocr-repro/MonkeyOCR/magic_pdf/data/dataset.py\", line 289, in apply\n    return proc(self, *args, **kwargs)\n  File \"/root/autodl-tmp/monkeyocr-repro/MonkeyOCR/magic_pdf/model/doc_analyze_by_custom_model_llm.py\", line 64, in doc_analyze_llm\n    analyze_result = batch_model(images)\n  File \"/root/autodl-tmp/monkeyocr-repro/MonkeyOCR/magic_pdf/model/batch_analyze_llm.py\", line 81, in __call__\n    ocr_result = self.batch_llm_ocr(new_images_all, cids_all)\n  File \"/root/autodl-tmp/monkeyocr-repro/MonkeyOCR/magic_pdf/model/batch_analyze_llm.py\", line 158, in batch_llm_ocr\n    out = self.model.chat_model.batch_inference(new_images, messages)\n  File \"/root/autodl-tmp/monkeyocr-repro/MonkeyOCR/magic_pdf/model/custom_model.py\", line 129, in batch_inference\n    outputs = self.pipe(inputs, gen_config=self.gen_config)\n  File \"/root/autodl-tmp/conda_envs/monkeyocr/lib/python3.10/site-packages/lmdeploy/serve/vl_async_engine.py\", line 201, in __call__\n    return super().__call__(prompts, *args, **kwargs)\n  File \"/root/autodl-tmp/conda_envs/monkeyocr/lib/python3.10/site-packages/lmdeploy/serve/async_engine.py\", line 369, in __call__\n    return self.batch_infer(prompts,\n  File \"/root/autodl-tmp/conda_envs/monkeyocr/lib/python3.10/site-packages/lmdeploy/serve/vl_async_engine.py\", line 190, in batch_infer\n    prompts = self._convert_prompts(prompts)\n  File \"/root/autodl-tmp/conda_envs/monkeyocr/lib/python3.10/site-packages/lmdeploy/serve/vl_async_engine.py\", line 43, in _convert_prompts\n    elif isinstance(prompts[0], tuple) or isinstance(prompts[0], str):\nIndexError: list index out of range\n"
+  }
+}
